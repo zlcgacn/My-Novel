@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- 底座：红底金边 -->
+  <circle cx="200" cy="200" r="190" fill="#8b1a1a"/>
+  <circle cx="200" cy="200" r="176" fill="none" stroke="#d4a63a" stroke-width="8"/>
+  <!-- 戈：竖立于双头鹰之后，锋刃居两首之间 -->
+  <g fill="#d4a63a">
+    <rect x="194" y="58" width="12" height="290"/>
+    <path d="M194 66 L150 80 L194 88 Z"/>
+    <path d="M206 70 L228 74 L206 84 Z"/>
+  </g>
+  <!-- 帝国双头鹰（左半，右半镜像） -->
+  <g id="half" fill="#d4a63a" stroke="#8b1a1a" stroke-width="3" stroke-linejoin="round">
+    <path d="M200 152 L196 152 L194 118 L192 100 L184 88 L170 84 L158 88 L148 94 L136 98 L130 110 L140 106 L148 108
+             L156 112 L166 116 L174 150 L150 128 L118 100 L82 74 L78 128 L96 118 L92 160 L112 148 L114 190
+             L134 176 L142 212 L164 198 L166 228 L156 250 L142 262 L156 260 L150 274 L164 262 L172 248
+             L176 252 L168 302 L186 290 L200 306 Z"/>
+    <circle cx="172" cy="96" r="3.5" fill="#8b1a1a" stroke="none"/>
+  </g>
+  <use href="#half" transform="translate(400 0) scale(-1 1)"/>
+  <!-- 胸前之盾：止 -->
+  <path d="M166 168 H234 V212 Q234 248 200 266 Q166 248 166 212 Z" fill="#8b1a1a" stroke="#d4a63a" stroke-width="6"/>
+  <g fill="none" stroke="#d4a63a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 236 H220"/>
+    <path d="M200 236 V190"/>
+    <path d="M184 236 V208"/>
+    <path d="M200 214 Q212 212 218 200"/>
+  </g>
+</svg>
