@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "contract_type": "MASTER_SETTING",
+    "generator_version": "phase1",
+    "query": "历史"
+  },
+  "route": {
+    "primary_genre": "历史",
+    "canonical_genre": "历史",
+    "route_source": "explicit_genre_fallback",
+    "genre_filter": "历史",
+    "recommended_base_tables": [
+      "命名规则",
+      "人设与关系",
+      "场景写法"
+    ],
+    "recommended_dynamic_tables": [
+      "桥段套路",
+      "爽点与节奏",
+      "写作技法"
+    ]
+  },
+  "master_constraints": {
+    "core_tone": "架空帝国宫廷政变群像：制度、阶层与派系利益压住冲突，胜负来自规则内的谋划与暗中布局",
+    "pacing_strategy": "明处按部就班走程序，暗处层层铺垫，每卷末集中爆发"
+  },
+  "base_context": [
+    {
+      "编号": "CH-078",
+      "适用技能": "init|plan|write",
+      "分类": "历史",
+      "层级": "知识补充",
+      "关键词": "门阀子弟|官场新人|家族利益|仕途压力",
+      "意图与同义词": "历史官场新人怎么写|门阀子弟人设|仕途压力怎么立",
+      "适用题材": "历史|古言",
+      "大模型指令": "历史官场角色要背着家族、师门和仕途风险行动，不能像孤胆英雄。",
+      "核心摘要": "门阀子弟的每一步都不只代表自己，他的聪明和怯懦都来自身后利益网。",
+      "详细展开": "家族声望、座师门生、姻亲、党争和前程都应影响他说话和站队。",
+      "人设类型": "家族仕途绑定者",
+      "核心动机": "在个人判断和家族利益之间保住前程与底线",
+      "行为逻辑": "说话留余地|站队前先看牵连|会用礼法包装利益",
+      "互动模式": "与主角可能合作也可能因家族压力背刺",
+      "毒点": "像现代人一样只为自己行动|家族背景不产生压力|官场风险只靠口头描述",
+      "_table": "人设与关系",
+      "_priority_rank": 1,
+      "_reasoning_rule": "历史",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.666667
+    },
+    {
+      "编号": "SP-004",
+      "适用技能": "write|plan",
+      "分类": "桥段",
+      "层级": "知识补充",
+      "关键词": "桥段套路|扮猪吃虎|打脸反击|装弱爆发",
+      "意图与同义词": "扮猪吃虎怎么写|打脸怎么写|反击桥段怎么铺垫",
+      "适用题材": "全部",
+      "大模型指令": "先铺信息差和压制感，再在关键节点集中反击，不能让爆发毫无代价或完全靠对手降智。",
+      "核心摘要": "扮猪吃虎式反击要先让主角处于被低估位置，再通过信息差或隐藏底牌完成集中反转。",
+      "详细展开": "铺垫阶段要明确谁误判了主角、主角为什么暂时不出手，以及爆发后会改写什么局面。",
+      "场景类型": "桥段场景",
+      "模式名称": "扮猪吃虎式打脸反击",
+      "说明": "适合通过隐藏实力、错位认知和压抑蓄力制造反转爽感，关键在于前置压制和后段兑现对称。",
+      "示例片段": "众人都以为他只是个跑腿小修士，直到考核擂台开启，他一剑断阵，主考长老当场失声。",
+      "毒点": "刚被嘲讽完立刻无代价开挂秒杀，全程没有铺垫和反转支点",
+      "_table": "场景写法",
+      "_priority_rank": 2,
+      "_reasoning_rule": "历史",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.333333
+    },
+    {
+      "编号": "WT-021",
+      "适用技能": "plan|write",
+      "分类": "大纲",
+      "层级": "知识补充",
+      "关键词": "章级大纲|四任务|剧情任务|情绪任务",
+      "意图与同义词": "一章怎么拆任务|章纲怎么做|章节功能怎么定",
+      "适用题材": "全部",
+      "大模型指令": "每章至少拆出剧情、角色、信息、情绪四类任务，避免只知道这章发生了什么却不知道为什么存在。",
+      "核心摘要": "章级大纲最实用的拆法不是只写事件顺序，而是把剧情、角色、信息、情绪四类任务同时写清。",
+      "详细展开": "这样能直接看出一章是否只推进剧情不推进人物，或只抒情不制造信息变化，从源头减少注水章。",
+      "技法类型": "大纲",
+      "技法名称": "章节四任务拆解",
+      "适用场景": "章纲制作|长篇控节奏|修大纲|查注水",
+      "毒点": "只列事件清单|人物变化和信息变化都没写|情绪目标完全靠写的时候再想",
+      "正例": "本章剧情任务是抓到线索人，角色任务是让男主第一次怀疑师父，信息任务是揭出钥匙用途，情绪任务是压抑后半步兑现。",
+      "反例": "本章：去市场，打架，回家。除此之外什么都没定义。",
+      "_table": "写作技法",
+      "_priority_rank": 0,
+      "_reasoning_rule": "历史",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "WT-077",
+      "适用技能": "write|plan",
+      "分类": "历史",
+      "层级": "知识补充",
+      "关键词": "制度约束|官场语言|时代口吻|权力边界",
+      "意图与同义词": "历史文怎么写制度感|官场对话怎么写|权谋文怎么不悬浮",
+      "适用题材": "历史",
+      "大模型指令": "历史写法要让制度影响人物选择，官职、礼法和风险不能只当背景。",
+      "核心摘要": "历史文可信度来自角色被时代规则约束，而不是现代人随便套古装。",
+      "详细展开": "奏报、门第、军令、户籍、税粮和礼制都应具体改变角色能说什么、能做什么。",
+      "技法类型": "叙事",
+      "技法名称": "制度约束入戏法",
+      "适用场景": "朝堂|军营|官场|家族权力",
+      "毒点": "现代自由人思维乱入|制度只在设定里|角色随便越级行动",
+      "正例": "他没有立刻反驳，因为这句话若在堂上出口，先倒霉的不是对方，而是替他作保的老师。",
+      "反例": "主角在朝堂像开会一样随便插话，所有官员都听他讲道理。",
+      "_table": "写作技法",
+      "_priority_rank": 0,
+      "_reasoning_rule": "历史",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    }
+  ],
+  "source_trace": [
+    {
+      "table": "manual",
+      "id": "init-override",
+      "reason": "GR-009 穿越流 不适用：本书无穿越，按作者设定改写题材与调性"
+    },
+    {
+      "table": "题材与调性推理",
+      "id": "GR-009",
+      "reason": "explicit_genre_fallback"
+    },
+    {
+      "table": "人设与关系",
+      "id": "CH-078",
+      "summary": "门阀子弟的每一步都不只代表自己，他的聪明和怯懦都来自身后利益网。",
+      "reasoning_rule": "历史",
+      "priority_rank": 1,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.666667,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "场景写法",
+      "id": "SP-004",
+      "summary": "扮猪吃虎式反击要先让主角处于被低估位置，再通过信息差或隐藏底牌完成集中反转。",
+      "reasoning_rule": "历史",
+      "priority_rank": 2,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.333333,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "写作技法",
+      "id": "WT-021",
+      "summary": "章级大纲最实用的拆法不是只写事件顺序，而是把剧情、角色、信息、情绪四类任务同时写清。",
+      "reasoning_rule": "历史",
+      "priority_rank": 0,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "写作技法",
+      "id": "WT-077",
+      "summary": "历史文可信度来自角色被时代规则约束，而不是现代人随便套古装。",
+      "reasoning_rule": "历史",
+      "priority_rank": 0,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "命名规则",
+      "id": "NR-025",
+      "summary": "好地名不是随机好听词，而是能从地貌、历史、资源或势力痕迹里长出来。",
+      "reasoning_rule": "历史",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "桥段套路",
+      "id": "TR-015",
+      "summary": "科举考场桥段的张力来自高压搜检、作弊巧思和随时可能被拖走的恐惧。",
+      "reasoning_rule": "历史",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "桥段套路",
+      "id": "TR-090",
+      "summary": "历史权谋最爽的是主角没有直接出手，却让制度和派系替他落刀。",
+      "reasoning_rule": "历史",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "爽点与节奏",
+      "id": "PA-089",
+      "summary": "权谋反杀最爽的是对手拿来压人的规则被原样压回去。",
+      "reasoning_rule": "历史",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "爽点与节奏",
+      "id": "PA-077",
+      "summary": "权谋爽感来自在规则内反手利用规则，让压人的秩序反过来压对手。",
+      "reasoning_rule": "历史",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    }
+  ],
+  "override_policy": {
+    "locked": [
+      "route.primary_genre",
+      "master_constraints.core_tone"
+    ],
+    "append_only": [
+      "anti_patterns"
+    ],
+    "override_allowed": []
+  }
+}

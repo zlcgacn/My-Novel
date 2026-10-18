@@ -1,0 +1,932 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 9,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_009.json",
+    "review": "chapter_009.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "紫宸殿御前会议：皇帝喝止殿上争吵，召周君州奏报内务本部爆炸经过",
+      "周君州奏报袭击者使用D67，张永怀报出D67配发范围（龙武、木兰两军及第一近卫集团军数部）",
+      "皇帝震怒，下令清查D67",
+      "侍从武官长报内务本部废墟又挖出四十多具尸首，内禁医院亦被炸，街上有人趁乱抢掠",
+      "皇帝令虎贲军接管神圣高地一带与各城门，京城今夜起宵禁",
+      "王思涵请设医疗点、各医馆收治、抚恤死伤街坊，皇帝交首相府去办",
+      "首相请庆典改期，皇帝驳回，登基五十周年庆典照办",
+      "张永怀请修订京畿瓦尔基里行动：口令一下羽林军与中央预备役集团军直接进城控制城门、电报局、宫城外围；皇帝准奏",
+      "皇帝令御前第三处会同内务本部办理此案并并案新年夜爆炸案",
+      "皇帝令第三处会同参谋本部今夜封存全部D67，灵武军与第一近卫集团军的枪不许动",
+      "皇帝令王思涵查商会马车来历",
+      "退朝后周世衡低声召周君州今夜戌时到府；王政炎在王思涵身边停留说话"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 9,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
+    "review_skipped": true,
+    "review_mode": "import"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "紫宸殿御前会议：皇帝喝止殿上争吵，召周君州奏报内务本部爆炸经过",
+      "周君州奏报袭击者使用D67，张永怀报出D67配发范围（龙武、木兰两军及第一近卫集团军数部）",
+      "皇帝震怒，下令清查D67",
+      "侍从武官长报内务本部废墟又挖出四十多具尸首，内禁医院亦被炸，街上有人趁乱抢掠",
+      "皇帝令虎贲军接管神圣高地一带与各城门，京城今夜起宵禁",
+      "王思涵请设医疗点、各医馆收治、抚恤死伤街坊，皇帝交首相府去办",
+      "首相请庆典改期，皇帝驳回，登基五十周年庆典照办",
+      "张永怀请修订京畿瓦尔基里行动：口令一下羽林军与中央预备役集团军直接进城控制城门、电报局、宫城外围；皇帝准奏",
+      "皇帝令御前第三处会同内务本部办理此案并并案新年夜爆炸案",
+      "皇帝令第三处会同参谋本部今夜封存全部D67，灵武军与第一近卫集团军的枪不许动",
+      "皇帝令王思涵查商会马车来历",
+      "退朝后周世衡低声召周君州今夜戌时到府；王政炎在王思涵身边停留说话"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch09-001",
+        "chapter": 9,
+        "event_type": "world_rule_revealed",
+        "subject": "d67_rifle",
+        "payload": {
+          "rule_content": "D67眼下仍在试装，只配发龙武、木兰两军和第一近卫集团军的几支部队（灵武军亦领有D67，每支有编号）；内务本部袭击者所持正是D67",
+          "rule_category": "军备",
+          "scope": "京城近卫军、禁卫军"
+        }
+      },
+      {
+        "event_id": "evt-ch09-002",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "interior_director",
+        "payload": {
+          "field": "status",
+          "old": "在任",
+          "new": "内务本部大楼炸塌后压在废墟下，下落不明，御前会议上位置空着"
+        }
+      },
+      {
+        "event_id": "evt-ch09-003",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "nanjing",
+        "payload": {
+          "field": "security_status",
+          "old": "常态",
+          "new": "今夜起宵禁；神圣高地一带和各处城门由虎贲军接管"
+        }
+      },
+      {
+        "event_id": "evt-ch09-004",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "forbidden_guards",
+        "payload": {
+          "field": "assignment",
+          "old": "宫城守卫",
+          "new": "虎贲军奉旨接管神圣高地一带和各处城门，负责京城宵禁"
+        }
+      },
+      {
+        "event_id": "evt-ch09-005",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "prime_minister_office",
+        "payload": {
+          "field": "assignment",
+          "old": "无",
+          "new": "奉旨增设医疗点、令京城各医馆一律收治伤员、抚恤死伤街坊（王思涵所请）"
+        }
+      },
+      {
+        "event_id": "evt-ch09-006",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "emperor",
+        "payload": {
+          "field": "decision.jubilee",
+          "old": "首相请庆典改期",
+          "new": "月内登基五十周年庆典照办，不改期"
+        }
+      },
+      {
+        "event_id": "evt-ch09-007",
+        "chapter": 9,
+        "event_type": "world_rule_revealed",
+        "subject": "valkyrie_plan",
+        "payload": {
+          "rule_content": "瓦尔基里行动经张永怀请旨、皇帝准奏修订：原预案各军只在城外原地戒备；修订后口令一下，羽林军和中央预备役集团军直接进城，分头控制各处城门、电报局和宫城外围；发令之权照旧在皇帝和城防司令官兼内务总监手里；由参谋本部拟定照常下发",
+          "rule_category": "京畿防务预案",
+          "scope": "京城"
+        }
+      },
+      {
+        "event_id": "evt-ch09-008",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "valkyrie_plan",
+        "payload": {
+          "field": "content",
+          "old": "各部原地戒备、守住要道，各军只在城外原地戒备",
+          "new": "口令一下，羽林军和中央预备役集团军直接进城控制城门、电报局和宫城外围"
+        }
+      },
+      {
+        "event_id": "evt-ch09-009",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "third_bureau",
+        "payload": {
+          "field": "assignment",
+          "old": "无",
+          "new": "奉旨会同内务本部办理内务本部爆炸案，并案查新年夜参谋本部爆炸案；会同参谋本部今夜封存全部已配发D67"
+        }
+      },
+      {
+        "event_id": "evt-ch09-010",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "d67_rifle",
+        "payload": {
+          "field": "status",
+          "old": "配发各部使用",
+          "new": "奉旨全数封存待查，清查之前谁也不许碰（含灵武军、第一近卫集团军）"
+        }
+      },
+      {
+        "event_id": "evt-ch09-011",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "wang_sihan",
+        "payload": {
+          "field": "assignment",
+          "old": "无",
+          "new": "奉旨查明开进内务本部的商会马车属哪家商会、由谁赶进去"
+        }
+      },
+      {
+        "event_id": "evt-ch09-012",
+        "chapter": 9,
+        "event_type": "open_loop_created",
+        "subject": "d67_rifle",
+        "payload": {
+          "content": "袭击内务本部的黑衣人手持D67，而D67只配发禁卫军龙武、木兰两军与第一近卫集团军数部，枪从何处流出未明",
+          "loop_type": "谜团",
+          "unanswered_question": "袭击者的D67来自哪支部队？",
+          "urgency": 90,
+          "planted_chapter": 9
+        }
+      },
+      {
+        "event_id": "evt-ch09-013",
+        "chapter": 9,
+        "event_type": "open_loop_created",
+        "subject": "wang_sihan",
+        "payload": {
+          "content": "爆炸前开进内务本部的几辆商会马车来历不明，皇帝令王思涵去查",
+          "loop_type": "调查",
+          "unanswered_question": "是哪家商会的车，谁赶进去的？",
+          "urgency": 80,
+          "planted_chapter": 9
+        }
+      },
+      {
+        "event_id": "evt-ch09-014",
+        "chapter": 9,
+        "event_type": "open_loop_created",
+        "subject": "zhou_shiheng",
+        "payload": {
+          "content": "退朝时周世衡低声对周君州说：今夜戌时，到府里来",
+          "loop_type": "约见",
+          "unanswered_question": "周世衡要对周君州说什么？",
+          "urgency": 95,
+          "planted_chapter": 9,
+          "expected_payoff": "当夜周府"
+        }
+      },
+      {
+        "event_id": "evt-ch09-015",
+        "chapter": 9,
+        "event_type": "open_loop_created",
+        "subject": "wang_zhengyan",
+        "payload": {
+          "content": "退朝时王政炎在王思涵身边停了一下，说了句什么，王思涵点头，神色不露",
+          "loop_type": "暗线",
+          "unanswered_question": "王政炎对王思涵说了什么？",
+          "urgency": 50,
+          "planted_chapter": 9
+        }
+      },
+      {
+        "event_id": "evt-ch09-016",
+        "chapter": 9,
+        "event_type": "open_loop_created",
+        "subject": "emperor",
+        "payload": {
+          "content": "康建皇帝登基五十周年庆典定于月内照办，京城乱党两度得手，庆典期间安全成隐患",
+          "loop_type": "时间节点",
+          "unanswered_question": "庆典期间京城会不会再出事？",
+          "urgency": 70,
+          "planted_chapter": 9
+        }
+      },
+      {
+        "event_id": "evt-ch09-017",
+        "chapter": 9,
+        "event_type": "open_loop_created",
+        "subject": "interior_director",
+        "payload": {
+          "content": "内务总监（兼城防司令官，握有瓦尔基里发令权）压在内务本部废墟下，下落不明",
+          "loop_type": "生死未卜",
+          "unanswered_question": "内务总监是生是死？",
+          "urgency": 75,
+          "planted_chapter": 9
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "location.current",
+        "old": "内禁医院",
+        "new": "紫宸殿"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "location.current",
+        "old": "灵武大街医疗点",
+        "new": "紫宸殿"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "assignment",
+        "old": "",
+        "new": "奉旨查商会马车来历"
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "pending_appointment",
+        "old": "",
+        "new": "今夜戌时到周府见周世衡"
+      },
+      {
+        "entity_id": "interior_director",
+        "field": "status",
+        "old": "在任",
+        "new": "压在内务本部废墟下，下落不明"
+      },
+      {
+        "entity_id": "interior_ministry",
+        "field": "status",
+        "old": "正常",
+        "new": "本部大楼炸塌，可调动人手凑不齐一个营；神策军卫队打光"
+      },
+      {
+        "entity_id": "interior_ministry",
+        "field": "assignment",
+        "old": "",
+        "new": "会同御前第三处办理爆炸案并案新年夜案"
+      },
+      {
+        "entity_id": "third_bureau",
+        "field": "assignment",
+        "old": "",
+        "new": "会同内务本部查爆炸案及新年夜案；会同参谋本部封存D67"
+      },
+      {
+        "entity_id": "d67_rifle",
+        "field": "status",
+        "old": "试装配发",
+        "new": "全数封存待查"
+      },
+      {
+        "entity_id": "lingwu_army",
+        "field": "d67_status",
+        "old": "在用",
+        "new": "奉旨封存，不许动"
+      },
+      {
+        "entity_id": "first_guards_army",
+        "field": "d67_status",
+        "old": "在用",
+        "new": "奉旨封存，不许动"
+      },
+      {
+        "entity_id": "nanjing",
+        "field": "security_status",
+        "old": "常态",
+        "new": "今夜起宵禁，虎贲军接管神圣高地一带与各城门"
+      },
+      {
+        "entity_id": "divine_heights",
+        "field": "status",
+        "old": "内务本部大楼炸塌",
+        "new": "废墟中又挖出四十多具尸首，四周几条街房屋塌了不少，黑烟未散"
+      },
+      {
+        "entity_id": "neijin_hospital",
+        "field": "status",
+        "old": "收治伤员",
+        "new": "医院自身也挨了炸，伤员没处送"
+      },
+      {
+        "entity_id": "valkyrie_plan",
+        "field": "content",
+        "old": "各部原地戒备、守住要道",
+        "new": "口令一下，羽林军和中央预备役集团军直接进城控制各处城门、电报局和宫城外围；发令权仍在皇帝和城防司令官兼内务总监"
+      },
+      {
+        "entity_id": "prime_minister_office",
+        "field": "assignment",
+        "old": "",
+        "new": "增设医疗点、各医馆收治、抚恤死伤街坊"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "zhou_junzhou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "周君州",
+          "title": "灵武军军长"
+        }
+      },
+      {
+        "entity_id": "wang_sihan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王思涵",
+          "title": "尚书右仆射（右丞相）"
+        }
+      },
+      {
+        "entity_id": "emperor",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "康建皇帝",
+          "aliases": [
+            "皇帝",
+            "陛下",
+            "父皇"
+          ],
+          "description": "登基已满五十年，须发全白，背挺得笔直，着半旧元帅常服"
+        }
+      },
+      {
+        "entity_id": "zhang_yonghuai",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "张永怀",
+          "aliases": [
+            "副总长"
+          ],
+          "title": "二王子，羽林军大元帅，参谋本部副总长"
+        }
+      },
+      {
+        "entity_id": "chief_of_general_staff",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "参谋总长",
+          "aliases": [
+            "老元帅"
+          ],
+          "description": "参谋本部参谋总长，年事已高，元帅"
+        }
+      },
+      {
+        "entity_id": "chief_aide_de_camp",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "侍从武官长",
+          "description": "随侍皇帝，传旨、记录"
+        }
+      },
+      {
+        "entity_id": "zhao_yisheng",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "赵一生",
+          "aliases": [
+            "龙武军统领"
+          ],
+          "title": "龙武军统领，中将"
+        }
+      },
+      {
+        "entity_id": "wei_xiagong",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "魏夏宫",
+          "aliases": [
+            "木兰军统领"
+          ],
+          "title": "木兰军统领，中将"
+        }
+      },
+      {
+        "entity_id": "huben_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "虎贲军统领"
+        }
+      },
+      {
+        "entity_id": "third_bureau_chief",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "御前第三处处长",
+          "aliases": [
+            "处长"
+          ],
+          "description": "一身第三处黑色制服，胸前不佩勋章，殿上不发一言"
+        }
+      },
+      {
+        "entity_id": "first_guards_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "第一近卫集团军",
+          "description": "皇太子以帝国元帅身份兼任司令；部分部队领有D67"
+        }
+      },
+      {
+        "entity_id": "central_reserve_group_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "中央预备役集团军",
+          "description": "瓦尔基里行动执行方之一"
+        }
+      },
+      {
+        "entity_id": "state_church",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "教会",
+          "description": "国教，其死亡骑兵赶到神圣高地清出街面"
+        }
+      },
+      {
+        "entity_id": "valkyrie_plan",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "瓦尔基里行动",
+          "description": "京畿平乱预案，本章经修订：羽林军与中央预备役集团军口令下即进城控制城门、电报局、宫城外围"
+        }
+      },
+      {
+        "entity_id": "d67_rifle",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "D67半自动步枪",
+          "description": "试装中，本章奉旨全数封存待查"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "emperor",
+        "type": "角色",
+        "mentions": [
+          "康建皇帝",
+          "皇帝",
+          "陛下",
+          "父皇"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhou_junzhou",
+        "type": "角色",
+        "mentions": [
+          "周君州"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "wang_sihan",
+        "type": "角色",
+        "mentions": [
+          "王思涵"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "zhang_yonghuai",
+        "type": "角色",
+        "mentions": [
+          "张永怀",
+          "副总长"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "zhou_shiheng",
+        "type": "角色",
+        "mentions": [
+          "周世衡"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "crown_prince",
+        "type": "角色",
+        "mentions": [
+          "皇太子",
+          "太子",
+          "儿臣"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "wang_zhengyan",
+        "type": "角色",
+        "mentions": [
+          "王政炎"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "prime_minister",
+        "type": "角色",
+        "mentions": [
+          "首相"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "interior_deputy_director",
+        "type": "角色",
+        "mentions": [
+          "内务本部的副总监",
+          "副总监"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "interior_director",
+        "type": "角色",
+        "mentions": [
+          "总监",
+          "城防司令官兼内务总监"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "deng_shengbao",
+        "type": "角色",
+        "mentions": [
+          "邓声宝"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "chief_of_general_staff",
+        "type": "角色",
+        "mentions": [
+          "参谋总长",
+          "老元帅"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "chief_aide_de_camp",
+        "type": "角色",
+        "mentions": [
+          "侍从武官长"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "zhao_yisheng",
+        "type": "角色",
+        "mentions": [
+          "龙武军统领"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "wei_xiagong",
+        "type": "角色",
+        "mentions": [
+          "木兰军统领"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "huben_commander",
+        "type": "角色",
+        "mentions": [
+          "虎贲军统领"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "third_bureau_chief",
+        "type": "角色",
+        "mentions": [
+          "御前第三处的处长",
+          "处长"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "zichen_hall",
+        "type": "地点",
+        "mentions": [
+          "紫宸殿"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "divine_heights",
+        "type": "地点",
+        "mentions": [
+          "神圣高地"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "neijin_hospital",
+        "type": "地点",
+        "mentions": [
+          "对面的医院",
+          "内禁医院"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "nanjing",
+        "type": "地点",
+        "mentions": [
+          "京城"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "zhou_mansion",
+        "type": "地点",
+        "mentions": [
+          "府里"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "interior_ministry",
+        "type": "组织",
+        "mentions": [
+          "内务本部",
+          "本部"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "shence_army",
+        "type": "组织",
+        "mentions": [
+          "神策军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "general_staff",
+        "type": "组织",
+        "mentions": [
+          "参谋本部"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "prime_minister_office",
+        "type": "组织",
+        "mentions": [
+          "首相府"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "forbidden_guards",
+        "type": "势力",
+        "mentions": [
+          "禁卫军",
+          "虎贲军",
+          "龙武军",
+          "木兰军",
+          "龙武、木兰两军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "imperial_guards_class",
+        "type": "势力",
+        "mentions": [
+          "朕的近卫军"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "id": "lingwu_army",
+        "type": "组织",
+        "mentions": [
+          "灵武军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "yulin_army",
+        "type": "组织",
+        "mentions": [
+          "羽林军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "third_bureau",
+        "type": "组织",
+        "mentions": [
+          "御前第三处",
+          "第三处"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "first_guards_army",
+        "type": "组织",
+        "mentions": [
+          "第一近卫集团军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "central_reserve_group_army",
+        "type": "组织",
+        "mentions": [
+          "中央预备役集团军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "state_church",
+        "type": "组织",
+        "mentions": [
+          "教会",
+          "死亡骑兵"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "d67_rifle",
+        "type": "物品",
+        "mentions": [
+          "D67"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "valkyrie_plan",
+        "type": "物品",
+        "mentions": [
+          "瓦尔基里行动"
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 39,
+        "location": "紫宸殿",
+        "summary": "皇帝喝止争吵，周君州奏报袭击经过并指出凶手用D67，张永怀报出配发范围，皇帝震怒下令清查",
+        "characters": [
+          "emperor",
+          "zhou_junzhou",
+          "wang_sihan",
+          "zhang_yonghuai",
+          "zhou_shiheng",
+          "crown_prince",
+          "chief_of_general_staff",
+          "zhao_yisheng",
+          "interior_deputy_director",
+          "prime_minister"
+        ],
+        "content": "紫宸殿内各方争吵，皇帝喝止。周君州奏报：商会马车开进本部，炸楼后黑衣人杀人，教会死亡骑兵解围，凶手持D67。张永怀报D67只发龙武、木兰两军与第一近卫集团军数部，皇帝拍案震怒，准周君州与太子清查。"
+      },
+      {
+        "index": 2,
+        "start_line": 41,
+        "end_line": 67,
+        "location": "紫宸殿",
+        "summary": "废墟又挖出四十多具尸首，皇帝令虎贲军接管、京城宵禁，准王思涵设医疗点，驳回庆典改期",
+        "characters": [
+          "emperor",
+          "chief_aide_de_camp",
+          "prime_minister",
+          "interior_deputy_director",
+          "huben_commander",
+          "wang_sihan",
+          "wei_xiagong"
+        ],
+        "content": "侍从武官长报废墟又挖出四十多具尸首、内禁医院被炸、街上有人抢铺。副总监称人手不足一营，皇帝令虎贲军接管神圣高地与城门、今夜宵禁；王思涵请设医疗点、收治抚恤，交首相府办。首相请庆典改期，皇帝定照办。"
+      },
+      {
+        "index": 3,
+        "start_line": 69,
+        "end_line": 89,
+        "location": "紫宸殿",
+        "summary": "张永怀请修订瓦尔基里行动，参谋总长附议，无人反对，皇帝准奏",
+        "characters": [
+          "zhang_yonghuai",
+          "emperor",
+          "chief_of_general_staff",
+          "zhou_junzhou",
+          "zhou_shiheng",
+          "crown_prince"
+        ],
+        "content": "张永怀以内务本部塌了、神策军打光、虎贲军顶不到庆典过完为由，请修订瓦尔基里行动：口令一下羽林军与中央预备役集团军直接进城控制城门、电报局和宫城外围，发令权照旧。参谋总长附议，无人出声，皇帝准奏。"
+      },
+      {
+        "index": 4,
+        "start_line": 91,
+        "end_line": 113,
+        "location": "紫宸殿",
+        "summary": "皇帝令第三处会同内务本部查案并封存全部D67，命王思涵查商会马车，退朝",
+        "characters": [
+          "emperor",
+          "third_bureau_chief",
+          "interior_deputy_director",
+          "zhou_junzhou",
+          "crown_prince",
+          "wang_sihan",
+          "chief_aide_de_camp"
+        ],
+        "content": "皇帝令一言未发的第三处处长会同内务本部办案，并案查新年夜。又令第三处会同参谋本部今夜封存全部D67，灵武军和太子那边的枪一支不许动，周君州一怔领旨，太子脸色更白。皇帝命王思涵查商会马车来历，随即退朝。"
+      },
+      {
+        "index": 5,
+        "start_line": 115,
+        "end_line": 121,
+        "location": "紫宸殿外阶上",
+        "summary": "退朝时周世衡低声召周君州戌时到府，王政炎与王思涵低语",
+        "characters": [
+          "zhou_junzhou",
+          "zhou_shiheng",
+          "crown_prince",
+          "wang_zhengyan",
+          "wang_sihan"
+        ],
+        "content": "众人匆匆出殿。周世衡经过周君州身边，低声让他今夜戌时到府里来，随即跟太子下阶。周君州看见王政炎在王思涵身边停下说了句什么，王思涵点头，神色不露。天色已暗，神圣高地黑烟未散。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "quest",
+    "summary_text": "内务本部遇袭后，皇帝在紫宸殿召开御前会议。周君州奏报袭击者手持D67，张永怀报出D67只配发龙武、木兰两军与第一近卫集团军数部，皇帝震怒。皇帝令虎贲军接管城门、京城宵禁，庆典照办，准张永怀修订瓦尔基里行动，令第三处会同内务本部查案并封存全部D67，命王思涵查商会马车。退朝时周世衡召周君州戌时到府。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

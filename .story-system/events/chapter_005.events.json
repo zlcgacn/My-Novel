@@ -1,0 +1,119 @@
+[
+  {
+    "event_id": "evt-ch05-001",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "location.current",
+      "old": "南京",
+      "new": "君来乡（第五军驻地）"
+    }
+  },
+  {
+    "event_id": "evt-ch05-002",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "injury",
+      "old": "参谋本部广场爆炸中受伤",
+      "new": "头缠绷带；左臂伤口在内禁医院门口崩开过，纱布血透干硬，军长命先去卫生队包扎"
+    }
+  },
+  {
+    "event_id": "evt-ch05-003",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army",
+    "payload": {
+      "field": "status.alert",
+      "old": "平日戒备，正常休假",
+      "new": "全军停止休假，营门加设两道拒马，岗哨由两人增至四人且不许撤"
+    }
+  },
+  {
+    "event_id": "evt-ch05-004",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "current_task",
+      "old": null,
+      "new": "向参谋长领军需库钥匙，清点弹药与口粮"
+    }
+  },
+  {
+    "event_id": "evt-ch05-005",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "third_bureau",
+    "payload": {
+      "content": "军长告知第三处和内务本部近日必来第五军问话，同僚担心二人因在爆炸现场被疑心",
+      "loop_type": "危机",
+      "unanswered_question": "第三处来营问话时会查到什么人？",
+      "urgency": 85,
+      "planted_chapter": 5
+    }
+  },
+  {
+    "event_id": "evt-ch05-006",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "interior_ministry",
+    "payload": {
+      "content": "据中央社早间广播，内务本部已成立爆炸案专项调查组，第三处亦插手",
+      "loop_type": "调查",
+      "unanswered_question": "专项调查组将把爆炸案查向何处？",
+      "urgency": 75,
+      "planted_chapter": 5
+    }
+  },
+  {
+    "event_id": "evt-ch05-007",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "general_staff",
+    "payload": {
+      "content": "炮兵营长追问参谋本部爆炸是否“咱们的人”所为，邱深澳称不知；他供述爆炸前那辆车一直停在广场上，未见有人靠近",
+      "loop_type": "谜团",
+      "unanswered_question": "参谋本部广场爆炸系何人所为？",
+      "urgency": 70,
+      "planted_chapter": 5
+    }
+  },
+  {
+    "event_id": "evt-ch05-008",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "orders.capital_liaison",
+      "old": "与京城方面保持联络",
+      "new": "一概断绝，谁也不许找谁，等风头过去；其余人照常站岗出操，不露异样"
+    }
+  },
+  {
+    "event_id": "evt-ch05-009",
+    "chapter": 5,
+    "event_type": "relationship_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "to_entity": "signal_company_commander",
+      "relationship_type": "受命留意电报，打探第三处所查所抓之人并向邱深澳报告"
+    }
+  },
+  {
+    "event_id": "evt-ch05-010",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "nanjing",
+    "payload": {
+      "content": "邱深澳在军需库清点弹药时，地面猛震，东北方京城方向传来闷雷似的巨响",
+      "loop_type": "危机",
+      "unanswered_question": "京城方向又发生了什么？",
+      "urgency": 100,
+      "planted_chapter": 5
+    }
+  }
+]

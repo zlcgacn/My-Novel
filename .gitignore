@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Env (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Don't ignore .webnovel (we need to track state.json)
+# But ignore cache files
+.webnovel/context_cache.json
+.webnovel/*.lock
+.webnovel/*.bak

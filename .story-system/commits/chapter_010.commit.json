@@ -1,0 +1,1084 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 10,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_010.json",
+    "review": "chapter_010.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "第三处与参谋本部封存灵武军D67",
+      "宵禁下周君州回周府，与王思涵同行得知邱思甜已移至王家",
+      "周世衡召集改良派密会，各方表态分歧，多人缺席",
+      "周世衡转述太子“先保住人”，定调自查真凶",
+      "周君州透露新年夜案有军中人参与，金志文在追",
+      "改良派分工：商会线、银号底账、街坊目击、领枪册",
+      "王思涵与周君州约定互通消息，周君州托问候邱思甜",
+      "第一卷收束"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 10,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
+    "review_skipped": true,
+    "review_mode": "import"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "第三处与参谋本部封存灵武军D67",
+      "宵禁下周君州回周府，与王思涵同行得知邱思甜已移至王家",
+      "周世衡召集改良派密会，各方表态分歧，多人缺席",
+      "周世衡转述太子“先保住人”，定调自查真凶",
+      "周君州透露新年夜案有军中人参与，金志文在追",
+      "改良派分工：商会线、银号底账、街坊目击、领枪册",
+      "王思涵与周君州约定互通消息，周君州托问候邱思甜",
+      "第一卷收束"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch10-001",
+        "chapter": 10,
+        "event_type": "character_state_changed",
+        "subject": "lingwu_army",
+        "payload": {
+          "field": "armory_status",
+          "old": "D67在库可用",
+          "new": "枪柜上锁，贴参谋本部封条封存，待清查",
+          "evidence": "第三处探员与参谋本部军械官逐库贴封条"
+        }
+      },
+      {
+        "event_id": "evt-ch10-002",
+        "chapter": 10,
+        "event_type": "character_state_changed",
+        "subject": "zhou_junzhou",
+        "payload": {
+          "field": "location.current",
+          "old": "紫宸殿",
+          "new": "周府"
+        }
+      },
+      {
+        "event_id": "evt-ch10-003",
+        "chapter": 10,
+        "event_type": "character_state_changed",
+        "subject": "qiu_sitian",
+        "payload": {
+          "field": "location.current",
+          "old": "内禁医院",
+          "new": "王思涵家（王府）"
+        }
+      },
+      {
+        "event_id": "evt-ch10-004",
+        "chapter": 10,
+        "event_type": "character_state_changed",
+        "subject": "qiu_sitian",
+        "payload": {
+          "field": "injury",
+          "old": "住院养伤",
+          "new": "伤口又裂开些，大夫看过无大碍，受了惊"
+        }
+      },
+      {
+        "event_id": "evt-ch10-005",
+        "chapter": 10,
+        "event_type": "character_state_changed",
+        "subject": "neijin_hospital",
+        "payload": {
+          "field": "status",
+          "old": "正常收治",
+          "new": "也挨了炸，住不得人"
+        }
+      },
+      {
+        "event_id": "evt-ch10-006",
+        "chapter": 10,
+        "event_type": "world_rule_revealed",
+        "subject": "nanjing",
+        "payload": {
+          "rule_content": "京城宵禁：入夜家家闭门，虎贲军巡逻盘查，须亮腰牌方可通行；无腰牌者只能留宿至天明",
+          "rule_category": "治安",
+          "scope": "京城"
+        }
+      },
+      {
+        "event_id": "evt-ch10-007",
+        "chapter": 10,
+        "event_type": "world_rule_revealed",
+        "subject": "civic_assembly",
+        "payload": {
+          "rule_content": "公民议会无权过问京城治安与军事机关事务；代表欲联名上书请准过问，议长不敢递",
+          "rule_category": "政体",
+          "scope": "公民议会"
+        }
+      },
+      {
+        "event_id": "evt-ch10-008",
+        "chapter": 10,
+        "event_type": "world_rule_revealed",
+        "subject": "hubu",
+        "payload": {
+          "rule_content": "商会银钱都要过银号，户部握有银号底账，可调阅",
+          "rule_category": "经济",
+          "scope": "全国商会与银号"
+        }
+      },
+      {
+        "event_id": "evt-ch10-009",
+        "chapter": 10,
+        "event_type": "open_loop_created",
+        "subject": "absent_reformists",
+        "payload": {
+          "content": "改良派密会多人缺席：工部侍郎称染风寒，近卫军两位军长派副官以封枪为由不来，两家报馆主笔没有回音",
+          "loop_type": "人心动向",
+          "unanswered_question": "缺席者是否已与改良派疏离",
+          "urgency": 60,
+          "planted_chapter": 10
+        }
+      },
+      {
+        "event_id": "evt-ch10-010",
+        "chapter": 10,
+        "event_type": "open_loop_created",
+        "subject": "new_year_eve_bombing",
+        "payload": {
+          "content": "灵武军情报组查到新年夜爆炸有军中的人参与，哪一部尚未查明，督察金志文在追",
+          "loop_type": "悬案",
+          "unanswered_question": "参与新年夜爆炸的军中之人属哪一部、是谁",
+          "urgency": 85,
+          "planted_chapter": 10
+        }
+      },
+      {
+        "event_id": "evt-ch10-011",
+        "chapter": 10,
+        "event_type": "promise_created",
+        "subject": "reformist_faction",
+        "payload": {
+          "content": "改良派决定不等第三处与内务本部，自行追查两起爆炸案真凶：王思涵查商会线，户部侍郎调银号底账，议员走访神圣高地四周街坊查马车来路，军长核对领枪册（不许碰枪），金志文追新年夜军中线",
+          "loop_type": "调查",
+          "urgency": 90,
+          "planted_chapter": 10,
+          "expected_payoff": "卷二各条调查线推进"
+        }
+      },
+      {
+        "event_id": "evt-ch10-012",
+        "chapter": 10,
+        "event_type": "open_loop_created",
+        "subject": "reformist_faction",
+        "payload": {
+          "content": "教授警告：第三处借爆炸案查乱党，报馆、学堂、会社都要过筛，文理大学议论朝廷的学生恐被列名，迟早也会查到这次密会",
+          "loop_type": "危机",
+          "unanswered_question": "第三处是否会查到改良派密会",
+          "urgency": 70,
+          "planted_chapter": 10
+        }
+      },
+      {
+        "event_id": "evt-ch10-013",
+        "chapter": 10,
+        "event_type": "relationship_changed",
+        "subject": "vice_minister_of_revenue",
+        "payload": {
+          "to_entity": "first_guards_army_commander",
+          "relationship_type": "派内分歧",
+          "detail": "户部侍郎主张趁圣上疑兵削军人特权、收军费，军长当场发怒；后在周世衡定调下暂且一致"
+        }
+      },
+      {
+        "event_id": "evt-ch10-014",
+        "chapter": 10,
+        "event_type": "relationship_changed",
+        "subject": "wang_sihan",
+        "payload": {
+          "to_entity": "zhou_junzhou",
+          "relationship_type": "情报互通约定",
+          "detail": "王思涵商会线若查到军中之人头一个告诉周君州，周君州灵武军所得亦同样相告；两人仍当面斗嘴"
+        }
+      },
+      {
+        "event_id": "evt-ch10-015",
+        "chapter": 10,
+        "event_type": "promise_created",
+        "subject": "zhou_junzhou",
+        "payload": {
+          "content": "周君州托王思涵问候邱思甜、叫她好生养着别急着下床，并要求照实转达是他说的；王思涵答应一字不少带到",
+          "loop_type": "感情",
+          "unanswered_question": "邱思甜领不领情",
+          "urgency": 40,
+          "planted_chapter": 10
+        }
+      },
+      {
+        "event_id": "evt-ch10-016",
+        "chapter": 10,
+        "event_type": "relationship_changed",
+        "subject": "zhou_junyao",
+        "payload": {
+          "to_entity": "wang_sihan",
+          "relationship_type": "疏淡",
+          "detail": "周君瑶见到王思涵即收起神色，只微微欠身，一言不发"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "location.current",
+        "old": "紫宸殿",
+        "new": "周府"
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "field": "location.current",
+        "old": "内禁医院",
+        "new": "王思涵家（王府）"
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "field": "injury",
+        "old": "住院养伤",
+        "new": "伤口又裂开些，无大碍，受了惊"
+      },
+      {
+        "entity_id": "lingwu_army",
+        "field": "armory_status",
+        "old": "D67在库可用",
+        "new": "枪柜上锁贴封条，封存待清查"
+      },
+      {
+        "entity_id": "neijin_hospital",
+        "field": "status",
+        "old": "正常收治",
+        "new": "挨了炸，住不得人"
+      },
+      {
+        "entity_id": "nanjing",
+        "field": "status",
+        "old": "正常",
+        "new": "宵禁，虎贲军巡逻"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "current_task",
+        "old": null,
+        "new": "奉旨追查商会马车（商会线），户部侍郎协助调银号底账"
+      },
+      {
+        "entity_id": "jin_zhiwen",
+        "field": "current_task",
+        "old": null,
+        "new": "追查新年夜爆炸中参与的军中之人"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "zhou_junzhou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "周君州",
+          "aliases": [
+            "将军",
+            "贤侄",
+            "姓周的",
+            "哥"
+          ]
+        }
+      },
+      {
+        "entity_id": "deng_shengbao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邓声宝"
+        }
+      },
+      {
+        "entity_id": "wang_zhengyan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王政炎",
+          "aliases": [
+            "王委员",
+            "家父"
+          ]
+        }
+      },
+      {
+        "entity_id": "wang_sihan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王思涵",
+          "aliases": [
+            "大小姐",
+            "王右仆射"
+          ]
+        }
+      },
+      {
+        "entity_id": "zhou_junyao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "周君瑶"
+        }
+      },
+      {
+        "entity_id": "zhou_shiheng",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "周世衡",
+          "aliases": [
+            "父亲",
+            "你父亲"
+          ]
+        }
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱思甜",
+          "aliases": [
+            "思甜"
+          ]
+        }
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "张艺宣",
+          "aliases": [
+            "艺宣"
+          ]
+        }
+      },
+      {
+        "entity_id": "jin_zhiwen",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "金志文",
+          "aliases": [
+            "督察金志文"
+          ]
+        }
+      },
+      {
+        "entity_id": "emperor",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "皇帝（康建皇帝）",
+          "aliases": [
+            "圣上"
+          ]
+        }
+      },
+      {
+        "entity_id": "crown_prince",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "皇太子",
+          "aliases": [
+            "殿下"
+          ]
+        }
+      },
+      {
+        "entity_id": "first_guards_army_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第一近卫集团军的军长",
+          "aliases": [
+            "第一近卫集团军那位军长",
+            "军长"
+          ],
+          "faction": "改良派",
+          "note": "主和的军人，名字未出"
+        }
+      },
+      {
+        "entity_id": "vice_minister_of_revenue",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "户部侍郎",
+          "aliases": [
+            "侍郎"
+          ],
+          "faction": "改良派"
+        }
+      },
+      {
+        "entity_id": "wenli_professor",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "帝国文理大学的教授",
+          "aliases": [
+            "教授"
+          ],
+          "faction": "改良派"
+        }
+      },
+      {
+        "entity_id": "assembly_member",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "公民议会的议员",
+          "aliases": [
+            "议员"
+          ],
+          "faction": "改良派"
+        }
+      },
+      {
+        "entity_id": "works_vice_minister",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "工部侍郎",
+          "aliases": [
+            "工部的那位侍郎"
+          ],
+          "note": "称染风寒缺席密会"
+        }
+      },
+      {
+        "entity_id": "reformist_faction",
+        "action": "upsert",
+        "entity_type": "势力",
+        "payload": {
+          "name": "改良派",
+          "aliases": [
+            "改良"
+          ]
+        }
+      },
+      {
+        "entity_id": "lingwu_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "灵武军"
+        }
+      },
+      {
+        "entity_id": "third_bureau",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "御前第三处",
+          "aliases": [
+            "第三处"
+          ]
+        }
+      },
+      {
+        "entity_id": "general_staff",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "参谋本部"
+        }
+      },
+      {
+        "entity_id": "interior_ministry",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "内务本部"
+        }
+      },
+      {
+        "entity_id": "forbidden_guards",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "禁卫军（虎贲、龙武、木兰）",
+          "aliases": [
+            "虎贲军"
+          ]
+        }
+      },
+      {
+        "entity_id": "imperial_guards_class",
+        "action": "upsert",
+        "entity_type": "势力",
+        "payload": {
+          "name": "近卫军（权贵阶层）",
+          "aliases": [
+            "近卫军"
+          ]
+        }
+      },
+      {
+        "entity_id": "first_guards_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "第一近卫集团军",
+          "commander": "皇太子（兼任）"
+        }
+      },
+      {
+        "entity_id": "hubu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "户部"
+        }
+      },
+      {
+        "entity_id": "civic_assembly",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "公民议会",
+          "aliases": [
+            "议会"
+          ]
+        }
+      },
+      {
+        "entity_id": "imperial_wenli_university",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "帝国文理大学",
+          "aliases": [
+            "文理大学"
+          ]
+        }
+      },
+      {
+        "entity_id": "nanjing",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "南京（京城）",
+          "aliases": [
+            "京城"
+          ]
+        }
+      },
+      {
+        "entity_id": "zhou_mansion",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "周府"
+        }
+      },
+      {
+        "entity_id": "lingwu_barracks",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "灵武军营房",
+          "aliases": [
+            "营房",
+            "军械库"
+          ]
+        }
+      },
+      {
+        "entity_id": "neijin_hospital",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "内禁医院"
+        }
+      },
+      {
+        "entity_id": "divine_heights",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "神圣高地"
+        }
+      },
+      {
+        "entity_id": "wangfu",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "王家（王思涵家）",
+          "aliases": [
+            "我家"
+          ]
+        }
+      },
+      {
+        "entity_id": "d67_rifle",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "D67 半自动步枪",
+          "aliases": [
+            "枪",
+            "领枪的册子"
+          ]
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "zhou_junzhou",
+        "type": "角色",
+        "mentions": [
+          "周君州",
+          "将军",
+          "贤侄",
+          "姓周的",
+          "哥"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "deng_shengbao",
+        "type": "角色",
+        "mentions": [
+          "邓声宝"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "wang_zhengyan",
+        "type": "角色",
+        "mentions": [
+          "王政炎",
+          "王委员",
+          "家父"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "wang_sihan",
+        "type": "角色",
+        "mentions": [
+          "王思涵",
+          "大小姐",
+          "王右仆射"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhou_junyao",
+        "type": "角色",
+        "mentions": [
+          "周君瑶"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhou_shiheng",
+        "type": "角色",
+        "mentions": [
+          "周世衡",
+          "父亲",
+          "你父亲"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "qiu_sitian",
+        "type": "角色",
+        "mentions": [
+          "邱思甜",
+          "思甜"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "zhang_yixuan",
+        "type": "角色",
+        "mentions": [
+          "艺宣"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "id": "jin_zhiwen",
+        "type": "角色",
+        "mentions": [
+          "督察金志文"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "emperor",
+        "type": "角色",
+        "mentions": [
+          "圣上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "crown_prince",
+        "type": "角色",
+        "mentions": [
+          "殿下"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "first_guards_army_commander",
+        "type": "角色",
+        "mentions": [
+          "第一近卫集团军那位军长",
+          "军长"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "vice_minister_of_revenue",
+        "type": "角色",
+        "mentions": [
+          "户部侍郎",
+          "侍郎"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "id": "wenli_professor",
+        "type": "角色",
+        "mentions": [
+          "帝国文理大学的教授",
+          "教授"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "id": "assembly_member",
+        "type": "角色",
+        "mentions": [
+          "公民议会的议员",
+          "议员"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "id": "works_vice_minister",
+        "type": "角色",
+        "mentions": [
+          "工部的那位侍郎"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "reformist_faction",
+        "type": "势力",
+        "mentions": [
+          "改良"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "lingwu_army",
+        "type": "组织",
+        "mentions": [
+          "灵武军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "third_bureau",
+        "type": "组织",
+        "mentions": [
+          "第三处"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "general_staff",
+        "type": "组织",
+        "mentions": [
+          "参谋本部"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "interior_ministry",
+        "type": "组织",
+        "mentions": [
+          "内务本部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "forbidden_guards",
+        "type": "组织",
+        "mentions": [
+          "虎贲军"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "imperial_guards_class",
+        "type": "势力",
+        "mentions": [
+          "近卫军"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "first_guards_army",
+        "type": "组织",
+        "mentions": [
+          "第一近卫集团军"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "hubu",
+        "type": "组织",
+        "mentions": [
+          "户部"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "civic_assembly",
+        "type": "组织",
+        "mentions": [
+          "公民议会",
+          "议会"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "imperial_wenli_university",
+        "type": "组织",
+        "mentions": [
+          "帝国文理大学",
+          "文理大学"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "id": "nanjing",
+        "type": "地点",
+        "mentions": [
+          "京城"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "zhou_mansion",
+        "type": "地点",
+        "mentions": [
+          "周府"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "lingwu_barracks",
+        "type": "地点",
+        "mentions": [
+          "灵武军营房",
+          "营房",
+          "军械库"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "neijin_hospital",
+        "type": "地点",
+        "mentions": [
+          "内禁医院"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "divine_heights",
+        "type": "地点",
+        "mentions": [
+          "神圣高地"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "wangfu",
+        "type": "地点",
+        "mentions": [
+          "我家"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "d67_rifle",
+        "type": "物品",
+        "mentions": [
+          "枪",
+          "领枪的册子"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 17,
+        "location": "灵武军营房·军械库",
+        "summary": "第三处与参谋本部封存灵武军枪械，周君州压下邓声宝的不满",
+        "characters": [
+          "zhou_junzhou",
+          "deng_shengbao"
+        ],
+        "content": "夜里第三处探员与参谋本部军械官到灵武军营房逐库贴封条。邓声宝不服，周君州以圣旨为由令谁也不许拦、不许碰。他在封好的枪柜前站了片刻，嘱邓声宝看营，自己回家。"
+      },
+      {
+        "index": 2,
+        "start_line": 19,
+        "end_line": 53,
+        "location": "京城街道→周府前院",
+        "summary": "宵禁中回府，偶遇王氏父女，问邱思甜近况，周君瑶见王思涵后噤声",
+        "characters": [
+          "zhou_junzhou",
+          "wang_zhengyan",
+          "wang_sihan",
+          "zhou_junyao"
+        ],
+        "content": "京城宵禁，虎贲军巡夜。周府门前遇王政炎携王思涵来访。王思涵告知内禁医院挨炸，邱思甜已接回王家，伤口微裂无大碍，张艺宣陪了一下午。二人斗嘴。周君瑶跑来关心哥哥，见王思涵便噤声回房。"
+      },
+      {
+        "index": 3,
+        "start_line": 55,
+        "end_line": 131,
+        "location": "周府花厅",
+        "summary": "改良派密会，各执一词后由周世衡定调自查真凶并分工",
+        "characters": [
+          "zhou_shiheng",
+          "wang_zhengyan",
+          "zhou_junzhou",
+          "wang_sihan",
+          "first_guards_army_commander",
+          "vice_minister_of_revenue",
+          "wenli_professor",
+          "assembly_member"
+        ],
+        "content": "数人缺席。军长要先揪近卫军内鬼，户部侍郎想趁机削军费，教授忧第三处清查舆论，议员说议会无权过问治安。周世衡转述太子“先保住人”，定下自查真凶；周君州透露新年夜案有军中人参与，众人分领线索，约定守密。"
+      },
+      {
+        "index": 4,
+        "start_line": 133,
+        "end_line": 155,
+        "location": "周府门前",
+        "summary": "散会送别，王周约定互通消息，周君州托问候邱思甜",
+        "characters": [
+          "zhou_junzhou",
+          "wang_sihan",
+          "wang_zhengyan"
+        ],
+        "content": "近子时散会，无腰牌的客人留宿周府。王思涵临上车约定商会查到军中之人先告诉周君州，周君州允以灵武军所得相报，又托她问候邱思甜、叫她别急着下床，并要她照实转达。马车远去，京城一片死寂。卷一完。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "改良派自查爆炸案",
+    "summary_text": "灵武军D67遵旨封存。宵禁夜，周君州回府，与随父前来的王思涵同行，得知邱思甜已移至王家。周世衡召集改良派密会，与会者各执一词，数人缺席。周世衡转述太子“先保住人”，众人决定自查真凶，分头追商会、银号账、街坊与领枪册；周君州透露新年夜案有军中人参与。散会后二人约定互通消息，周君州托她问候邱思甜。",
+    "entities_new": [
+      {
+        "id": "first_guards_army_commander",
+        "type": "角色",
+        "name": "第一近卫集团军的军长"
+      },
+      {
+        "id": "vice_minister_of_revenue",
+        "type": "角色",
+        "name": "户部侍郎"
+      },
+      {
+        "id": "wenli_professor",
+        "type": "角色",
+        "name": "帝国文理大学的教授"
+      },
+      {
+        "id": "assembly_member",
+        "type": "角色",
+        "name": "公民议会的议员"
+      },
+      {
+        "id": "works_vice_minister",
+        "type": "角色",
+        "name": "工部侍郎"
+      },
+      {
+        "id": "first_guards_army",
+        "type": "组织",
+        "name": "第一近卫集团军"
+      },
+      {
+        "id": "hubu",
+        "type": "组织",
+        "name": "户部"
+      },
+      {
+        "id": "civic_assembly",
+        "type": "组织",
+        "name": "公民议会"
+      },
+      {
+        "id": "imperial_wenli_university",
+        "type": "组织",
+        "name": "帝国文理大学"
+      },
+      {
+        "id": "lingwu_barracks",
+        "type": "地点",
+        "name": "灵武军营房"
+      },
+      {
+        "id": "wangfu",
+        "type": "地点",
+        "name": "王家（王思涵家）"
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

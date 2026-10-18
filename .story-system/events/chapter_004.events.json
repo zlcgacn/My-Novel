@@ -1,0 +1,225 @@
+[
+  {
+    "event_id": "evt-ch04-001",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "location.current",
+      "old": "南京（内禁医院外）",
+      "new": "京城通往君来乡的大道（羽林军军用马车上，返回第五军驻地）",
+      "story_time": "卯初，参谋本部遇袭后五小时",
+      "is_flashback": false
+    }
+  },
+  {
+    "event_id": "evt-ch04-002",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "neijin_hospital",
+    "payload": {
+      "rule_content": "内禁医院是内卫禁军的医院，没有爵位的人进不去；参谋本部遇袭的伤员都送宜华医院，只有外交部长被单独送进内禁医院（同僚转述警察的说法：好像是灵武军军长直接下的命令）",
+      "rule_category": "制度/等级",
+      "scope": "京城医院",
+      "source": "同僚转述",
+      "is_flashback": false
+    }
+  },
+  {
+    "event_id": "evt-ch04-003",
+    "chapter": 4,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "同僚问邱深澳：既然这么厌恶帝国，为什么要加入羽林军？邱深澳没有回答，睡去后回忆八年前的无名高地；回忆停在赎罪军团开荒，加入羽林军的经过没有讲完",
+      "loop_type": "人物动机",
+      "unanswered_question": "邱深澳为什么、怎样加入了羽林军",
+      "urgency": 60,
+      "planted_chapter": 4
+    }
+  },
+  {
+    "event_id": "evt-ch04-004",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "zhongqing",
+    "payload": {
+      "rule_content": "八年前中庆省遭百年一遇的旱灾，全岛粮食几乎颗粒无收；帝国正陷于第八次西北战争，不但没有调粮赈灾，反而抬高当年粮食税，饿死者遍布道路两旁",
+      "rule_category": "历史",
+      "scope": "中庆省",
+      "story_time": "八年前",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-005",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "family",
+      "old": "中庆当地小有钱财的富农家庭；本人十六岁，在中庆城上中学，成绩全省名列前茅",
+      "new": "家破人亡：父亲与征粮官争执时被杀，母亲和奶奶在家中饿死，妹妹下落不明；本人因交不起学费停学，在中庆城给富户孩子教书谋生",
+      "story_time": "八年前",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-006",
+    "chapter": 4,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "邱深澳的妹妹在中庆大旱中下落不明，有人说她被人抓去煮着吃了",
+      "loop_type": "身世",
+      "unanswered_question": "邱深澳的妹妹是生是死、如今在哪里",
+      "urgency": 20,
+      "planted_chapter": 4
+    }
+  },
+  {
+    "event_id": "evt-ch04-007",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "affiliation",
+      "old": "无（停学，靠教书谋生）",
+      "new": "中庆起义军传令兵",
+      "story_time": "八年前，中庆起义期间",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-008",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "zhongqing_rebel_army",
+    "payload": {
+      "rule_content": "中庆起义三天聚众十万，五战五胜中庆城的帝国民兵军，夺取除城市以外的全岛；第五天大陆援军到来，帝国因急缺军粮出动一整支皇家捍卫者军团和两个死亡骑兵营镇压；起义军起初靠游击、诱敌深入、分割包围屡次重创帝国军，内部因此出现轻敌倾向",
+      "rule_category": "历史",
+      "scope": "中庆起义",
+      "story_time": "八年前，起义第一至第七天",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-009",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "maxim_gun",
+    "payload": {
+      "rule_content": "帝国军装备马克沁重机枪：前后枪身分别为圆筒状和方块状，后枪身连长弹链，架在三脚架上，半埋在战壕里；起义军此前从未见过。无名高地上帝国军有好几挺，第一批登上高地的上千人不到十分钟被击溃，幸存者不过几十人",
+      "rule_category": "军事技术",
+      "scope": "帝国军",
+      "story_time": "八年前，起义第八天",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-010",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "death_legion",
+    "payload": {
+      "rule_content": "死亡骑兵冲锋前吹响哨声，能把排成密集队列的步兵硬生生冲散；正文描写其移动宛如闪电，轻松躲闪子弹；无名高地之战中约八成起义军死于死亡骑兵。同僚现今仍以死亡军团在为由，认为自由派不够人家练手",
+      "rule_category": "军事力量",
+      "scope": "死亡军团",
+      "story_time": "八年前（同僚评价为当下）",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-011",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "zhongqing_rebel_army",
+    "payload": {
+      "field": "status",
+      "old": "起事八天，围攻无名高地的两万余人",
+      "new": "覆灭：起义第八天在无名高地被马克沁机枪重创后，遭死亡骑兵从高地南面背后突袭、反包围，所有将领连同主力被歼；仅已登上高地的第二批攻击部队五十六人投降被俘入狱",
+      "story_time": "八年前，起义第八天巳时至未时初",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-012",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "status",
+      "old": "中庆起义军传令兵",
+      "new": "在无名高地上随第二批攻击部队幸存者向帝国军投降，被捕入狱",
+      "story_time": "八年前，起义第八天未时初",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-013",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "nameless_hill",
+    "payload": {
+      "rule_content": "据邱深澳加入帝国军后翻阅的档案：无名高地之战帝国军歼敌两万余人，自身仅阵亡四十六人；那个连并非被起义军引诱出来，而是帝国军早设的圈套——少年军官带一个连和几挺机枪故意脱离主力，把起义军主力引到高地下，两个死亡骑兵营早已埋伏在高地南面的山坳里",
+      "rule_category": "历史/战役真相",
+      "scope": "无名高地之战",
+      "source": "帝国军档案（邱深澳事后查阅）",
+      "story_time": "八年前",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-014",
+    "chapter": 4,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "无名高地上指挥帝国军那个连的少年军官与邱深澳同龄，眼里闪着坚定自信的光；正文未点出其姓名，邱深澳也不知道他是谁",
+      "loop_type": "身份",
+      "unanswered_question": "无名高地上的帝国少年军官是谁",
+      "urgency": 20,
+      "planted_chapter": 4,
+      "expected_payoff": "设定集：此人即周君州；正文何时、是否点破待定"
+    }
+  },
+  {
+    "event_id": "evt-ch04-015",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "belief",
+      "old": "随起义军一同以为胜利即将到来",
+      "new": "认识到帝国军有高超的军事科技、基层军官战术素养高、士兵意志顽强，加上死亡军团，单凭一盘散沙、缺枪少炮又缺少知识的民众无法战胜这个崇尚军事与战争的国家",
+      "story_time": "八年前无名高地战后至今",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-016",
+    "chapter": 4,
+    "event_type": "world_rule_revealed",
+    "subject": "atonement_legions",
+    "payload": {
+      "rule_content": "帝国前线兵源、粮草短缺时，皇帝特赦监狱犯人组成两个赎罪军团：一支派往前线充当炮灰，战争结束时回来的十不存一；另一支在民兵军监督下到帝国荒废土地上开垦荒田",
+      "rule_category": "制度",
+      "scope": "帝国",
+      "story_time": "八年前无名高地战后",
+      "is_flashback": true
+    }
+  },
+  {
+    "event_id": "evt-ch04-017",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "status",
+      "old": "被捕入狱",
+      "new": "经皇帝特赦编入开垦用的赎罪军团，在帝国官吏的鞭子下顶着烈日开荒种田，活了下来",
+      "story_time": "八年前无名高地战后",
+      "is_flashback": true
+    }
+  }
+]

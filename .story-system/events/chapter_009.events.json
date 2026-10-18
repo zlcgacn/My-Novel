@@ -1,0 +1,202 @@
+[
+  {
+    "event_id": "evt-ch09-001",
+    "chapter": 9,
+    "event_type": "world_rule_revealed",
+    "subject": "d67_rifle",
+    "payload": {
+      "rule_content": "D67眼下仍在试装，只配发龙武、木兰两军和第一近卫集团军的几支部队（灵武军亦领有D67，每支有编号）；内务本部袭击者所持正是D67",
+      "rule_category": "军备",
+      "scope": "京城近卫军、禁卫军"
+    }
+  },
+  {
+    "event_id": "evt-ch09-002",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "interior_director",
+    "payload": {
+      "field": "status",
+      "old": "在任",
+      "new": "内务本部大楼炸塌后压在废墟下，下落不明，御前会议上位置空着"
+    }
+  },
+  {
+    "event_id": "evt-ch09-003",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "nanjing",
+    "payload": {
+      "field": "security_status",
+      "old": "常态",
+      "new": "今夜起宵禁；神圣高地一带和各处城门由虎贲军接管"
+    }
+  },
+  {
+    "event_id": "evt-ch09-004",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "forbidden_guards",
+    "payload": {
+      "field": "assignment",
+      "old": "宫城守卫",
+      "new": "虎贲军奉旨接管神圣高地一带和各处城门，负责京城宵禁"
+    }
+  },
+  {
+    "event_id": "evt-ch09-005",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "prime_minister_office",
+    "payload": {
+      "field": "assignment",
+      "old": "无",
+      "new": "奉旨增设医疗点、令京城各医馆一律收治伤员、抚恤死伤街坊（王思涵所请）"
+    }
+  },
+  {
+    "event_id": "evt-ch09-006",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "emperor",
+    "payload": {
+      "field": "decision.jubilee",
+      "old": "首相请庆典改期",
+      "new": "月内登基五十周年庆典照办，不改期"
+    }
+  },
+  {
+    "event_id": "evt-ch09-007",
+    "chapter": 9,
+    "event_type": "world_rule_revealed",
+    "subject": "valkyrie_plan",
+    "payload": {
+      "rule_content": "瓦尔基里行动经张永怀请旨、皇帝准奏修订：原预案各军只在城外原地戒备；修订后口令一下，羽林军和中央预备役集团军直接进城，分头控制各处城门、电报局和宫城外围；发令之权照旧在皇帝和城防司令官兼内务总监手里；由参谋本部拟定照常下发",
+      "rule_category": "京畿防务预案",
+      "scope": "京城"
+    }
+  },
+  {
+    "event_id": "evt-ch09-008",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "valkyrie_plan",
+    "payload": {
+      "field": "content",
+      "old": "各部原地戒备、守住要道，各军只在城外原地戒备",
+      "new": "口令一下，羽林军和中央预备役集团军直接进城控制城门、电报局和宫城外围"
+    }
+  },
+  {
+    "event_id": "evt-ch09-009",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "third_bureau",
+    "payload": {
+      "field": "assignment",
+      "old": "无",
+      "new": "奉旨会同内务本部办理内务本部爆炸案，并案查新年夜参谋本部爆炸案；会同参谋本部今夜封存全部已配发D67"
+    }
+  },
+  {
+    "event_id": "evt-ch09-010",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "d67_rifle",
+    "payload": {
+      "field": "status",
+      "old": "配发各部使用",
+      "new": "奉旨全数封存待查，清查之前谁也不许碰（含灵武军、第一近卫集团军）"
+    }
+  },
+  {
+    "event_id": "evt-ch09-011",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "assignment",
+      "old": "无",
+      "new": "奉旨查明开进内务本部的商会马车属哪家商会、由谁赶进去"
+    }
+  },
+  {
+    "event_id": "evt-ch09-012",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "d67_rifle",
+    "payload": {
+      "content": "袭击内务本部的黑衣人手持D67，而D67只配发禁卫军龙武、木兰两军与第一近卫集团军数部，枪从何处流出未明",
+      "loop_type": "谜团",
+      "unanswered_question": "袭击者的D67来自哪支部队？",
+      "urgency": 90,
+      "planted_chapter": 9
+    }
+  },
+  {
+    "event_id": "evt-ch09-013",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "爆炸前开进内务本部的几辆商会马车来历不明，皇帝令王思涵去查",
+      "loop_type": "调查",
+      "unanswered_question": "是哪家商会的车，谁赶进去的？",
+      "urgency": 80,
+      "planted_chapter": 9
+    }
+  },
+  {
+    "event_id": "evt-ch09-014",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "zhou_shiheng",
+    "payload": {
+      "content": "退朝时周世衡低声对周君州说：今夜戌时，到府里来",
+      "loop_type": "约见",
+      "unanswered_question": "周世衡要对周君州说什么？",
+      "urgency": 95,
+      "planted_chapter": 9,
+      "expected_payoff": "当夜周府"
+    }
+  },
+  {
+    "event_id": "evt-ch09-015",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "wang_zhengyan",
+    "payload": {
+      "content": "退朝时王政炎在王思涵身边停了一下，说了句什么，王思涵点头，神色不露",
+      "loop_type": "暗线",
+      "unanswered_question": "王政炎对王思涵说了什么？",
+      "urgency": 50,
+      "planted_chapter": 9
+    }
+  },
+  {
+    "event_id": "evt-ch09-016",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "emperor",
+    "payload": {
+      "content": "康建皇帝登基五十周年庆典定于月内照办，京城乱党两度得手，庆典期间安全成隐患",
+      "loop_type": "时间节点",
+      "unanswered_question": "庆典期间京城会不会再出事？",
+      "urgency": 70,
+      "planted_chapter": 9
+    }
+  },
+  {
+    "event_id": "evt-ch09-017",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "interior_director",
+    "payload": {
+      "content": "内务总监（兼城防司令官，握有瓦尔基里发令权）压在内务本部废墟下，下落不明",
+      "loop_type": "生死未卜",
+      "unanswered_question": "内务总监是生是死？",
+      "urgency": 75,
+      "planted_chapter": 9
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "event_id": "evt-ch06-001",
+    "chapter": 6,
+    "event_type": "world_rule_revealed",
+    "subject": "divine_heights",
+    "payload": {
+      "rule_content": "神圣高地是南京建城时唯二未被完全铲平的区域（另一处为大明宫所在的皇权高地）；内务本部位于神圣高地，西北2公里为大明宫，正对面为内禁医院，四周为历史悠久的商业街，是皇城内最繁荣的地区。",
+      "rule_category": "地理",
+      "scope": "南京"
+    }
+  },
+  {
+    "event_id": "evt-ch06-002",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "interior_ministry",
+    "payload": {
+      "field": "headquarters.status",
+      "old": "完好",
+      "new": "本部大楼被炸断，仅余不到五分之一",
+      "cause": "六辆外表普通的商会马车驶入内务本部后发生巨大爆炸"
+    }
+  },
+  {
+    "event_id": "evt-ch06-003",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "neijin_hospital",
+    "payload": {
+      "field": "status",
+      "old": "完好",
+      "new": "主体结构被冲击波基本破坏"
+    }
+  },
+  {
+    "event_id": "evt-ch06-004",
+    "chapter": 6,
+    "event_type": "open_loop_created",
+    "subject": "black_clad_gunmen",
+    "payload": {
+      "content": "神圣高地爆炸后，一群统一穿黑色上衣、头戴黑色面具、手持全新半自动步枪的武装人员从商会马车中下来见人就杀，身份不明。",
+      "loop_type": "身份之谜",
+      "unanswered_question": "黑衣蒙面武装人员是谁？",
+      "urgency": 100,
+      "planted_chapter": 6
+    }
+  },
+  {
+    "event_id": "evt-ch06-005",
+    "chapter": 6,
+    "event_type": "open_loop_created",
+    "subject": "d67_rifle",
+    "payload": {
+      "content": "黑衣人手持的是试验性D67半自动步枪，连灵武军也只有部分单位装备；邱思甜追问这些人是怎么拿到的，邓声宝称要活着离开才能知道。",
+      "loop_type": "线索",
+      "unanswered_question": "袭击者从哪里拿到试装阶段的D67半自动步枪？",
+      "urgency": 60,
+      "planted_chapter": 6
+    }
+  },
+  {
+    "event_id": "evt-ch06-006",
+    "chapter": 6,
+    "event_type": "world_rule_revealed",
+    "subject": "d67_rifle",
+    "payload": {
+      "rule_content": "D67式半自动步枪是实验性武器，灵武军也才装备了一部分单位；其火力能完全压制装备栓动步枪的神策军，以往任意一款步枪都不是对手。",
+      "rule_category": "军械",
+      "scope": "帝国军队"
+    }
+  },
+  {
+    "event_id": "evt-ch06-007",
+    "chapter": 6,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州、邓声宝持C93半自动手枪出医院，去支援在医院大门前被五六个黑衣人压制的神策军残余警卫；邱思甜、张艺宣、王思涵留在医院内躲避。",
+      "loop_type": "战斗悬念",
+      "unanswered_question": "周君州与邓声宝能否击退医院门前的黑衣人，把三人安全送出？",
+      "urgency": 100,
+      "planted_chapter": 6,
+      "expected_payoff": "下一章"
+    }
+  },
+  {
+    "event_id": "evt-ch06-008",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "shence_army",
+    "payload": {
+      "field": "status",
+      "old": "驻守神圣高地",
+      "new": "遭袭溃散，残余警卫在医院门前被压制"
+    }
+  },
+  {
+    "event_id": "evt-ch06-009",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "injury",
+      "old": "昨晚爆炸中受伤",
+      "new": "昨晚伤未愈，又在内禁医院爆炸中被震飞，添皮肉伤"
+    }
+  },
+  {
+    "event_id": "evt-ch06-010",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "field": "injury",
+      "old": "无",
+      "new": "内禁医院爆炸中受皮肉伤"
+    }
+  },
+  {
+    "event_id": "evt-ch06-011",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "injury",
+      "old": "无",
+      "new": "内禁医院爆炸中受皮肉伤"
+    }
+  },
+  {
+    "event_id": "evt-ch06-012",
+    "chapter": 6,
+    "event_type": "relationship_changed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "关切",
+      "description": "周君州出发前，张艺宣叫住他说“你也当心”，周君州回“我心里有数”。"
+    }
+  }
+]

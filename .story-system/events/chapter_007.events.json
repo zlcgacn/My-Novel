@@ -1,0 +1,123 @@
+[
+  {
+    "event_id": "evt-ch007-001",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "shence_lieutenant",
+    "payload": {
+      "field": "status",
+      "old": "存活",
+      "new": "阵亡",
+      "detail": "神策军内务本部卫队第三大队第二中队中尉中队长，翻找弹药时被街边商店枪手冷枪击中头部，死在周君州跟前",
+      "evidence_line": 25
+    }
+  },
+  {
+    "event_id": "evt-ch007-002",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "interior_ministry",
+    "payload": {
+      "field": "guard.status",
+      "old": "卫队建制完整",
+      "new": "卫队伤亡惨重，军火库被毁，残部只能用L12旧步枪",
+      "detail": "军火库被爆炸摧毁，残部只能使用换装前的L12旧式步枪；本部大楼几乎被夷为平地",
+      "evidence_line": 15
+    }
+  },
+  {
+    "event_id": "evt-ch007-003",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "black_clad_gunmen",
+    "payload": {
+      "field": "status.hospital_street",
+      "old": "在内禁医院门前压制神策军",
+      "new": "医院门前两批黑衣人全部被歼",
+      "detail": "残墙后6人被周邓与神策军交叉火力击毙，街边商店3人被死亡骑兵军官击杀",
+      "evidence_line": 41
+    }
+  },
+  {
+    "event_id": "evt-ch007-004",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "death_legion",
+    "payload": {
+      "field": "location.current",
+      "old": "",
+      "new": "divine_heights",
+      "detail": "大批死亡骑兵从南面进入神圣高地，投入与恐怖分子的战斗",
+      "evidence_line": 69
+    }
+  },
+  {
+    "event_id": "evt-ch007-005",
+    "chapter": 7,
+    "event_type": "open_loop_created",
+    "subject": "black_clad_gunmen",
+    "payload": {
+      "content": "袭击内务本部的黑衣人来历不明：如何把炸药运进要紧的军事机关、如何拿到新锐的D67式步枪；中尉只说他们训练有素、见人就杀、背景不简单。",
+      "loop_type": "mystery",
+      "unanswered_question": "黑衣人是什么人？炸药与D67从何而来？",
+      "urgency": 85,
+      "planted_chapter": 7
+    }
+  },
+  {
+    "event_id": "evt-ch007-006",
+    "chapter": 7,
+    "event_type": "open_loop_created",
+    "subject": "death_cavalry_officer",
+    "payload": {
+      "content": "出现一名少见的死亡骑兵军官：灰色面具带银色骷髅标志、胸甲有数枚军功勋章与军衔图案、尖顶钢盔有金色死亡骷髅和长明灯标识、腰挎百合花丝线马刀；周邓都看不出其军衔，未能与之交流。",
+      "loop_type": "character_intro",
+      "unanswered_question": "这名死亡骑兵军官是谁、什么军衔？",
+      "urgency": 40,
+      "planted_chapter": 7
+    }
+  },
+  {
+    "event_id": "evt-ch007-007",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "death_legion",
+    "payload": {
+      "rule_content": "死亡骑兵装备与能力：无五官灰色面具、镀铬灰色胸甲、平顶钢盔嵌国教死亡骷髅与长明灯标识，右手亡灵者半自动卡宾枪、左手全金属长矛，骑比寻常战马高一头、几乎无毛、蹄宽如碗口的巨马；长年严酷操练，可在疾驰马上精准射击。军官为尖顶钢盔金色标识、面具银色骷髅、百合花丝线马刀。",
+      "rule_category": "military_equipment",
+      "scope": "死亡军团"
+    }
+  },
+  {
+    "event_id": "evt-ch007-008",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "death_legion",
+    "payload": {
+      "rule_content": "关于死亡军团的传闻（邓声宝转述，未证实）：成员全是教会收养的孤儿，据说前世对帝皇不忠、今生会克死待他们好的人，只有替帝皇战死才能赎罪；没有名字只有代号，整天戴面具，从不与外人说话。",
+      "rule_category": "faction_lore",
+      "scope": "死亡军团 / 国教"
+    }
+  },
+  {
+    "event_id": "evt-ch007-009",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "shence_army",
+    "payload": {
+      "rule_content": "神策军内务本部卫队装备栓动步枪，换装前的L12步枪已有约50年历史，火力远不及D67式半自动步枪；神策军卫兵着深蓝大衣、红色帝国鹰刺绣蓝色大檐帽。",
+      "rule_category": "military_equipment",
+      "scope": "神策军"
+    }
+  },
+  {
+    "event_id": "evt-ch007-010",
+    "chapter": 7,
+    "event_type": "promise_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州命一名幸存神策军士兵收集阵亡同志的身份牌送回原单位，并带其余人护送医院幸存者离开。",
+      "evidence_line": 65
+    }
+  }
+]

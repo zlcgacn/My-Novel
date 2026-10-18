@@ -1,0 +1,6 @@
+{"timestamp": "2026-10-18T10:57:06.165408", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 108}
+{"timestamp": "2026-10-18T10:58:50.303605", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T10:59:47.268602", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T11:06:07.775014", "tool_name": "rag_adapter:search", "success": true, "elapsed_ms": 634}
+{"timestamp": "2026-10-18T11:06:14.139301", "tool_name": "rag_adapter:search", "success": true, "elapsed_ms": 721}
+{"timestamp": "2026-10-18T11:06:18.792488", "tool_name": "rag_adapter:search", "success": true, "elapsed_ms": 633}

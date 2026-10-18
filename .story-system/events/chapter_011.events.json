@@ -1,0 +1,155 @@
+[
+  {
+    "event_id": "evt-ch11-001",
+    "chapter": 11,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "location.current",
+      "old": "zhou_mansion",
+      "new": "lingwu_barracks",
+      "note": "天未亮换军装离开周府回灵武军营"
+    }
+  },
+  {
+    "event_id": "evt-ch11-002",
+    "chapter": 11,
+    "event_type": "character_state_changed",
+    "subject": "lingwu_army",
+    "payload": {
+      "field": "investigation_status",
+      "old": "D67已封存待查",
+      "new": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组",
+      "note": "全军空手出操"
+    }
+  },
+  {
+    "event_id": "evt-ch11-003",
+    "chapter": 11,
+    "event_type": "world_rule_revealed",
+    "subject": "lingwu_army",
+    "payload": {
+      "rule_content": "灵武军军械库钥匙两把，军需处与军直属警卫营营长各执一把，开库须两人同到；每次开库的开关时间、领出与交回物品均记档",
+      "rule_category": "军制",
+      "scope": "lingwu_army"
+    }
+  },
+  {
+    "event_id": "evt-ch11-004",
+    "chapter": 11,
+    "event_type": "world_rule_revealed",
+    "subject": "junwu_benbu",
+    "payload": {
+      "rule_content": "新式枪械D67由军务本部派人押送进营，双方当面点数、签收，一式两份，一份留营、一份带回军务本部；军务本部存有底账",
+      "rule_category": "军制",
+      "scope": "帝国陆军"
+    }
+  },
+  {
+    "event_id": "evt-ch11-005",
+    "chapter": 11,
+    "event_type": "world_rule_revealed",
+    "subject": "lingwu_army",
+    "payload": {
+      "rule_content": "灵武军政委列席替宫里看着，督察列席替参谋本部看着；政委李文斌为公爵兼皇宫郎官，每晚照例向宫里递话",
+      "rule_category": "政体",
+      "scope": "lingwu_army"
+    }
+  },
+  {
+    "event_id": "evt-ch11-006",
+    "chapter": 11,
+    "event_type": "world_rule_revealed",
+    "subject": "third_bureau",
+    "payload": {
+      "rule_content": "御前第三处探员着黑色制服；内务本部人员着白色警察制服；军中公文原册按例不出营",
+      "rule_category": "制度",
+      "scope": "nanjing"
+    }
+  },
+  {
+    "event_id": "evt-ch11-007",
+    "chapter": 11,
+    "event_type": "promise_created",
+    "subject": "li_wenbin",
+    "payload": {
+      "content": "李文斌与金志文在D67领用册、库房档册抄本上署名作保：抄本与原册有一字不符，唯二人是问",
+      "to_entity": "third_bureau"
+    }
+  },
+  {
+    "event_id": "evt-ch11-008",
+    "chapter": 11,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "灵武军情报组排查新年夜参谋本部在楼人员，唯邱深澳档案不对劲：只有几行（中庆人、平民、破格特招），中庆大旱到特招之间空缺数年，像被人动过",
+      "loop_type": "身份之谜",
+      "unanswered_question": "邱深澳档案空缺的数年发生了什么，档案是否被人改动",
+      "urgency": 60,
+      "planted_chapter": 11
+    }
+  },
+  {
+    "event_id": "evt-ch11-009",
+    "chapter": 11,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州命金志文连同爆炸案一起私下续查邱深澳，此事不入金志文报参谋本部的公文；“封的是枪，没封灵武军的眼睛”",
+      "loop_type": "暗线调查",
+      "unanswered_question": "灵武军私下调查会查出什么",
+      "urgency": 60,
+      "planted_chapter": 11
+    }
+  },
+  {
+    "event_id": "evt-ch11-010",
+    "chapter": 11,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "to_entity": "qiu_shenao",
+      "relationship_type": "暗中调查",
+      "note": "因档案空缺将其列为私下调查对象"
+    }
+  },
+  {
+    "event_id": "evt-ch11-011",
+    "chapter": 11,
+    "event_type": "open_loop_created",
+    "subject": "lin_anhua",
+    "payload": {
+      "content": "林安华问询极细，句句绕着灵武军的枪打转，倒像早认定枪从灵武军流出，只差找出从哪道门、哪只手；周君州只当办案本该如此，没有往深处去想",
+      "loop_type": "疑点",
+      "unanswered_question": "专案组的问询方向从何而来",
+      "urgency": 40,
+      "planted_chapter": 11
+    }
+  },
+  {
+    "event_id": "evt-ch11-012",
+    "chapter": 11,
+    "event_type": "open_loop_created",
+    "subject": "li_wenbin",
+    "payload": {
+      "content": "李文斌问今日问询如何向宫里递话，周君州说照实写，李文斌补半句“照实写，也有个先后”",
+      "loop_type": "宫廷信息",
+      "unanswered_question": "李文斌向宫里报告的取舍",
+      "urgency": 20,
+      "planted_chapter": 11
+    }
+  },
+  {
+    "event_id": "evt-ch11-013",
+    "chapter": 11,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junyao",
+    "payload": {
+      "field": "location.current",
+      "old": "zhou_mansion",
+      "new": "lingwu_barracks",
+      "note": "不顾管家劝阻，带两名护院乘车赴营"
+    }
+  }
+]

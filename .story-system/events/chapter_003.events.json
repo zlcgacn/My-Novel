@@ -1,0 +1,319 @@
+[
+  {
+    "event_id": "evt-ch3-001",
+    "chapter": 3,
+    "event_type": "character_state_changed",
+    "subject": "crown_prince_adjutant",
+    "payload": {
+      "field": "life_status",
+      "old": "爆炸中重伤倒地",
+      "new": "遇难（帝国中央社广播确认）"
+    }
+  },
+  {
+    "event_id": "evt-ch3-002",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "chengming_bombing",
+    "payload": {
+      "content": "参谋本部程明广场爆炸案：袭击目标是参谋本部、皇室还是外交部尚不能确定；内务本部已成立专项调查组",
+      "loop_type": "案件主线",
+      "unanswered_question": "炸弹针对谁、何时由何人放置？",
+      "urgency": 85,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-003",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "adjutant_guard",
+    "payload": {
+      "content": "副官侍卫随马车被炸成黑色残渣，负责现场的高级警督说不清是如何确认那具尸体就是侍卫",
+      "loop_type": "疑点",
+      "unanswered_question": "残骸是否确为副官侍卫？",
+      "urgency": 70,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-004",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "royal_carriage_timeline",
+    "payload": {
+      "content": "值守中尉称亥时末见皇家马车停在广场，子时刚过返回时皇家马车已离开，广场上多了外交部和通讯处的马车",
+      "loop_type": "线索",
+      "unanswered_question": "皇家马车离开后去了哪里、何时回到广场？",
+      "urgency": 60,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-005",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "ban_gexian",
+    "payload": {
+      "content": "值守中尉称亥时末曾见副官侍卫与参谋本部卫兵中队上士班戈现在皇家马车旁抽烟聊天；班戈现被视为破案突破口，下落未明",
+      "loop_type": "线索",
+      "unanswered_question": "班戈现在哪里？他与爆炸有何关系？",
+      "urgency": 85,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-006",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "guard_dormitory",
+    "payload": {
+      "content": "参谋本部卫兵宿舍空无一人，中尉称昨夜执勤的卫兵都被带走了",
+      "loop_type": "疑点",
+      "unanswered_question": "执勤卫兵被谁带走、带去了哪里？",
+      "urgency": 60,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-007",
+    "chapter": 3,
+    "event_type": "character_state_changed",
+    "subject": "young_inspector",
+    "payload": {
+      "field": "life_status",
+      "old": "存活",
+      "new": "死亡（在参谋本部卫兵宿舍二楼被持砍刀大汉砍杀）"
+    }
+  },
+  {
+    "event_id": "evt-ch3-008",
+    "chapter": 3,
+    "event_type": "character_state_changed",
+    "subject": "the_lieutenant",
+    "payload": {
+      "field": "life_status",
+      "old": "存活",
+      "new": "在卫兵宿舍门口被两名黑衣人刺倒，身中一百多刀倒地"
+    }
+  },
+  {
+    "event_id": "evt-ch3-009",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "machete_assailant",
+    "payload": {
+      "content": "卫兵宿舍二楼冲出持砍刀的大汉砍死警司，门口两名持步枪黑衣人刺倒中尉",
+      "loop_type": "危机",
+      "unanswered_question": "袭击者是谁、为何埋伏在卫兵宿舍？",
+      "urgency": 95,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-010",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "emperor",
+    "payload": {
+      "content": "皇帝登基庆典临近，林安华称此时必须万无一失，并认为爆炸可能与庆典有关，有待案情明朗再判断",
+      "loop_type": "时限",
+      "unanswered_question": "爆炸与登基庆典是否有关？",
+      "urgency": 60,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-011",
+    "chapter": 3,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "injury",
+      "old": "爆炸中受伤昏迷",
+      "new": "额头、左臂缠绷带；在内禁医院门前胸口遭枪托重击，左臂被反拧致伤口崩开出血"
+    }
+  },
+  {
+    "event_id": "evt-ch3-012",
+    "chapter": 3,
+    "event_type": "world_rule_revealed",
+    "subject": "neijin_hospital",
+    "payload": {
+      "rule_content": "内禁医院按爵位与军衔准入：没有爵位、军衔不够者一律不得入内",
+      "rule_category": "等级礼制",
+      "scope": "内禁医院"
+    }
+  },
+  {
+    "event_id": "evt-ch3-013",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "deng_shengbao",
+    "payload": {
+      "to_entity": "qiu_shenao",
+      "relationship_type": "敌视",
+      "description": "邓声宝以其无爵位为由手按枪套威胁驱逐，事后辱称其进来会脏了地方，并扬言早该一枪毙了他"
+    }
+  },
+  {
+    "event_id": "evt-ch3-014",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junyao",
+    "payload": {
+      "to_entity": "qiu_shenao",
+      "relationship_type": "初次照面",
+      "description": "周君瑶在内禁医院门前看见带伤的邱深澳，未与他交谈，拉走了按着枪套的邓声宝，事后向周君州提及此事"
+    }
+  },
+  {
+    "event_id": "evt-ch3-015",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junyao",
+    "payload": {
+      "to_entity": "deng_shengbao",
+      "relationship_type": "亲近",
+      "description": "周君瑶称邓声宝为“邓大哥”，邓声宝对她言听计从"
+    }
+  },
+  {
+    "event_id": "evt-ch3-016",
+    "chapter": 3,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "health",
+      "old": "爆炸中受伤昏迷",
+      "new": "昏迷约九小时后于辰时末苏醒，额上缠纱布，自称已能下床走动"
+    }
+  },
+  {
+    "event_id": "evt-ch3-017",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "明确拒绝追求",
+      "description": "邱思甜感谢周君州守夜一夜，但当众表示不会考虑他，他写的情书已被她撕掉"
+    }
+  },
+  {
+    "event_id": "evt-ch3-018",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "to_entity": "qiu_shenao",
+      "relationship_type": "关切",
+      "description": "邱思甜醒后先问邱深澳安危，并为邓声宝辱骂他而当众驳斥"
+    }
+  },
+  {
+    "event_id": "evt-ch3-019",
+    "chapter": 3,
+    "event_type": "world_rule_revealed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "rule_content": "带皇后冠冕的红琉璃花胸针只有亲王之女才佩戴",
+      "rule_category": "服饰礼制",
+      "scope": "皇室"
+    }
+  },
+  {
+    "event_id": "evt-ch3-020",
+    "chapter": 3,
+    "event_type": "promise_created",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "张艺宣答应让人打听那位羽林军同志（邱深澳）的去向",
+      "urgency": 40,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-021",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "lingwu_intel_group",
+    "payload": {
+      "content": "灵武军情报组初报：昨夜爆炸八成是军中的人干的，是羽林军还是预备役尚未查到",
+      "loop_type": "案件主线",
+      "unanswered_question": "是哪支军中力量所为？",
+      "urgency": 80,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-022",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "interior_ministry",
+    "payload": {
+      "content": "内务本部一小时前才到现场，此前对外只称新年人手不够；周君州认为这是做样子、不想查",
+      "loop_type": "疑点",
+      "unanswered_question": "内务本部为何拖延查案？",
+      "urgency": 50,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-023",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州令情报组自行排查昨夜在参谋本部的所有人，一个不落，包括邱深澳",
+      "loop_type": "危机",
+      "unanswered_question": "情报组会查出什么？邱深澳是否会被盯上？",
+      "urgency": 80,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-024",
+    "chapter": 3,
+    "event_type": "promise_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州当着王思涵立誓：伤邱思甜的人，他会亲手找出来",
+      "urgency": 80,
+      "planted_chapter": 3
+    }
+  },
+  {
+    "event_id": "evt-ch3-025",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "当众争执",
+      "description": "王思涵在内禁医院走廊当众斥责周君州护不住邱思甜，两人就军人特权与文官上折子激烈互斥"
+    }
+  },
+  {
+    "event_id": "evt-ch3-026",
+    "chapter": 3,
+    "event_type": "relationship_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "亲戚兼闺蜜",
+      "description": "两人沾亲带故，互称“甜甜”“涵涵”，在病房里笑闹"
+    }
+  },
+  {
+    "event_id": "evt-ch3-027",
+    "chapter": 3,
+    "event_type": "promise_created",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "张艺宣提议等邱思甜伤好后办一场宴会庆祝她死里逃生，王思涵、邱思甜都赞成",
+      "urgency": 30,
+      "planted_chapter": 3
+    }
+  }
+]
