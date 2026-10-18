@@ -248,12 +248,12 @@
       "payload": {
         "old_value": null
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "state_change:zhang_shuhuai:location.current:1"
       ],
-      "updated_at": "2026-10-18T11:05:05"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-5141af3a6f3d598d",
@@ -282,12 +282,12 @@
       "payload": {
         "old_value": null
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "state_change:ying_wuyue:location.current:1"
       ],
-      "updated_at": "2026-10-18T11:05:05"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-86f74a8291ff0b33",
@@ -459,12 +459,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "entity_new:zhang_shuhuai:1"
       ],
-      "updated_at": "2026-10-18T11:05:05"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-dd88e1518c0bd18a",
@@ -477,12 +477,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "entity_new:ying_wuyue:1"
       ],
-      "updated_at": "2026-10-18T11:05:05"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-73dca46da8efe1d3",
@@ -3251,12 +3251,12 @@
       "payload": {
         "old_value": "内禁医院"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "state_change:zhang_yixuan:location.current:8"
       ],
-      "updated_at": "2026-10-18T11:05:21"
+      "updated_at": "2026-10-18T13:36:21"
     },
     {
       "id": "mem-character_state-c4ecf940aa58c1ef",
@@ -4271,12 +4271,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 10,
       "evidence": [
         "entity_new:zhang_yixuan:10"
       ],
-      "updated_at": "2026-10-18T11:05:25"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-2570878a5d03792d",
@@ -4756,12 +4756,12 @@
       "payload": {
         "old_value": "zhou_mansion"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 11,
       "evidence": [
         "state_change:zhou_junzhou:location.current:11"
       ],
-      "updated_at": "2026-10-18T11:05:28"
+      "updated_at": "2026-10-18T14:44:42"
     },
     {
       "id": "mem-character_state-6c9c7aa7562c2efd",
@@ -5287,12 +5287,12 @@
       "payload": {
         "old_value": "内禁医院"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 12,
       "evidence": [
         "state_change:qiu_sitian:location.current:12"
       ],
-      "updated_at": "2026-10-18T11:05:30"
+      "updated_at": "2026-10-18T13:36:21"
     },
     {
       "id": "mem-character_state-104876fa571d0943",
@@ -5304,12 +5304,12 @@
       "payload": {
         "old_value": "额伤"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 12,
       "evidence": [
         "state_change:qiu_sitian:injury:12"
       ],
-      "updated_at": "2026-10-18T11:05:30"
+      "updated_at": "2026-10-18T13:36:21"
     },
     {
       "id": "mem-character_state-28d1dd3a15320900",
@@ -5357,12 +5357,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 12,
       "evidence": [
         "entity_new:qiu_sitian:12"
       ],
-      "updated_at": "2026-10-18T11:05:30"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-c766669f982f322a",
@@ -5735,12 +5735,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 12,
       "evidence": [
         "entity_new:tingzhan_caogao:12"
       ],
-      "updated_at": "2026-10-18T11:05:30"
+      "updated_at": "2026-10-18T13:36:22"
     },
     {
       "id": "mem-character_state-0ef61a8c14b80446",
@@ -5849,6 +5849,514 @@
         "entity_new:lingwu_avenue:12"
       ],
       "updated_at": "2026-10-18T11:05:30"
+    },
+    {
+      "id": "mem-character_state-d2bda8447037de9f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tingzhan_caogao",
+      "field": "status",
+      "value": "作废封存（已泄露／作废印戳，机字第十一号，二月五日）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:tingzhan_caogao:status:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-26f7af384ad99819",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tingzhan_caogao",
+      "field": "location.current",
+      "value": "川椴楼机要处（封存备查，不得调出）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:tingzhan_caogao:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-f0dd9afa3f92080e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "location.current",
+      "value": "返回王府途中（王家马车）",
+      "payload": {
+        "old_value": "王思涵府上（王府）"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:qiu_sitian:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-c693eecf24b56a3c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "injury",
+      "value": "额上缝针未拆线（约十一日拆线），奔走一天伤口作痛、纱布渗红",
+      "payload": {
+        "old_value": "额上缝针，卧床静养中"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:qiu_sitian:injury:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-4702da85e7da5534",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "current_task",
+      "value": "停战草稿作废，停战须从头再谈；手中只有凭记性默写的条款本子与登记簿上一行“请调未准”",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:qiu_sitian:current_task:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-e05e4dc5e89a2cdf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "location.current",
+      "value": "离开城南，赴中央社念晚间广播并于宵禁前送帖至王家",
+      "payload": {
+        "old_value": "灵武大街临时医疗点"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_yixuan:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-948308164d39edd7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "current_task",
+      "value": "筹办二月十一日亲王府暖阁小聚",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_yixuan:current_task:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-41e57e0ce6788a4d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "location.current",
+      "value": "城南寺前粥棚",
+      "payload": {
+        "old_value": "南京云中市街口（疏散人潮后）"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_shuhuai:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-9a0288980700b183",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "current_task",
+      "value": "城南寺前设棚施粥，米钱从自己俸禄支",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_shuhuai:current_task:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-c17e1f59fd0d923e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "ying_wuyue",
+      "field": "location.current",
+      "value": "城南寺前粥棚",
+      "payload": {
+        "old_value": "南京云中市街口"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:ying_wuyue:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-ae99e5b378c89882",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "location.current",
+      "value": "灵武军营（据中央社跑差，这几天都住营里）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhou_junzhou:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-5b3dd65587cfb07e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "waijiaobu_mishu",
+      "field": "location.current",
+      "value": "宜华医院",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:waijiaobu_mishu:location.current:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-42203e5025d13ccf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "hongfei_lou",
+      "field": "status",
+      "value": "广场一面换新玻璃；太子办公室挂铜锁，副官文书已被收走",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:hongfei_lou:status:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-a425d2156c00576b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chengming_guangchang",
+      "field": "status",
+      "value": "爆炸炸开处已填新土",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:chengming_guangchang:status:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-98df93581801edae",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "first_seen",
+      "value": "邱思甜",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:qiu_sitian:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-2480e4525f86da4a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "first_seen",
+      "value": "张艺宣",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:zhang_yixuan:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-629f7581bd6141d0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "first_seen",
+      "value": "张书淮",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:zhang_shuhuai:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-d7f4487d9ab4b354",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "ying_wuyue",
+      "field": "first_seen",
+      "value": "嬴武玥",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:ying_wuyue:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-8e75a9c34856d758",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tingzhan_caogao",
+      "field": "first_seen",
+      "value": "停战草稿",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:tingzhan_caogao:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-e5ff85da03ef548d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "general_staff_ops_general",
+      "field": "first_seen",
+      "value": "参谋本部作战局将官",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:general_staff_ops_general:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-32d0e0eb40cad089",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "general_staff_clerk",
+      "field": "first_seen",
+      "value": "川椴楼书记官",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:general_staff_clerk:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-2dfc71793415a95f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "hongfei_duty_captain",
+      "field": "first_seen",
+      "value": "宏飞楼值日上尉",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:hongfei_duty_captain:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-a986356af18e0268",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wangfu_huyuan",
+      "field": "first_seen",
+      "value": "王家护院（两名）",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:wangfu_huyuan:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-a7978c8128f8a23b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chengnan_temple_deacon",
+      "field": "first_seen",
+      "value": "城南寺老执事",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:chengnan_temple_deacon:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-9710fedec28b8250",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qinwangfu_attendant",
+      "field": "first_seen",
+      "value": "吴訥亲王府侍从",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:qinwangfu_attendant:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-59ae372c634c1746",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cns_editor",
+      "field": "first_seen",
+      "value": "中央社值班编辑",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:cns_editor:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-ae240ea29f637be3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cns_runner",
+      "field": "first_seen",
+      "value": "中央社跑差",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:cns_runner:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-dd1774bb0a6e7680",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chengnan_temple",
+      "field": "first_seen",
+      "value": "城南寺（收治神圣高地伤员的寺庙）",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:chengnan_temple:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-character_state-fd7a31712f04df40",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "military_intelligence_bureau",
+      "field": "first_seen",
+      "value": "军事情报局",
+      "payload": {
+        "tier": "装饰",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:military_intelligence_bureau:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
     }
   ],
   "story_facts": [],
@@ -6410,6 +6918,78 @@
         "memory_facts:world_rule:12"
       ],
       "updated_at": "2026-10-18T11:05:30"
+    },
+    {
+      "id": "mem-world_rule-ab15355c22cf2810",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "保密条例",
+      "field": "world_rule_revealed",
+      "value": "参谋本部保密条例：机密文书经手人遇袭身亡、文书脱离保管的，一律视同泄露（条例写“视同”不写“查实”，不必查）；视同泄露者所载条款作废，原件封存备查，不得调出，一字不得抄出；调阅须在登记簿签名并注明时辰",
+      "payload": {
+        "scope": "参谋本部机要文书",
+        "rule_text": "参谋本部保密条例：机密文书经手人遇袭身亡、文书脱离保管的，一律视同泄露（条例写“视同”不写“查实”，不必查）；视同泄露者所载条款作废，原件封存备查，不得调出，一字不得抄出；调阅须在登记簿签名并注明时辰"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:world_rule:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-world_rule-840ac2f8d7ddd911",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "公文程序",
+      "field": "world_rule_revealed",
+      "value": "外交部向参谋本部调阅文书须行文：外交部公文向来由军事情报局代转，军事情报局报参谋本部，参谋本部批给机要处，机要处再回文；快则一月、慢则三月，回文可能只是抄件或“封存备查，不便调阅”",
+      "payload": {
+        "scope": "外交部与参谋本部之间",
+        "rule_text": "外交部向参谋本部调阅文书须行文：外交部公文向来由军事情报局代转，军事情报局报参谋本部，参谋本部批给机要处，机要处再回文；快则一月、慢则三月，回文可能只是抄件或“封存备查，不便调阅”"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:world_rule:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-world_rule-72e8892c820645c9",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "军务管制",
+      "field": "world_rule_revealed",
+      "value": "第三处通报（二月八日起）：凡已封存D67之各营，营中官佐会客，来人姓名、身份、事由一律报专案组登记备查",
+      "payload": {
+        "scope": "已封存D67的各近卫营（含灵武军营）",
+        "rule_text": "第三处通报（二月八日起）：凡已封存D67之各营，营中官佐会客，来人姓名、身份、事由一律报专案组登记备查"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:world_rule:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-world_rule-ca48801059470888",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "城市民生",
+      "field": "world_rule_revealed",
+      "value": "新年夜后京城城门盘查紧，乡下粮车十辆进不来三辆，城南米价一斗比前一日又贵两成，再过两天有钱也买不着；宵禁照旧，入夜非持腰牌者不得上街",
+      "payload": {
+        "scope": "南京（康建五十年二月）",
+        "rule_text": "新年夜后京城城门盘查紧，乡下粮车十辆进不来三辆，城南米价一斗比前一日又贵两成，再过两天有钱也买不着；宵禁照旧，入夜非持腰牌者不得上街"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:world_rule:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
     }
   ],
   "timeline": [],
@@ -7473,6 +8053,146 @@
         "memory_facts:open_loop:12"
       ],
       "updated_at": "2026-10-18T11:05:31"
+    },
+    {
+      "id": "mem-open_loop-6f18630f7cbeb6ea",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "草稿原件作废，停战只能从头再谈：须太子殿下重新点头、另派人重新议定签字；而第三处正在查太子身边的人、近卫军各部封枪，眼下无人敢去东宫请殿下重派",
+      "field": "status",
+      "value": "草稿原件作废，停战只能从头再谈：须太子殿下重新点头、另派人重新议定签字；而第三处正在查太子身边的人、近卫军各部封枪，眼下无人敢去东宫请殿下重派",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 13,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T13:36:22"
+    },
+    {
+      "id": "mem-open_loop-43dcb4da7cf828f6",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "邱思甜在川椴楼反复看草稿时记下全部条款，回程马车里用铅笔默写在随身小本子上（三月二号脱离接触、五号前撤回国境线、五十与一百二十公里非军事区、东秦支付全部战争开支、火落城产出百分之七十移交帝国），无签名、无印戳、无登记号，连同张艺宣的帖子收在袖中",
+      "field": "status",
+      "value": "邱思甜在川椴楼反复看草稿时记下全部条款，回程马车里用铅笔默写在随身小本子上（三月二号脱离接触、五号前撤回国境线、五十与一百二十公里非军事区、东秦支付全部战争开支、火落城产出百分之七十移交帝国），无签名、无印戳、无登记号，连同张艺宣的帖子收在袖中",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 13,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T13:36:22"
+    },
+    {
+      "id": "mem-open_loop-fdaf2c75c454ea86",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉，改写“周将军台鉴”，又把揉掉的笺纸烧进炭盆；粥棚前报名单报到“周将军”时顿了一顿，邱思甜笑意随即淡下，张艺宣低声说他营里事多未必得空；张书淮看在眼里未作声",
+      "field": "status",
+      "value": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉，改写“周将军台鉴”，又把揉掉的笺纸烧进炭盆；粥棚前报名单报到“周将军”时顿了一顿，邱思甜笑意随即淡下，张艺宣低声说他营里事多未必得空；张书淮看在眼里未作声",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 13,
+        "expected_payoff": "二月十一日小聚",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T13:36:22"
+    },
+    {
+      "id": "mem-open_loop-579ecb4fbae4bed7",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "草稿原件作废，停战只能从头再谈：须太子殿下重新点头、另派人重新议定签字；而副官已死、内务本部被炸、满城传近卫军的枪全封了，第三处在问太子身边的人、已问到外交部，眼下无人敢去东宫请殿下重派、替殿下再签",
+      "field": "status",
+      "value": "草稿原件作废，停战只能从头再谈：须太子殿下重新点头、另派人重新议定签字；而副官已死、内务本部被炸、满城传近卫军的枪全封了，第三处在问太子身边的人、已问到外交部，眼下无人敢去东宫请殿下重派、替殿下再签",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 13,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-open_loop-b8d7f93f7e8e5ca0",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "邱思甜在川椴楼反复看草稿，确认印戳底下一字未少；回程马车里用铅笔把条款默写在随身小本子上（三月二号前线彻底脱离接触、五号前全部返回国境线、两国交界分别留出五十与一百二十公里非军事区、东秦支付战争期间全部开支、火落城产出百分之七十移交帝国），无签名、无印戳、无登记号，连同张艺宣的帖子收在袖中",
+      "field": "status",
+      "value": "邱思甜在川椴楼反复看草稿，确认印戳底下一字未少；回程马车里用铅笔把条款默写在随身小本子上（三月二号前线彻底脱离接触、五号前全部返回国境线、两国交界分别留出五十与一百二十公里非军事区、东秦支付战争期间全部开支、火落城产出百分之七十移交帝国），无签名、无印戳、无登记号，连同张艺宣的帖子收在袖中",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 13,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-open_loop-98824b998c854f3a",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "应邱思甜要求，川椴楼调阅登记簿上记下“外交部长于二月八日到此请调此件，未准”并写明依据，将官签名；眼下无用，日后有人问外交部到底来要过没有，这一行字可为凭",
+      "field": "status",
+      "value": "应邱思甜要求，川椴楼调阅登记簿上记下“外交部长于二月八日到此请调此件，未准”并写明依据，将官签名；眼下无用，日后有人问外交部到底来要过没有，这一行字可为凭",
+      "payload": {
+        "urgency": 20.0,
+        "planted_chapter": 13,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-open_loop-91d21285027862f4",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "field": "status",
+      "value": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 13,
+        "expected_payoff": "二月十一日小聚",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
     }
   ],
   "reader_promises": [
@@ -7673,12 +8393,84 @@
         "memory_facts:reader_promise:12"
       ],
       "updated_at": "2026-10-18T11:05:31"
+    },
+    {
+      "id": "mem-reader_promise-bf39ebd945513e4b",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张艺宣把当初许下的“宴会”改为二月十一日（邱思甜额上拆线之日）在亲王府后头暖阁的小聚：不请外人、不请乐班，一桌茶点；帖子四张，分请邱思甜、王思涵、张书淮、周君州",
+      "field": "promise",
+      "value": "张艺宣把当初许下的“宴会”改为二月十一日（邱思甜额上拆线之日）在亲王府后头暖阁的小聚：不请外人、不请乐班，一桌茶点；帖子四张，分请邱思甜、王思涵、张书淮、周君州",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_yixuan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T13:36:22"
+    },
+    {
+      "id": "mem-reader_promise-d78aa5868f2837d7",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
+      "field": "promise",
+      "value": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "wang_sihan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-reader_promise-324bd21753956f99",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张艺宣把内禁医院里随口许下的“宴会”改为二月十一日（邱思甜额上拆线之日）在亲王府后头暖阁的小聚：不请外人、不请乐班，一桌茶点；帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "field": "promise",
+      "value": "张艺宣把内禁医院里随口许下的“宴会”改为二月十一日（邱思甜额上拆线之日）在亲王府后头暖阁的小聚：不请外人、不请乐班，一桌茶点；帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_yixuan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
+      "id": "mem-reader_promise-fa365a8ca94523ed",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张书淮在粥棚当众答应：黑脸膛汉子铺子的炉子（还埋在瓦底下）等扒出来，他叫人去帮着搭；寺外一锅排队领“一个都少不了”，米不够他再去买",
+      "field": "promise",
+      "value": "张书淮在粥棚当众答应：黑脸膛汉子铺子的炉子（还埋在瓦底下）等扒出来，他叫人去帮着搭；寺外一锅排队领“一个都少不了”，米不够他再去买",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_shuhuai"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-18T11:05:31",
-    "total_items": 426
+    "last_updated": "2026-10-18T16:00:47",
+    "total_items": 470
   }
 }

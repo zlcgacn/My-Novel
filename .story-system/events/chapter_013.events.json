@@ -1,0 +1,262 @@
+[
+  {
+    "event_id": "evt-ch13-001",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "tingzhan_caogao",
+    "payload": {
+      "field": "status",
+      "old": "下落不明，压在参谋本部，有无人看过不明",
+      "new": "二月五日上午被川椴楼机要处从宏飞楼收走，当天即加盖“已泄露／作废”朱红印戳，登记机字第十一号（日期康建五十年二月五日），原件封存备查，不得调出、一字不得抄出",
+      "note": "原件为外交部秘书小楷手写、太子副官签字（太子点过头）；邱思甜在川椴楼签登记簿调阅，只准看不准带走、不准抄；登记簿上另记“外交部长于二月八日到此请调此件，未准”，将官签名"
+    }
+  },
+  {
+    "event_id": "evt-ch13-002",
+    "chapter": 13,
+    "event_type": "open_loop_closed",
+    "subject": "tingzhan_caogao",
+    "payload": {
+      "content": "停战草稿下落揭晓：已被参谋本部机要处收走，按保密条例视同泄露作废、封存备查；邱思甜亲赴参谋本部也未能取回",
+      "closes_event_id": "evt-ch12-012",
+      "resolution": "草稿作废，邱思甜取回失败"
+    }
+  },
+  {
+    "event_id": "evt-ch13-003",
+    "chapter": 13,
+    "event_type": "world_rule_revealed",
+    "subject": "general_staff",
+    "payload": {
+      "rule_content": "参谋本部保密条例：机密文书经手人遇袭身亡、文书脱离保管的，一律视同泄露（条例写“视同”不写“查实”，不必查）；视同泄露者所载条款作废，原件封存备查，不得调出，一字不得抄出；调阅须在登记簿签名并注明时辰",
+      "rule_category": "保密条例",
+      "scope": "参谋本部机要文书"
+    }
+  },
+  {
+    "event_id": "evt-ch13-004",
+    "chapter": 13,
+    "event_type": "world_rule_revealed",
+    "subject": "waijiaobu",
+    "payload": {
+      "rule_content": "外交部向参谋本部调阅文书须行文：外交部公文向来由军事情报局代转，军事情报局报参谋本部，参谋本部批给机要处，机要处再回文；快则一月、慢则三月，回文可能只是抄件或“封存备查，不便调阅”",
+      "rule_category": "公文程序",
+      "scope": "外交部与参谋本部之间"
+    }
+  },
+  {
+    "event_id": "evt-ch13-005",
+    "chapter": 13,
+    "event_type": "world_rule_revealed",
+    "subject": "third_bureau",
+    "payload": {
+      "rule_content": "第三处通报（二月八日起）：凡已封存D67之各营，营中官佐会客，来人姓名、身份、事由一律报专案组登记备查",
+      "rule_category": "军务管制",
+      "scope": "已封存D67的各近卫营（含灵武军营）"
+    }
+  },
+  {
+    "event_id": "evt-ch13-006",
+    "chapter": 13,
+    "event_type": "world_rule_revealed",
+    "subject": "nanjing",
+    "payload": {
+      "rule_content": "新年夜后京城城门盘查紧，乡下粮车十辆进不来三辆，城南米价一斗比前一日又贵两成，再过两天有钱也买不着；宵禁照旧，入夜非持腰牌者不得上街",
+      "rule_category": "城市民生",
+      "scope": "南京（康建五十年二月）"
+    }
+  },
+  {
+    "event_id": "evt-ch13-007",
+    "chapter": 13,
+    "event_type": "open_loop_created",
+    "subject": "tingzhan_caogao",
+    "payload": {
+      "content": "草稿原件作废，停战只能从头再谈：须太子殿下重新点头、另派人重新议定签字；而副官已死、内务本部被炸、满城传近卫军的枪全封了，第三处在问太子身边的人、已问到外交部，眼下无人敢去东宫请殿下重派、替殿下再签",
+      "loop_type": "主线进程",
+      "unanswered_question": "原件作废，停战还能不能从头谈？谁来请太子重新派人签字？",
+      "urgency": 100,
+      "planted_chapter": 13
+    }
+  },
+  {
+    "event_id": "evt-ch13-008",
+    "chapter": 13,
+    "event_type": "open_loop_created",
+    "subject": "qiu_sitian",
+    "payload": {
+      "content": "邱思甜在川椴楼反复看草稿，确认印戳底下一字未少；回程马车里用铅笔把条款默写在随身小本子上（三月二号前线彻底脱离接触、五号前全部返回国境线、两国交界分别留出五十与一百二十公里非军事区、东秦支付战争期间全部开支、火落城产出百分之七十移交帝国），无签名、无印戳、无登记号，连同张艺宣的帖子收在袖中",
+      "loop_type": "道具伏笔",
+      "unanswered_question": "这份谁也不会认的手抄条款将派上什么用场？",
+      "urgency": 60,
+      "planted_chapter": 13
+    }
+  },
+  {
+    "event_id": "evt-ch13-009",
+    "chapter": 13,
+    "event_type": "open_loop_created",
+    "subject": "general_staff",
+    "payload": {
+      "content": "应邱思甜要求，川椴楼调阅登记簿上记下“外交部长于二月八日到此请调此件，未准”并写明依据，将官签名；眼下无用，日后有人问外交部到底来要过没有，这一行字可为凭",
+      "loop_type": "文书凭据",
+      "unanswered_question": "登记簿上这一行“请调未准”日后会被谁翻出来？",
+      "urgency": 20,
+      "planted_chapter": 13
+    }
+  },
+  {
+    "event_id": "evt-ch13-010",
+    "chapter": 13,
+    "event_type": "relationship_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "to_entity": "general_staff_ops_general",
+      "relationship_type": "立场对立（停战对主战）",
+      "change": "将官代作战局会办，依条例拒绝带走与抄录，称“不必查”“条例写的是‘视同’，不是‘查实’”，让太子另派人重议；直言开春东秦照样打来，前线弟兄拿命打下的地方“叫一张纸一寸不留，全让了回去”，“这张纸作废了，在我看来，正好”；邱思甜质问开春再打要多死多少兵、加几回粮税，将官答“那是户部的事”“我是按条例办事”；邱思甜以登记簿记一笔“请调未准”回敬，争执无果",
+      "old": null,
+      "new": "当面争执、不欢而散"
+    }
+  },
+  {
+    "event_id": "evt-ch13-011",
+    "chapter": 13,
+    "event_type": "promise_paid_off",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
+      "closes_event_id": "evt-ch12-020"
+    }
+  },
+  {
+    "event_id": "evt-ch13-012",
+    "chapter": 13,
+    "event_type": "promise_created",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "张艺宣把内禁医院里随口许下的“宴会”改为二月十一日（邱思甜额上拆线之日）在亲王府后头暖阁的小聚：不请外人、不请乐班，一桌茶点；帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "to_entity": "qiu_sitian",
+      "urgency": 60,
+      "planted_chapter": 13,
+      "expected_payoff": "康建五十年二月十一日",
+      "related_event_id": "evt-ch3-027"
+    }
+  },
+  {
+    "event_id": "evt-ch13-013",
+    "chapter": 13,
+    "event_type": "open_loop_created",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "loop_type": "情感暗线",
+      "unanswered_question": "周君州能否赴十一日小聚？张艺宣、邱思甜、周君州三人的心事将如何碰面？",
+      "urgency": 60,
+      "planted_chapter": 13,
+      "expected_payoff": "二月十一日小聚"
+    }
+  },
+  {
+    "event_id": "evt-ch13-014",
+    "chapter": 13,
+    "event_type": "relationship_changed",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "粥棚共事，私下互称名字，他的疏远只落在举动上",
+      "change": "私下互称“思甜”“书淮”（旁人前仍是“王爷”“邱大人”）。张书淮五日在西市馄饨摊听广播得知她重伤，碗没吃完就走，后来也没去王家探望；本章见她来，走到三四步外站住，开口叫“思甜”问伤；她说广播连他的封号都念了，“你还是这样。做了什么，自己从来不往外说，倒要旁人替你念出去”，他窘而不接话；不问她去参谋本部做什么；她写签手抖，他接笔替她写，她念他写；他亲自劝挤在前头的汉子排队，她念下一户号时声音轻了；她每吩咐完一件事总回头看他是否点头，他每回都点头随即转身搅锅搬米；日头偏西他端茶走了两步又停下，叫侍从送给“邱大人”；收工后锅边她叫“书淮”，说出讨草稿未果、草稿作废，但不肯说条款内容；他说“大哥那里，我说不上话”，她说没想叫他去说，只是不想回去躺着；看见她纱布渗红，他张了嘴终究没说，低头刷锅；她走后他把锅刷了三遍",
+      "old": "相识",
+      "new": "默契渐生，称呼亲近而举动隔着一步，双方均未说破"
+    }
+  },
+  {
+    "event_id": "evt-ch13-015",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "field": "current_task",
+      "old": null,
+      "new": "带亲王府侍从在城南收治神圣高地伤员的寺前设棚施粥（二月七日午后起，本章为第二天），米有多少买多少、从自己俸禄里支；认得来领粥的街坊（问西街拉车汉子娃前些天那场烧退了没有，问黑脸膛汉子铺子的炉子扒出来没有），凭熟识劝动众人排队；经邱思甜整顿后按京兆府名册一户一签，寺里一锅凭签按户送粥、寺外一锅排队领"
+    }
+  },
+  {
+    "event_id": "evt-ch13-016",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "field": "family_standing",
+      "old": null,
+      "new": "母后三子中两个穿军装、他不穿；不穿军装的他在家里说的话从来没人当回事，自认在大哥（太子）那里说不上话"
+    }
+  },
+  {
+    "event_id": "evt-ch13-017",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "location.current",
+      "old": "王思涵府上（王府）",
+      "new": "宵禁鼓响时乘王家马车离开城南，返回王府途中",
+      "note": "当日行程：王府→程明广场宏飞楼→川椴楼→城南寺前粥棚→回王府；答应护院天黑以前回府"
+    }
+  },
+  {
+    "event_id": "evt-ch13-018",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "injury",
+      "old": "额上缝针，卧床静养中",
+      "new": "额上缝针未拆线（约二月十一日拆线），带伤奔走一整天，下川椴楼时腿软，纱布边渗出淡红"
+    }
+  },
+  {
+    "event_id": "evt-ch13-019",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "waijiaobu_mishu",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "宜华医院（邱思甜至今未能去探望）"
+    }
+  },
+  {
+    "event_id": "evt-ch13-020",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "hongfei_lou",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "靠程明广场一面窗户全换新玻璃、窗框新漆未干；大门关着、门口无人；楼梯红毯多日无人扫；太子新年夜后再未来过，二楼太子办公室门上挂铜锁（五日机要处所挂）；副官经手文书于二月五日上午被川椴楼机要处全部收走"
+    }
+  },
+  {
+    "event_id": "evt-ch13-021",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "field": "current_task",
+      "old": null,
+      "new": "主持中央社晨间、晚间广播（首相府要求吴訥亲王施粥消息连播三天）；筹办十一日小聚：周君州的帖子由中央社跑差送周府交门房，张书淮、邱思甜的帖子在城南粥棚当面递交，王思涵的帖子宵禁前送王家"
+    }
+  },
+  {
+    "event_id": "evt-ch13-022",
+    "chapter": 13,
+    "event_type": "promise_created",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "content": "张书淮在粥棚当众答应：黑脸膛汉子铺子的炉子（还埋在瓦底下）等扒出来，他叫人去帮着搭；寺外一锅排队领“一个都少不了”，米不够他再去买",
+      "urgency": 20,
+      "planted_chapter": 13,
+      "expected_payoff": "神圣高地街坊重建期间"
+    }
+  }
+]

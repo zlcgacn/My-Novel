@@ -1,0 +1,32 @@
+{
+  "chapter": 13,
+  "start_chapter": 13,
+  "end_chapter": 13,
+  "overall_score": 88.0,
+  "dimension_scores": {
+    "continuity": 92.0,
+    "setting": 100.0,
+    "character": 100.0,
+    "timeline": 100.0,
+    "ai_flavor": 100.0,
+    "logic": 96.0,
+    "pacing": 100.0,
+    "other": 100.0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 3
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第13章审查报告.md",
+  "notes": "4个问题：0个阻断，0个高优 | issues=4 | blocking=0 | categories=continuity,logic",
+  "issues_count": 4,
+  "blocking_count": 0,
+  "categories": [
+    "continuity",
+    "logic"
+  ],
+  "timestamp": "2026-10-18T15:57:47"
+}
