@@ -1,0 +1,189 @@
+[
+  {
+    "event_id": "evt-ch10-001",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "lingwu_army",
+    "payload": {
+      "field": "armory_status",
+      "old": "D67在库可用",
+      "new": "枪柜上锁，贴参谋本部封条封存，待清查",
+      "evidence": "第三处探员与参谋本部军械官逐库贴封条"
+    }
+  },
+  {
+    "event_id": "evt-ch10-002",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "location.current",
+      "old": "紫宸殿",
+      "new": "周府"
+    }
+  },
+  {
+    "event_id": "evt-ch10-003",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "location.current",
+      "old": "内禁医院",
+      "new": "王思涵家（王府）"
+    }
+  },
+  {
+    "event_id": "evt-ch10-004",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "injury",
+      "old": "住院养伤",
+      "new": "伤口又裂开些，大夫看过无大碍，受了惊"
+    }
+  },
+  {
+    "event_id": "evt-ch10-005",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "neijin_hospital",
+    "payload": {
+      "field": "status",
+      "old": "正常收治",
+      "new": "也挨了炸，住不得人"
+    }
+  },
+  {
+    "event_id": "evt-ch10-006",
+    "chapter": 10,
+    "event_type": "world_rule_revealed",
+    "subject": "nanjing",
+    "payload": {
+      "rule_content": "京城宵禁：入夜家家闭门，虎贲军巡逻盘查，须亮腰牌方可通行；无腰牌者只能留宿至天明",
+      "rule_category": "治安",
+      "scope": "京城"
+    }
+  },
+  {
+    "event_id": "evt-ch10-007",
+    "chapter": 10,
+    "event_type": "world_rule_revealed",
+    "subject": "civic_assembly",
+    "payload": {
+      "rule_content": "公民议会无权过问京城治安与军事机关事务；代表欲联名上书请准过问，议长不敢递",
+      "rule_category": "政体",
+      "scope": "公民议会"
+    }
+  },
+  {
+    "event_id": "evt-ch10-008",
+    "chapter": 10,
+    "event_type": "world_rule_revealed",
+    "subject": "hubu",
+    "payload": {
+      "rule_content": "商会银钱都要过银号，户部握有银号底账，可调阅",
+      "rule_category": "经济",
+      "scope": "全国商会与银号"
+    }
+  },
+  {
+    "event_id": "evt-ch10-009",
+    "chapter": 10,
+    "event_type": "open_loop_created",
+    "subject": "absent_reformists",
+    "payload": {
+      "content": "改良派密会多人缺席：工部侍郎称染风寒，近卫军两位军长派副官以封枪为由不来，两家报馆主笔没有回音",
+      "loop_type": "人心动向",
+      "unanswered_question": "缺席者是否已与改良派疏离",
+      "urgency": 60,
+      "planted_chapter": 10
+    }
+  },
+  {
+    "event_id": "evt-ch10-010",
+    "chapter": 10,
+    "event_type": "open_loop_created",
+    "subject": "new_year_eve_bombing",
+    "payload": {
+      "content": "灵武军情报组查到新年夜爆炸有军中的人参与，哪一部尚未查明，督察金志文在追",
+      "loop_type": "悬案",
+      "unanswered_question": "参与新年夜爆炸的军中之人属哪一部、是谁",
+      "urgency": 85,
+      "planted_chapter": 10
+    }
+  },
+  {
+    "event_id": "evt-ch10-011",
+    "chapter": 10,
+    "event_type": "promise_created",
+    "subject": "reformist_faction",
+    "payload": {
+      "content": "改良派决定不等第三处与内务本部，自行追查两起爆炸案真凶：王思涵查商会线，户部侍郎调银号底账，议员走访神圣高地四周街坊查马车来路，军长核对领枪册（不许碰枪），金志文追新年夜军中线",
+      "loop_type": "调查",
+      "urgency": 90,
+      "planted_chapter": 10,
+      "expected_payoff": "卷二各条调查线推进"
+    }
+  },
+  {
+    "event_id": "evt-ch10-012",
+    "chapter": 10,
+    "event_type": "open_loop_created",
+    "subject": "reformist_faction",
+    "payload": {
+      "content": "教授警告：第三处借爆炸案查乱党，报馆、学堂、会社都要过筛，文理大学议论朝廷的学生恐被列名，迟早也会查到这次密会",
+      "loop_type": "危机",
+      "unanswered_question": "第三处是否会查到改良派密会",
+      "urgency": 70,
+      "planted_chapter": 10
+    }
+  },
+  {
+    "event_id": "evt-ch10-013",
+    "chapter": 10,
+    "event_type": "relationship_changed",
+    "subject": "vice_minister_of_revenue",
+    "payload": {
+      "to_entity": "first_guards_army_commander",
+      "relationship_type": "派内分歧",
+      "detail": "户部侍郎主张趁圣上疑兵削军人特权、收军费，军长当场发怒；后在周世衡定调下暂且一致"
+    }
+  },
+  {
+    "event_id": "evt-ch10-014",
+    "chapter": 10,
+    "event_type": "relationship_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "情报互通约定",
+      "detail": "王思涵商会线若查到军中之人头一个告诉周君州，周君州灵武军所得亦同样相告；两人仍当面斗嘴"
+    }
+  },
+  {
+    "event_id": "evt-ch10-015",
+    "chapter": 10,
+    "event_type": "promise_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州托王思涵问候邱思甜、叫她好生养着别急着下床，并要求照实转达是他说的；王思涵答应一字不少带到",
+      "loop_type": "感情",
+      "unanswered_question": "邱思甜领不领情",
+      "urgency": 40,
+      "planted_chapter": 10
+    }
+  },
+  {
+    "event_id": "evt-ch10-016",
+    "chapter": 10,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junyao",
+    "payload": {
+      "to_entity": "wang_sihan",
+      "relationship_type": "疏淡",
+      "detail": "周君瑶见到王思涵即收起神色，只微微欠身，一言不发"
+    }
+  }
+]

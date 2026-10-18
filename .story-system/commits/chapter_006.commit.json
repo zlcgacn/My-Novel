@@ -1,0 +1,668 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 6,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_006.json",
+    "review": "chapter_006.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "六辆外表普通的商会马车驶入神圣高地内务本部后，内务本部大楼发生巨大爆炸，大楼被从中间炸断",
+      "冲击波重创对面内禁医院及周围街区，病房内其他病人和护士遇难",
+      "黑衣蒙面武装人员从商会马车中下来，手持半自动步枪见人就杀，神策军溃散",
+      "周君州、邓声宝从院子冲回病房，救出邱思甜、张艺宣、王思涵，三人仅受皮肉伤",
+      "众人在走廊遭流弹，发现黑衣人在医院大门前压制神策军残余警卫",
+      "周君州认出黑衣人所持为试验性D67半自动步枪，邱思甜追问其来源",
+      "周君州、邓声宝决定出去支援神策军，令三人躲在医院内；张艺宣叮嘱周君州当心"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 6,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
+    "review_skipped": true,
+    "review_mode": "import"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "六辆外表普通的商会马车驶入神圣高地内务本部后，内务本部大楼发生巨大爆炸，大楼被从中间炸断",
+      "冲击波重创对面内禁医院及周围街区，病房内其他病人和护士遇难",
+      "黑衣蒙面武装人员从商会马车中下来，手持半自动步枪见人就杀，神策军溃散",
+      "周君州、邓声宝从院子冲回病房，救出邱思甜、张艺宣、王思涵，三人仅受皮肉伤",
+      "众人在走廊遭流弹，发现黑衣人在医院大门前压制神策军残余警卫",
+      "周君州认出黑衣人所持为试验性D67半自动步枪，邱思甜追问其来源",
+      "周君州、邓声宝决定出去支援神策军，令三人躲在医院内；张艺宣叮嘱周君州当心"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch06-001",
+        "chapter": 6,
+        "event_type": "world_rule_revealed",
+        "subject": "divine_heights",
+        "payload": {
+          "rule_content": "神圣高地是南京建城时唯二未被完全铲平的区域（另一处为大明宫所在的皇权高地）；内务本部位于神圣高地，西北2公里为大明宫，正对面为内禁医院，四周为历史悠久的商业街，是皇城内最繁荣的地区。",
+          "rule_category": "地理",
+          "scope": "南京"
+        }
+      },
+      {
+        "event_id": "evt-ch06-002",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "interior_ministry",
+        "payload": {
+          "field": "headquarters.status",
+          "old": "完好",
+          "new": "本部大楼被炸断，仅余不到五分之一",
+          "cause": "六辆外表普通的商会马车驶入内务本部后发生巨大爆炸"
+        }
+      },
+      {
+        "event_id": "evt-ch06-003",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "neijin_hospital",
+        "payload": {
+          "field": "status",
+          "old": "完好",
+          "new": "主体结构被冲击波基本破坏"
+        }
+      },
+      {
+        "event_id": "evt-ch06-004",
+        "chapter": 6,
+        "event_type": "open_loop_created",
+        "subject": "black_clad_gunmen",
+        "payload": {
+          "content": "神圣高地爆炸后，一群统一穿黑色上衣、头戴黑色面具、手持全新半自动步枪的武装人员从商会马车中下来见人就杀，身份不明。",
+          "loop_type": "身份之谜",
+          "unanswered_question": "黑衣蒙面武装人员是谁？",
+          "urgency": 100,
+          "planted_chapter": 6
+        }
+      },
+      {
+        "event_id": "evt-ch06-005",
+        "chapter": 6,
+        "event_type": "open_loop_created",
+        "subject": "d67_rifle",
+        "payload": {
+          "content": "黑衣人手持的是试验性D67半自动步枪，连灵武军也只有部分单位装备；邱思甜追问这些人是怎么拿到的，邓声宝称要活着离开才能知道。",
+          "loop_type": "线索",
+          "unanswered_question": "袭击者从哪里拿到试装阶段的D67半自动步枪？",
+          "urgency": 60,
+          "planted_chapter": 6
+        }
+      },
+      {
+        "event_id": "evt-ch06-006",
+        "chapter": 6,
+        "event_type": "world_rule_revealed",
+        "subject": "d67_rifle",
+        "payload": {
+          "rule_content": "D67式半自动步枪是实验性武器，灵武军也才装备了一部分单位；其火力能完全压制装备栓动步枪的神策军，以往任意一款步枪都不是对手。",
+          "rule_category": "军械",
+          "scope": "帝国军队"
+        }
+      },
+      {
+        "event_id": "evt-ch06-007",
+        "chapter": 6,
+        "event_type": "open_loop_created",
+        "subject": "zhou_junzhou",
+        "payload": {
+          "content": "周君州、邓声宝持C93半自动手枪出医院，去支援在医院大门前被五六个黑衣人压制的神策军残余警卫；邱思甜、张艺宣、王思涵留在医院内躲避。",
+          "loop_type": "战斗悬念",
+          "unanswered_question": "周君州与邓声宝能否击退医院门前的黑衣人，把三人安全送出？",
+          "urgency": 100,
+          "planted_chapter": 6,
+          "expected_payoff": "下一章"
+        }
+      },
+      {
+        "event_id": "evt-ch06-008",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "shence_army",
+        "payload": {
+          "field": "status",
+          "old": "驻守神圣高地",
+          "new": "遭袭溃散，残余警卫在医院门前被压制"
+        }
+      },
+      {
+        "event_id": "evt-ch06-009",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "qiu_sitian",
+        "payload": {
+          "field": "injury",
+          "old": "昨晚爆炸中受伤",
+          "new": "昨晚伤未愈，又在内禁医院爆炸中被震飞，添皮肉伤"
+        }
+      },
+      {
+        "event_id": "evt-ch06-010",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "zhang_yixuan",
+        "payload": {
+          "field": "injury",
+          "old": "无",
+          "new": "内禁医院爆炸中受皮肉伤"
+        }
+      },
+      {
+        "event_id": "evt-ch06-011",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "wang_sihan",
+        "payload": {
+          "field": "injury",
+          "old": "无",
+          "new": "内禁医院爆炸中受皮肉伤"
+        }
+      },
+      {
+        "event_id": "evt-ch06-012",
+        "chapter": 6,
+        "event_type": "relationship_changed",
+        "subject": "zhang_yixuan",
+        "payload": {
+          "to_entity": "zhou_junzhou",
+          "relationship_type": "关切",
+          "description": "周君州出发前，张艺宣叫住他说“你也当心”，周君州回“我心里有数”。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "qiu_sitian",
+        "field": "location.current",
+        "old": "内禁医院病房",
+        "new": "内禁医院走廊（留在医院内躲避）"
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "field": "location.current",
+        "old": "内禁医院病房",
+        "new": "内禁医院走廊（留在医院内躲避）"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "location.current",
+        "old": "内禁医院病房",
+        "new": "内禁医院走廊（留在医院内躲避）"
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "location.current",
+        "old": "内禁医院院子",
+        "new": "内禁医院（正出发前往医院大门前街道支援神策军）"
+      },
+      {
+        "entity_id": "deng_shengbao",
+        "field": "location.current",
+        "old": "内禁医院院子",
+        "new": "内禁医院（正出发前往医院大门前街道支援神策军）"
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "field": "injury",
+        "old": "昨晚爆炸中受伤",
+        "new": "昨晚伤未愈，又在内禁医院爆炸中被震飞，添皮肉伤"
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "field": "injury",
+        "old": "无",
+        "new": "内禁医院爆炸中受皮肉伤"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "injury",
+        "old": "无",
+        "new": "内禁医院爆炸中受皮肉伤"
+      },
+      {
+        "entity_id": "interior_ministry",
+        "field": "headquarters.status",
+        "old": "完好",
+        "new": "本部大楼被炸断，仅余不到五分之一"
+      },
+      {
+        "entity_id": "neijin_hospital",
+        "field": "status",
+        "old": "完好",
+        "new": "主体结构被冲击波基本破坏"
+      },
+      {
+        "entity_id": "shence_army",
+        "field": "status",
+        "old": "驻守神圣高地",
+        "new": "遭袭溃散，残余警卫在医院门前被压制"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "zhou_junzhou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "周君州",
+          "title": "近卫灵武军军长",
+          "weapon": "C93半自动手枪"
+        }
+      },
+      {
+        "entity_id": "deng_shengbao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邓声宝",
+          "title": "灵武军副军长",
+          "weapon": "C93半自动手枪",
+          "note": "爆炸前一晚刚去过内务本部"
+        }
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱思甜",
+          "title": "外交部长"
+        }
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "张艺宣",
+          "aliases": [
+            "小宣"
+          ]
+        }
+      },
+      {
+        "entity_id": "wang_sihan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王思涵",
+          "aliases": [
+            "大小姐"
+          ]
+        }
+      },
+      {
+        "entity_id": "interior_ministry",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "内务本部",
+          "location": "divine_heights",
+          "status": "本部大楼被炸断，仅余不到五分之一"
+        }
+      },
+      {
+        "entity_id": "shence_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "神策军",
+          "uniform": "深蓝色大衣，蓝色大檐帽绣红色帝国鹰",
+          "weapon": "栓动步枪"
+        }
+      },
+      {
+        "entity_id": "lingwu_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "灵武军",
+          "equipment_note": "部分单位装备D67半自动步枪"
+        }
+      },
+      {
+        "entity_id": "black_clad_gunmen",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "黑衣蒙面武装人员",
+          "description": "统一穿黑色上衣、头戴黑色面具、手持全新D67半自动步枪，从驶入内务本部的商会马车中下来，见人就杀；身份不明",
+          "first_appearance": 6
+        }
+      },
+      {
+        "entity_id": "dongqin",
+        "action": "upsert",
+        "entity_type": "势力",
+        "payload": {
+          "name": "东秦",
+          "description": "与帝国交战的敌国"
+        }
+      },
+      {
+        "entity_id": "nanjing",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "南京"
+        }
+      },
+      {
+        "entity_id": "divine_heights",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "神圣高地",
+          "parent": "nanjing",
+          "description": "建城时唯二未被完全铲平的区域之一，内务本部所在地；周围为历史悠久的商业街，皇城内最繁荣地区",
+          "status": "遭爆炸与屠杀，建筑几乎完全倒塌"
+        }
+      },
+      {
+        "entity_id": "neijin_hospital",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "内禁医院",
+          "full_name": "内卫禁军附属医院",
+          "parent": "divine_heights",
+          "description": "位于内务本部正对面",
+          "status": "主体结构被冲击波基本破坏"
+        }
+      },
+      {
+        "entity_id": "daming_palace",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "大明宫",
+          "description": "帝国皇宫，位于皇权高地，在内务本部西北面2公里",
+          "parent": "imperial_heights"
+        }
+      },
+      {
+        "entity_id": "imperial_heights",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "皇权高地",
+          "parent": "nanjing",
+          "description": "南京建城时唯二未被完全铲平的区域之一，大明宫所在地"
+        }
+      },
+      {
+        "entity_id": "d67_rifle",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "D67式半自动步枪",
+          "description": "实验性武器，灵武军仅部分单位装备；火力远胜以往各款步枪",
+          "seen_with": "black_clad_gunmen"
+        }
+      },
+      {
+        "entity_id": "c93_pistol",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "C93半自动手枪",
+          "description": "全新半自动手枪，周君州、邓声宝各持一把",
+          "owner": [
+            "zhou_junzhou",
+            "deng_shengbao"
+          ]
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "zhou_junzhou",
+        "type": "角色",
+        "mentions": [
+          "周君州",
+          "将军",
+          "君州"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "deng_shengbao",
+        "type": "角色",
+        "mentions": [
+          "邓声宝"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "qiu_sitian",
+        "type": "角色",
+        "mentions": [
+          "邱思甜"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhang_yixuan",
+        "type": "角色",
+        "mentions": [
+          "张艺宣",
+          "小宣"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "wang_sihan",
+        "type": "角色",
+        "mentions": [
+          "王思涵",
+          "大小姐"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "interior_ministry",
+        "type": "组织",
+        "mentions": [
+          "内务本部"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "shence_army",
+        "type": "组织",
+        "mentions": [
+          "神策军",
+          "神策军卫兵",
+          "残余警卫"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "lingwu_army",
+        "type": "组织",
+        "mentions": [
+          "灵武军",
+          "警卫营"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "black_clad_gunmen",
+        "type": "组织",
+        "mentions": [
+          "恐怖分子",
+          "黑衣人",
+          "枪手"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "dongqin",
+        "type": "势力",
+        "mentions": [
+          "东秦"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "nanjing",
+        "type": "地点",
+        "mentions": [
+          "南京城",
+          "皇城"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "divine_heights",
+        "type": "地点",
+        "mentions": [
+          "神圣高地"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "neijin_hospital",
+        "type": "地点",
+        "mentions": [
+          "内卫禁军附属医院",
+          "医院"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "daming_palace",
+        "type": "地点",
+        "mentions": [
+          "大明宫"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "imperial_heights",
+        "type": "地点",
+        "mentions": [
+          "皇权高地"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "d67_rifle",
+        "type": "物品",
+        "mentions": [
+          "D67式半自动步枪",
+          "半自动步枪"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "c93_pistol",
+        "type": "物品",
+        "mentions": [
+          "C93半自动手枪"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 7,
+        "location": "神圣高地·内务本部",
+        "summary": "六辆商会马车驶入内务本部后大楼爆炸被炸断，黑衣蒙面武装人员下车屠杀，神策军溃散。",
+        "characters": [
+          "black_clad_gunmen",
+          "shence_army"
+        ],
+        "content": "六辆外表普通的商会马车驶入神圣高地内务本部，随即巨响，大楼从中间炸断，仅余不到五分之一，内禁医院与周边街区重创。黑衣蒙面武装人员持全新半自动步枪从马车下来见人就杀，神策军四散溃逃。"
+      },
+      {
+        "index": 2,
+        "start_line": 9,
+        "end_line": 37,
+        "location": "内禁医院病房",
+        "summary": "周君州、邓声宝冲回病房救出邱思甜、张艺宣、王思涵，三人只受皮肉伤，众人判断爆炸中心在内务本部。",
+        "characters": [
+          "zhou_junzhou",
+          "deng_shengbao",
+          "qiu_sitian",
+          "zhang_yixuan",
+          "wang_sihan"
+        ],
+        "content": "冲击波破坏医院主体结构。周君州、邓声宝从院子冲回楼上，撞开被柜子堵住的病房门，在烟尘中找出三人，三人只受皮肉伤，其余病人和护士遇难。周君州判断是恐怖袭击、爆炸中心在内务本部。"
+      },
+      {
+        "index": 3,
+        "start_line": 39,
+        "end_line": 60,
+        "location": "内禁医院走廊",
+        "summary": "五人在走廊遭流弹，见黑衣人以D67压制神策军残余警卫，邓声宝请战。",
+        "characters": [
+          "zhou_junzhou",
+          "deng_shengbao",
+          "qiu_sitian",
+          "zhang_yixuan",
+          "wang_sihan",
+          "black_clad_gunmen",
+          "shence_army"
+        ],
+        "content": "五人见神圣高地尽成废墟，邓声宝说昨晚刚去过内务本部。流弹打在窗边，周君州扑倒众人。医院门前五六个黑衣人压制神策军残余警卫，周君州认出是试验性D67半自动步枪，邱思甜追问来源，邓声宝持C93手枪请战。"
+      },
+      {
+        "index": 4,
+        "start_line": 61,
+        "end_line": 77,
+        "location": "内禁医院走廊",
+        "summary": "周君州让三人躲在医院里，托张艺宣、王思涵照顾邱思甜；张艺宣叮嘱他当心。",
+        "characters": [
+          "zhou_junzhou",
+          "deng_shengbao",
+          "qiu_sitian",
+          "zhang_yixuan",
+          "wang_sihan"
+        ],
+        "content": "周君州决定与邓声宝出去支援神策军，嘱咐三人躲在医院内别露头，让张艺宣和王思涵照顾昨晚受伤的邱思甜。临走时张艺宣叫住他说“你也当心”，周君州回“我心里有数”。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "神圣高地遇袭",
+    "summary_text": "六辆商会马车驶入神圣高地内务本部后，大楼爆炸被拦腰炸断，对面内禁医院主体结构被毁。黑衣蒙面武装人员持半自动步枪下车屠杀，神策军溃散。周君州、邓声宝救出邱思甜、张艺宣、王思涵，三人仅受皮肉伤。周君州认出黑衣人所持为试验性D67步枪，邱思甜追问来源。周君州、邓声宝决定出去支援神策军，张艺宣叮嘱他当心。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

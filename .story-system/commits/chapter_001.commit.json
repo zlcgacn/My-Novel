@@ -1,0 +1,1034 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 1,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_001.json",
+    "review": "chapter_001.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "新年夜开场：京城张灯结彩，筹备皇帝登基五十周年庆典，光淮门外兄弟放烟花",
+      "兴庆门城楼：张永怀俯视阅兵彩排，盯着观礼台上的周君州握紧佩剑",
+      "观礼台：周君州与张艺宣并肩看彩排，张艺宣提庆典广播并欲言又止",
+      "西市云中市：张书淮受神策军上尉轻慢，与嬴武玥疏散失控人潮",
+      "光淮门城楼：王思涵与礼部尚书争论庆典是否悬挂国教明灯，待与首相商议",
+      "驿站广场：邱深澳随同僚进京送第五军年终军务报告，失口提及外交部部长，遭联络官嘲讽，前往参谋本部"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 1,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
+    "review_skipped": true,
+    "review_mode": "import"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "新年夜开场：京城张灯结彩，筹备皇帝登基五十周年庆典，光淮门外兄弟放烟花",
+      "兴庆门城楼：张永怀俯视阅兵彩排，盯着观礼台上的周君州握紧佩剑",
+      "观礼台：周君州与张艺宣并肩看彩排，张艺宣提庆典广播并欲言又止",
+      "西市云中市：张书淮受神策军上尉轻慢，与嬴武玥疏散失控人潮",
+      "光淮门城楼：王思涵与礼部尚书争论庆典是否悬挂国教明灯，待与首相商议",
+      "驿站广场：邱深澳随同僚进京送第五军年终军务报告，失口提及外交部部长，遭联络官嘲讽，前往参谋本部"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch001-001",
+        "chapter": 1,
+        "event_type": "world_rule_revealed",
+        "subject": "huainan_diguo",
+        "payload": {
+          "rule_content": "淮南帝国以皇帝年号纪年，康建五十年立国满一百五十四年；康建五十年二月四日为新年头一天，按老规矩日落时分放烟火；本年二月逢皇帝登基五十周年大庆与皇太子生辰。",
+          "rule_category": "历法节庆",
+          "scope": "全国"
+        }
+      },
+      {
+        "event_id": "evt-ch001-002",
+        "chapter": 1,
+        "event_type": "world_rule_revealed",
+        "subject": "state_church",
+        "payload": {
+          "rule_content": "帝国国教新年伊始有明灯游行传统，信众手持明灯照亮长安大街、为帝国与自身祈福；京城百人中少说八十人信奉国教。皇帝是无神论者、不信国教，但仍需搞好与国教太师的关系。",
+          "rule_category": "宗教",
+          "scope": "京城"
+        }
+      },
+      {
+        "event_id": "evt-ch001-003",
+        "chapter": 1,
+        "event_type": "world_rule_revealed",
+        "subject": "lingwu_army",
+        "payload": {
+          "rule_content": "灵武军将官礼服为红黑两色，黑色高立领配大红矢车菊领章；军徽为金色双头鹰，胸前护刻古篆“止”字的盾牌，身后竖长戈，“止”“戈”合而为“武”。",
+          "rule_category": "军制服饰",
+          "scope": "灵武军"
+        }
+      },
+      {
+        "event_id": "evt-ch001-004",
+        "chapter": 1,
+        "event_type": "world_rule_revealed",
+        "subject": "huainan_diguo",
+        "payload": {
+          "rule_content": "爵位与身份以胸针标识：带皇帝冠冕的灰色刀剑十字胸针为公爵标识；带皇后冠冕的红琉璃花胸针标明亲王之女身份。羽林军军官着原野灰立领野战服、金色仲卿花刺绣、双头鹰黑灰色大檐帽。",
+          "rule_category": "礼制服饰",
+          "scope": "全国"
+        }
+      },
+      {
+        "event_id": "evt-ch001-005",
+        "chapter": 1,
+        "event_type": "world_rule_revealed",
+        "subject": "d67_rifle",
+        "payload": {
+          "rule_content": "禁卫军阅兵彩排方阵肩扛今年才开始试装的新式步枪，全京城只有寥寥几支部队拿到。",
+          "rule_category": "军备",
+          "scope": "京城"
+        }
+      },
+      {
+        "event_id": "evt-ch001-006",
+        "chapter": 1,
+        "event_type": "open_loop_created",
+        "subject": "zhang_yonghuai",
+        "payload": {
+          "content": "张永怀在兴庆门城楼上盯着观礼台上的周君州，右手死死握住佩剑，低声念出其名字，指节发白；正文未交代缘由。",
+          "loop_type": "人物关系悬念",
+          "unanswered_question": "张永怀为何对周君州显露这种神情？",
+          "urgency": 60,
+          "planted_chapter": 1
+        }
+      },
+      {
+        "event_id": "evt-ch001-007",
+        "chapter": 1,
+        "event_type": "promise_created",
+        "subject": "zhang_yixuan",
+        "payload": {
+          "content": "张艺宣说庆典当天由她在广播中播报，灵武军方阵通过康建广场时要好好介绍一番。",
+          "expected_payoff": "登基五十周年庆典阅兵",
+          "planted_chapter": 1
+        }
+      },
+      {
+        "event_id": "evt-ch001-008",
+        "chapter": 1,
+        "event_type": "open_loop_created",
+        "subject": "zhang_yixuan",
+        "payload": {
+          "content": "张艺宣看了周君州一眼，似乎还想说些什么，最后把话咽了回去。",
+          "loop_type": "情感悬念",
+          "unanswered_question": "张艺宣想对周君州说什么？",
+          "urgency": 20,
+          "planted_chapter": 1
+        }
+      },
+      {
+        "event_id": "evt-ch001-009",
+        "chapter": 1,
+        "event_type": "relationship_changed",
+        "subject": "zhou_junzhou",
+        "payload": {
+          "to_entity": "zhang_yixuan",
+          "relationship_type": "熟识亲近",
+          "note": "同在观礼台看彩排，她直呼“君州”并玩笑调侃，他称她“公主殿下”。"
+        }
+      },
+      {
+        "event_id": "evt-ch001-010",
+        "chapter": 1,
+        "event_type": "character_state_changed",
+        "subject": "zhang_shuhuai",
+        "payload": {
+          "field": "reputation",
+          "old": null,
+          "new": "西市百姓称其“平民亲王”；新年夜凭此名号劝散云中市街口人潮"
+        }
+      },
+      {
+        "event_id": "evt-ch001-011",
+        "chapter": 1,
+        "event_type": "relationship_changed",
+        "subject": "zhang_shuhuai",
+        "payload": {
+          "to_entity": "shence_shangwei",
+          "relationship_type": "受其轻慢",
+          "note": "神策军上尉认出亲王却不起身行礼，言语轻蔑；嬴武玥欲理论，被张书淮按下。嬴武玥话中提到张书淮从来不穿军装。"
+        }
+      },
+      {
+        "event_id": "evt-ch001-012",
+        "chapter": 1,
+        "event_type": "open_loop_created",
+        "subject": "wang_sihan",
+        "payload": {
+          "content": "庆典上是否悬挂国教明灯悬而未决：王思涵主张悬挂，礼部尚书以皇帝是无神论者为由反对；王思涵称待与首相商议后再定，并思考如何劝首相支持自己。",
+          "loop_type": "政务争议",
+          "unanswered_question": "首相是否支持王思涵、庆典是否悬挂国教明灯？",
+          "urgency": 60,
+          "planted_chapter": 1,
+          "expected_payoff": "庆典筹备"
+        }
+      },
+      {
+        "event_id": "evt-ch001-013",
+        "chapter": 1,
+        "event_type": "relationship_changed",
+        "subject": "wang_sihan",
+        "payload": {
+          "to_entity": "jun_fang",
+          "relationship_type": "政治对立（传闻）",
+          "note": "邱深澳的同僚称听说王思涵同军方很不对付，一直上书要削减军人的特权。"
+        }
+      },
+      {
+        "event_id": "evt-ch001-014",
+        "chapter": 1,
+        "event_type": "relationship_changed",
+        "subject": "wang_sihan",
+        "payload": {
+          "to_entity": "qiu_sitian",
+          "relationship_type": "亲戚（传闻）",
+          "note": "同僚称听说王思涵同外交部部长是亲戚，外交部部长与皇室关系很近。"
+        }
+      },
+      {
+        "event_id": "evt-ch001-015",
+        "chapter": 1,
+        "event_type": "open_loop_created",
+        "subject": "qiu_shenao",
+        "payload": {
+          "content": "听到王思涵是外交部部长的亲戚时，邱深澳脱口说出“外交部部长的亲戚，我怎么没……”，被同僚追问是否认识外交部部长，随即改口“没什么，怎么可能”。",
+          "loop_type": "人物关系悬念",
+          "unanswered_question": "邱深澳与外交部部长是什么关系？",
+          "urgency": 40,
+          "planted_chapter": 1
+        }
+      },
+      {
+        "event_id": "evt-ch001-016",
+        "chapter": 1,
+        "event_type": "relationship_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "to_entity": "liaison_officer",
+          "relationship_type": "互有敌意",
+          "note": "联络官（参谋本部中校、山地伯爵）嘲讽邱深澳的军衔与怠慢；邱深澳心里骂他“不过是条皇帝的走狗”。"
+        }
+      },
+      {
+        "event_id": "evt-ch001-017",
+        "chapter": 1,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "location.current",
+          "old": null,
+          "new": "南京光淮门驿站广场，随联络官乘马车前往参谋本部"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "qiu_shenao",
+        "field": "location.current",
+        "old": null,
+        "new": "南京光淮门驿站广场，随联络官乘马车前往参谋本部"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "position",
+        "old": null,
+        "new": "羽林军第五军参谋，少校"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "current_task",
+        "old": null,
+        "new": "随同僚进京，向参谋本部送第五军年终军务报告"
+      },
+      {
+        "entity_id": "colleague_fifth_army",
+        "field": "position",
+        "old": null,
+        "new": "羽林军第五军参谋，上尉"
+      },
+      {
+        "entity_id": "colleague_fifth_army",
+        "field": "location.current",
+        "old": null,
+        "new": "南京光淮门驿站广场，随联络官前往参谋本部"
+      },
+      {
+        "entity_id": "liaison_officer",
+        "field": "position",
+        "old": null,
+        "new": "参谋本部联络官，中校，帝国山地伯爵"
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "location.current",
+        "old": null,
+        "new": "南京皇城兴庆门城楼前观礼台（观看阅兵彩排）"
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "position",
+        "old": null,
+        "new": "近卫灵武军军长，中将，帝国公爵"
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "field": "honors",
+        "old": null,
+        "new": "白武一级军功勋章"
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "field": "location.current",
+        "old": null,
+        "new": "南京皇城兴庆门城楼前观礼台（观看阅兵彩排）"
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "field": "position",
+        "old": null,
+        "new": "帝国中央社广播站主播；亲王之女（公主）"
+      },
+      {
+        "entity_id": "zhang_yonghuai",
+        "field": "location.current",
+        "old": null,
+        "new": "南京大明宫兴庆门城楼"
+      },
+      {
+        "entity_id": "zhang_yonghuai",
+        "field": "position",
+        "old": null,
+        "new": "羽林军大元帅、参谋本部副参谋总长、镇秦王"
+      },
+      {
+        "entity_id": "zhang_yonghuai",
+        "field": "injury",
+        "old": null,
+        "new": "左半边脸有早年战场旧伤，容貌被毁"
+      },
+      {
+        "entity_id": "zhang_shuhuai",
+        "field": "location.current",
+        "old": null,
+        "new": "南京云中市街口（疏散人潮后）"
+      },
+      {
+        "entity_id": "zhang_shuhuai",
+        "field": "reputation",
+        "old": null,
+        "new": "西市百姓称其“平民亲王”；新年夜凭此名号劝散云中市街口人潮"
+      },
+      {
+        "entity_id": "ying_wuyue",
+        "field": "location.current",
+        "old": null,
+        "new": "南京云中市街口"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "location.current",
+        "old": null,
+        "new": "南京南城门光淮门城楼"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "position",
+        "old": null,
+        "new": "尚书省右仆射（右丞相），帝国伯爵"
+      },
+      {
+        "entity_id": "wang_sihan",
+        "field": "honors",
+        "old": null,
+        "new": "二级帝国政府官员荣誉十字奖章"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "qiu_shenao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱深澳",
+          "identity": "羽林军第五军参谋，少校"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "colleague_fifth_army",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱深澳的同僚",
+          "identity": "羽林军第五军参谋，上尉"
+        }
+      },
+      {
+        "entity_id": "liaison_officer",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "联络官",
+          "identity": "参谋本部联络官，中校，帝国山地伯爵"
+        }
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "周君州",
+          "identity": "近卫灵武军军长，中将，帝国公爵"
+        }
+      },
+      {
+        "entity_id": "zhang_yixuan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "张艺宣",
+          "aliases": [
+            "公主殿下"
+          ],
+          "identity": "帝国中央社广播站主播，亲王之女"
+        }
+      },
+      {
+        "entity_id": "zhang_yonghuai",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "张永怀",
+          "aliases": [
+            "二王子",
+            "镇秦王"
+          ],
+          "identity": "羽林军大元帅、参谋本部副参谋总长、镇秦王"
+        }
+      },
+      {
+        "entity_id": "zhang_shuhuai",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "张书淮",
+          "aliases": [
+            "吴訥亲王",
+            "平民亲王",
+            "王爷"
+          ],
+          "identity": "吴訥亲王"
+        }
+      },
+      {
+        "entity_id": "ying_wuyue",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "嬴武玥",
+          "identity": "张书淮的同伴"
+        }
+      },
+      {
+        "entity_id": "wang_sihan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王思涵",
+          "aliases": [
+            "右丞相"
+          ],
+          "identity": "尚书省右仆射，帝国伯爵"
+        }
+      },
+      {
+        "entity_id": "minister_of_rites",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "礼部尚书"
+        }
+      },
+      {
+        "entity_id": "shence_shangwei",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "神策军上尉",
+          "identity": "西市街口神策军岗哨指挥官"
+        }
+      },
+      {
+        "entity_id": "shence_shaowei",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "神策军少尉",
+          "identity": "带兵在云中市街口结人墙"
+        }
+      },
+      {
+        "entity_id": "huainan_diguo",
+        "action": "upsert",
+        "entity_type": "势力",
+        "payload": {
+          "name": "淮南帝国"
+        }
+      },
+      {
+        "entity_id": "state_church",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "帝国国教"
+        }
+      },
+      {
+        "entity_id": "central_news_agency",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "帝国中央社",
+          "note": "下设广播站"
+        }
+      },
+      {
+        "entity_id": "jun_fang",
+        "action": "upsert",
+        "entity_type": "势力",
+        "payload": {
+          "name": "军方",
+          "note": "帝国军方整体（泛称）"
+        }
+      },
+      {
+        "entity_id": "guanghuai_men",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "光淮门",
+          "note": "南京南城门，门前有驿站广场"
+        }
+      },
+      {
+        "entity_id": "xingqing_gate",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "兴庆门",
+          "note": "皇城大明宫兴庆门城楼，楼下为康建广场与观礼台"
+        }
+      },
+      {
+        "entity_id": "kangjian_guangchang",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "康建广场",
+          "note": "兴庆门城楼下，登基庆典阅兵场"
+        }
+      },
+      {
+        "entity_id": "xi_shi",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "西市",
+          "note": "南京城最热闹的市井街区"
+        }
+      },
+      {
+        "entity_id": "yunzhong_shi",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "云中市",
+          "note": "广场三面铺子，仅南边一条街进出"
+        }
+      },
+      {
+        "entity_id": "changan_dajie",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "长安大街",
+          "note": "两旁贵族官邸；明灯游行路线"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "qiu_shenao",
+        "type": "角色",
+        "mentions": [
+          "邱深澳",
+          "长官"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "colleague_fifth_army",
+        "type": "角色",
+        "mentions": [
+          "同僚",
+          "羽林军军官"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "liaison_officer",
+        "type": "角色",
+        "mentions": [
+          "联络官",
+          "参谋本部联络官"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhou_junzhou",
+        "type": "角色",
+        "mentions": [
+          "周君州",
+          "君州"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhang_yixuan",
+        "type": "角色",
+        "mentions": [
+          "张艺宣",
+          "公主殿下"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhang_yonghuai",
+        "type": "角色",
+        "mentions": [
+          "张永怀",
+          "二王子",
+          "镇秦王"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "zhang_shuhuai",
+        "type": "角色",
+        "mentions": [
+          "张书淮",
+          "吴訥亲王",
+          "平民亲王",
+          "王爷",
+          "书淮"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "ying_wuyue",
+        "type": "角色",
+        "mentions": [
+          "嬴武玥",
+          "武玥"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "wang_sihan",
+        "type": "角色",
+        "mentions": [
+          "王思涵",
+          "右丞相",
+          "尚书省右仆射"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "minister_of_rites",
+        "type": "角色",
+        "mentions": [
+          "礼部尚书"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "shence_shangwei",
+        "type": "角色",
+        "mentions": [
+          "神策军上尉",
+          "上尉"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "shence_shaowei",
+        "type": "角色",
+        "mentions": [
+          "神策军少尉"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "emperor",
+        "type": "角色",
+        "mentions": [
+          "皇帝陛下",
+          "当今圣上",
+          "陛下"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "crown_prince",
+        "type": "角色",
+        "mentions": [
+          "皇太子殿下"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "prime_minister",
+        "type": "角色",
+        "mentions": [
+          "首相大人"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "qiu_sitian",
+        "type": "角色",
+        "mentions": [
+          "外交部部长"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "yulin_army",
+        "type": "组织",
+        "mentions": [
+          "羽林军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "fifth_army",
+        "type": "组织",
+        "mentions": [
+          "羽林军第五军",
+          "第五军团"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "general_staff",
+        "type": "组织",
+        "mentions": [
+          "参谋本部"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "lingwu_army",
+        "type": "组织",
+        "mentions": [
+          "近卫灵武军",
+          "灵武军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "forbidden_guards",
+        "type": "组织",
+        "mentions": [
+          "禁卫军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "shence_army",
+        "type": "组织",
+        "mentions": [
+          "神策军"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "prime_minister_office",
+        "type": "组织",
+        "mentions": [
+          "首相府"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "huainan_diguo",
+        "type": "势力",
+        "mentions": [
+          "淮南帝国",
+          "帝国"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "state_church",
+        "type": "组织",
+        "mentions": [
+          "帝国国教",
+          "国教"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "central_news_agency",
+        "type": "组织",
+        "mentions": [
+          "帝国中央社"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "jun_fang",
+        "type": "势力",
+        "mentions": [
+          "军方"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "nanjing",
+        "type": "地点",
+        "mentions": [
+          "南京",
+          "京城"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "guanghuai_men",
+        "type": "地点",
+        "mentions": [
+          "光淮门"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "xingqing_gate",
+        "type": "地点",
+        "mentions": [
+          "兴庆门",
+          "大明宫兴庆门城楼"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "kangjian_guangchang",
+        "type": "地点",
+        "mentions": [
+          "康建广场"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "xi_shi",
+        "type": "地点",
+        "mentions": [
+          "西市"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "yunzhong_shi",
+        "type": "地点",
+        "mentions": [
+          "云中市"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "changan_dajie",
+        "type": "地点",
+        "mentions": [
+          "长安大街"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "d67_rifle",
+        "type": "物品",
+        "mentions": [
+          "新式步枪",
+          "新枪"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 27,
+        "location": "南京光淮门外驿站广场",
+        "summary": "康建五十年新年夜，京城张灯结彩；一对兄弟在光淮门外放特制烟花。",
+        "characters": [],
+        "content": "康建五十年二月四日新年头一天，南京城灯笼彩楼遍布，今年又逢皇帝登基五十周年大庆与皇太子生辰。光淮门外驿站广场，十岁的弟弟执意亲手点燃特制烟花，点完却愣在原地，被哥哥一把拉开，烟火冲天炸开。"
+      },
+      {
+        "index": 2,
+        "start_line": 29,
+        "end_line": 55,
+        "location": "大明宫兴庆门城楼及楼下观礼台",
+        "summary": "张永怀在城楼上俯视阅兵彩排，盯着观礼台上的周君州握紧佩剑；周君州与张艺宣并肩看彩排、闲谈。",
+        "characters": [
+          "zhang_yonghuai",
+          "zhou_junzhou",
+          "zhang_yixuan"
+        ],
+        "content": "张永怀倚城楼女墙俯视康建广场阅兵彩排，禁卫军方阵扛着今年试装的新式步枪。观礼台上周君州身着灵武军将官礼服，张艺宣说庆典由她广播并玩笑调侃他，欲言又止。张永怀盯着周君州低声念其名，右手死握佩剑。"
+      },
+      {
+        "index": 3,
+        "start_line": 57,
+        "end_line": 107,
+        "location": "南京西市至云中市街口",
+        "summary": "张书淮与嬴武玥在西市吃馄饨，遇云中市演唱会人潮失控，受神策军上尉轻慢后组织疏散，避免踩踏。",
+        "characters": [
+          "zhang_shuhuai",
+          "ying_wuyue",
+          "shence_shangwei",
+          "shence_shaowei"
+        ],
+        "content": "平民亲王张书淮与嬴武玥在西市馄饨摊，见人潮涌向云中市海外演唱会。神策军上尉认出亲王却不行礼，派两名警察带路。张书淮让嬴武玥从后巷开铺子后门放人，自己在街口登阶高喊劝人去长安大街看明灯游行，人潮散去。"
+      },
+      {
+        "index": 4,
+        "start_line": 109,
+        "end_line": 121,
+        "location": "南京南城门光淮门城楼",
+        "summary": "明灯游行绵延长安大街；王思涵与礼部尚书争论庆典是否悬挂国教明灯，决定待与首相商议。",
+        "characters": [
+          "wang_sihan",
+          "minister_of_rites"
+        ],
+        "content": "长安大街上国教信众手持明灯游行祈福。光淮门城楼上，首相府官员为庆典悬挂明灯发愁：王思涵主张顺应国教影响力悬挂，礼部尚书以皇帝是无神论者反对。王思涵散会，思考如何说服首相。"
+      },
+      {
+        "index": 5,
+        "start_line": 123,
+        "end_line": 147,
+        "location": "南京光淮门驿站广场",
+        "summary": "邱深澳与同僚议论王思涵，失口提及外交部部长；参谋本部联络官接二人，嘲讽邱深澳，二人随其前往参谋本部。",
+        "characters": [
+          "qiu_shenao",
+          "colleague_fifth_army",
+          "liaison_officer",
+          "wang_sihan"
+        ],
+        "content": "第五军同僚指着城楼上的王思涵，说她上书削减军人特权，传闻是外交部部长亲戚；邱深澳脱口半句又改口。参谋本部联络官前来，邱深澳抽完烟才报军衔，遭其嘲讽；同僚岔开话题递报告。邱深澳心骂其皇帝走狗，慢慢跟上。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "康建五十年新年夜，南京筹备皇帝登基五十周年庆典。兴庆门城楼上，张永怀盯着观礼台上与张艺宣并肩的周君州，紧握佩剑。平民亲王张书淮受神策军上尉轻慢，仍与嬴武玥疏散云中市失控人潮。王思涵与礼部尚书争论庆典是否悬挂国教明灯。城下，少校邱深澳进京送报告，失口提及外交部部长，遭联络官嘲讽。",
+    "entities_new": [
+      {
+        "id": "shence_shangwei",
+        "type": "角色",
+        "name": "神策军上尉"
+      },
+      {
+        "id": "shence_shaowei",
+        "type": "角色",
+        "name": "神策军少尉"
+      },
+      {
+        "id": "huainan_diguo",
+        "type": "势力",
+        "name": "淮南帝国"
+      },
+      {
+        "id": "state_church",
+        "type": "组织",
+        "name": "帝国国教"
+      },
+      {
+        "id": "central_news_agency",
+        "type": "组织",
+        "name": "帝国中央社"
+      },
+      {
+        "id": "jun_fang",
+        "type": "势力",
+        "name": "军方"
+      },
+      {
+        "id": "guanghuai_men",
+        "type": "地点",
+        "name": "光淮门"
+      },
+      {
+        "id": "xingqing_gate",
+        "type": "地点",
+        "name": "兴庆门"
+      },
+      {
+        "id": "kangjian_guangchang",
+        "type": "地点",
+        "name": "康建广场"
+      },
+      {
+        "id": "xi_shi",
+        "type": "地点",
+        "name": "西市"
+      },
+      {
+        "id": "yunzhong_shi",
+        "type": "地点",
+        "name": "云中市"
+      },
+      {
+        "id": "changan_dajie",
+        "type": "地点",
+        "name": "长安大街"
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

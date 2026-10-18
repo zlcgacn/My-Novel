@@ -1,0 +1,127 @@
+[
+  {
+    "text": "现代知识无条件万能",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-009"
+  },
+  {
+    "text": "古人集体降智",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-009"
+  },
+  {
+    "text": "身份漏洞无人追问",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-009"
+  },
+  {
+    "text": "像现代人一样只为自己行动",
+    "source_table": "人设与关系",
+    "source_id": "CH-078"
+  },
+  {
+    "text": "家族背景不产生压力",
+    "source_table": "人设与关系",
+    "source_id": "CH-078"
+  },
+  {
+    "text": "官场风险只靠口头描述",
+    "source_table": "人设与关系",
+    "source_id": "CH-078"
+  },
+  {
+    "text": "刚被嘲讽完立刻无代价开挂秒杀，全程没有铺垫和反转支点",
+    "source_table": "场景写法",
+    "source_id": "SP-004"
+  },
+  {
+    "text": "主角靠演讲说服所有人",
+    "source_table": "桥段套路",
+    "source_id": "TR-090"
+  },
+  {
+    "text": "程序规则随便变",
+    "source_table": "桥段套路",
+    "source_id": "TR-090"
+  },
+  {
+    "text": "派系没有利益逻辑",
+    "source_table": "桥段套路",
+    "source_id": "TR-090"
+  },
+  {
+    "text": "靠吼赢朝堂",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-089"
+  },
+  {
+    "text": "证据凭空出现",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-089"
+  },
+  {
+    "text": "反派突然变蠢",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-089"
+  },
+  {
+    "text": "靠嘴炮说服全场",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-077"
+  },
+  {
+    "text": "制度不存在",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-077"
+  },
+  {
+    "text": "反派无理由失势",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-077"
+  },
+  {
+    "text": "只列事件清单",
+    "source_table": "写作技法",
+    "source_id": "WT-021"
+  },
+  {
+    "text": "人物变化和信息变化都没写",
+    "source_table": "写作技法",
+    "source_id": "WT-021"
+  },
+  {
+    "text": "情绪目标完全靠写的时候再想",
+    "source_table": "写作技法",
+    "source_id": "WT-021"
+  },
+  {
+    "text": "现代自由人思维乱入",
+    "source_table": "写作技法",
+    "source_id": "WT-077"
+  },
+  {
+    "text": "制度只在设定里",
+    "source_table": "写作技法",
+    "source_id": "WT-077"
+  },
+  {
+    "text": "角色随便越级行动",
+    "source_table": "写作技法",
+    "source_id": "WT-077"
+  },
+  {
+    "text": "用现代口语写古代",
+    "source_table": "裁决规则",
+    "source_id": "RS-007"
+  },
+  {
+    "text": "权谋无逻辑",
+    "source_table": "裁决规则",
+    "source_id": "RS-007"
+  },
+  {
+    "text": "历史事件随意篡改",
+    "source_table": "裁决规则",
+    "source_id": "RS-007"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "event_id": "evt-ch2-001",
+    "chapter": 2,
+    "event_type": "relationship_changed",
+    "subject": "liaison_officer",
+    "payload": {
+      "to_entity": "qiu_shenao",
+      "relationship_type": "呵斥警告",
+      "description": "邱深澳在马车上问联络官“帝国还能统治这片土地多久”，联络官揪住他的衣领厉声呵斥，称这个问题够他死一百次，再听到就亲手枪毙他；随后命二人交完报告就离开南京城。"
+    }
+  },
+  {
+    "event_id": "evt-ch2-002",
+    "chapter": 2,
+    "event_type": "open_loop_created",
+    "subject": "general_staff",
+    "payload": {
+      "content": "前往参谋本部途中，一辆有皇家标识的马车疾驰而过，似乎是从参谋本部驶出，车上是谁、去向何处未交代。",
+      "loop_type": "悬念",
+      "unanswered_question": "皇家标识的马车是谁的，是否从参谋本部驶出？",
+      "urgency": 60,
+      "planted_chapter": 2
+    }
+  },
+  {
+    "event_id": "evt-ch2-003",
+    "chapter": 2,
+    "event_type": "relationship_changed",
+    "subject": "yulin_army",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "敌视和谈",
+      "description": "宏飞楼门口两名羽林军军官见邱思甜到来便关上大门，扔烟头嗤笑和约只配糊窗户；楼内二楼一名军官也嘲讽这里是谋划战争而非讨论和平的地方。"
+    }
+  },
+  {
+    "event_id": "evt-ch2-004",
+    "chapter": 2,
+    "event_type": "character_state_changed",
+    "subject": "general_staff",
+    "payload": {
+      "field": "status.staffing",
+      "old": "常态在岗",
+      "new": "新年夜经副参谋总长准许非必要人员回家过年，楼内与广场几乎空无一人"
+    }
+  },
+  {
+    "event_id": "evt-ch2-005",
+    "chapter": 2,
+    "event_type": "world_rule_revealed",
+    "subject": "hongfei_lou",
+    "payload": {
+      "rule_content": "参谋本部程明广场北面为川椴楼（参谋本部主楼），南面为宏飞楼，宏飞楼是皇太子单独的办公楼，布局与川椴楼相似，雕塑为第一任参谋总长张宏飞，装饰更豪华。",
+      "rule_category": "地理/建制",
+      "scope": "南京参谋本部"
+    }
+  },
+  {
+    "event_id": "evt-ch2-006",
+    "chapter": 2,
+    "event_type": "open_loop_created",
+    "subject": "waijiaobu",
+    "payload": {
+      "content": "皇太子副官代表皇太子与邱思甜议定停战条款并在手写协议草稿上签字：前线军队三月二号彻底脱离接触，五号前全部返回国境线；两国交界处分别留出五十公里和一百二十公里非军事区；东秦支付战争期间全部开支，并把火落城产出的百分之七十移交帝国。外交部将据此同东秦王国商谈和平协议。",
+      "loop_type": "主线进程",
+      "unanswered_question": "这份停战草约能否落实为与东秦的正式和平协议？",
+      "urgency": 60,
+      "planted_chapter": 2
+    }
+  },
+  {
+    "event_id": "evt-ch2-007",
+    "chapter": 2,
+    "event_type": "relationship_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "同乡故旧重逢",
+      "description": "邱思甜在广场上远远觉得一名军官像中庆城的故旧；离开时邱深澳与邱思甜相互认出，惊喜地朝对方走去，随即爆炸发生。"
+    }
+  },
+  {
+    "event_id": "evt-ch2-008",
+    "chapter": 2,
+    "event_type": "open_loop_created",
+    "subject": "crown_prince_adjutant",
+    "payload": {
+      "content": "副官出楼时称本该停在广场的马车不见了（邱思甜来时广场上只有一辆通讯处马车），到广场时马车却赫然停着；副官被联络官叫住、刚从车上下来，马车即剧烈爆炸。",
+      "loop_type": "悬念",
+      "unanswered_question": "副官的马车为何先不在广场又出现，爆炸从何而来？",
+      "urgency": 100,
+      "planted_chapter": 2
+    }
+  },
+  {
+    "event_id": "evt-ch2-009",
+    "chapter": 2,
+    "event_type": "character_state_changed",
+    "subject": "crown_prince_adjutant",
+    "payload": {
+      "field": "health",
+      "old": "健康",
+      "new": "离爆炸中心仅几米，躺在血泊中一动不动"
+    }
+  },
+  {
+    "event_id": "evt-ch2-010",
+    "chapter": 2,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "health",
+      "old": "健康",
+      "new": "爆炸中受伤，身上不断淌血，经卫兵现场急救后失去意识"
+    }
+  },
+  {
+    "event_id": "evt-ch2-011",
+    "chapter": 2,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "health",
+      "old": "健康",
+      "new": "被爆炸冲击波击倒在地，伤情未明"
+    }
+  },
+  {
+    "event_id": "evt-ch2-012",
+    "chapter": 2,
+    "event_type": "character_state_changed",
+    "subject": "general_staff",
+    "payload": {
+      "field": "status.damage",
+      "old": "完好",
+      "new": "程明广场马车爆炸，参谋本部大楼靠广场一侧窗户全部震碎"
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "event_id": "evt-ch008-001",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "d67_rifle",
+    "payload": {
+      "rule_content": "D67式半自动步枪目前只配发给龙武、木兰两军和几支近卫军部队",
+      "rule_category": "军制/装备",
+      "scope": "帝国军队"
+    }
+  },
+  {
+    "event_id": "evt-ch008-002",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "shence_army",
+    "payload": {
+      "rule_content": "神策军负责警卫帝国首都军政机关近百年，历史上从未出过此等失误",
+      "rule_category": "机构职责",
+      "scope": "南京"
+    }
+  },
+  {
+    "event_id": "evt-ch008-003",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "death_legion",
+    "payload": {
+      "rule_content": "死亡军团成员戴无五官的面具、饰骷髅，整天不说话只知祷告，被军中视为杀人不长眼的疯子",
+      "rule_category": "势力风评",
+      "scope": "帝国"
+    }
+  },
+  {
+    "event_id": "evt-ch008-004",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "daming_palace",
+    "payload": {
+      "rule_content": "大明宫依皇权高地山势而建：南正门兴庆门，往里依次为含元殿（龙尾道盘旋而上）、宣政殿（百官上朝）、紫宸殿（最深处，圣上召见近臣之所）",
+      "rule_category": "地理/建筑",
+      "scope": "南京"
+    }
+  },
+  {
+    "event_id": "evt-ch008-005",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "lao_zhao_tou",
+    "payload": {
+      "content": "情报组老赵头查到参谋本部爆炸有军中的人参与；袭击者所用D67步枪只发到龙武、木兰和几支近卫军，邓声宝疑为“自己人干的”，周君州指出前提是两次袭击为同一批人所为",
+      "loop_type": "谜团",
+      "unanswered_question": "参谋本部与内务本部两次袭击是否同一批人所为，是否有军中之人参与",
+      "urgency": 90,
+      "planted_chapter": 8
+    }
+  },
+  {
+    "event_id": "evt-ch008-006",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "death_cavalry_officer",
+    "payload": {
+      "content": "一名马刀系百合花丝线的死亡骑兵军官在街头凝视周君州，周君州认出可能是此前救过他和邓声宝的那名军官",
+      "loop_type": "人物之谜",
+      "unanswered_question": "这名死亡骑兵军官是谁，为何凝视周君州",
+      "urgency": 50,
+      "planted_chapter": 8
+    }
+  },
+  {
+    "event_id": "evt-ch008-007",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "圣上召周君州与王思涵入紫宸殿汇报袭击案，殿内诸位大人已到齐，本章止于殿门推开",
+      "loop_type": "场景悬念",
+      "unanswered_question": "紫宸殿面圣会发生什么",
+      "urgency": 95,
+      "planted_chapter": 8,
+      "expected_payoff": "下一章"
+    }
+  },
+  {
+    "event_id": "evt-ch008-008",
+    "chapter": 8,
+    "event_type": "promise_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州答应金志文路上探王思涵口风，有动静就派人传消息回来，没有就不传",
+      "to_entity": "jin_zhiwen"
+    }
+  },
+  {
+    "event_id": "evt-ch008-009",
+    "chapter": 8,
+    "event_type": "relationship_changed",
+    "subject": "jin_zhiwen",
+    "payload": {
+      "to_entity": "wang_sihan",
+      "relationship_type": "初识",
+      "note": "经周君州介绍握手相识，金志文的问题被推迟到面圣之后"
+    }
+  },
+  {
+    "event_id": "evt-ch008-010",
+    "chapter": 8,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "to_entity": "wang_sihan",
+      "relationship_type": "互相试探/口角",
+      "note": "途中周君州激将试探首相府情报，王思涵反讥其二十四岁挂将星、父为近卫军元帅，拒绝透露，称到紫宸殿上圣上问一句答一句"
+    }
+  },
+  {
+    "event_id": "evt-ch008-011",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "location.current",
+      "old": "内禁医院外",
+      "new": "紫宸殿前"
+    }
+  },
+  {
+    "event_id": "evt-ch008-012",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "location.current",
+      "old": "灵武大街临时医疗点",
+      "new": "紫宸殿前"
+    }
+  },
+  {
+    "event_id": "evt-ch008-013",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "jin_zhiwen",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "灵武大街临时医疗点"
+    }
+  }
+]

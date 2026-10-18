@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 5,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_005.json",
+    "review": "chapter_005.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "邱深澳与同僚从京城返回第五军驻地，营门岗哨与拒马已加强",
+      "二人向军长汇报参谋本部爆炸经过，军长嘱咐对第三处、内务本部问话只说所见",
+      "军长下令全军停止休假、营门岗哨加倍",
+      "邱深澳借清点军需库之机，与军需处上尉、炮兵营营长、通讯连连长密会",
+      "邱深澳下令断绝与京城方面的一切联络，按兵不动，命通讯连长留意电报中第三处动向",
+      "邱深澳独自清点弹药时想起邱思甜，随即京城方向传来巨响"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 5,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
+    "review_skipped": true,
+    "review_mode": "import"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "邱深澳与同僚从京城返回第五军驻地，营门岗哨与拒马已加强",
+      "二人向军长汇报参谋本部爆炸经过，军长嘱咐对第三处、内务本部问话只说所见",
+      "军长下令全军停止休假、营门岗哨加倍",
+      "邱深澳借清点军需库之机，与军需处上尉、炮兵营营长、通讯连连长密会",
+      "邱深澳下令断绝与京城方面的一切联络，按兵不动，命通讯连长留意电报中第三处动向",
+      "邱深澳独自清点弹药时想起邱思甜，随即京城方向传来巨响"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch05-001",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "location.current",
+          "old": "南京",
+          "new": "君来乡（第五军驻地）"
+        }
+      },
+      {
+        "event_id": "evt-ch05-002",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "injury",
+          "old": "参谋本部广场爆炸中受伤",
+          "new": "头缠绷带；左臂伤口在内禁医院门口崩开过，纱布血透干硬，军长命先去卫生队包扎"
+        }
+      },
+      {
+        "event_id": "evt-ch05-003",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "fifth_army",
+        "payload": {
+          "field": "status.alert",
+          "old": "平日戒备，正常休假",
+          "new": "全军停止休假，营门加设两道拒马，岗哨由两人增至四人且不许撤"
+        }
+      },
+      {
+        "event_id": "evt-ch05-004",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "current_task",
+          "old": null,
+          "new": "向参谋长领军需库钥匙，清点弹药与口粮"
+        }
+      },
+      {
+        "event_id": "evt-ch05-005",
+        "chapter": 5,
+        "event_type": "open_loop_created",
+        "subject": "third_bureau",
+        "payload": {
+          "content": "军长告知第三处和内务本部近日必来第五军问话，同僚担心二人因在爆炸现场被疑心",
+          "loop_type": "危机",
+          "unanswered_question": "第三处来营问话时会查到什么人？",
+          "urgency": 85,
+          "planted_chapter": 5
+        }
+      },
+      {
+        "event_id": "evt-ch05-006",
+        "chapter": 5,
+        "event_type": "open_loop_created",
+        "subject": "interior_ministry",
+        "payload": {
+          "content": "据中央社早间广播，内务本部已成立爆炸案专项调查组，第三处亦插手",
+          "loop_type": "调查",
+          "unanswered_question": "专项调查组将把爆炸案查向何处？",
+          "urgency": 75,
+          "planted_chapter": 5
+        }
+      },
+      {
+        "event_id": "evt-ch05-007",
+        "chapter": 5,
+        "event_type": "open_loop_created",
+        "subject": "general_staff",
+        "payload": {
+          "content": "炮兵营长追问参谋本部爆炸是否“咱们的人”所为，邱深澳称不知；他供述爆炸前那辆车一直停在广场上，未见有人靠近",
+          "loop_type": "谜团",
+          "unanswered_question": "参谋本部广场爆炸系何人所为？",
+          "urgency": 70,
+          "planted_chapter": 5
+        }
+      },
+      {
+        "event_id": "evt-ch05-008",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "orders.capital_liaison",
+          "old": "与京城方面保持联络",
+          "new": "一概断绝，谁也不许找谁，等风头过去；其余人照常站岗出操，不露异样"
+        }
+      },
+      {
+        "event_id": "evt-ch05-009",
+        "chapter": 5,
+        "event_type": "relationship_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "to_entity": "signal_company_commander",
+          "relationship_type": "受命留意电报，打探第三处所查所抓之人并向邱深澳报告"
+        }
+      },
+      {
+        "event_id": "evt-ch05-010",
+        "chapter": 5,
+        "event_type": "open_loop_created",
+        "subject": "nanjing",
+        "payload": {
+          "content": "邱深澳在军需库清点弹药时，地面猛震，东北方京城方向传来闷雷似的巨响",
+          "loop_type": "危机",
+          "unanswered_question": "京城方向又发生了什么？",
+          "urgency": 100,
+          "planted_chapter": 5
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "qiu_shenao",
+        "field": "location.current",
+        "old": "南京",
+        "new": "君来乡（第五军驻地）"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "injury",
+        "old": "参谋本部广场爆炸中受伤",
+        "new": "头缠绷带；左臂伤口崩开，需卫生队重新包扎"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "current_task",
+        "old": null,
+        "new": "清点第五军军需库弹药与口粮"
+      },
+      {
+        "entity_id": "colleague_fifth_army",
+        "field": "location.current",
+        "old": "南京",
+        "new": "君来乡（第五军驻地）"
+      },
+      {
+        "entity_id": "fifth_army",
+        "field": "status.alert",
+        "old": "正常休假",
+        "new": "全军停止休假，营门岗哨加倍"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "qiu_shenao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "is_protagonist": true,
+        "payload": {
+          "name": "邱深澳",
+          "location": "君来乡（第五军驻地）"
+        }
+      },
+      {
+        "entity_id": "fifth_army_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第五军军长",
+          "description": "五十上下，鬓角花白；爆炸案后一夜未眠，下令全军停休、岗哨加倍"
+        }
+      },
+      {
+        "entity_id": "fifth_army_chief_of_staff",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第五军参谋长",
+          "description": "向邱深澳发放军需库钥匙（仅提及）"
+        }
+      },
+      {
+        "entity_id": "quartermaster_captain",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "军需处上尉",
+          "description": "第五军军需处上尉，在军需库与邱深澳密会，守门望风"
+        }
+      },
+      {
+        "entity_id": "artillery_battalion_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "炮兵营营长",
+          "description": "第五军炮兵营营长，密会中性急，不愿坐等被抓"
+        }
+      },
+      {
+        "entity_id": "signal_company_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "通讯连连长",
+          "description": "第五军通讯连连长，受邱深澳之命留意电报中第三处动向"
+        }
+      },
+      {
+        "entity_id": "fifth_army_depot",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "第五军军需库",
+          "description": "营区最北头三排砖房，库门朝南",
+          "parent": "junlai_township"
+        }
+      },
+      {
+        "entity_id": "chuanduan_lou",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "川椴楼",
+          "description": "参谋本部程明广场北面的楼",
+          "parent": "nanjing"
+        }
+      },
+      {
+        "entity_id": "central_news_agency",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "帝国中央社",
+          "description": "广播机构，早间播报内务本部成立专项调查组"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "qiu_shenao",
+        "type": "角色",
+        "mentions": [
+          "邱深澳",
+          "他"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "colleague_fifth_army",
+        "type": "角色",
+        "mentions": [
+          "同僚"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "fifth_army_commander",
+        "type": "角色",
+        "mentions": [
+          "军长"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "fifth_army_chief_of_staff",
+        "type": "角色",
+        "mentions": [
+          "参谋长"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "quartermaster_captain",
+        "type": "角色",
+        "mentions": [
+          "军需处的上尉",
+          "上尉"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "artillery_battalion_commander",
+        "type": "角色",
+        "mentions": [
+          "炮兵营的营长",
+          "炮兵营长"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "signal_company_commander",
+        "type": "角色",
+        "mentions": [
+          "通讯连的连长",
+          "通讯连长"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "crown_prince_adjutant",
+        "type": "角色",
+        "mentions": [
+          "皇太子副官",
+          "副官"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "id": "qiu_sitian",
+        "type": "角色",
+        "mentions": [
+          "邱思甜"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "fifth_army",
+        "type": "组织",
+        "mentions": [
+          "营里",
+          "全军"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "third_bureau",
+        "type": "组织",
+        "mentions": [
+          "第三处"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "interior_ministry",
+        "type": "组织",
+        "mentions": [
+          "内务本部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "general_staff",
+        "type": "组织",
+        "mentions": [
+          "参谋本部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "central_news_agency",
+        "type": "组织",
+        "mentions": [
+          "中央社"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "nanjing",
+        "type": "地点",
+        "mentions": [
+          "京城"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "junlai_township",
+        "type": "地点",
+        "mentions": [
+          "营",
+          "营区"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "fifth_army_depot",
+        "type": "地点",
+        "mentions": [
+          "军需库",
+          "库房"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "chuanduan_lou",
+        "type": "地点",
+        "mentions": [
+          "川椴楼"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "neijin_hospital",
+        "type": "地点",
+        "mentions": [
+          "内禁医院",
+          "内卫禁军的医院"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "nameless_hill",
+        "type": "地点",
+        "mentions": [
+          "无名高地"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 15,
+        "location": "君来乡第五军营门至军部楼前",
+        "summary": "邱深澳被同僚推醒，马车回到第五军营地，营门拒马添了两道、哨兵加倍。邱深澳头缠绷带、左臂伤口崩开，同僚劝他先去包扎，他坚持一同去见军长。",
+        "characters": [
+          "qiu_shenao",
+          "colleague_fifth_army"
+        ],
+        "content": "“醒醒，到了。”\n邱深澳被同僚推醒的时候，马车已经停了。窗外天色大亮，营门两侧的拒马比平日多摆了两道，哨兵也由两人添到了四人，个个荷枪实弹。昨夜京城出事的消息，显然已经先他们一步传回了营里。\n哨兵验过证件，朝车厢里看了一眼，目光在邱深澳头上的绷带上停了停，这才敬礼放行。\n马车沿着营道一直驶到军部楼前。同僚先跳下车，回身要扶他，被他摆手挡开了。左臂的伤口在内禁医院门口崩开过一回，纱布被血浸透又干硬了，一动便扯着疼。\n“你先去卫生队把伤口重新包一包吧。”同僚压低了声音，“军长那里我去回话就行。”\n“一起去。”\n同僚看了他一眼，没再劝。"
+      },
+      {
+        "index": 2,
+        "start_line": 17,
+        "end_line": 41,
+        "location": "第五军军部楼二楼军长办公室",
+        "summary": "二人向一夜未眠的军长汇报参谋本部广场爆炸、皇太子副官倒地不起的经过。军长嘱咐问话只说所见，下令全军停休、岗哨加倍。出门后同僚担心被第三处疑心，邱深澳未接话。",
+        "characters": [
+          "qiu_shenao",
+          "colleague_fifth_army",
+          "fifth_army_commander"
+        ],
+        "content": "军长的办公室在二楼。勤务兵通报过后，两人进门立正敬礼。\n军长站在窗前，手里端着一杯早已凉透的茶，听见动静才转过身来。他五十上下年纪，鬓角已经花白，眼底一片青黑，看样子也是一夜没合眼。\n“回来了。”他的目光先落在邱深澳的绷带上，“昨夜参谋本部出事的时候，你们在场？”\n“报告军长，在场。”同僚答道，“我们刚从川椴楼出来，皇太子副官的马车就在广场上炸了。副官人刚从车上下来，离得只有几步远，当场就倒下了，后来再没见他动过。我们俩都被掀翻在地，他伤得重些。”\n“看清是什么人干的没有？”\n“没有。”邱深澳道，“炸之前，那辆车一直停在广场上，没见有人靠近。”\n军长沉默了片刻，只说了一句：“人回来了就好。”他放下茶杯，“这几天，第三处和内务本部的人少不了要来问话。问到你们，见了什么就说什么，没见的，一个字也别多说。”\n“是。”\n他转身按响了桌上的电铃。勤务兵推门进来，他头也不抬地吩咐：“传令下去，京城出了这么大的事，从今天起，全军停止休假，营门的岗哨照现在这样加倍，不许撤。”\n勤务兵领命去了。军长这才又看了邱深澳一眼：“先去卫生队包扎。”他摆了摆手，“去吧。”\n两人退出办公室。门一关上，同僚就再也按捺不住了，一把拉住邱深澳：“你听见没有？第三处要来问话！副官死在广场上，咱们俩偏偏就在跟前……他们不会疑心到咱们头上吧？”\n邱深澳没有接话。第三处真要疑心，头一个要查的也不会是两个送报告的参谋，而是营里那些和他一样的人。\n“走吧。”他说，“先去卫生队。”"
+      },
+      {
+        "index": 3,
+        "start_line": 43,
+        "end_line": 73,
+        "location": "第五军营区北头军需库",
+        "summary": "邱深澳借清点军需之名，在库中与军需处上尉、炮兵营长、通讯连长密会。他称不知爆炸系何人所为，下令断绝与京城联络、按兵不动，并以无名高地旧事驳回炮兵营长；命通讯连长留意电报。",
+        "characters": [
+          "qiu_shenao",
+          "quartermaster_captain",
+          "artillery_battalion_commander",
+          "signal_company_commander"
+        ],
+        "content": "午后，邱深澳向参谋长领了军需库的钥匙。停了休假，弹药和口粮总得有人清点，这差事落到一个刚从京城回来、带着伤的参谋头上，谁也不会多问。\n军需库在营区最北头，三排砖房，库门朝南。他推门进去，在最里头那排弹药箱后面，三个人已经在等他了：军需处的上尉、炮兵营的营长、通讯连的连长。上尉搬了个空箱子给他坐，自己守到了门边。\n炮兵营长没等他坐稳就开了口：“参谋本部那一炸，是不是咱们的人干的？”\n“不知道。”邱深澳道。\n“你也不知道？”\n“京城那边的事，我知道的不比你们多。”他把伤臂搁在膝上，“我只知道，不管是谁干的，这笔账朝廷都会先算到咱们头上。”\n通讯连长点了点头：“早上中央社的广播说，内务本部已经成立了专项调查组。消息是第三处放出来的，第三处也插了手。”\n库房里静了一会儿。门边的上尉低声道：“军长说了，第三处要来营里问话。”\n“问到谁，见了什么就说什么。”邱深澳道，“从今天起，和京城那边的联络一概断了，谁也不许去找谁，等风头过去再说。”\n“等风头过去？”炮兵营长的嗓门压不住了，“他们要疑心，早晚会疑心到咱们身上，难道就坐着等他们来抓？”\n“那你想怎么样？”\n炮兵营长张了张嘴，没说出话来。\n邱深澳看着他。当年在无名高地，起义军也是这么想的：横竖是个死，不如拼一回。他们拼了，最后高地底下只剩一地的死人。\n“就凭咱们这几个人、几条枪，”他说，“出了这道营门，走不到京城。”\n没有人再说话。\n“你留心电报。”他对通讯连长道，“第三处在查什么、抓了什么人，有消息就告诉我。其余的人，该站岗站岗，该出操出操，别叫人看出一点不一样来。”"
+      },
+      {
+        "index": 4,
+        "start_line": 75,
+        "end_line": 79,
+        "location": "第五军营区北头军需库",
+        "summary": "三人散去后，邱深澳独自对账清点弹药，想起倒在广场、被送进内禁医院的邱思甜。忽然地面震动，一声巨响从东北方的京城方向滚来。",
+        "characters": [
+          "qiu_shenao"
+        ],
+        "content": "三人陆续走了。邱深澳一个人留在库房里，对着账簿把弹药一箱一箱点过去。点到一半，他停下笔，想起倒在广场上的邱思甜。她被送进了内卫禁军的医院，那是他进不去的地方。\n脚下的地面猛地一震。库房顶上的灰簌簌地落下来，弹药箱上的铁皮跟着嗡嗡作响。过了片刻，一声闷雷似的巨响才从东北方向滚过来。\n那是京城的方向。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "quest",
+    "summary_text": "邱深澳与同僚回到第五军驻地，向军长汇报参谋本部广场爆炸、皇太子副官遇难经过。军长嘱咐对第三处与内务本部的问话只说所见，下令全军停休、岗哨加倍。午后邱深澳借清点军需库，与军需处上尉、炮兵营长、通讯连长密会，称不知爆炸系何人所为，下令断绝与京城联络、按兵不动。他独自点库时，京城方向忽传巨响。",
+    "entities_new": [
+      "fifth_army_chief_of_staff",
+      "quartermaster_captain",
+      "artillery_battalion_commander",
+      "signal_company_commander",
+      "fifth_army_depot",
+      "chuanduan_lou",
+      "central_news_agency"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "accepted_events": [
+    {
+      "event_id": "evt-ch008-001",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "d67_rifle",
+      "payload": {
+        "rule_content": "D67式半自动步枪目前只配发给龙武、木兰两军和几支近卫军部队",
+        "rule_category": "军制/装备",
+        "scope": "帝国军队"
+      }
+    },
+    {
+      "event_id": "evt-ch008-002",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "shence_army",
+      "payload": {
+        "rule_content": "神策军负责警卫帝国首都军政机关近百年，历史上从未出过此等失误",
+        "rule_category": "机构职责",
+        "scope": "南京"
+      }
+    },
+    {
+      "event_id": "evt-ch008-003",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "death_legion",
+      "payload": {
+        "rule_content": "死亡军团成员戴无五官的面具、饰骷髅，整天不说话只知祷告，被军中视为杀人不长眼的疯子",
+        "rule_category": "势力风评",
+        "scope": "帝国"
+      }
+    },
+    {
+      "event_id": "evt-ch008-004",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "daming_palace",
+      "payload": {
+        "rule_content": "大明宫依皇权高地山势而建：南正门兴庆门，往里依次为含元殿（龙尾道盘旋而上）、宣政殿（百官上朝）、紫宸殿（最深处，圣上召见近臣之所）",
+        "rule_category": "地理/建筑",
+        "scope": "南京"
+      }
+    },
+    {
+      "event_id": "evt-ch008-005",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "lao_zhao_tou",
+      "payload": {
+        "content": "情报组老赵头查到参谋本部爆炸有军中的人参与；袭击者所用D67步枪只发到龙武、木兰和几支近卫军，邓声宝疑为“自己人干的”，周君州指出前提是两次袭击为同一批人所为",
+        "loop_type": "谜团",
+        "unanswered_question": "参谋本部与内务本部两次袭击是否同一批人所为，是否有军中之人参与",
+        "urgency": 90,
+        "planted_chapter": 8
+      }
+    },
+    {
+      "event_id": "evt-ch008-006",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "death_cavalry_officer",
+      "payload": {
+        "content": "一名马刀系百合花丝线的死亡骑兵军官在街头凝视周君州，周君州认出可能是此前救过他和邓声宝的那名军官",
+        "loop_type": "人物之谜",
+        "unanswered_question": "这名死亡骑兵军官是谁，为何凝视周君州",
+        "urgency": 50,
+        "planted_chapter": 8
+      }
+    },
+    {
+      "event_id": "evt-ch008-007",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "content": "圣上召周君州与王思涵入紫宸殿汇报袭击案，殿内诸位大人已到齐，本章止于殿门推开",
+        "loop_type": "场景悬念",
+        "unanswered_question": "紫宸殿面圣会发生什么",
+        "urgency": 95,
+        "planted_chapter": 8,
+        "expected_payoff": "下一章"
+      }
+    },
+    {
+      "event_id": "evt-ch008-008",
+      "chapter": 8,
+      "event_type": "promise_created",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "content": "周君州答应金志文路上探王思涵口风，有动静就派人传消息回来，没有就不传",
+        "to_entity": "jin_zhiwen"
+      }
+    },
+    {
+      "event_id": "evt-ch008-009",
+      "chapter": 8,
+      "event_type": "relationship_changed",
+      "subject": "jin_zhiwen",
+      "payload": {
+        "to_entity": "wang_sihan",
+        "relationship_type": "初识",
+        "note": "经周君州介绍握手相识，金志文的问题被推迟到面圣之后"
+      }
+    },
+    {
+      "event_id": "evt-ch008-010",
+      "chapter": 8,
+      "event_type": "relationship_changed",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "to_entity": "wang_sihan",
+        "relationship_type": "互相试探/口角",
+        "note": "途中周君州激将试探首相府情报，王思涵反讥其二十四岁挂将星、父为近卫军元帅，拒绝透露，称到紫宸殿上圣上问一句答一句"
+      }
+    },
+    {
+      "event_id": "evt-ch008-011",
+      "chapter": 8,
+      "event_type": "character_state_changed",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "field": "location.current",
+        "old": "内禁医院外",
+        "new": "紫宸殿前"
+      }
+    },
+    {
+      "event_id": "evt-ch008-012",
+      "chapter": 8,
+      "event_type": "character_state_changed",
+      "subject": "wang_sihan",
+      "payload": {
+        "field": "location.current",
+        "old": "灵武大街临时医疗点",
+        "new": "紫宸殿前"
+      }
+    },
+    {
+      "event_id": "evt-ch008-013",
+      "chapter": 8,
+      "event_type": "character_state_changed",
+      "subject": "jin_zhiwen",
+      "payload": {
+        "field": "location.current",
+        "old": null,
+        "new": "灵武大街临时医疗点"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "zhou_junzhou",
+      "field": "location.current",
+      "old": "内禁医院外",
+      "new": "紫宸殿前"
+    },
+    {
+      "entity_id": "wang_sihan",
+      "field": "location.current",
+      "old": "灵武大街临时医疗点",
+      "new": "紫宸殿前"
+    },
+    {
+      "entity_id": "jin_zhiwen",
+      "field": "location.current",
+      "old": null,
+      "new": "灵武大街临时医疗点"
+    },
+    {
+      "entity_id": "deng_shengbao",
+      "field": "location.current",
+      "old": "内禁医院",
+      "new": "灵武大街临时医疗点"
+    },
+    {
+      "entity_id": "qiu_sitian",
+      "field": "location.current",
+      "old": "内禁医院",
+      "new": "灵武大街临时医疗点"
+    },
+    {
+      "entity_id": "zhang_yixuan",
+      "field": "location.current",
+      "old": "内禁医院",
+      "new": "灵武大街临时医疗点"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "zhou_junzhou",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "周君州",
+        "age": 24,
+        "rank": "中将（两颗将星）",
+        "background": "十六岁从禁军军官学院毕业，同年镇压叛军一战成名，此后八年征战不停",
+        "condition": "未受伤，袖口沾他人血迹"
+      }
+    },
+    {
+      "entity_id": "jin_zhiwen",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "金志文",
+        "aliases": [
+          "金督察"
+        ],
+        "title": "灵武军督察",
+        "rank": "大校"
+      }
+    },
+    {
+      "entity_id": "wang_sihan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "王思涵",
+        "aliases": [
+          "王右相",
+          "右相",
+          "大小姐"
+        ],
+        "title": "尚书右仆射（帝国六丞相之一）"
+      }
+    },
+    {
+      "entity_id": "wang_zhengyan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "王政炎",
+        "aliases": [
+          "王委员"
+        ],
+        "title": "内阁辅臣"
+      }
+    },
+    {
+      "entity_id": "lao_zhao_tou",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "老赵头",
+        "role": "灵武军情报组成员，消息一向可靠"
+      }
+    },
+    {
+      "entity_id": "death_cavalry_officer",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "死亡骑兵军官",
+        "traits": "满身血渍，戴无五官的冰冷面具，骷髅配饰，马刀系百合花丝线",
+        "note": "周君州认为是此前救过他和邓声宝的那名死亡骑兵军官"
+      }
+    },
+    {
+      "entity_id": "death_legion",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "死亡军团",
+        "affiliation": "国教",
+        "note": "不属于军队体系"
+      }
+    },
+    {
+      "entity_id": "daming_palace",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "大明宫",
+        "aliases": [
+          "皇宫",
+          "皇城"
+        ],
+        "note": "依皇权高地山势而建，含含元殿、宣政殿、紫宸殿"
+      }
+    },
+    {
+      "entity_id": "xingqing_gate",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "兴庆门",
+        "note": "大明宫南正门，城门由虎贲军守卫"
+      }
+    },
+    {
+      "entity_id": "lingwu_avenue",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "灵武大街",
+        "note": "内禁医院南面，设有临时医疗点"
+      }
+    },
+    {
+      "entity_id": "d67_rifle",
+      "action": "upsert",
+      "entity_type": "物品",
+      "payload": {
+        "name": "D67式半自动步枪",
+        "distribution": "仅龙武、木兰两军及几支近卫军"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "zhou_junzhou",
+      "type": "角色",
+      "mentions": [
+        "周君州",
+        "周将军",
+        "姓周的"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "deng_shengbao",
+      "type": "角色",
+      "mentions": [
+        "邓声宝",
+        "副军长"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "jin_zhiwen",
+      "type": "角色",
+      "mentions": [
+        "金督察",
+        "金志文"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "wang_sihan",
+      "type": "角色",
+      "mentions": [
+        "王思涵",
+        "王右相",
+        "右相",
+        "大小姐"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "zhang_yixuan",
+      "type": "角色",
+      "mentions": [
+        "张艺宣"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qiu_sitian",
+      "type": "角色",
+      "mentions": [
+        "邱思甜",
+        "邱部长"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "emperor",
+      "type": "角色",
+      "mentions": [
+        "圣上"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "wang_zhengyan",
+      "type": "角色",
+      "mentions": [
+        "王政炎",
+        "王委员"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "zhou_shiheng",
+      "type": "角色",
+      "mentions": [
+        "令尊",
+        "近卫军元帅"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "lao_zhao_tou",
+      "type": "角色",
+      "mentions": [
+        "老赵头"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "death_cavalry_officer",
+      "type": "角色",
+      "mentions": [
+        "死亡骑兵军官",
+        "死亡军官",
+        "那怪物"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "shence_army",
+      "type": "势力",
+      "mentions": [
+        "神策军"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "interior_ministry",
+      "type": "组织",
+      "mentions": [
+        "内务本部"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "third_bureau",
+      "type": "组织",
+      "mentions": [
+        "第三处"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "lingwu_army",
+      "type": "势力",
+      "mentions": [
+        "灵武军"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "general_staff",
+      "type": "组织",
+      "mentions": [
+        "参谋本部"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "prime_minister_office",
+      "type": "组织",
+      "mentions": [
+        "首相府"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "forbidden_guards",
+      "type": "势力",
+      "mentions": [
+        "龙武",
+        "木兰",
+        "虎贲军"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "imperial_guards_class",
+      "type": "势力",
+      "mentions": [
+        "近卫军"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "death_legion",
+      "type": "组织",
+      "mentions": [
+        "死亡军团"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "divine_heights",
+      "type": "地点",
+      "mentions": [
+        "神圣高地"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "neijin_hospital",
+      "type": "地点",
+      "mentions": [
+        "内禁医院",
+        "医院"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "lingwu_avenue",
+      "type": "地点",
+      "mentions": [
+        "灵武大街"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "daming_palace",
+      "type": "地点",
+      "mentions": [
+        "大明宫",
+        "皇宫",
+        "皇城"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "xingqing_gate",
+      "type": "地点",
+      "mentions": [
+        "兴庆门"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "zichen_hall",
+      "type": "地点",
+      "mentions": [
+        "紫宸殿"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "nanjing",
+      "type": "地点",
+      "mentions": [
+        "京城",
+        "帝国首都"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "d67_rifle",
+      "type": "物品",
+      "mentions": [
+        "D67式半自动步枪"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 53,
+      "location": "内禁医院外街道",
+      "summary": "众人出院，各路官兵赶来支援。金志文带兵赶到，与周君州、邓声宝谈内务本部被毁；周君州由D67步枪联想到老赵头“军中有人参与”的情报，邓声宝疑是自己人所为。三人决定先找王思涵探问首相府情报。",
+      "characters": [
+        "zhou_junzhou",
+        "deng_shengbao",
+        "jin_zhiwen"
+      ],
+      "content": "# 第八章：疑云\n大厅里的人们互相帮衬着出了医院，外面的街道上则已经挤满了一大批前来支援的官兵，他们服装各异，有穿着深蓝色军服的神策军，有穿着白色制服的内务本部警察，有身穿黑色制服的第三处探员以及身穿红黑色制服的灵武军。不远处神圣高地上枪声不断。\n在看到这一行人之后，官兵们快速上前来救援，伤员们都被送往临时医疗点救治，张艺宣等人也前去帮忙。\n“周将军，您没受伤吧。”\n周君州转过身，看到了一身熟悉的红黑色军服。\n“是金督察吗？我没受什么伤。”周君州微笑着说道，他转过头喊道：“邓声宝！金督察来了！”\n邓声宝听到后，把手上扶着的伤员交给了官兵，走到了两人身边问道。“金督察，您怎么也来了？”\n“副军长，知道你们两个在内禁医院里，一听到神圣高地遇袭的消息我就火速带兵赶来了。”金督察看向了不远处的内务本部残骸，长叹一口气，说道：“一路上都看到逃难的民众，听说内务本部被彻底摧毁了。我本不信，现在亲眼看到，真是大为震惊！这堂堂帝国核心机关居然被一伙不知名的恐怖分子给摧毁了！真是帝国的耻辱啊！”\n“这内务本部警戒森严，这恐怖分子竟如入无人之境，到底是神策军的失职造成的，还是另有隐情呢？”邓声宝问道。\n“神策军负责警卫帝国首都军政机关近百年，历史上从未有过这等失误。”金督察说道。\n“这事不简单，而且和昨晚的参谋本部遇袭可能有所关联。”周君州沉默了一会之后接着说：“邓声宝，在医院里王思涵来之前，你不是报告说，情报组查到昨晚的爆炸有军中的人参与吗？”\n“嗯，对。”邓声宝回道。\n“嗯——”周君州看向地面。\n“嗯？什么？怎么了？”\n“嗯——之前那伙人用的是什么枪？”周君州问道。\n“D67式—半—自—动—步枪。”邓声宝一字一顿地说，脸色变了：“这枪眼下只发到了龙武、木兰两军和咱们几支近卫军手里……难道是自己人干的？！”\n“怎么可能？！”金督察惊讶的几乎要喊了出来。\n“前提是要这两次袭击是同一批人干的。”周君州低着头说。\n“情报组老赵头的消息可靠吗？”金督察问道。\n“老赵头从未失误过，消息一向可靠。”邓声宝说道。\n金督察原地来回踱步，而后面向二人说道：“你刚才说王右相也来了医院？她可安好？”\n周君州点点头。\n“我们去问候一下这位右相，看看首相府里有没有什么情报。”金督察说道。\n“右相年纪轻轻，资历名望都没什么突出的地方，她能当上右相纯粹是依靠其父亲内阁辅臣王政炎，恐怕难以知晓首相府中那些见不得光的事情吧。”周君州低着头说：“我觉得有必要先探一探她知道多少，之后再询问此事。”\n“王右相上位以来，市井里的闲话就没断过，多半是小人胡诌。不过谨慎些也好，可以防止打草惊蛇。”金督察说道。\n“刚才她被送到灵武大街的临时医疗点那边，现在应该还没走，我们直接过去找她吧。”邓声宝说道。\n“事不宜迟。”说罢金督察和邓声宝向南边走去，周君州则仍然低着头站在原地，像是想什么想出了神。"
+    },
+    {
+      "index": 2,
+      "start_line": 55,
+      "end_line": 69,
+      "location": "内禁医院外街道",
+      "summary": "周君州发现一名马刀系百合花丝线的死亡骑兵军官正凝视自己，疑是先前救命之人；邓声宝拍醒他，金志文称死亡军团都是疯子，劝少接触。",
+      "characters": [
+        "zhou_junzhou",
+        "deng_shengbao",
+        "jin_zhiwen",
+        "death_cavalry_officer"
+      ],
+      "content": "“快啊，周将军！”金督察大声招呼周君州。他这才把头抬起来，发现有一个死亡骑兵军官正在凝视着他。满身的血渍和没有任何五官的冰冷的面具加上骷髅配饰让人后背发凉，周君州注意到了那死亡骑兵所配马刀上的百合花丝线——是之前救我们的那个死亡骑兵军官吗？刚从前面下来吗？\n就在周君州和那个死亡骑兵军官互相看着对方时，背上突然挨了重重一巴掌，吓了他一跳。\n“看什么呢？还不走。”邓声宝出现在了周君州背后，顺着周君州看向的方向，他也看到了那个死亡骑兵军官。邓声宝问道：“怎么，您认识那怪物？”\n“没什么，走吧。”回过神的周君州重重的打还给了邓声宝，然后两人跟了上去。\n“刚才在干吗呢？周将军。”在前面等着他们的金督察问道。\n“看到一个之前救了我和邓声宝一命的死亡军官。”周君州回道。\n“那帮死亡军团的人一向杀人不长眼，整天不说话只知道祷告，怕都是些疯子，少跟他们接触为好。”金督察说。\n“嗯，我们走吧，临时医疗点就在前面。”周君州说。"
+    },
+    {
+      "index": 3,
+      "start_line": 71,
+      "end_line": 109,
+      "location": "灵武大街临时医疗点",
+      "summary": "王思涵称圣上召她与周君州入宫汇报，金志文的问题被推后。金志文、邓声宝留下调查，周君州答应路上探口风。张艺宣递帕让他擦手上的血，随后周君州与王思涵骑马入宫。",
+      "characters": [
+        "zhou_junzhou",
+        "wang_sihan",
+        "jin_zhiwen",
+        "deng_shengbao",
+        "zhang_yixuan",
+        "qiu_sitian"
+      ],
+      "content": "三人穿过向北前进的一列列士兵，来到了医院南面的灵武大街上的临时医疗点里，王思涵正在那里和邱思甜、张艺宣对话。\n“王思涵。”三人走近，周君州先招呼道。\n“嗯，你们来的正好，刚才宫里来人传话，圣上召我们入宫汇报这次袭击案。”王思涵说。\n“王思涵，这位是我们灵武军的督察金志文大校。他有点问题要问你。”周君州介绍道。\n“您好。”金志文向前半步与王思涵握手。\n“您好，很高兴认识您。但是我们现在要马上入宫，有什么问题的话请您等我们回来了再说。”王思涵怀着歉意浅浅微笑着说。\n“是只有我们两个吗？”周君州问道。\n“嗯，对，事不宜迟，我们马上出发。别让圣上等急了。”说罢，王思涵便往外走：“快跟上来。”\n“你要来吗？金督察。”周君州问道。\n“不了，我还要留在这里再调查一下老赵头的情报，你去吧。”金志文说道，“面圣这一去，回来怕是天都黑了。”\n“那我就在路上先探探她的口风。”周君州压低了声音，“有动静就派人传消息回来，没有就不传了。”\n金志文点了点头。\n“邓声宝，你也留在这里吧，我一个人去就可以了。”周君州说。\n“好，我和金督察一起。”邓声宝回答道。\n周君州走到张艺宣和邱思甜跟前道别。邱思甜只点了点头，他便也只说了一句：“邱部长保重。”\n张艺宣看了看他的袖口，那里沾着一大片已经发黑的血迹。“进宫面圣，你就穿成这样去？”她从怀里掏出一方手帕递过去，“至少把手擦干净。”\n周君州低头看了看自己的手，接过手帕擦了两下，又递还给她：“不是我的血。”\n“我知道。”张艺宣把手帕叠好收了起来，“去吧，别让圣上等你。”\n在医疗点外面，王思涵则骑在马上，等着周君州，她的手上牵着另一匹马。“姓周的，怎么这么慢？这可不是军人的作风。”王思涵说道：“这是给你准备的马。”\n周君州牵过马，脚踩着马镫一跃翻上马背，两人在两个灵武军骑兵的护送下朝着皇城的方向骑去。"
+    },
+    {
+      "index": 4,
+      "start_line": 112,
+      "end_line": 140,
+      "location": "入宫途中—大明宫紫宸殿前",
+      "summary": "途中周君州以“靠父荫”激将，试探首相府情报，王思涵反讥他二十四岁挂将星，拒不透露，策马赛跑至兴庆门。两人步行穿过含元殿、宣政殿至紫宸殿前，诸位大人已到，殿门推开。",
+      "characters": [
+        "zhou_junzhou",
+        "wang_sihan"
+      ],
+      "content": "去往皇宫的路上，两人并辔而行。\n“大小姐，你小小年纪就位列帝国六丞相之一，羡煞旁人。”周君州说道，“只是不知道首相府里那些要紧的公文，有几份能递到你的案头上？”\n王思涵瞥了周君州一眼，说道：“姓周的，想说什么就直接说。”\n“京城里都说，右仆射这把椅子，是王委员替女儿坐热的。”周君州不紧不慢地说，“昨夜炸了参谋本部，今天又炸了内务本部，首相府里真正管事的那几位，怕是到现在都没想起来要知会你一声吧？”\n王思涵冷笑一声：“你二十四岁就挂了两颗将星，令尊又恰好是近卫军元帅，这话你也好意思拿来说我？”\n周君州也不推辞，淡淡地说：“我十六岁从禁军军官学院毕业，同年镇压叛军，一战成名。此后八年，仗没停过。我的兵信我，是因为每一仗我都和他们站在一处。”\n“说得倒好听。”王思涵转过头来看着他，“激将法？你们灵武军审俘虏也是这么审的？首相府知道什么、不知道什么，到了紫宸殿上，圣上问一句，我答一句。你想听，就在旁边站着听。”\n说罢，她便策马向前加速奔腾而去。\n周君州望着她的背影，没有再追问，过了片刻才催马跟上去。王思涵见他追来，又加快了速度，就这样在赛马般的狂奔中，一行人来到了大明宫南正门兴庆门前。\n昨夜城楼前的观礼台上还挤满了贵族，此刻空空荡荡，城门下倒多站了一倍的虎贲军哨兵。两人在门前下了马，验过腰牌，把马交给护卫，由一名内侍领着步行进宫。\n进了兴庆门，迎面是一道望不到头的长坡。大明宫依着皇权高地的山势而建，殿宇一层高过一层：最前头的含元殿踞在高台上，两侧的阁楼像鸟翼一样向前展开，殿前一条龙尾道顺着坡势盘旋而上；往里是百官上朝的宣政殿；紫宸殿在最深处，是圣上召见近臣的地方。\n王思涵一路走在前头，气还没喘匀，始终没回头看他一眼。爬上龙尾道时，周君州回头望了一眼。东南方向，神圣高地上的黑烟还没有散尽，从这里看去清清楚楚。\n两人来到了位于皇宫深处的紫宸殿前。领路的内侍在阶下站住，躬身道：“诸位大人都到了，就等两位了，请。”\n周君州低头看了一眼袖口，那片血迹还是没擦干净。他把袖子往下拽了拽，盖住了一半。身旁的王思涵抬手理好被风吹乱的鬓发，两人谁也没再看谁。\n两名身着华丽军礼服的虎贲军仪仗兵为他们推开了厚重的殿门。"
+    }
+  ],
+  "summary_text": "金志文带兵赶到内禁医院，与周君州、邓声宝议及内务本部被毁。周君州由袭击者所用D67步枪联系老赵头“军中有人参与”的情报，众人疑是自己人所为，决定先探王思涵口风。周君州撞见马刀系百合花丝线的死亡骑兵军官。圣上召见，周君州随王思涵骑马入宫，途中试探遭反讥，二人抵紫宸殿，殿门推开。",
+  "dominant_strand": "quest",
+  "entities_new": [
+    "death_cavalry_officer",
+    "death_legion",
+    "daming_palace",
+    "xingqing_gate",
+    "lingwu_avenue"
+  ]
+}

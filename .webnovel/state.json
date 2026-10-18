@@ -1,0 +1,629 @@
+{
+  "project_info": {
+    "title": "淮南往事",
+    "genre": "历史",
+    "genre_label": "历史",
+    "genre_tags": {
+      "route": [],
+      "trope": [],
+      "format": [],
+      "templates": []
+    },
+    "created_at": "2026-10-18",
+    "target_words": 140000,
+    "target_chapters": 30,
+    "golden_finger_name": "",
+    "golden_finger_type": "无金手指",
+    "golden_finger_style": "",
+    "core_selling_points": "照搬瓦尔基里行动的宫廷政变,七人群像无上帝视角,明暗双主角立场对立,十九世纪帝国军政细节",
+    "protagonist_structure": "多主角",
+    "heroine_config": "无女主",
+    "heroine_names": "",
+    "heroine_role": "",
+    "co_protagonists": "周君州,张艺宣,邱思甜,王思涵,周君瑶,张书淮",
+    "co_protagonist_roles": "明主角·近卫灵武军军长·保皇派,公主·周君州的青梅竹马,外交部长·议会路线,右丞相·改良派,周君州之妹·邱深澳失散的亲妹妹,吴訥亲王·平民亲王",
+    "antagonist_tiers": "小反派:林安华;中反派:内务本部副总监;大反派:张永怀",
+    "world_scale": "大陆（海内大陆，淮南帝国占三分之二土地）",
+    "factions": "皇帝与禁卫军;近卫军权贵阶层;改良派（太子、周世衡、王政炎）;张永怀与羽林军;自由派",
+    "power_system_type": "无超凡力量：军政体制、军衔与爵位",
+    "social_class": "皇室、近卫军贵族、文官贵族、平民军官、平民与少数民族",
+    "resource_distribution": "军政与民政分离，军权归军方体系，公民议会只议民政；近卫军阶层把持军权",
+    "gf_visibility": "",
+    "gf_irreversible_cost": "无（群像政治剧，主角不靠外挂，靠身份、组织和判断）",
+    "target_reader": "喜欢架空历史、权谋与军政群像的读者",
+    "platform": "",
+    "currency_system": "",
+    "currency_exchange": "",
+    "sect_hierarchy": "",
+    "cultivation_chain": "",
+    "cultivation_subtiers": ""
+  },
+  "progress": {
+    "current_chapter": 12,
+    "total_words": 53803,
+    "last_updated": "2026-10-18 11:04:19",
+    "volumes_completed": [],
+    "current_volume": 1,
+    "volumes_planned": [],
+    "chapter_status": {
+      "1": "chapter_committed",
+      "2": "chapter_committed",
+      "3": "chapter_committed",
+      "4": "chapter_committed",
+      "5": "chapter_committed",
+      "6": "chapter_committed",
+      "7": "chapter_committed",
+      "8": "chapter_committed",
+      "9": "chapter_committed",
+      "10": "chapter_committed",
+      "11": "chapter_committed",
+      "12": "chapter_committed"
+    }
+  },
+  "protagonist_state": {
+    "name": "邱深澳",
+    "power": {
+      "realm": "",
+      "layer": 1,
+      "bottleneck": ""
+    },
+    "location": {
+      "current": "南京，离开王府返营途中",
+      "last_chapter": 0
+    },
+    "golden_finger": {
+      "name": "无金手指",
+      "level": 0,
+      "cooldown": 0,
+      "skills": []
+    },
+    "attributes": {},
+    "position": "羽林军第五军参谋，少校",
+    "current_task": "清点第五军军需库弹药与口粮",
+    "health": "爆炸中受伤流血，失去意识",
+    "injury": "头缠绷带；左臂伤口崩开，需卫生队重新包扎",
+    "family": "家破人亡：父亲与征粮官争执时被杀，母亲和奶奶在家中饿死，妹妹下落不明；本人因交不起学费停学，在中庆城给富户孩子教书谋生",
+    "affiliation": "中庆起义军传令兵",
+    "status": "在无名高地上随第二批攻击部队幸存者向帝国军投降，被捕入狱",
+    "belief": "认识到帝国军有高超的军事科技、基层军官战术素养高、士兵意志顽强，加上死亡军团，单凭一盘散沙、缺枪少炮又缺少知识的民众无法战胜这个崇尚军事与战争的国家",
+    "orders": {
+      "capital_liaison": "一概断绝，谁也不许找谁，等风头过去；其余人照常站岗出操，不露异样"
+    },
+    "duty": {
+      "current": "负责瓦尔基里新案三山门一路行军计划"
+    },
+    "legal": {
+      "third_bureau": "已在第三处录口供画押，日后可能再传"
+    },
+    "backstory": {
+      "sister": "邱深澳自述曾从中庆城找到乡下、找到海边，进赎罪军团后便无法再找，认定已无消息"
+    }
+  },
+  "relationships": {},
+  "disambiguation_warnings": [],
+  "disambiguation_pending": [],
+  "world_settings": {
+    "power_system": [],
+    "factions": [],
+    "locations": []
+  },
+  "plot_threads": {
+    "active_threads": [],
+    "foreshadowing": [
+      {
+        "content": "张永怀在兴庆门城楼上盯着观礼台上的周君州，右手死死握住佩剑，低声念出其名字，指节发白；正文未交代缘由。",
+        "status": "active",
+        "planted_chapter": 1
+      },
+      {
+        "content": "张艺宣看了周君州一眼，似乎还想说些什么，最后把话咽了回去。",
+        "status": "active",
+        "planted_chapter": 1
+      },
+      {
+        "content": "庆典上是否悬挂国教明灯悬而未决：王思涵主张悬挂，礼部尚书以皇帝是无神论者为由反对；王思涵称待与首相商议后再定，并思考如何劝首相支持自己。",
+        "status": "active",
+        "planted_chapter": 1
+      },
+      {
+        "content": "听到王思涵是外交部部长的亲戚时，邱深澳脱口说出“外交部部长的亲戚，我怎么没……”，被同僚追问是否认识外交部部长，随即改口“没什么，怎么可能”。",
+        "status": "active",
+        "planted_chapter": 1
+      },
+      {
+        "content": "前往参谋本部途中，一辆有皇家标识的马车疾驰而过，似乎是从参谋本部驶出，车上是谁、去向何处未交代。",
+        "status": "active",
+        "planted_chapter": 2
+      },
+      {
+        "content": "皇太子副官代表皇太子与邱思甜议定停战条款并在手写协议草稿上签字：前线军队三月二号彻底脱离接触，五号前全部返回国境线；两国交界处分别留出五十公里和一百二十公里非军事区；东秦支付战争期间全部开支，并把火落城产出的百分之七十移交帝国。外交部将据此同东秦王国商谈和平协议。",
+        "status": "active",
+        "planted_chapter": 2
+      },
+      {
+        "content": "副官出楼时称本该停在广场的马车不见了（邱思甜来时广场上只有一辆通讯处马车），到广场时马车却赫然停着；副官被联络官叫住、刚从车上下来，马车即剧烈爆炸。",
+        "status": "active",
+        "planted_chapter": 2
+      },
+      {
+        "content": "参谋本部程明广场爆炸案：袭击目标是参谋本部、皇室还是外交部尚不能确定；内务本部已成立专项调查组",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "副官侍卫随马车被炸成黑色残渣，负责现场的高级警督说不清是如何确认那具尸体就是侍卫",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "值守中尉称亥时末见皇家马车停在广场，子时刚过返回时皇家马车已离开，广场上多了外交部和通讯处的马车",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "值守中尉称亥时末曾见副官侍卫与参谋本部卫兵中队上士班戈现在皇家马车旁抽烟聊天；班戈现被视为破案突破口，下落未明",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "参谋本部卫兵宿舍空无一人，中尉称昨夜执勤的卫兵都被带走了",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "卫兵宿舍二楼冲出持砍刀的大汉砍死警司，门口两名持步枪黑衣人刺倒中尉",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "皇帝登基庆典临近，林安华称此时必须万无一失，并认为爆炸可能与庆典有关，有待案情明朗再判断",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "灵武军情报组初报：昨夜爆炸八成是军中的人干的，是羽林军还是预备役尚未查到",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "内务本部一小时前才到现场，此前对外只称新年人手不够；周君州认为这是做样子、不想查",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "周君州令情报组自行排查昨夜在参谋本部的所有人，一个不落，包括邱深澳",
+        "status": "active",
+        "planted_chapter": 3
+      },
+      {
+        "content": "同僚问邱深澳：既然这么厌恶帝国，为什么要加入羽林军？邱深澳没有回答，睡去后回忆八年前的无名高地；回忆停在赎罪军团开荒，加入羽林军的经过没有讲完",
+        "status": "active",
+        "planted_chapter": 4
+      },
+      {
+        "content": "邱深澳的妹妹在中庆大旱中下落不明，有人说她被人抓去煮着吃了",
+        "status": "active",
+        "planted_chapter": 4
+      },
+      {
+        "content": "无名高地上指挥帝国军那个连的少年军官与邱深澳同龄，眼里闪着坚定自信的光；正文未点出其姓名，邱深澳也不知道他是谁",
+        "status": "active",
+        "planted_chapter": 4
+      },
+      {
+        "content": "军长告知第三处和内务本部近日必来第五军问话，同僚担心二人因在爆炸现场被疑心",
+        "status": "active",
+        "planted_chapter": 5
+      },
+      {
+        "content": "据中央社早间广播，内务本部已成立爆炸案专项调查组，第三处亦插手",
+        "status": "active",
+        "planted_chapter": 5
+      },
+      {
+        "content": "炮兵营长追问参谋本部爆炸是否“咱们的人”所为，邱深澳称不知；他供述爆炸前那辆车一直停在广场上，未见有人靠近",
+        "status": "active",
+        "planted_chapter": 5
+      },
+      {
+        "content": "邱深澳在军需库清点弹药时，地面猛震，东北方京城方向传来闷雷似的巨响",
+        "status": "active",
+        "planted_chapter": 5
+      },
+      {
+        "content": "神圣高地爆炸后，一群统一穿黑色上衣、头戴黑色面具、手持全新半自动步枪的武装人员从商会马车中下来见人就杀，身份不明。",
+        "status": "active",
+        "planted_chapter": 6
+      },
+      {
+        "content": "黑衣人手持的是试验性D67半自动步枪，连灵武军也只有部分单位装备；邱思甜追问这些人是怎么拿到的，邓声宝称要活着离开才能知道。",
+        "status": "active",
+        "planted_chapter": 6
+      },
+      {
+        "content": "周君州、邓声宝持C93半自动手枪出医院，去支援在医院大门前被五六个黑衣人压制的神策军残余警卫；邱思甜、张艺宣、王思涵留在医院内躲避。",
+        "status": "active",
+        "planted_chapter": 6
+      },
+      {
+        "content": "袭击内务本部的黑衣人来历不明：如何把炸药运进要紧的军事机关、如何拿到新锐的D67式步枪；中尉只说他们训练有素、见人就杀、背景不简单。",
+        "status": "active",
+        "planted_chapter": 7
+      },
+      {
+        "content": "出现一名少见的死亡骑兵军官：灰色面具带银色骷髅标志、胸甲有数枚军功勋章与军衔图案、尖顶钢盔有金色死亡骷髅和长明灯标识、腰挎百合花丝线马刀；周邓都看不出其军衔，未能与之交流。",
+        "status": "active",
+        "planted_chapter": 7
+      },
+      {
+        "content": "情报组老赵头查到参谋本部爆炸有军中的人参与；袭击者所用D67步枪只发到龙武、木兰和几支近卫军，邓声宝疑为“自己人干的”，周君州指出前提是两次袭击为同一批人所为",
+        "status": "active",
+        "planted_chapter": 8
+      },
+      {
+        "content": "一名马刀系百合花丝线的死亡骑兵军官在街头凝视周君州，周君州认出可能是此前救过他和邓声宝的那名军官",
+        "status": "active",
+        "planted_chapter": 8
+      },
+      {
+        "content": "圣上召周君州与王思涵入紫宸殿汇报袭击案，殿内诸位大人已到齐，本章止于殿门推开",
+        "status": "active",
+        "planted_chapter": 8
+      },
+      {
+        "content": "袭击内务本部的黑衣人手持D67，而D67只配发禁卫军龙武、木兰两军与第一近卫集团军数部，枪从何处流出未明",
+        "status": "active",
+        "planted_chapter": 9
+      },
+      {
+        "content": "爆炸前开进内务本部的几辆商会马车来历不明，皇帝令王思涵去查",
+        "status": "active",
+        "planted_chapter": 9
+      },
+      {
+        "content": "退朝时周世衡低声对周君州说：今夜戌时，到府里来",
+        "status": "active",
+        "planted_chapter": 9
+      },
+      {
+        "content": "退朝时王政炎在王思涵身边停了一下，说了句什么，王思涵点头，神色不露",
+        "status": "active",
+        "planted_chapter": 9
+      },
+      {
+        "content": "康建皇帝登基五十周年庆典定于月内照办，京城乱党两度得手，庆典期间安全成隐患",
+        "status": "active",
+        "planted_chapter": 9
+      },
+      {
+        "content": "内务总监（兼城防司令官，握有瓦尔基里发令权）压在内务本部废墟下，下落不明",
+        "status": "active",
+        "planted_chapter": 9
+      },
+      {
+        "content": "改良派密会多人缺席：工部侍郎称染风寒，近卫军两位军长派副官以封枪为由不来，两家报馆主笔没有回音",
+        "status": "active",
+        "planted_chapter": 10
+      },
+      {
+        "content": "灵武军情报组查到新年夜爆炸有军中的人参与，哪一部尚未查明，督察金志文在追",
+        "status": "active",
+        "planted_chapter": 10
+      },
+      {
+        "content": "教授警告：第三处借爆炸案查乱党，报馆、学堂、会社都要过筛，文理大学议论朝廷的学生恐被列名，迟早也会查到这次密会",
+        "status": "active",
+        "planted_chapter": 10
+      },
+      {
+        "content": "灵武军情报组排查新年夜参谋本部在楼人员，唯邱深澳档案不对劲：只有几行（中庆人、平民、破格特招），中庆大旱到特招之间空缺数年，像被人动过",
+        "status": "active",
+        "planted_chapter": 11
+      },
+      {
+        "content": "周君州命金志文连同爆炸案一起私下续查邱深澳，此事不入金志文报参谋本部的公文；“封的是枪，没封灵武军的眼睛”",
+        "status": "active",
+        "planted_chapter": 11
+      },
+      {
+        "content": "林安华问询极细，句句绕着灵武军的枪打转，倒像早认定枪从灵武军流出，只差找出从哪道门、哪只手；周君州只当办案本该如此，没有往深处去想",
+        "status": "active",
+        "planted_chapter": 11
+      },
+      {
+        "content": "李文斌问今日问询如何向宫里递话，周君州说照实写，李文斌补半句“照实写，也有个先后”",
+        "status": "active",
+        "planted_chapter": 11
+      },
+      {
+        "content": "邱深澳亲手画的君来乡—三山门进城路线，若城里真有人起事，就是奉命开进城门、把起事者堵在城里的那一路",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "邱深澳进城前交代通讯连长：天黑之前他若没回来，那本东西亲手烧掉一页不留，烧完谁也不认识谁",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "一场口供说明不了什么，第三处也许只是还没轮到自由派；邱深澳要再看这几天第三处还传了谁、城里抓了谁、抓的是哪一路，回营后要逐份翻通讯连截下的电报",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "太子副官新年夜在宏飞楼签了字的停战草稿（三月二号前线脱离接触、五号前全部撤回国境线）至今压在参谋本部，下落、有无人看过均不明；邱思甜决定明日亲自去参谋本部取回",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "邱深澳判断第三处在查太子那边的人，问到了外交部的人；与副官谈了一夜停战的正是邱思甜，明天就会问到她头上",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "邱思甜问起邱深澳失散的妹妹，他说那年落到饥民手里便没了消息，曾一路找到海边",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "神圣高地西坡卖炭汉子作证：出事当天一早，六辆车篷崭新、车厢板漆着“通泰”字号的马车鱼贯经过，赶车人戴毡帽压得很低，一声吆喝都没有；第三处与内务本部查了三天，无人来问过他",
+        "status": "active",
+        "planted_chapter": 12
+      },
+      {
+        "content": "德裕银号账上，通泰商会户头去年十月开立、去年秋在首相府备案；腊月由北边一家票号汇票兑入一大笔现银，腊月二十、二十六、正月初二三笔全数提现，分毫不差；而该票号京城分号腊月账上并无此笔汇出",
+        "status": "active",
+        "planted_chapter": 12
+      }
+    ]
+  },
+  "review_checkpoints": [],
+  "chapter_meta": {},
+  "strand_tracker": {
+    "last_quest_chapter": 9,
+    "last_fire_chapter": 3,
+    "last_constellation_chapter": 0,
+    "current_dominant": "quest",
+    "chapters_since_switch": 4,
+    "history": [
+      {
+        "chapter": 3,
+        "dominant": "fire"
+      },
+      {
+        "chapter": 5,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 7,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 8,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 9,
+        "dominant": "quest"
+      }
+    ]
+  },
+  "entity_state": {
+    "qiu_shenao": {
+      "location": {
+        "current": "南京，离开王府返营途中"
+      },
+      "position": "羽林军第五军参谋，少校",
+      "current_task": "清点第五军军需库弹药与口粮",
+      "health": "爆炸中受伤流血，失去意识",
+      "injury": "头缠绷带；左臂伤口崩开，需卫生队重新包扎",
+      "family": "家破人亡：父亲与征粮官争执时被杀，母亲和奶奶在家中饿死，妹妹下落不明；本人因交不起学费停学，在中庆城给富户孩子教书谋生",
+      "affiliation": "中庆起义军传令兵",
+      "status": "在无名高地上随第二批攻击部队幸存者向帝国军投降，被捕入狱",
+      "belief": "认识到帝国军有高超的军事科技、基层军官战术素养高、士兵意志顽强，加上死亡军团，单凭一盘散沙、缺枪少炮又缺少知识的民众无法战胜这个崇尚军事与战争的国家",
+      "orders": {
+        "capital_liaison": "一概断绝，谁也不许找谁，等风头过去；其余人照常站岗出操，不露异样"
+      },
+      "duty": {
+        "current": "负责瓦尔基里新案三山门一路行军计划"
+      },
+      "legal": {
+        "third_bureau": "已在第三处录口供画押，日后可能再传"
+      },
+      "backstory": {
+        "sister": "邱深澳自述曾从中庆城找到乡下、找到海边，进赎罪军团后便无法再找，认定已无消息"
+      }
+    },
+    "colleague_fifth_army": {
+      "position": "羽林军第五军参谋，上尉",
+      "location": {
+        "current": "君来乡（第五军驻地）"
+      }
+    },
+    "liaison_officer": {
+      "position": "参谋本部联络官，中校，帝国山地伯爵",
+      "location": {
+        "current": "南京参谋本部程明广场"
+      }
+    },
+    "zhou_junzhou": {
+      "location": {
+        "current": "lingwu_barracks"
+      },
+      "position": "近卫灵武军军长，中将，帝国公爵",
+      "honors": "白武一级军功勋章",
+      "pending_appointment": "今夜戌时到周府见周世衡",
+      "condition": "自新年夜起几乎未眠，眼底发青、未刮胡茬"
+    },
+    "zhang_yixuan": {
+      "location": {
+        "current": "灵武大街临时医疗点"
+      },
+      "position": "帝国中央社广播站主播；亲王之女（公主）",
+      "injury": "内禁医院爆炸中受皮肉伤"
+    },
+    "zhang_yonghuai": {
+      "location": {
+        "current": "南京大明宫兴庆门城楼"
+      },
+      "position": "羽林军大元帅、参谋本部副参谋总长、镇秦王",
+      "injury": "左半边脸有早年战场旧伤，容貌被毁"
+    },
+    "zhang_shuhuai": {
+      "location": {
+        "current": "南京云中市街口（疏散人潮后）"
+      },
+      "reputation": "西市百姓称其“平民亲王”；新年夜凭此名号劝散云中市街口人潮"
+    },
+    "ying_wuyue": {
+      "location": {
+        "current": "南京云中市街口"
+      }
+    },
+    "wang_sihan": {
+      "location": {
+        "current": "紫宸殿"
+      },
+      "position": "尚书省右仆射（右丞相），帝国伯爵",
+      "honors": "二级帝国政府官员荣誉十字奖章",
+      "injury": "内禁医院爆炸中受皮肉伤",
+      "assignment": "奉旨查商会马车来历",
+      "current_task": "奉旨追查商会马车（商会线），户部侍郎协助调银号底账",
+      "investigation": "掌握卖炭人证词与德裕银号/票号账目异常，记于自己本子上，叮嘱证人有人来问先报首相府"
+    },
+    "qiu_sitian": {
+      "location": {
+        "current": "王思涵府上（王府）"
+      },
+      "health": "昏迷约九小时后苏醒，额上缠纱布，能下床走动",
+      "injury": "额上缝针，卧床静养中"
+    },
+    "crown_prince_adjutant": {
+      "health": "倒在血泊中一动不动",
+      "location": {
+        "current": "南京参谋本部程明广场"
+      },
+      "life_status": "遇难"
+    },
+    "general_staff": {
+      "status": {
+        "staffing": "新年夜非必要人员回家过年，几乎无人",
+        "damage": "靠广场一侧窗户全部震碎"
+      }
+    },
+    "zhou_junyao": {
+      "location": {
+        "current": "lingwu_barracks"
+      }
+    },
+    "deng_shengbao": {
+      "location": {
+        "current": "灵武大街临时医疗点"
+      }
+    },
+    "lin_anhua": {
+      "location": {
+        "current": "返回内务本部总部查看现场残骸"
+      }
+    },
+    "young_inspector": {
+      "life_status": "死亡"
+    },
+    "the_lieutenant": {
+      "life_status": "被刺倒地，身中一百多刀"
+    },
+    "adjutant_guard": {
+      "life_status": "据称随马车被炸身亡（尸体身份存疑）"
+    },
+    "waijiaobu_mishu": {
+      "injury": "身受重伤（据广播）"
+    },
+    "zhongqing_rebel_army": {
+      "status": "已覆灭（八年前无名高地之战）"
+    },
+    "fifth_army": {
+      "status": {
+        "alert": "全军停止休假，营门岗哨加倍"
+      },
+      "alert_status": "停休假，营门岗哨加倍；进城命令已封存机要柜待口令",
+      "deployment_orders": "按修订版瓦尔基里行动拟定开拔顺序、行军路线、到位时刻，当夜誊清封存锁入机要柜，钥匙由军长、参谋长各持一把"
+    },
+    "interior_ministry": {
+      "headquarters": {
+        "status": "本部大楼被炸断，仅余不到五分之一"
+      },
+      "guard": {
+        "status": "卫队伤亡惨重，军火库被毁，残部只能用L12旧步枪"
+      },
+      "status": "本部大楼炸塌，可调动人手凑不齐一个营；神策军卫队打光",
+      "assignment": "会同御前第三处办理爆炸案并案新年夜案"
+    },
+    "neijin_hospital": {
+      "status": "挨了炸，住不得人"
+    },
+    "shence_army": {
+      "status": "遭袭溃散，残余警卫在医院门前被压制"
+    },
+    "shence_lieutenant": {
+      "status": "阵亡"
+    },
+    "death_legion": {
+      "location": {
+        "current": "divine_heights"
+      }
+    },
+    "black_clad_gunmen": {
+      "status": {
+        "hospital_street": "医院门前两批黑衣人全部被歼"
+      }
+    },
+    "jin_zhiwen": {
+      "location": {
+        "current": "灵武大街临时医疗点"
+      },
+      "current_task": "追查新年夜爆炸中参与的军中之人"
+    },
+    "interior_director": {
+      "status": "压在内务本部废墟下，下落不明"
+    },
+    "third_bureau": {
+      "assignment": "会同内务本部查爆炸案及新年夜案；会同参谋本部封存D67"
+    },
+    "d67_rifle": {
+      "status": "全数封存待查"
+    },
+    "lingwu_army": {
+      "d67_status": "奉旨封存，不许动",
+      "armory_status": "枪柜上锁贴封条，封存待清查",
+      "investigation_status": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组"
+    },
+    "first_guards_army": {
+      "d67_status": "奉旨封存，不许动"
+    },
+    "nanjing": {
+      "security_status": "今夜起宵禁，虎贲军接管神圣高地一带与各城门",
+      "status": "宵禁，虎贲军巡逻"
+    },
+    "divine_heights": {
+      "status": "废墟中又挖出四十多具尸首，四周几条街房屋塌了不少，黑烟未散"
+    },
+    "valkyrie_plan": {
+      "content": "口令一下，羽林军和中央预备役集团军直接进城控制各处城门、电报局和宫城外围；发令权仍在皇帝和城防司令官兼内务总监",
+      "status": "修订版生效（羽林军进城控制城门、电报局、宫城西南一线）"
+    },
+    "prime_minister_office": {
+      "assignment": "增设医疗点、各医馆收治、抚恤死伤街坊"
+    },
+    "forbidden_guards": {
+      "assignment": "虎贲军奉旨接管神圣高地一带和各处城门，负责京城宵禁"
+    },
+    "emperor": {
+      "decision": {
+        "jubilee": "月内登基五十周年庆典照办，不改期"
+      }
+    },
+    "tongtai_guild": {
+      "investigation_status": "王思涵掌握人证与德裕银号账目异常"
+    }
+  }
+}

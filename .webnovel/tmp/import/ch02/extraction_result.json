@@ -1,0 +1,556 @@
+{
+  "accepted_events": [
+    {
+      "event_id": "evt-ch2-001",
+      "chapter": 2,
+      "event_type": "relationship_changed",
+      "subject": "liaison_officer",
+      "payload": {
+        "to_entity": "qiu_shenao",
+        "relationship_type": "呵斥警告",
+        "description": "邱深澳在马车上问联络官“帝国还能统治这片土地多久”，联络官揪住他的衣领厉声呵斥，称这个问题够他死一百次，再听到就亲手枪毙他；随后命二人交完报告就离开南京城。"
+      }
+    },
+    {
+      "event_id": "evt-ch2-002",
+      "chapter": 2,
+      "event_type": "open_loop_created",
+      "subject": "general_staff",
+      "payload": {
+        "content": "前往参谋本部途中，一辆有皇家标识的马车疾驰而过，似乎是从参谋本部驶出，车上是谁、去向何处未交代。",
+        "loop_type": "悬念",
+        "unanswered_question": "皇家标识的马车是谁的，是否从参谋本部驶出？",
+        "urgency": 60,
+        "planted_chapter": 2
+      }
+    },
+    {
+      "event_id": "evt-ch2-003",
+      "chapter": 2,
+      "event_type": "relationship_changed",
+      "subject": "yulin_army",
+      "payload": {
+        "to_entity": "qiu_sitian",
+        "relationship_type": "敌视和谈",
+        "description": "宏飞楼门口两名羽林军军官见邱思甜到来便关上大门，扔烟头嗤笑和约只配糊窗户；楼内二楼一名军官也嘲讽这里是谋划战争而非讨论和平的地方。"
+      }
+    },
+    {
+      "event_id": "evt-ch2-004",
+      "chapter": 2,
+      "event_type": "character_state_changed",
+      "subject": "general_staff",
+      "payload": {
+        "field": "status.staffing",
+        "old": "常态在岗",
+        "new": "新年夜经副参谋总长准许非必要人员回家过年，楼内与广场几乎空无一人"
+      }
+    },
+    {
+      "event_id": "evt-ch2-005",
+      "chapter": 2,
+      "event_type": "world_rule_revealed",
+      "subject": "hongfei_lou",
+      "payload": {
+        "rule_content": "参谋本部程明广场北面为川椴楼（参谋本部主楼），南面为宏飞楼，宏飞楼是皇太子单独的办公楼，布局与川椴楼相似，雕塑为第一任参谋总长张宏飞，装饰更豪华。",
+        "rule_category": "地理/建制",
+        "scope": "南京参谋本部"
+      }
+    },
+    {
+      "event_id": "evt-ch2-006",
+      "chapter": 2,
+      "event_type": "open_loop_created",
+      "subject": "waijiaobu",
+      "payload": {
+        "content": "皇太子副官代表皇太子与邱思甜议定停战条款并在手写协议草稿上签字：前线军队三月二号彻底脱离接触，五号前全部返回国境线；两国交界处分别留出五十公里和一百二十公里非军事区；东秦支付战争期间全部开支，并把火落城产出的百分之七十移交帝国。外交部将据此同东秦王国商谈和平协议。",
+        "loop_type": "主线进程",
+        "unanswered_question": "这份停战草约能否落实为与东秦的正式和平协议？",
+        "urgency": 60,
+        "planted_chapter": 2
+      }
+    },
+    {
+      "event_id": "evt-ch2-007",
+      "chapter": 2,
+      "event_type": "relationship_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "to_entity": "qiu_sitian",
+        "relationship_type": "同乡故旧重逢",
+        "description": "邱思甜在广场上远远觉得一名军官像中庆城的故旧；离开时邱深澳与邱思甜相互认出，惊喜地朝对方走去，随即爆炸发生。"
+      }
+    },
+    {
+      "event_id": "evt-ch2-008",
+      "chapter": 2,
+      "event_type": "open_loop_created",
+      "subject": "crown_prince_adjutant",
+      "payload": {
+        "content": "副官出楼时称本该停在广场的马车不见了（邱思甜来时广场上只有一辆通讯处马车），到广场时马车却赫然停着；副官被联络官叫住、刚从车上下来，马车即剧烈爆炸。",
+        "loop_type": "悬念",
+        "unanswered_question": "副官的马车为何先不在广场又出现，爆炸从何而来？",
+        "urgency": 100,
+        "planted_chapter": 2
+      }
+    },
+    {
+      "event_id": "evt-ch2-009",
+      "chapter": 2,
+      "event_type": "character_state_changed",
+      "subject": "crown_prince_adjutant",
+      "payload": {
+        "field": "health",
+        "old": "健康",
+        "new": "离爆炸中心仅几米，躺在血泊中一动不动"
+      }
+    },
+    {
+      "event_id": "evt-ch2-010",
+      "chapter": 2,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "health",
+        "old": "健康",
+        "new": "爆炸中受伤，身上不断淌血，经卫兵现场急救后失去意识"
+      }
+    },
+    {
+      "event_id": "evt-ch2-011",
+      "chapter": 2,
+      "event_type": "character_state_changed",
+      "subject": "qiu_sitian",
+      "payload": {
+        "field": "health",
+        "old": "健康",
+        "new": "被爆炸冲击波击倒在地，伤情未明"
+      }
+    },
+    {
+      "event_id": "evt-ch2-012",
+      "chapter": 2,
+      "event_type": "character_state_changed",
+      "subject": "general_staff",
+      "payload": {
+        "field": "status.damage",
+        "old": "完好",
+        "new": "程明广场马车爆炸，参谋本部大楼靠广场一侧窗户全部震碎"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "qiu_shenao",
+      "field": "location.current",
+      "old": "通往参谋本部途中",
+      "new": "南京参谋本部程明广场"
+    },
+    {
+      "entity_id": "qiu_shenao",
+      "field": "health",
+      "old": "健康",
+      "new": "爆炸中受伤流血，失去意识"
+    },
+    {
+      "entity_id": "qiu_sitian",
+      "field": "location.current",
+      "old": null,
+      "new": "南京参谋本部程明广场"
+    },
+    {
+      "entity_id": "qiu_sitian",
+      "field": "health",
+      "old": "健康",
+      "new": "被爆炸冲击波击倒在地，伤情未明"
+    },
+    {
+      "entity_id": "crown_prince_adjutant",
+      "field": "health",
+      "old": "健康",
+      "new": "倒在血泊中一动不动"
+    },
+    {
+      "entity_id": "crown_prince_adjutant",
+      "field": "location.current",
+      "old": null,
+      "new": "南京参谋本部程明广场"
+    },
+    {
+      "entity_id": "colleague_fifth_army",
+      "field": "location.current",
+      "old": "通往参谋本部途中",
+      "new": "南京参谋本部程明广场"
+    },
+    {
+      "entity_id": "liaison_officer",
+      "field": "location.current",
+      "old": "通往参谋本部途中",
+      "new": "南京参谋本部程明广场"
+    },
+    {
+      "entity_id": "general_staff",
+      "field": "status.staffing",
+      "old": "常态在岗",
+      "new": "新年夜非必要人员回家过年，几乎无人"
+    },
+    {
+      "entity_id": "general_staff",
+      "field": "status.damage",
+      "old": "完好",
+      "new": "靠广场一侧窗户全部震碎"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "qiu_shenao",
+      "action": "upsert",
+      "entity_type": "角色",
+      "is_protagonist": true,
+      "payload": {
+        "name": "邱深澳",
+        "rank": "少校",
+        "affiliation": "fifth_army"
+      }
+    },
+    {
+      "entity_id": "qiu_sitian",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "邱思甜",
+        "title": "外交部长",
+        "aliases": [
+          "部长大人",
+          "部长女士"
+        ]
+      }
+    },
+    {
+      "entity_id": "crown_prince_adjutant",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "皇太子副官",
+        "rank": "皇家上校",
+        "aliases": [
+          "副官",
+          "上校"
+        ]
+      }
+    },
+    {
+      "entity_id": "liaison_officer",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "联络官"
+      }
+    },
+    {
+      "entity_id": "colleague_fifth_army",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "邱深澳的同僚"
+      }
+    },
+    {
+      "entity_id": "waijiaobu_mishu",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "外交部秘书",
+        "aliases": [
+          "秘书"
+        ],
+        "note": "邱思甜的秘书，随同前往宏飞楼商谈停战"
+      }
+    },
+    {
+      "entity_id": "waijiaobu",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "外交部",
+        "head": "qiu_sitian"
+      }
+    },
+    {
+      "entity_id": "dongqin",
+      "action": "upsert",
+      "entity_type": "势力",
+      "payload": {
+        "name": "东秦王国",
+        "aliases": [
+          "东秦"
+        ],
+        "note": "与帝国交战的邻国，前线已实际停止敌对行动"
+      }
+    },
+    {
+      "entity_id": "chengming_guangchang",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "程明广场",
+        "parent": "general_staff",
+        "note": "参谋本部广场，北为川椴楼，南为宏飞楼"
+      }
+    },
+    {
+      "entity_id": "chuanduan_lou",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "川椴楼",
+        "note": "参谋本部主楼，位于程明广场北面"
+      }
+    },
+    {
+      "entity_id": "hongfei_lou",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "宏飞楼",
+        "note": "皇太子单独的办公楼，位于程明广场南面，内有皇太子办公室"
+      }
+    },
+    {
+      "entity_id": "huoluo_cheng",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "火落城",
+        "note": "东秦城市，停战草约约定其产出百分之七十移交帝国"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "qiu_shenao",
+      "type": "角色",
+      "mentions": [
+        "邱深澳",
+        "小子",
+        "故旧"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "colleague_fifth_army",
+      "type": "角色",
+      "mentions": [
+        "同僚"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "liaison_officer",
+      "type": "角色",
+      "mentions": [
+        "联络官",
+        "长官"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qiu_sitian",
+      "type": "角色",
+      "mentions": [
+        "邱思甜",
+        "外交部长",
+        "部长大人",
+        "部长女士"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "waijiaobu_mishu",
+      "type": "角色",
+      "mentions": [
+        "秘书"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "crown_prince_adjutant",
+      "type": "角色",
+      "mentions": [
+        "皇太子副官",
+        "副官",
+        "皇家上校",
+        "上校"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "crown_prince",
+      "type": "角色",
+      "mentions": [
+        "皇太子"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "zhang_yonghuai",
+      "type": "角色",
+      "mentions": [
+        "副参谋总长"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "general_staff",
+      "type": "组织",
+      "mentions": [
+        "参谋本部"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "third_bureau",
+      "type": "组织",
+      "mentions": [
+        "第三处"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "yulin_army",
+      "type": "组织",
+      "mentions": [
+        "羽林军军官"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "waijiaobu",
+      "type": "组织",
+      "mentions": [
+        "外交部"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "dongqin",
+      "type": "势力",
+      "mentions": [
+        "东秦王国",
+        "东秦",
+        "东秦人"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "nanjing",
+      "type": "地点",
+      "mentions": [
+        "南京城",
+        "京城"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "zhongqing",
+      "type": "地点",
+      "mentions": [
+        "中庆城"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "chengming_guangchang",
+      "type": "地点",
+      "mentions": [
+        "程明广场",
+        "广场"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "chuanduan_lou",
+      "type": "地点",
+      "mentions": [
+        "川椴楼"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "hongfei_lou",
+      "type": "地点",
+      "mentions": [
+        "宏飞楼",
+        "皇太子办公室"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "huoluo_cheng",
+      "type": "地点",
+      "mentions": [
+        "火落城"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 3,
+      "end_line": 25,
+      "location": "通往参谋本部的马车上",
+      "summary": "大年夜联络官接邱深澳与同僚去参谋本部交报告。邱深澳问帝国还能统治多久，被联络官揪领呵斥；一辆皇家标识马车疾驰而过。抵达时外交部长也到了，邱深澳想看清来人未果，随联络官进楼。",
+      "characters": [
+        "qiu_shenao",
+        "colleague_fifth_army",
+        "liaison_officer"
+      ],
+      "content": "马车途中的失言与呵斥，皇家马车掠过，抵达参谋本部。"
+    },
+    {
+      "index": 2,
+      "start_line": 27,
+      "end_line": 35,
+      "location": "参谋本部程明广场、宏飞楼门口",
+      "summary": "邱思甜下车，见广场冷清，觉得进川椴楼的军官中有人像中庆故旧。她带秘书赴宏飞楼与皇太子副官谈停战，门口两名羽林军军官关门、扔烟头嘲讽和约，她不予回应，推门而入。",
+      "characters": [
+        "qiu_sitian",
+        "waijiaobu_mishu",
+        "qiu_shenao"
+      ],
+      "content": "邱思甜抵达，瞥见故旧身影，门口遭羽林军军官羞辱。"
+    },
+    {
+      "index": 3,
+      "start_line": 37,
+      "end_line": 67,
+      "location": "宏飞楼皇太子办公室",
+      "summary": "楼内军官再出言嘲讽，皇太子副官喝退并迎接二人。副官称副参谋总长准许非必要人员回家过年，故楼内无人。双方议定撤军、非军事区、东秦赔付开支及火落城七成产出等条款，副官在草稿上签字，起身要去向皇太子报告。",
+      "characters": [
+        "qiu_sitian",
+        "waijiaobu_mishu",
+        "crown_prince_adjutant"
+      ],
+      "content": "停战条款议定，副官签字。"
+    },
+    {
+      "index": 4,
+      "start_line": 69,
+      "end_line": 91,
+      "location": "参谋本部程明广场",
+      "summary": "副官说马车不见，到广场却见马车停着。邱深澳与邱思甜相互认出。联络官叫住正上车的副官，马车随即爆炸，副官倒在血泊中不动，窗户尽碎。邱深澳想救邱思甜，被卫兵围住急救，渐渐失去意识。",
+      "characters": [
+        "crown_prince_adjutant",
+        "qiu_sitian",
+        "waijiaobu_mishu",
+        "qiu_shenao",
+        "liaison_officer",
+        "colleague_fifth_army"
+      ],
+      "content": "重逢瞬间马车爆炸，副官倒地，邱深澳受伤昏迷。"
+    }
+  ],
+  "summary_text": "大年夜，联络官接邱深澳与同僚赴参谋本部交报告，邱深澳问帝国还能统治多久，遭厉声呵斥。外交部长邱思甜赴宏飞楼与皇太子副官商谈停战，屡遭羽林军军官嘲讽，双方议定条款，副官签字。离开时邱深澳与邱思甜相互认出，副官马车随即爆炸，副官倒在血泊中，邱深澳受伤昏迷。",
+  "dominant_strand": "主线"
+}

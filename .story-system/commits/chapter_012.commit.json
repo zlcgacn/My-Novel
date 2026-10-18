@@ -1,0 +1,1230 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 12,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_012.json",
+    "review": "chapter_012.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "参谋本部送达修订版京畿瓦尔基里行动，第五军进城任务确定，邱深澳负责三山门一路",
+      "邱深澳收到第三处传票与邱思甜来信",
+      "邱深澳交代通讯连长天黑不归即烧那本东西",
+      "邱深澳与同僚进城，在第三处录口供，问讯只涉太子一线",
+      "邱深澳赴王府与邱思甜重逢，两人因停战草稿与中庆起义争执",
+      "王思涵安置神圣高地伤员，获卖炭人关于通泰马车的证词",
+      "王思涵在户部查出德裕银号通泰户头汇票来源不存在",
+      "邱思甜决意明日赴参谋本部取回停战草稿，王思涵安排护送"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 12,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
+    "review_skipped": true,
+    "review_mode": "import"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      "参谋本部送达修订版京畿瓦尔基里行动，第五军进城任务确定，邱深澳负责三山门一路",
+      "邱深澳收到第三处传票与邱思甜来信",
+      "邱深澳交代通讯连长天黑不归即烧那本东西",
+      "邱深澳与同僚进城，在第三处录口供，问讯只涉太子一线",
+      "邱深澳赴王府与邱思甜重逢，两人因停战草稿与中庆起义争执",
+      "王思涵安置神圣高地伤员，获卖炭人关于通泰马车的证词",
+      "王思涵在户部查出德裕银号通泰户头汇票来源不存在",
+      "邱思甜决意明日赴参谋本部取回停战草稿，王思涵安排护送"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch12-001",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "valkyrie_plan",
+        "payload": {
+          "field": "status",
+          "old": "原案（羽林军只在城西南官道设卡，城门以内不归羽林军管）",
+          "new": "修订版经圣上批准生效，原案作废：羽林军与中央预备役集团军为执行部队，第五军接口令即进城控制三山门、光淮门、接管城南电报局、开到宫城西南一线；发令权仍在圣上与城防司令官兼内务总监",
+          "note": "参谋本部机要交通火漆封袋送达第五军军长"
+        }
+      },
+      {
+        "event_id": "evt-ch12-002",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "fifth_army",
+        "payload": {
+          "field": "deployment_orders",
+          "old": "无进城任务",
+          "new": "按修订版瓦尔基里行动拟定开拔顺序、行军路线、到位时刻，当夜誊清封存锁入机要柜，钥匙由军长、参谋长各持一把"
+        }
+      },
+      {
+        "event_id": "evt-ch12-003",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "duty.current",
+          "old": "第五军作战科参谋",
+          "new": "负责修订版瓦尔基里行动中君来乡至三山门一路的行军计划（全程二十一里，步兵急行军一个半时辰）"
+        }
+      },
+      {
+        "event_id": "evt-ch12-004",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "qiu_shenao",
+        "payload": {
+          "content": "邱深澳亲手画的君来乡—三山门进城路线，若城里真有人起事，就是奉命开进城门、把起事者堵在城里的那一路",
+          "loop_type": "dramatic_irony",
+          "unanswered_question": "预案口令真下达时，邱深澳如何面对自己画的这一路？",
+          "urgency": 60,
+          "planted_chapter": 12
+        }
+      },
+      {
+        "event_id": "evt-ch12-005",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "legal.third_bureau",
+          "old": "未受传唤",
+          "new": "被御前第三处传唤，就新年夜参谋本部遇袭一案录取口供并画押；审讯员称日后有事还会再传"
+        }
+      },
+      {
+        "event_id": "evt-ch12-006",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "qiu_shenao",
+        "payload": {
+          "content": "邱深澳进城前交代通讯连长：天黑之前他若没回来，那本东西亲手烧掉一页不留，烧完谁也不认识谁",
+          "loop_type": "risk",
+          "unanswered_question": "邱深澳能否在天黑前回营？",
+          "urgency": 80,
+          "planted_chapter": 12
+        }
+      },
+      {
+        "event_id": "evt-ch12-007",
+        "chapter": 12,
+        "event_type": "world_rule_revealed",
+        "subject": "third_bureau",
+        "payload": {
+          "rule_content": "第三处对新年夜遇袭一案的口供，问的是那辆车、太子副官见了谁说了什么、太子身边的人、广场和川椴楼有无近卫军军服；未问邱深澳的中庆出身、入羽林军经过和第五军的来往",
+          "rule_category": "investigation_focus",
+          "scope": "新年夜参谋本部遇袭案"
+        }
+      },
+      {
+        "event_id": "evt-ch12-008",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "third_bureau",
+        "payload": {
+          "content": "一场口供说明不了什么，第三处也许只是还没轮到自由派；邱深澳要再看这几天第三处还传了谁、城里抓了谁、抓的是哪一路，回营后要逐份翻通讯连截下的电报",
+          "loop_type": "threat",
+          "unanswered_question": "第三处是否也在盯自由派？",
+          "urgency": 60,
+          "planted_chapter": 12
+        }
+      },
+      {
+        "event_id": "evt-ch12-009",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "qiu_sitian",
+        "payload": {
+          "field": "location.current",
+          "old": "内禁医院",
+          "new": "王思涵府上（王府）养伤",
+          "note": "内禁医院遭第二次爆炸塌了半边，她被从瓦砾中扶出送入王家马车"
+        }
+      },
+      {
+        "event_id": "evt-ch12-010",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "qiu_sitian",
+        "payload": {
+          "field": "injury",
+          "old": "额伤",
+          "new": "额上缝了几针，卧床静养两天，王思涵严令不许下床、看公文；本章擅自下床到偏厅见邱深澳"
+        }
+      },
+      {
+        "event_id": "evt-ch12-011",
+        "chapter": 12,
+        "event_type": "relationship_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "to_entity": "qiu_sitian",
+          "relationship_type": "旧同学、中庆同乡，重逢",
+          "change": "邱思甜写信约他到王府相见；两人在偏厅以中庆话交谈，因停战草稿和中庆起义的路线激烈争执（她：像中庆那样拿锄头去挡？他：下一回不能再那样输；他：我要你活着），不欢而散前约定写信",
+          "old": "中学时一别多年未见",
+          "new": "重逢，彼此关切但理念冲突"
+        }
+      },
+      {
+        "event_id": "evt-ch12-012",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "tingzhan_caogao",
+        "payload": {
+          "content": "太子副官新年夜在宏飞楼签了字的停战草稿（三月二号前线脱离接触、五号前全部撤回国境线）至今压在参谋本部，下落、有无人看过均不明；邱思甜决定明日亲自去参谋本部取回",
+          "loop_type": "plot_objective",
+          "unanswered_question": "草稿能否取回、谁不想让它送到太子手里？",
+          "urgency": 90,
+          "planted_chapter": 12,
+          "expected_payoff": "邱思甜赴参谋本部"
+        }
+      },
+      {
+        "event_id": "evt-ch12-013",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "qiu_sitian",
+        "payload": {
+          "content": "邱深澳判断第三处在查太子那边的人，问到了外交部的人；与副官谈了一夜停战的正是邱思甜，明天就会问到她头上",
+          "loop_type": "threat",
+          "unanswered_question": "第三处何时传讯邱思甜？",
+          "urgency": 80,
+          "planted_chapter": 12
+        }
+      },
+      {
+        "event_id": "evt-ch12-014",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "qiu_shenao",
+        "payload": {
+          "field": "backstory.sister",
+          "old": "妹妹下落不明",
+          "new": "邱深澳自述曾从中庆城找到乡下、找到海边，进赎罪军团后便无法再找，认定已无消息"
+        }
+      },
+      {
+        "event_id": "evt-ch12-015",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "qiu_shenao",
+        "payload": {
+          "content": "邱思甜问起邱深澳失散的妹妹，他说那年落到饥民手里便没了消息，曾一路找到海边",
+          "loop_type": "long_term_mystery",
+          "unanswered_question": "妹妹是否还活着、身在何处？",
+          "urgency": 20
+        }
+      },
+      {
+        "event_id": "evt-ch12-016",
+        "chapter": 12,
+        "event_type": "promise_created",
+        "subject": "wang_sihan",
+        "payload": {
+          "content": "王思涵对京兆府主簿承诺：会馆由她去说、礼部由她写信，户部抚恤银今天拨不下来首相府先垫，账记在她名下，户部不认她自己掏",
+          "to_entity": "jingzhaofu_zhubu"
+        }
+      },
+      {
+        "event_id": "evt-ch12-017",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "tongtai_guild",
+        "payload": {
+          "content": "神圣高地西坡卖炭汉子作证：出事当天一早，六辆车篷崭新、车厢板漆着“通泰”字号的马车鱼贯经过，赶车人戴毡帽压得很低，一声吆喝都没有；第三处与内务本部查了三天，无人来问过他",
+          "loop_type": "investigation",
+          "unanswered_question": "通泰商会的马车与神圣高地爆炸有何关系？",
+          "urgency": 80,
+          "planted_chapter": 12
+        }
+      },
+      {
+        "event_id": "evt-ch12-018",
+        "chapter": 12,
+        "event_type": "open_loop_created",
+        "subject": "tongtai_guild",
+        "payload": {
+          "content": "德裕银号账上，通泰商会户头去年十月开立、去年秋在首相府备案；腊月由北边一家票号汇票兑入一大笔现银，腊月二十、二十六、正月初二三笔全数提现，分毫不差；而该票号京城分号腊月账上并无此笔汇出",
+          "loop_type": "investigation",
+          "unanswered_question": "这笔凭空出现的汇票银子从哪里来？",
+          "urgency": 80,
+          "planted_chapter": 12
+        }
+      },
+      {
+        "event_id": "evt-ch12-019",
+        "chapter": 12,
+        "event_type": "character_state_changed",
+        "subject": "wang_sihan",
+        "payload": {
+          "field": "investigation",
+          "old": "请户部侍郎调银号底账",
+          "new": "掌握卖炭人证词与德裕银号/票号账目异常，记于自己本子上，叮嘱证人有人来问先报首相府"
+        }
+      },
+      {
+        "event_id": "evt-ch12-020",
+        "chapter": 12,
+        "event_type": "promise_created",
+        "subject": "wang_sihan",
+        "payload": {
+          "content": "王思涵同意邱思甜明日去参谋本部，派府里马车和两个护院相送，多待一刻就派人进去抬她出来",
+          "to_entity": "qiu_sitian"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "valkyrie_plan",
+        "field": "status",
+        "old": "原案",
+        "new": "修订版生效（羽林军进城控制城门、电报局、宫城西南一线）"
+      },
+      {
+        "entity_id": "fifth_army",
+        "field": "alert_status",
+        "old": null,
+        "new": "停休假，营门岗哨加倍；进城命令已封存机要柜待口令"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "duty.current",
+        "old": "第五军作战科参谋",
+        "new": "负责瓦尔基里新案三山门一路行军计划"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "location.current",
+        "old": "君来乡（第五军驻地）",
+        "new": "南京，离开王府返营途中"
+      },
+      {
+        "entity_id": "qiu_shenao",
+        "field": "legal.third_bureau",
+        "old": "未受传唤",
+        "new": "已在第三处录口供画押，日后可能再传"
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "field": "location.current",
+        "old": "内禁医院",
+        "new": "王思涵府上（王府）"
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "field": "injury",
+        "old": "额伤",
+        "new": "额上缝针，卧床静养中"
+      },
+      {
+        "entity_id": "tongtai_guild",
+        "field": "investigation_status",
+        "old": null,
+        "new": "王思涵掌握人证与德裕银号账目异常"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "qiu_shenao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱深澳",
+          "location": "南京（返营途中）",
+          "duty": "瓦尔基里新案三山门一路行军计划",
+          "injury": "左臂吊绷带、额上纱布",
+          "third_bureau": "已录口供"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "qiu_sitian",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱思甜",
+          "location": "王府",
+          "injury": "额上缝针，卧床静养",
+          "intent": "明日赴参谋本部取回停战草稿"
+        }
+      },
+      {
+        "entity_id": "fifth_army_chief_of_staff",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第五军参谋长",
+          "affiliation": "fifth_army",
+          "note": "持机要柜钥匙一把"
+        }
+      },
+      {
+        "entity_id": "signal_company_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第五军通讯连长",
+          "affiliation": "fifth_army",
+          "note": "与邱深澳同一秘密联络线，保管“那本东西”，截收电报"
+        }
+      },
+      {
+        "entity_id": "disanchu_shenxunyuan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第三处审讯员",
+          "affiliation": "third_bureau",
+          "note": "四十上下，黑色制服，给邱深澳录口供"
+        }
+      },
+      {
+        "entity_id": "assembly_member",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "公民议会议员",
+          "affiliation": "civic_assembly",
+          "faction": "reformist_faction",
+          "note": "衣着朴素，领卖炭人作证"
+        }
+      },
+      {
+        "entity_id": "vice_minister_of_revenue",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "户部侍郎",
+          "affiliation": "hubu",
+          "faction": "reformist_faction",
+          "note": "替王思涵调京城各大银号账册"
+        }
+      },
+      {
+        "entity_id": "maitan_hanzi",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "神圣高地西坡卖炭汉子",
+          "note": "目击六辆“通泰”马车，五十来岁"
+        }
+      },
+      {
+        "entity_id": "jingzhaofu_zhubu",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "京兆府主簿",
+          "affiliation": "jingzhaofu"
+        }
+      },
+      {
+        "entity_id": "wangfu_menfang",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王府门房老苍头",
+          "affiliation": "wangfu"
+        }
+      },
+      {
+        "entity_id": "wangfu_yatou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "王府丫头",
+          "affiliation": "wangfu"
+        }
+      },
+      {
+        "entity_id": "waijiaobu_mishu",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "邱思甜的秘书",
+          "location": "宜华医院",
+          "injury": "伤得比邱思甜重"
+        }
+      },
+      {
+        "entity_id": "central_reserve_group_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "中央预备役集团军",
+          "note": "瓦尔基里新案执行部队之一"
+        }
+      },
+      {
+        "entity_id": "hubu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "户部"
+        }
+      },
+      {
+        "entity_id": "jingzhaofu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "京兆府"
+        }
+      },
+      {
+        "entity_id": "deyu_yinhao",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "德裕银号",
+          "location": "城南",
+          "note": "通泰商会银钱往来银号"
+        }
+      },
+      {
+        "entity_id": "beibian_piaohao",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "北边一家票号（京城有分号）",
+          "note": "腊月账上无汇往德裕银号的汇票"
+        }
+      },
+      {
+        "entity_id": "waijiaobu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "外交部"
+        }
+      },
+      {
+        "entity_id": "civic_assembly",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "公民议会"
+        }
+      },
+      {
+        "entity_id": "tongtai_guild",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "通泰商会",
+          "registered": "去年秋天在首相府备案",
+          "account": "德裕银号，去年十月开户，腊月大额汇票兑入后三笔全数提现",
+          "witness": "六辆通泰马车出事当早经过神圣高地西坡"
+        }
+      },
+      {
+        "entity_id": "fifth_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "payload": {
+          "name": "羽林军第五军",
+          "alert_status": "停休假、岗哨加倍",
+          "valkyrie_task": "一个师控制三山门、光淮门，一个团接管城南电报局，其余开到宫城西南一线"
+        }
+      },
+      {
+        "entity_id": "valkyrie_plan",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "京畿瓦尔基里行动",
+          "status": "修订版生效，原案作废"
+        }
+      },
+      {
+        "entity_id": "tingzhan_caogao",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "停战草稿",
+          "content": "三月二号前线脱离接触，五号前全部撤回国境线",
+          "signed_by": "crown_prince_adjutant",
+          "location": "参谋本部（宏飞楼）抽屉"
+        }
+      },
+      {
+        "entity_id": "sanshan_men",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "三山门",
+          "note": "京城西南门，直道通君来乡，神策军加倍把守"
+        }
+      },
+      {
+        "entity_id": "disanchu_yamen",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "第三处衙门",
+          "note": "皇城西边僻静巷子，青砖高墙黑漆大门，无匾，两只石狮子"
+        }
+      },
+      {
+        "entity_id": "wangfu",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "王府（王思涵府邸）",
+          "note": "有偏厅、后园梅树"
+        }
+      },
+      {
+        "entity_id": "hongfei_lou",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "宏飞楼",
+          "note": "邱思甜与副官谈停战之处"
+        }
+      },
+      {
+        "entity_id": "chuanduan_lou",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "川椴楼"
+        }
+      },
+      {
+        "entity_id": "lingwu_avenue",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "灵武大街",
+          "note": "布庄改作临时医疗点"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "qiu_shenao",
+        "type": "角色",
+        "mentions": [
+          "邱深澳",
+          "深澳",
+          "姓邱的羽林军少校"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "qiu_sitian",
+        "type": "角色",
+        "mentions": [
+          "邱思甜",
+          "思甜",
+          "甜甜",
+          "邱大人",
+          "外交部长",
+          "外交部的人"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wang_sihan",
+        "type": "角色",
+        "mentions": [
+          "王思涵",
+          "涵涵",
+          "右丞相大人",
+          "小姐",
+          "右仆射"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "colleague_fifth_army",
+        "type": "角色",
+        "mentions": [
+          "同僚"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "fifth_army_commander",
+        "type": "角色",
+        "mentions": [
+          "军长"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "crown_prince_adjutant",
+        "type": "角色",
+        "mentions": [
+          "副官",
+          "上校"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "crown_prince",
+        "type": "角色",
+        "mentions": [
+          "太子殿下",
+          "太子"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "liaison_officer",
+        "type": "角色",
+        "mentions": [
+          "联络官"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "emperor",
+        "type": "角色",
+        "mentions": [
+          "圣上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "interior_director",
+        "type": "角色",
+        "mentions": [
+          "城防司令官兼内务总监"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "zhou_shiheng",
+        "type": "角色",
+        "mentions": [
+          "周世衡"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wang_zhengyan",
+        "type": "角色",
+        "mentions": [
+          "王委员"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "id": "fifth_army_chief_of_staff",
+        "type": "角色",
+        "mentions": [
+          "参谋长"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "signal_company_commander",
+        "type": "角色",
+        "mentions": [
+          "通讯连长"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disanchu_shenxunyuan",
+        "type": "角色",
+        "mentions": [
+          "第三处的人",
+          "那人"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "assembly_member",
+        "type": "角色",
+        "mentions": [
+          "议员",
+          "公民议会的那位议员"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "vice_minister_of_revenue",
+        "type": "角色",
+        "mentions": [
+          "户部侍郎",
+          "侍郎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "maitan_hanzi",
+        "type": "角色",
+        "mentions": [
+          "卖炭的",
+          "汉子"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "jingzhaofu_zhubu",
+        "type": "角色",
+        "mentions": [
+          "京兆府的一个主簿",
+          "主簿"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wangfu_menfang",
+        "type": "角色",
+        "mentions": [
+          "老苍头",
+          "门房"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wangfu_yatou",
+        "type": "角色",
+        "mentions": [
+          "丫头"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "waijiaobu_mishu",
+        "type": "角色",
+        "mentions": [
+          "她的秘书"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "fifth_army",
+        "type": "组织",
+        "mentions": [
+          "第五军",
+          "羽林军第五军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "yulin_army",
+        "type": "组织",
+        "mentions": [
+          "羽林军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "general_staff",
+        "type": "组织",
+        "mentions": [
+          "参谋本部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "third_bureau",
+        "type": "组织",
+        "mentions": [
+          "第三处",
+          "御前第三处"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "interior_ministry",
+        "type": "组织",
+        "mentions": [
+          "内务本部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "shence_army",
+        "type": "组织",
+        "mentions": [
+          "神策军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "imperial_guards_class",
+        "type": "势力",
+        "mentions": [
+          "近卫军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "forbidden_guards",
+        "type": "组织",
+        "mentions": [
+          "虎贲军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "lingwu_army",
+        "type": "组织",
+        "mentions": [
+          "灵武军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "prime_minister_office",
+        "type": "组织",
+        "mentions": [
+          "首相府"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "tongtai_guild",
+        "type": "组织",
+        "mentions": [
+          "通泰商会",
+          "通泰"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "central_reserve_group_army",
+        "type": "组织",
+        "mentions": [
+          "中央预备役集团军"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "hubu",
+        "type": "组织",
+        "mentions": [
+          "户部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "jingzhaofu",
+        "type": "组织",
+        "mentions": [
+          "京兆府"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "deyu_yinhao",
+        "type": "组织",
+        "mentions": [
+          "德裕银号",
+          "德裕"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "beibian_piaohao",
+        "type": "组织",
+        "mentions": [
+          "北边一家票号"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "waijiaobu",
+        "type": "组织",
+        "mentions": [
+          "外交部"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "civic_assembly",
+        "type": "组织",
+        "mentions": [
+          "公民议会"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "nanjing",
+        "type": "地点",
+        "mentions": [
+          "京城"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "junlai_township",
+        "type": "地点",
+        "mentions": [
+          "君来乡"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "divine_heights",
+        "type": "地点",
+        "mentions": [
+          "神圣高地",
+          "高地西坡"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "neijin_hospital",
+        "type": "地点",
+        "mentions": [
+          "内禁医院"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "zhou_mansion",
+        "type": "地点",
+        "mentions": [
+          "周府"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "zhongqing",
+        "type": "地点",
+        "mentions": [
+          "中庆",
+          "中庆城"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "nameless_hill",
+        "type": "地点",
+        "mentions": [
+          "无名高地"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sanshan_men",
+        "type": "地点",
+        "mentions": [
+          "三山门"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disanchu_yamen",
+        "type": "地点",
+        "mentions": [
+          "第三处的衙门"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wangfu",
+        "type": "地点",
+        "mentions": [
+          "王府",
+          "思涵府上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "hongfei_lou",
+        "type": "地点",
+        "mentions": [
+          "宏飞楼"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "chuanduan_lou",
+        "type": "地点",
+        "mentions": [
+          "川椴楼"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "lingwu_avenue",
+        "type": "地点",
+        "mentions": [
+          "灵武大街"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "valkyrie_plan",
+        "type": "物品",
+        "mentions": [
+          "京畿瓦尔基里行动",
+          "预案",
+          "新案"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "tingzhan_caogao",
+        "type": "物品",
+        "mentions": [
+          "草稿",
+          "那份东西",
+          "那张纸"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 59,
+        "location": "君来乡第五军军部作战室",
+        "summary": "参谋本部送来修订版瓦尔基里行动，第五军接令后须进城控制三山门、光淮门、城南电报局。军长令当夜拟好命令封存，邱深澳负责三山门一路，画到城门时想到这条路将来可能用来堵城里起事的人。",
+        "characters": [
+          "fifth_army_commander",
+          "fifth_army_chief_of_staff",
+          "qiu_shenao"
+        ],
+        "content": "修订版瓦尔基里行动送达；第五军进城任务；邱深澳负责三山门一路"
+      },
+      {
+        "index": 2,
+        "start_line": 61,
+        "end_line": 121,
+        "location": "第五军营房、通讯连",
+        "summary": "邱深澳收到第三处传票和邱思甜不落款的来信，约他进京到王府相见。同僚担心进去出不来。天亮前他到通讯连交代连长：天黑前不回，就把那本东西烧掉。",
+        "characters": [
+          "qiu_shenao",
+          "colleague_fifth_army",
+          "signal_company_commander"
+        ],
+        "content": "第三处传票；邱思甜来信；交代通讯连长烧那本东西"
+      },
+      {
+        "index": 3,
+        "start_line": 123,
+        "end_line": 157,
+        "location": "官道、三山门、第三处前院",
+        "summary": "两人坐马车进城，石桥过得了炮车。三山门由神策军加倍把守，看到第三处黑印便放行。城里铺子大半关门，虎贲骑兵巡街。第三处前院挤满近卫军军官，为封枪骂骂咧咧。",
+        "characters": [
+          "qiu_shenao",
+          "colleague_fifth_army"
+        ],
+        "content": "进城所见；第三处前院近卫军抱怨封枪"
+      },
+      {
+        "index": 4,
+        "start_line": 159,
+        "end_line": 267,
+        "location": "第三处审讯室及门外",
+        "summary": "审讯员只问那辆车、副官和外交部的人、太子身边的人和近卫军军服，没问中庆和第五军。邱深澳签押出门，一身冷汗，觉得风头像是没刮到他们，但还得再看。他支开同僚，去看一个人。",
+        "characters": [
+          "qiu_shenao",
+          "disanchu_shenxunyuan",
+          "colleague_fifth_army"
+        ],
+        "content": "录口供；第三处问讯重点在太子一线；邱深澳的判断"
+      },
+      {
+        "index": 5,
+        "start_line": 269,
+        "end_line": 299,
+        "location": "王府邱思甜卧房",
+        "summary": "邱思甜在王府卧床养伤，王思涵严令丫头看住她。她惦记着住院的秘书和副官签过字、如今压在参谋本部的停战草稿。门房来报邱少校到了，她不顾劝阻下床去偏厅。",
+        "characters": [
+          "qiu_sitian",
+          "wangfu_yatou",
+          "wangfu_menfang"
+        ],
+        "content": "邱思甜养伤；停战草稿下落不明；邱深澳来访"
+      },
+      {
+        "index": 6,
+        "start_line": 301,
+        "end_line": 411,
+        "location": "王府偏厅",
+        "summary": "两人以中庆话叙旧，邱深澳告诉她第三处在查太子一线，劝她离京、别再碰草稿。两人为停战和中庆起义争执，她说漏嘴后后悔，他说“我要你活着”。问起妹妹，他说已无消息。临别约好写信。",
+        "characters": [
+          "qiu_shenao",
+          "qiu_sitian"
+        ],
+        "content": "重逢、争执、妹妹下落、约定写信"
+      },
+      {
+        "index": 7,
+        "start_line": 413,
+        "end_line": 461,
+        "location": "灵武大街布庄临时医疗点",
+        "summary": "王思涵安置神圣高地伤员，承诺抚恤由首相府先垫、记在她名下，又听到有人议论她靠父亲撑腰。议员领来卖炭汉子，作证出事当天早上有六辆“通泰”马车经过西坡，而第三处和内务本部从没人问过他。",
+        "characters": [
+          "wang_sihan",
+          "jingzhaofu_zhubu",
+          "assembly_member",
+          "maitan_hanzi"
+        ],
+        "content": "伤员安置；通泰马车人证"
+      },
+      {
+        "index": 8,
+        "start_line": 463,
+        "end_line": 499,
+        "location": "户部签押房",
+        "summary": "户部侍郎查到通泰商会在德裕银号开户。王思涵连夜翻账，发现腊月一大笔汇票兑出的银子被三笔全数提走，分毫不差；而开汇票的那家北方票号账上根本没有这笔钱。",
+        "characters": [
+          "wang_sihan",
+          "vice_minister_of_revenue"
+        ],
+        "content": "德裕银号账目；汇票来源不存在"
+      },
+      {
+        "index": 9,
+        "start_line": 501,
+        "end_line": 569,
+        "location": "王府邱思甜卧房、偏厅",
+        "summary": "王思涵深夜回府，得知邱思甜下床见过邱少校。邱思甜说第三处在查太子一线，并坚持明日去参谋本部取回草稿。王思涵拗不过，答应派马车和护院相送。偏厅里两只茶碗，一只空着一只满着，她吹灭了灯。",
+        "characters": [
+          "wang_sihan",
+          "qiu_sitian",
+          "wangfu_menfang"
+        ],
+        "content": "邱思甜决意明日赴参谋本部；王思涵安排护送"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "修订版瓦尔基里行动送达第五军，邱深澳负责进城的三山门一路。他奉第三处传票进城录口供，进城前交代通讯连长天黑不归就烧掉那本东西；第三处只问太子副官和外交部。他到王府见邱思甜，两人为停战草稿与中庆起义争执。王思涵得到通泰马车的人证，又查出德裕银号的汇票来源在账上不存在。邱思甜决意明日去参谋本部取回草稿。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

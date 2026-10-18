@@ -1,0 +1,240 @@
+[
+  {
+    "event_id": "evt-ch12-001",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "valkyrie_plan",
+    "payload": {
+      "field": "status",
+      "old": "原案（羽林军只在城西南官道设卡，城门以内不归羽林军管）",
+      "new": "修订版经圣上批准生效，原案作废：羽林军与中央预备役集团军为执行部队，第五军接口令即进城控制三山门、光淮门、接管城南电报局、开到宫城西南一线；发令权仍在圣上与城防司令官兼内务总监",
+      "note": "参谋本部机要交通火漆封袋送达第五军军长"
+    }
+  },
+  {
+    "event_id": "evt-ch12-002",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army",
+    "payload": {
+      "field": "deployment_orders",
+      "old": "无进城任务",
+      "new": "按修订版瓦尔基里行动拟定开拔顺序、行军路线、到位时刻，当夜誊清封存锁入机要柜，钥匙由军长、参谋长各持一把"
+    }
+  },
+  {
+    "event_id": "evt-ch12-003",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "duty.current",
+      "old": "第五军作战科参谋",
+      "new": "负责修订版瓦尔基里行动中君来乡至三山门一路的行军计划（全程二十一里，步兵急行军一个半时辰）"
+    }
+  },
+  {
+    "event_id": "evt-ch12-004",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "邱深澳亲手画的君来乡—三山门进城路线，若城里真有人起事，就是奉命开进城门、把起事者堵在城里的那一路",
+      "loop_type": "dramatic_irony",
+      "unanswered_question": "预案口令真下达时，邱深澳如何面对自己画的这一路？",
+      "urgency": 60,
+      "planted_chapter": 12
+    }
+  },
+  {
+    "event_id": "evt-ch12-005",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "legal.third_bureau",
+      "old": "未受传唤",
+      "new": "被御前第三处传唤，就新年夜参谋本部遇袭一案录取口供并画押；审讯员称日后有事还会再传"
+    }
+  },
+  {
+    "event_id": "evt-ch12-006",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "邱深澳进城前交代通讯连长：天黑之前他若没回来，那本东西亲手烧掉一页不留，烧完谁也不认识谁",
+      "loop_type": "risk",
+      "unanswered_question": "邱深澳能否在天黑前回营？",
+      "urgency": 80,
+      "planted_chapter": 12
+    }
+  },
+  {
+    "event_id": "evt-ch12-007",
+    "chapter": 12,
+    "event_type": "world_rule_revealed",
+    "subject": "third_bureau",
+    "payload": {
+      "rule_content": "第三处对新年夜遇袭一案的口供，问的是那辆车、太子副官见了谁说了什么、太子身边的人、广场和川椴楼有无近卫军军服；未问邱深澳的中庆出身、入羽林军经过和第五军的来往",
+      "rule_category": "investigation_focus",
+      "scope": "新年夜参谋本部遇袭案"
+    }
+  },
+  {
+    "event_id": "evt-ch12-008",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "third_bureau",
+    "payload": {
+      "content": "一场口供说明不了什么，第三处也许只是还没轮到自由派；邱深澳要再看这几天第三处还传了谁、城里抓了谁、抓的是哪一路，回营后要逐份翻通讯连截下的电报",
+      "loop_type": "threat",
+      "unanswered_question": "第三处是否也在盯自由派？",
+      "urgency": 60,
+      "planted_chapter": 12
+    }
+  },
+  {
+    "event_id": "evt-ch12-009",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "location.current",
+      "old": "内禁医院",
+      "new": "王思涵府上（王府）养伤",
+      "note": "内禁医院遭第二次爆炸塌了半边，她被从瓦砾中扶出送入王家马车"
+    }
+  },
+  {
+    "event_id": "evt-ch12-010",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "injury",
+      "old": "额伤",
+      "new": "额上缝了几针，卧床静养两天，王思涵严令不许下床、看公文；本章擅自下床到偏厅见邱深澳"
+    }
+  },
+  {
+    "event_id": "evt-ch12-011",
+    "chapter": 12,
+    "event_type": "relationship_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "旧同学、中庆同乡，重逢",
+      "change": "邱思甜写信约他到王府相见；两人在偏厅以中庆话交谈，因停战草稿和中庆起义的路线激烈争执（她：像中庆那样拿锄头去挡？他：下一回不能再那样输；他：我要你活着），不欢而散前约定写信",
+      "old": "中学时一别多年未见",
+      "new": "重逢，彼此关切但理念冲突"
+    }
+  },
+  {
+    "event_id": "evt-ch12-012",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "tingzhan_caogao",
+    "payload": {
+      "content": "太子副官新年夜在宏飞楼签了字的停战草稿（三月二号前线脱离接触、五号前全部撤回国境线）至今压在参谋本部，下落、有无人看过均不明；邱思甜决定明日亲自去参谋本部取回",
+      "loop_type": "plot_objective",
+      "unanswered_question": "草稿能否取回、谁不想让它送到太子手里？",
+      "urgency": 90,
+      "planted_chapter": 12,
+      "expected_payoff": "邱思甜赴参谋本部"
+    }
+  },
+  {
+    "event_id": "evt-ch12-013",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "qiu_sitian",
+    "payload": {
+      "content": "邱深澳判断第三处在查太子那边的人，问到了外交部的人；与副官谈了一夜停战的正是邱思甜，明天就会问到她头上",
+      "loop_type": "threat",
+      "unanswered_question": "第三处何时传讯邱思甜？",
+      "urgency": 80,
+      "planted_chapter": 12
+    }
+  },
+  {
+    "event_id": "evt-ch12-014",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "backstory.sister",
+      "old": "妹妹下落不明",
+      "new": "邱深澳自述曾从中庆城找到乡下、找到海边，进赎罪军团后便无法再找，认定已无消息"
+    }
+  },
+  {
+    "event_id": "evt-ch12-015",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "邱思甜问起邱深澳失散的妹妹，他说那年落到饥民手里便没了消息，曾一路找到海边",
+      "loop_type": "long_term_mystery",
+      "unanswered_question": "妹妹是否还活着、身在何处？",
+      "urgency": 20
+    }
+  },
+  {
+    "event_id": "evt-ch12-016",
+    "chapter": 12,
+    "event_type": "promise_created",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "王思涵对京兆府主簿承诺：会馆由她去说、礼部由她写信，户部抚恤银今天拨不下来首相府先垫，账记在她名下，户部不认她自己掏",
+      "to_entity": "jingzhaofu_zhubu"
+    }
+  },
+  {
+    "event_id": "evt-ch12-017",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "tongtai_guild",
+    "payload": {
+      "content": "神圣高地西坡卖炭汉子作证：出事当天一早，六辆车篷崭新、车厢板漆着“通泰”字号的马车鱼贯经过，赶车人戴毡帽压得很低，一声吆喝都没有；第三处与内务本部查了三天，无人来问过他",
+      "loop_type": "investigation",
+      "unanswered_question": "通泰商会的马车与神圣高地爆炸有何关系？",
+      "urgency": 80,
+      "planted_chapter": 12
+    }
+  },
+  {
+    "event_id": "evt-ch12-018",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "tongtai_guild",
+    "payload": {
+      "content": "德裕银号账上，通泰商会户头去年十月开立、去年秋在首相府备案；腊月由北边一家票号汇票兑入一大笔现银，腊月二十、二十六、正月初二三笔全数提现，分毫不差；而该票号京城分号腊月账上并无此笔汇出",
+      "loop_type": "investigation",
+      "unanswered_question": "这笔凭空出现的汇票银子从哪里来？",
+      "urgency": 80,
+      "planted_chapter": 12
+    }
+  },
+  {
+    "event_id": "evt-ch12-019",
+    "chapter": 12,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "investigation",
+      "old": "请户部侍郎调银号底账",
+      "new": "掌握卖炭人证词与德裕银号/票号账目异常，记于自己本子上，叮嘱证人有人来问先报首相府"
+    }
+  },
+  {
+    "event_id": "evt-ch12-020",
+    "chapter": 12,
+    "event_type": "promise_created",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "王思涵同意邱思甜明日去参谋本部，派府里马车和两个护院相送，多待一刻就派人进去抬她出来",
+      "to_entity": "qiu_sitian"
+    }
+  }
+]

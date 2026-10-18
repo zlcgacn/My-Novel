@@ -1,0 +1,675 @@
+{
+  "accepted_events": [
+    {
+      "event_id": "evt-ch04-001",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "location.current",
+        "old": "南京（内禁医院外）",
+        "new": "京城通往君来乡的大道（羽林军军用马车上，返回第五军驻地）",
+        "story_time": "卯初，参谋本部遇袭后五小时",
+        "is_flashback": false
+      }
+    },
+    {
+      "event_id": "evt-ch04-002",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "neijin_hospital",
+      "payload": {
+        "rule_content": "内禁医院是内卫禁军的医院，没有爵位的人进不去；参谋本部遇袭的伤员都送宜华医院，只有外交部长被单独送进内禁医院（同僚转述警察的说法：好像是灵武军军长直接下的命令）",
+        "rule_category": "制度/等级",
+        "scope": "京城医院",
+        "source": "同僚转述",
+        "is_flashback": false
+      }
+    },
+    {
+      "event_id": "evt-ch04-003",
+      "chapter": 4,
+      "event_type": "open_loop_created",
+      "subject": "qiu_shenao",
+      "payload": {
+        "content": "同僚问邱深澳：既然这么厌恶帝国，为什么要加入羽林军？邱深澳没有回答，睡去后回忆八年前的无名高地；回忆停在赎罪军团开荒，加入羽林军的经过没有讲完",
+        "loop_type": "人物动机",
+        "unanswered_question": "邱深澳为什么、怎样加入了羽林军",
+        "urgency": 60,
+        "planted_chapter": 4
+      }
+    },
+    {
+      "event_id": "evt-ch04-004",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "zhongqing",
+      "payload": {
+        "rule_content": "八年前中庆省遭百年一遇的旱灾，全岛粮食几乎颗粒无收；帝国正陷于第八次西北战争，不但没有调粮赈灾，反而抬高当年粮食税，饿死者遍布道路两旁",
+        "rule_category": "历史",
+        "scope": "中庆省",
+        "story_time": "八年前",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-005",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "family",
+        "old": "中庆当地小有钱财的富农家庭；本人十六岁，在中庆城上中学，成绩全省名列前茅",
+        "new": "家破人亡：父亲与征粮官争执时被杀，母亲和奶奶在家中饿死，妹妹下落不明；本人因交不起学费停学，在中庆城给富户孩子教书谋生",
+        "story_time": "八年前",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-006",
+      "chapter": 4,
+      "event_type": "open_loop_created",
+      "subject": "qiu_shenao",
+      "payload": {
+        "content": "邱深澳的妹妹在中庆大旱中下落不明，有人说她被人抓去煮着吃了",
+        "loop_type": "身世",
+        "unanswered_question": "邱深澳的妹妹是生是死、如今在哪里",
+        "urgency": 20,
+        "planted_chapter": 4
+      }
+    },
+    {
+      "event_id": "evt-ch04-007",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "affiliation",
+        "old": "无（停学，靠教书谋生）",
+        "new": "中庆起义军传令兵",
+        "story_time": "八年前，中庆起义期间",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-008",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "zhongqing_rebel_army",
+      "payload": {
+        "rule_content": "中庆起义三天聚众十万，五战五胜中庆城的帝国民兵军，夺取除城市以外的全岛；第五天大陆援军到来，帝国因急缺军粮出动一整支皇家捍卫者军团和两个死亡骑兵营镇压；起义军起初靠游击、诱敌深入、分割包围屡次重创帝国军，内部因此出现轻敌倾向",
+        "rule_category": "历史",
+        "scope": "中庆起义",
+        "story_time": "八年前，起义第一至第七天",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-009",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "maxim_gun",
+      "payload": {
+        "rule_content": "帝国军装备马克沁重机枪：前后枪身分别为圆筒状和方块状，后枪身连长弹链，架在三脚架上，半埋在战壕里；起义军此前从未见过。无名高地上帝国军有好几挺，第一批登上高地的上千人不到十分钟被击溃，幸存者不过几十人",
+        "rule_category": "军事技术",
+        "scope": "帝国军",
+        "story_time": "八年前，起义第八天",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-010",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "death_legion",
+      "payload": {
+        "rule_content": "死亡骑兵冲锋前吹响哨声，能把排成密集队列的步兵硬生生冲散；正文描写其移动宛如闪电，轻松躲闪子弹；无名高地之战中约八成起义军死于死亡骑兵。同僚现今仍以死亡军团在为由，认为自由派不够人家练手",
+        "rule_category": "军事力量",
+        "scope": "死亡军团",
+        "story_time": "八年前（同僚评价为当下）",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-011",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "zhongqing_rebel_army",
+      "payload": {
+        "field": "status",
+        "old": "起事八天，围攻无名高地的两万余人",
+        "new": "覆灭：起义第八天在无名高地被马克沁机枪重创后，遭死亡骑兵从高地南面背后突袭、反包围，所有将领连同主力被歼；仅已登上高地的第二批攻击部队五十六人投降被俘入狱",
+        "story_time": "八年前，起义第八天巳时至未时初",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-012",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "status",
+        "old": "中庆起义军传令兵",
+        "new": "在无名高地上随第二批攻击部队幸存者向帝国军投降，被捕入狱",
+        "story_time": "八年前，起义第八天未时初",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-013",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "nameless_hill",
+      "payload": {
+        "rule_content": "据邱深澳加入帝国军后翻阅的档案：无名高地之战帝国军歼敌两万余人，自身仅阵亡四十六人；那个连并非被起义军引诱出来，而是帝国军早设的圈套——少年军官带一个连和几挺机枪故意脱离主力，把起义军主力引到高地下，两个死亡骑兵营早已埋伏在高地南面的山坳里",
+        "rule_category": "历史/战役真相",
+        "scope": "无名高地之战",
+        "source": "帝国军档案（邱深澳事后查阅）",
+        "story_time": "八年前",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-014",
+      "chapter": 4,
+      "event_type": "open_loop_created",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "content": "无名高地上指挥帝国军那个连的少年军官与邱深澳同龄，眼里闪着坚定自信的光；正文未点出其姓名，邱深澳也不知道他是谁",
+        "loop_type": "身份",
+        "unanswered_question": "无名高地上的帝国少年军官是谁",
+        "urgency": 20,
+        "planted_chapter": 4,
+        "expected_payoff": "设定集：此人即周君州；正文何时、是否点破待定"
+      }
+    },
+    {
+      "event_id": "evt-ch04-015",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "belief",
+        "old": "随起义军一同以为胜利即将到来",
+        "new": "认识到帝国军有高超的军事科技、基层军官战术素养高、士兵意志顽强，加上死亡军团，单凭一盘散沙、缺枪少炮又缺少知识的民众无法战胜这个崇尚军事与战争的国家",
+        "story_time": "八年前无名高地战后至今",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-016",
+      "chapter": 4,
+      "event_type": "world_rule_revealed",
+      "subject": "atonement_legions",
+      "payload": {
+        "rule_content": "帝国前线兵源、粮草短缺时，皇帝特赦监狱犯人组成两个赎罪军团：一支派往前线充当炮灰，战争结束时回来的十不存一；另一支在民兵军监督下到帝国荒废土地上开垦荒田",
+        "rule_category": "制度",
+        "scope": "帝国",
+        "story_time": "八年前无名高地战后",
+        "is_flashback": true
+      }
+    },
+    {
+      "event_id": "evt-ch04-017",
+      "chapter": 4,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "status",
+        "old": "被捕入狱",
+        "new": "经皇帝特赦编入开垦用的赎罪军团，在帝国官吏的鞭子下顶着烈日开荒种田，活了下来",
+        "story_time": "八年前无名高地战后",
+        "is_flashback": true
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "qiu_shenao",
+      "field": "location.current",
+      "old": "南京（内禁医院外）",
+      "new": "京城通往君来乡的大道（羽林军军用马车上，返回第五军驻地）"
+    },
+    {
+      "entity_id": "zhongqing_rebel_army",
+      "field": "status",
+      "old": null,
+      "new": "已覆灭（八年前无名高地之战）"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "qiu_shenao",
+      "action": "upsert",
+      "entity_type": "角色",
+      "is_protagonist": true,
+      "payload": {
+        "name": "邱深澳",
+        "hometown": "中庆省农村（自称来自帝国最落后的农村）",
+        "backstory": "八年前十六岁，中庆大旱时家破人亡（父被征粮官杀害，母亲、奶奶饿死，妹妹下落不明）；加入中庆起义军任传令兵，在无名高地投降被俘；经特赦编入开垦用赎罪军团；后加入帝国军"
+      }
+    },
+    {
+      "entity_id": "colleague_fifth_army",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "邱深澳的同僚",
+        "note": "第五军军官；把硬闯内禁医院的邱深澳拖走；劝他别在外头乱讲话，说他的话和自由派一个腔调"
+      }
+    },
+    {
+      "entity_id": "yihua_hospital",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "宜华医院",
+        "note": "京城医院；参谋本部遇袭的伤员（除外交部长外）都送到这里"
+      }
+    },
+    {
+      "entity_id": "neijin_hospital",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "内禁医院",
+        "aliases": [
+          "内卫禁军的医院",
+          "内卫医院"
+        ],
+        "note": "内卫禁军的医院，没有爵位的人进不去"
+      }
+    },
+    {
+      "entity_id": "zhongqing",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "中庆省",
+        "aliases": [
+          "中庆",
+          "中庆岛"
+        ],
+        "note": "帝国南方的岛屿省份，最落后的农村地区之一；八年前大旱、起义"
+      }
+    },
+    {
+      "entity_id": "zhongqing_city",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "中庆城",
+        "note": "中庆省城；八年前邱深澳在此上中学；起义时帝国民兵军据城不出"
+      }
+    },
+    {
+      "entity_id": "nameless_hill",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "无名高地",
+        "note": "中庆岛上的高地；八年前中庆起义军在此覆灭；高地南面有山坳"
+      }
+    },
+    {
+      "entity_id": "zhongqing_rebel_army",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "中庆起义军",
+        "aliases": [
+          "起义军"
+        ],
+        "note": "八年前中庆大旱时饥民起事，三天聚众十万；起义第八天在无名高地覆灭"
+      }
+    },
+    {
+      "entity_id": "royal_defender_legion",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "皇家捍卫者军团",
+        "note": "八年前被派往中庆镇压起义；设定集：现已撤编"
+      }
+    },
+    {
+      "entity_id": "death_legion",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "死亡军团",
+        "aliases": [
+          "死亡骑兵"
+        ],
+        "note": "八年前派两个死亡骑兵营镇压中庆起义；设定集：隶属国教"
+      }
+    },
+    {
+      "entity_id": "militia_army",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "民兵军",
+        "aliases": [
+          "帝国民兵军"
+        ],
+        "note": "八年前守中庆城，被起义军五战五胜；后监督赎罪军团开荒"
+      }
+    },
+    {
+      "entity_id": "atonement_legions",
+      "action": "upsert",
+      "entity_type": "组织",
+      "payload": {
+        "name": "赎罪军团",
+        "aliases": [
+          "开垦军团"
+        ],
+        "note": "皇帝特赦监狱犯人组成的两个军团，一支上前线当炮灰，一支开荒"
+      }
+    },
+    {
+      "entity_id": "overseas_republic",
+      "action": "upsert",
+      "entity_type": "势力",
+      "payload": {
+        "name": "海外共和国",
+        "note": "八年前与帝国在前线交战（第八次西北战争期间）；是否即东秦，正文未说明"
+      }
+    },
+    {
+      "entity_id": "maxim_gun",
+      "action": "upsert",
+      "entity_type": "物品",
+      "payload": {
+        "name": "马克沁重机枪",
+        "note": "帝国军装备的划时代武器，三脚架、弹链；八年前在无名高地重创起义军"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "qiu_shenao",
+      "type": "角色",
+      "mentions": [
+        "邱深澳",
+        "我"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "colleague_fifth_army",
+      "type": "角色",
+      "mentions": [
+        "同僚"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qiu_sitian",
+      "type": "角色",
+      "mentions": [
+        "外交部长"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "zhou_junzhou",
+      "type": "角色",
+      "mentions": [
+        "灵武军军长",
+        "灵武军的军长",
+        "年龄和我差不多大的少年",
+        "那个少年军官",
+        "帝国少年军官"
+      ],
+      "confidence": 0.75,
+      "note": "“灵武军军长”指代明确；无名高地少年军官正文未点名，按设定集归为周君州，置信度降为 0.75（warning）"
+    },
+    {
+      "id": "emperor",
+      "type": "角色",
+      "mentions": [
+        "皇帝"
+      ],
+      "confidence": 0.8,
+      "note": "八年前特赦犯人的皇帝，按同一在位皇帝处理"
+    },
+    {
+      "id": "nanjing",
+      "type": "地点",
+      "mentions": [
+        "京城",
+        "南京城"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "junlai_township",
+      "type": "地点",
+      "mentions": [
+        "君来乡"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "neijin_hospital",
+      "type": "地点",
+      "mentions": [
+        "内卫禁军的医院",
+        "内卫医院",
+        "内禁医院"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "yihua_hospital",
+      "type": "地点",
+      "mentions": [
+        "宜华医院"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "zhongqing",
+      "type": "地点",
+      "mentions": [
+        "中庆",
+        "中庆省",
+        "中庆岛",
+        "南方的那个小岛"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "zhongqing_city",
+      "type": "地点",
+      "mentions": [
+        "中庆城"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "nameless_hill",
+      "type": "地点",
+      "mentions": [
+        "无名高地",
+        "高地"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "general_staff",
+      "type": "组织",
+      "mentions": [
+        "参谋本部"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "yulin_army",
+      "type": "组织",
+      "mentions": [
+        "羽林军"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "fifth_army",
+      "type": "组织",
+      "mentions": [
+        "羽林军第五军"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "lingwu_army",
+      "type": "组织",
+      "mentions": [
+        "灵武军"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "liberal_faction",
+      "type": "势力",
+      "mentions": [
+        "自由派"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "forbidden_guards",
+      "type": "组织",
+      "mentions": [
+        "内卫禁军"
+      ],
+      "confidence": 0.65,
+      "note": "“内卫禁军”与表内“禁卫军（虎贲、龙武、木兰）”是否同指，正文未说明，暂按同一组织处理（warning）"
+    },
+    {
+      "id": "death_legion",
+      "type": "组织",
+      "mentions": [
+        "死亡军团",
+        "死亡骑兵",
+        "死亡骑兵营"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "royal_defender_legion",
+      "type": "组织",
+      "mentions": [
+        "皇家捍卫者军团"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "militia_army",
+      "type": "组织",
+      "mentions": [
+        "帝国民兵军",
+        "民兵军"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "zhongqing_rebel_army",
+      "type": "组织",
+      "mentions": [
+        "起义军",
+        "我军"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "atonement_legions",
+      "type": "组织",
+      "mentions": [
+        "赎罪军团",
+        "开垦军团"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "overseas_republic",
+      "type": "势力",
+      "mentions": [
+        "海外共和国"
+      ],
+      "confidence": 0.6,
+      "note": "新实体；是否即东秦正文未说明（warning）"
+    },
+    {
+      "id": "maxim_gun",
+      "type": "物品",
+      "mentions": [
+        "马克沁重机枪"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 3,
+      "end_line": 23,
+      "location": "京城通往君来乡的大道（羽林军军用马车上）",
+      "summary": "卯初，邱深澳与同僚乘马车回第五军驻地。同僚埋怨他硬闯内禁医院，追问他要见谁，又说外交部长是灵武军军长下令送进内禁医院的。邱深澳不答，痛斥贵族盘剥农民；同僚问他为何加入羽林军，他沉默睡去。",
+      "characters": [
+        "qiu_shenao",
+        "colleague_fifth_army"
+      ],
+      "content": "现实线：返程马车上的对话，引出回忆。时间：卯初，参谋本部遇袭后五小时。"
+    },
+    {
+      "index": 2,
+      "start_line": 25,
+      "end_line": 46,
+      "location": "中庆省（中庆城）",
+      "summary": "插叙八年前：中庆大旱，帝国陷于第八次西北战争，反加粮税。十六岁的邱深澳停学教书谋生，父亲被征粮官杀害，母亲和奶奶饿死，妹妹下落不明。饥民起义，三天聚众十万，他加入起义军当了传令兵。",
+      "characters": [
+        "qiu_shenao"
+      ],
+      "content": "回忆：家破人亡与中庆起义爆发。"
+    },
+    {
+      "index": 3,
+      "start_line": 47,
+      "end_line": 58,
+      "location": "中庆岛；无名高地下",
+      "summary": "大陆援军到来，帝国出动皇家捍卫者军团和两个死亡骑兵营镇压。起义军靠游击屡胜而轻敌。第八天，起义军引出一个由少年军官率领的帝国连队，两万余人把退守无名高地的这支连队团团围住。",
+      "characters": [
+        "qiu_shenao",
+        "zhou_junzhou"
+      ],
+      "content": "回忆：起义军轻敌，围住无名高地。"
+    },
+    {
+      "index": 4,
+      "start_line": 59,
+      "end_line": 83,
+      "location": "无名高地",
+      "summary": "起义军两批强攻被马克沁机枪和集束手榴弹打退，死伤数千。第三批集结时，死亡骑兵从高地南面背后突袭，将起义军反包围屠戮殆尽。邱深澳在高地上随幸存者投降被俘，后从档案得知那个连本是帝国军的诱饵。",
+      "characters": [
+        "qiu_shenao",
+        "zhou_junzhou"
+      ],
+      "content": "回忆：无名高地之战，起义军覆灭，邱深澳被俘。"
+    },
+    {
+      "index": 5,
+      "start_line": 85,
+      "end_line": 93,
+      "location": "帝国荒地（赎罪军团开垦地）",
+      "summary": "邱深澳认识到一盘散沙、缺枪少炮又缺少知识的民众打不赢这个崇尚军事的帝国。后来皇帝特赦犯人组成两个赎罪军团，他进了开荒的那一支，在鞭子和烈日下活了下来：只要活着，就一切都还有希望。",
+      "characters": [
+        "qiu_shenao"
+      ],
+      "content": "回忆：战后反思与赎罪军团开荒。"
+    }
+  ],
+  "summary_text": "卯初，邱深澳与同僚乘军用马车离京返回君来乡第五军驻地。同僚埋怨他硬闯内禁医院，追问他要见谁，他不答，反斥贵族盘剥百姓。被问为何加入羽林军，他在车中睡去，梦回八年前：中庆大旱，家破人亡，十六岁的他当了起义军传令兵，在无名高地目睹起义军被机枪与死亡骑兵歼灭，投降被俘，后编入赎罪军团开荒才活了下来。"
+}
