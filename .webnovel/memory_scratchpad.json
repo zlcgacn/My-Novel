@@ -4199,12 +4199,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 10,
       "evidence": [
         "entity_new:wang_sihan:10"
       ],
-      "updated_at": "2026-10-18T11:05:25"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-8872752fed3c7884",
@@ -4825,12 +4825,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 11,
       "evidence": [
         "entity_new:zhou_junzhou:11"
       ],
-      "updated_at": "2026-10-18T11:05:28"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-5c7b51835255554e",
@@ -5865,7 +5865,7 @@
       "evidence": [
         "state_change:tingzhan_caogao:status:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-26f7af384ad99819",
@@ -5882,7 +5882,7 @@
       "evidence": [
         "state_change:tingzhan_caogao:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-f0dd9afa3f92080e",
@@ -5899,7 +5899,7 @@
       "evidence": [
         "state_change:qiu_sitian:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-c693eecf24b56a3c",
@@ -5907,7 +5907,7 @@
       "category": "character_state",
       "subject": "qiu_sitian",
       "field": "injury",
-      "value": "额上缝针未拆线（约十一日拆线），奔走一天伤口作痛、纱布渗红",
+      "value": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红",
       "payload": {
         "old_value": "额上缝针，卧床静养中"
       },
@@ -5916,7 +5916,7 @@
       "evidence": [
         "state_change:qiu_sitian:injury:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-4702da85e7da5534",
@@ -5933,7 +5933,7 @@
       "evidence": [
         "state_change:qiu_sitian:current_task:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-e05e4dc5e89a2cdf",
@@ -5941,7 +5941,7 @@
       "category": "character_state",
       "subject": "zhang_yixuan",
       "field": "location.current",
-      "value": "离开城南，赴中央社念晚间广播并于宵禁前送帖至王家",
+      "value": "离开城南粥棚回府张罗当晚小聚，宵禁前先去王家当面交帖、商量接人",
       "payload": {
         "old_value": "灵武大街临时医疗点"
       },
@@ -5950,7 +5950,7 @@
       "evidence": [
         "state_change:zhang_yixuan:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-948308164d39edd7",
@@ -5958,7 +5958,7 @@
       "category": "character_state",
       "subject": "zhang_yixuan",
       "field": "current_task",
-      "value": "筹办二月十一日亲王府暖阁小聚",
+      "value": "筹办当晚（二月八日晚）府上暖阁小聚；府里的车去王家接邱思甜、王思涵，车夫带她的腰牌去城南接张书淮；客人散席留宿暖阁两边厢房",
       "payload": {
         "old_value": null
       },
@@ -5967,7 +5967,7 @@
       "evidence": [
         "state_change:zhang_yixuan:current_task:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-41e57e0ce6788a4d",
@@ -5984,7 +5984,7 @@
       "evidence": [
         "state_change:zhang_shuhuai:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-9a0288980700b183",
@@ -6001,7 +6001,7 @@
       "evidence": [
         "state_change:zhang_shuhuai:current_task:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-c17e1f59fd0d923e",
@@ -6018,7 +6018,7 @@
       "evidence": [
         "state_change:ying_wuyue:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-ae99e5b378c89882",
@@ -6026,7 +6026,7 @@
       "category": "character_state",
       "subject": "zhou_junzhou",
       "field": "location.current",
-      "value": "灵武军营（据中央社跑差，这几天都住营里）",
+      "value": "灵武军营（据中央社跑差，这几天都住营里；小聚帖子送周府，入夜才转得到）",
       "payload": {
         "old_value": null
       },
@@ -6035,7 +6035,7 @@
       "evidence": [
         "state_change:zhou_junzhou:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-5b3dd65587cfb07e",
@@ -6052,7 +6052,7 @@
       "evidence": [
         "state_change:waijiaobu_mishu:location.current:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-42203e5025d13ccf",
@@ -6069,7 +6069,7 @@
       "evidence": [
         "state_change:hongfei_lou:status:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-a425d2156c00576b",
@@ -6086,7 +6086,126 @@
       "evidence": [
         "state_change:chengming_guangchang:status:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-da7f3e08b6c99ef7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "next_engagement",
+      "value": "当晚（二月八日晚）张艺宣府上暖阁小聚，张艺宣府里的车来王家接她和王思涵；散席后留宿厢房，天亮再走",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:qiu_sitian:next_engagement:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-b23dfad47b15484c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "night_pass",
+      "value": "夜行腰牌（念晚间广播所领）；今晚交车夫接张书淮",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_yixuan:night_pass:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-e990846d72a3759b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "night_pass",
+      "value": "官身腰牌",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:qiu_sitian:night_pass:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-6033b001f8b51b1f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "night_pass",
+      "value": "官身腰牌",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:wang_sihan:night_pass:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-c3a5a93bcbd3d6ee",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "night_pass",
+      "value": "营里的腰牌",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhou_junzhou:night_pass:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-80ad7e201bb85629",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "next_engagement",
+      "value": "当晚张艺宣府上暖阁小聚，与邱思甜同乘张艺宣府里的车前往；散席留宿厢房",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:wang_sihan:next_engagement:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-e947aae665043342",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "next_engagement",
+      "value": "当晚张艺宣府上暖阁小聚，收锅后张艺宣府里的车（车夫带她的腰牌）来城南接；散席留宿厢房",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_shuhuai:next_engagement:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-98df93581801edae",
@@ -6104,7 +6223,7 @@
       "evidence": [
         "entity_new:qiu_sitian:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-2480e4525f86da4a",
@@ -6122,7 +6241,7 @@
       "evidence": [
         "entity_new:zhang_yixuan:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-629f7581bd6141d0",
@@ -6140,7 +6259,7 @@
       "evidence": [
         "entity_new:zhang_shuhuai:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-d7f4487d9ab4b354",
@@ -6158,7 +6277,7 @@
       "evidence": [
         "entity_new:ying_wuyue:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-8e75a9c34856d758",
@@ -6176,7 +6295,7 @@
       "evidence": [
         "entity_new:tingzhan_caogao:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-e5ff85da03ef548d",
@@ -6194,7 +6313,7 @@
       "evidence": [
         "entity_new:general_staff_ops_general:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-32d0e0eb40cad089",
@@ -6212,7 +6331,7 @@
       "evidence": [
         "entity_new:general_staff_clerk:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-2dfc71793415a95f",
@@ -6230,7 +6349,7 @@
       "evidence": [
         "entity_new:hongfei_duty_captain:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-a986356af18e0268",
@@ -6248,7 +6367,7 @@
       "evidence": [
         "entity_new:wangfu_huyuan:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-a7978c8128f8a23b",
@@ -6266,7 +6385,7 @@
       "evidence": [
         "entity_new:chengnan_temple_deacon:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-9710fedec28b8250",
@@ -6284,7 +6403,7 @@
       "evidence": [
         "entity_new:qinwangfu_attendant:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-59ae372c634c1746",
@@ -6302,7 +6421,7 @@
       "evidence": [
         "entity_new:cns_editor:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-ae240ea29f637be3",
@@ -6320,7 +6439,7 @@
       "evidence": [
         "entity_new:cns_runner:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-dd1774bb0a6e7680",
@@ -6338,7 +6457,7 @@
       "evidence": [
         "entity_new:chengnan_temple:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-character_state-fd7a31712f04df40",
@@ -6356,7 +6475,61 @@
       "evidence": [
         "entity_new:military_intelligence_bureau:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-301f04a4a8adbaa8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan_residence",
+      "field": "first_seen",
+      "value": "张艺宣府上（亲王府）",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:zhang_yixuan_residence:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-3b0c22557867de18",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "first_seen",
+      "value": "王思涵",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:wang_sihan:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-character_state-5259de7ac91e1927",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "first_seen",
+      "value": "周君州",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "entity_new:zhou_junzhou:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
     }
   ],
   "story_facts": [],
@@ -6935,7 +7108,7 @@
       "evidence": [
         "memory_facts:world_rule:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-world_rule-840ac2f8d7ddd911",
@@ -6953,7 +7126,7 @@
       "evidence": [
         "memory_facts:world_rule:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-world_rule-72e8892c820645c9",
@@ -6971,7 +7144,7 @@
       "evidence": [
         "memory_facts:world_rule:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-world_rule-ca48801059470888",
@@ -6989,7 +7162,43 @@
       "evidence": [
         "memory_facts:world_rule:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-world_rule-c35702d2da89b295",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "宫廷日程",
+      "field": "world_rule_revealed",
+      "value": "二月九日（太子生辰）东宫设家宴，宗室里有头有脸的都要到；张艺宣九日一整天须在府里预备，脱不开身",
+      "payload": {
+        "scope": "宗室（康建五十年二月九日）",
+        "rule_text": "二月九日（太子生辰）东宫设家宴，宗室里有头有脸的都要到；张艺宣九日一整天须在府里预备，脱不开身"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:world_rule:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-world_rule-42268518df9c3283",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "城市管制",
+      "field": "world_rule_revealed",
+      "value": "京城宵禁下的腰牌制度：入夜非持腰牌者不得上街；腰牌有官身腰牌（官员，如外交部长邱思甜、王思涵）、营里的腰牌（军官，如周君州）、夜行腰牌（因公夜间当差者，如念晚间广播的张艺宣）等；车夫可带主人的腰牌出车接人。腰牌是给公事用的，深夜车辆进出府邸，岗上逐一登记，私事用腰牌夜行会落人闲话",
+      "payload": {
+        "scope": "南京（宵禁期间）",
+        "rule_text": "京城宵禁下的腰牌制度：入夜非持腰牌者不得上街；腰牌有官身腰牌（官员，如外交部长邱思甜、王思涵）、营里的腰牌（军官，如周君州）、夜行腰牌（因公夜间当差者，如念晚间广播的张艺宣）等；车夫可带主人的腰牌出车接人。腰牌是给公事用的，深夜车辆进出府邸，岗上逐一登记，私事用腰牌夜行会落人闲话"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:world_rule:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
     }
   ],
   "timeline": [],
@@ -8115,6 +8324,26 @@
       "updated_at": "2026-10-18T13:36:22"
     },
     {
+      "id": "mem-open_loop-91d21285027862f4",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "field": "status",
+      "value": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 13,
+        "expected_payoff": "二月十一日小聚",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:open_loop:13"
+      ],
+      "updated_at": "2026-10-18T16:00:47"
+    },
+    {
       "id": "mem-open_loop-579ecb4fbae4bed7",
       "layer": "semantic",
       "category": "open_loop",
@@ -8132,7 +8361,7 @@
       "evidence": [
         "memory_facts:open_loop:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-open_loop-b8d7f93f7e8e5ca0",
@@ -8152,7 +8381,7 @@
       "evidence": [
         "memory_facts:open_loop:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
       "id": "mem-open_loop-98824b998c854f3a",
@@ -8172,19 +8401,19 @@
       "evidence": [
         "memory_facts:open_loop:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     },
     {
-      "id": "mem-open_loop-91d21285027862f4",
+      "id": "mem-open_loop-182b1bc1b7065dc9",
       "layer": "semantic",
       "category": "open_loop",
-      "subject": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "subject": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想离开中央社时先绕灵武军营亲手把帖子交给他，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里；跑差提醒周将军这几天都住营里，送周府怕要入夜才转得到他手上，她答“那就入夜”。粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子；张艺宣说他营里这几天查得紧，等帖子转到他手里天怕都黑了，来不来得成还不一定；张书淮看在眼里未作声",
       "field": "status",
-      "value": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想亲手把帖子送去灵武军营，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里（周君州这几天住营里，要隔一两天才转到）；粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子，张艺宣说他营里这几天查得紧、来不来得成不一定；张书淮看在眼里未作声",
+      "value": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想离开中央社时先绕灵武军营亲手把帖子交给他，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里；跑差提醒周将军这几天都住营里，送周府怕要入夜才转得到他手上，她答“那就入夜”。粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子；张艺宣说他营里这几天查得紧，等帖子转到他手里天怕都黑了，来不来得成还不一定；张书淮看在眼里未作声",
       "payload": {
-        "urgency": 60.0,
+        "urgency": 100.0,
         "planted_chapter": 13,
-        "expected_payoff": "二月十一日小聚",
+        "expected_payoff": "康建五十年二月八日晚小聚",
         "status": "active"
       },
       "status": "active",
@@ -8192,7 +8421,7 @@
       "evidence": [
         "memory_facts:open_loop:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
     }
   ],
   "reader_promises": [
@@ -8413,24 +8642,6 @@
       "updated_at": "2026-10-18T13:36:22"
     },
     {
-      "id": "mem-reader_promise-d78aa5868f2837d7",
-      "layer": "semantic",
-      "category": "reader_promise",
-      "subject": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
-      "field": "promise",
-      "value": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
-      "payload": {
-        "promise_type": "promise_paid_off",
-        "target": "wang_sihan"
-      },
-      "status": "active",
-      "source_chapter": 13,
-      "evidence": [
-        "memory_facts:reader_promise:13"
-      ],
-      "updated_at": "2026-10-18T16:00:47"
-    },
-    {
       "id": "mem-reader_promise-324bd21753956f99",
       "layer": "semantic",
       "category": "reader_promise",
@@ -8449,6 +8660,78 @@
       "updated_at": "2026-10-18T16:00:47"
     },
     {
+      "id": "mem-reader_promise-a3642dee14737f8f",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张艺宣把内禁医院里随口许下的“宴会”（等你伤好了，好好庆祝死里逃生）改为当晚（康建五十年二月八日晚）在她府上（亲王府）后头暖阁的小聚：不请外人、不请乐班，只摆一桌便饭，几个人坐着说话；宵禁以后回不去的客人在府里住一夜。定在当晚的理由：明天（九日）东宫家宴，宗室有头有脸的都要到，她一整天得在府里预备、脱不开身，过了明天城里又不知要出什么事；思甜的线还没拆，可等不得了。帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "field": "promise",
+      "value": "张艺宣把内禁医院里随口许下的“宴会”（等你伤好了，好好庆祝死里逃生）改为当晚（康建五十年二月八日晚）在她府上（亲王府）后头暖阁的小聚：不请外人、不请乐班，只摆一桌便饭，几个人坐着说话；宵禁以后回不去的客人在府里住一夜。定在当晚的理由：明天（九日）东宫家宴，宗室有头有脸的都要到，她一整天得在府里预备、脱不开身，过了明天城里又不知要出什么事；思甜的线还没拆，可等不得了。帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_yixuan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T18:05:55"
+    },
+    {
+      "id": "mem-reader_promise-f6cf9fe557030206",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张艺宣当面对邱思甜说“晚些我叫车去王家，接你和思涵”；临走又从车窗叮嘱邱思甜先回王家歇一歇，晚些车去接她",
+      "field": "promise",
+      "value": "张艺宣当面对邱思甜说“晚些我叫车去王家，接你和思涵”；临走又从车窗叮嘱邱思甜先回王家歇一歇，晚些车去接她",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_yixuan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T18:05:55"
+    },
+    {
+      "id": "mem-reader_promise-d78aa5868f2837d7",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
+      "field": "promise",
+      "value": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "wang_sihan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-reader_promise-4461f27834e25e04",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张艺宣把内禁医院里随口许下的“宴会”（等你伤好了，好好庆祝死里逃生）改为当晚（康建五十年二月八日晚）在她府上（亲王府）后头暖阁的小聚：不请外人、不请乐班，只摆一桌便饭，几个人坐着说话。日子她昨夜就想定了：明天（九日）东宫家宴，宗室有头有脸的都要到，她一整天得在府里预备、脱不开身，过了明天城里又不知要出什么事；思甜的线还没拆，可等不得了。宵禁下的安排：王思涵、邱思甜都有官身腰牌、同住王家，府里的车去一趟一并接来；周君州有营里的腰牌；张艺宣平日念晚间广播、领着夜行腰牌，今晚换了人念，叫车夫带着她的腰牌去城南接张书淮。因腰牌是给公事用的，散席后深夜车辆一辆辆从亲王府出去，岗上一笔笔都要记下、明天就成闲话，故客人散席后都留宿暖阁两边的厢房，天亮再走。帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "field": "promise",
+      "value": "张艺宣把内禁医院里随口许下的“宴会”（等你伤好了，好好庆祝死里逃生）改为当晚（康建五十年二月八日晚）在她府上（亲王府）后头暖阁的小聚：不请外人、不请乐班，只摆一桌便饭，几个人坐着说话。日子她昨夜就想定了：明天（九日）东宫家宴，宗室有头有脸的都要到，她一整天得在府里预备、脱不开身，过了明天城里又不知要出什么事；思甜的线还没拆，可等不得了。宵禁下的安排：王思涵、邱思甜都有官身腰牌、同住王家，府里的车去一趟一并接来；周君州有营里的腰牌；张艺宣平日念晚间广播、领着夜行腰牌，今晚换了人念，叫车夫带着她的腰牌去城南接张书淮。因腰牌是给公事用的，散席后深夜车辆一辆辆从亲王府出去，岗上一笔笔都要记下、明天就成闲话，故客人散席后都留宿暖阁两边的厢房，天亮再走。帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_yixuan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
       "id": "mem-reader_promise-fa365a8ca94523ed",
       "layer": "semantic",
       "category": "reader_promise",
@@ -8464,13 +8747,31 @@
       "evidence": [
         "memory_facts:reader_promise:13"
       ],
-      "updated_at": "2026-10-18T16:00:47"
+      "updated_at": "2026-10-18T18:27:12"
+    },
+    {
+      "id": "mem-reader_promise-5949b5aaad40cf27",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "张艺宣在粥棚当面对邱思甜说“晚些我叫车去王家，接你和思涵，你们俩都有腰牌，岗上不会拦”；对张书淮说收了锅府里的车来接，车夫身上带着她的腰牌；并说“散了席都别走了，厢房我叫人收拾好了”；临走又从车窗叮嘱邱思甜先回王家歇一歇，晚些车去接她",
+      "field": "promise",
+      "value": "张艺宣在粥棚当面对邱思甜说“晚些我叫车去王家，接你和思涵，你们俩都有腰牌，岗上不会拦”；对张书淮说收了锅府里的车来接，车夫身上带着她的腰牌；并说“散了席都别走了，厢房我叫人收拾好了”；临走又从车窗叮嘱邱思甜先回王家歇一歇，晚些车去接她",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "zhang_yixuan"
+      },
+      "status": "active",
+      "source_chapter": 13,
+      "evidence": [
+        "memory_facts:reader_promise:13"
+      ],
+      "updated_at": "2026-10-18T18:27:13"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-18T16:00:47",
-    "total_items": 470
+    "last_updated": "2026-10-18T18:27:13",
+    "total_items": 487
   }
 }

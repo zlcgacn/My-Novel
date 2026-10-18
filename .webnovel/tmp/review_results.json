@@ -3,43 +3,34 @@
   "issues": [
     {
       "severity": "medium",
-      "category": "continuity",
-      "location": "第69、109、215、455段下人“小姐交代”；第71、229段邱思甜回话",
-      "description": "“小姐交代”桥段与第十二章重复，本章内又用了四次。",
-      "evidence": "第十二章丫头与邱思甜对话；本章第69、109、215、455段",
-      "fix_hint": "本章最多留一处，其余改为举动",
-      "blocking": false
-    },
-    {
-      "severity": "low",
-      "category": "continuity",
-      "location": "第75、223、285段；第291、297段",
-      "description": "第75段已听完播报，第223段又说只听全几个字；“城南，粥棚，吴訥亲王”重复；“没有接这句话”相邻重复。",
-      "evidence": "第75、223、285、291、297段",
-      "fix_hint": "删第223段复述，换第297段写法",
+      "category": "logic",
+      "location": "第13、25、27段",
+      "description": "晚间广播换人的吩咐早于定下今晚，因果倒置；“念晚间那一档”与已换人冲突。",
+      "evidence": "第13、25、27段",
+      "fix_hint": "改为昨夜已定，腰牌因平日差事所领",
       "blocking": false
     },
     {
       "severity": "low",
       "category": "logic",
-      "location": "第387段张艺宣的话",
-      "description": "“送到你府上，你又不在”与第一场她直接去城南不符。",
-      "evidence": "第7、45、63、387段",
-      "fix_hint": "改成与已知一致的话",
+      "location": "第27、397、469段",
+      "description": "张书淮坐府里的车夜里过岗凭据未交代。",
+      "evidence": "第27、397段；第10章",
+      "fix_hint": "车夫带着张艺宣的腰牌",
       "blocking": false
     },
     {
       "severity": "low",
-      "category": "logic",
-      "location": "第185段将官的话",
-      "description": "“让回去一半”与“全部返回国境线”不符。",
-      "evidence": "第二章条款；本章默写",
-      "fix_hint": "改成全让回去",
+      "category": "setting",
+      "location": "第27、109、397段",
+      "description": "邱思甜有腰牌却写成跟车；接人的车两处说法不一。",
+      "evidence": "第27、109、397段",
+      "fix_hint": "改为二人同住王家一并接来",
       "blocking": false
     }
   ],
-  "issues_count": 4,
+  "issues_count": 3,
   "blocking_count": 0,
   "has_blocking": false,
-  "summary": "4个问题：0个阻断，0个高优"
+  "summary": "3个问题：0个阻断，0个高优"
 }

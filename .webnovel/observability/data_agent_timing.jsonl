@@ -118,3 +118,25 @@
 {"timestamp": "2026-10-18T15:59:23.786863", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 宵禁"}
 {"timestamp": "2026-10-18T15:59:24.208447", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: D67"}
 {"timestamp": "2026-10-18T15:59:24.645294", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 西街"}
+{"timestamp": "2026-10-18T18:03:53.426817", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:03:57.630574", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-10-18T18:04:03.260982", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 亲王府"}
+{"timestamp": "2026-10-18T18:04:03.650737", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:04:04.043769", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:04:04.430902", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:04:04.826391", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 东宫"}
+{"timestamp": "2026-10-18T18:04:05.236111", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 张永淮"}
+{"timestamp": "2026-10-18T18:04:05.648959", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 暖阁"}
+{"timestamp": "2026-10-18T18:04:10.276510", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-10-18T18:04:10.679270", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:04:11.080626", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:04:11.510975", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 王府"}
+{"timestamp": "2026-10-18T18:04:35.053659", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 张府"}
+{"timestamp": "2026-10-18T18:04:35.449154", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 亲王府后头那间暖阁"}
+{"timestamp": "2026-10-18T18:04:35.847121", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 吴訥亲王府"}
+{"timestamp": "2026-10-18T18:04:36.271052", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 宗室"}
+{"timestamp": "2026-10-18T18:04:36.663218", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 东宫家宴"}
+{"timestamp": "2026-10-18T18:25:44.470982", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-10-18T18:25:44.916114", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 腰牌"}
+{"timestamp": "2026-10-18T18:25:45.347871", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 亲王府"}
+{"timestamp": "2026-10-18T18:25:45.780597", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 暖阁"}
