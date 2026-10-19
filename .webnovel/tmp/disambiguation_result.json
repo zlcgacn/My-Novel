@@ -9,13 +9,13 @@
       "method": "context_named_speaker"
     },
     {
-      "mention": "思甜／邱部长／外交部长",
+      "mention": "邱部长／外交部长",
       "entity_id": "qiu_sitian",
       "confidence": 0.98,
       "method": "alias_context"
     },
     {
-      "mention": "思涵／涵涵",
+      "mention": "思涵（张艺宣收花时所称）／涵涵（邱思甜所称）",
       "entity_id": "wang_sihan",
       "confidence": 0.98,
       "method": "alias_context"

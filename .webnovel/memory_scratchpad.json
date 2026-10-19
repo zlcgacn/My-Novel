@@ -4123,494 +4123,6 @@
       "updated_at": "2026-10-19T22:19:37"
     },
     {
-      "id": "mem-character_state-7df1b24d4b9e35b0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "location.current",
-      "value": "二月九日丑初自张艺宣府上骑马北去，赴军械总库扑救",
-      "payload": {
-        "old_value": "携周君瑶出营赴张艺宣府上小聚途中（二月八日戌初出营）"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhou_junzhou:location.current:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-fe23bebf8b6c8183",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "current_task",
-      "value": "奉参谋本部特令带灵武军扑救军械总库大火",
-      "payload": {
-        "old_value": "九日辰时亲带领用册抄本去军械总库对数；八日晚赴小聚"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhou_junzhou:current_task:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-91aa4707d2090565",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "belongings",
-      "value": "怀里揣着王思涵的命案名单与清点行文（折在一处）",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhou_junzhou:belongings:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-9ac0339726499369",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junyao",
-      "field": "location.current",
-      "value": "张艺宣府上北边那间屋子（挨着张艺宣的屋子）；天亮由周府老家人送回府，不去学堂",
-      "payload": {
-        "old_value": "随周君州赴张艺宣府上小聚途中"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhou_junyao:location.current:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-4360428e614ac43b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junyao",
-      "field": "belongings",
-      "value": "周君州的皮手套仍在她手里（睡前搁在枕边）",
-      "payload": {
-        "old_value": "手炉给了老家人；戴着周君州的皮手套（说好回家再还）"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhou_junyao:belongings:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-2e875d5e4bcb63fd",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "location.current",
-      "value": "张艺宣府上东厢（与王思涵同住）",
-      "payload": {
-        "old_value": "王府（换衣裳，候张艺宣的车接去小聚）"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:qiu_sitian:location.current:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-35e90958dd9b9cd4",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "location.current",
-      "value": "张艺宣府上东厢（与邱思甜同住）",
-      "payload": {
-        "old_value": "王府（候张艺宣的车接去小聚）"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:wang_sihan:location.current:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-f0ccd15b59eb0cc9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "current_task",
-      "value": "名单已交周君州、与其线人之死对上；复验难批，底账存亡未卜",
-      "payload": {
-        "old_value": "证人与经手人死的死、失踪的失踪；携命案名单打算当晚交给周君州"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:wang_sihan:current_task:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-169477a0e9b946fd",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "location.current",
-      "value": "张艺宣府上西厢",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhang_shuhuai:location.current:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-49f3ecee750c856e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "current_task",
-      "value": "照看周君瑶，天亮叫老家人送她回府；九日东宫家宴坐宗室末席",
-      "payload": {
-        "old_value": "宵禁前亲到王家送帖，约车接客、散席都住下"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhang_yixuan:current_task:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-2ad337757bca83ef",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "junxie_zongku",
-      "field": "status",
-      "value": "二月九日丑初失火，灵武军奉令扑救",
-      "payload": {
-        "old_value": "羽林军看守，库门加封，账册不出库"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:junxie_zongku:status:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-22c3f829421d4da2",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "deng_shengbao",
-      "field": "current_task",
-      "value": "丑初集合灵武军人马扑救军械总库，派马弁牵马去张艺宣府上接周君州",
-      "payload": {
-        "old_value": "八日夜守营；九日卯正带随员去总库"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:deng_shengbao:current_task:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-764b22a84bdfe09a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "night_pass",
-      "value": "夜行腰牌（念晚间广播所领）；已由跟车的王家近卫军交还本人",
-      "payload": {
-        "old_value": "夜行腰牌（念晚间广播所领）；今晚交跟车的王家近卫军带着去城南接张书淮"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhang_yixuan:night_pass:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-849516cdcbfed2da",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "injury",
-      "value": "额上缝线贴纱布，二月十日拆线",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:qiu_sitian:injury:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-1eca62d83723ad95",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "current_task",
-      "value": "城南寺外粥棚，打算搭到没人来领",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhang_shuhuai:current_task:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-87ab5ad9bc38433a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "lingwu_avenue_compensation",
-      "value": "灵武大街抚恤由她先垫、记在她名下，户部不认就自己掏",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:wang_sihan:lingwu_avenue_compensation:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-0deba8f9358d35f5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "first_seen",
-      "value": "张艺宣",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:zhang_yixuan:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-d54a6c6dea4acb04",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "first_seen",
-      "value": "周君州",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:zhou_junzhou:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-8990116d593bae14",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junyao",
-      "field": "first_seen",
-      "value": "周君瑶",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:zhou_junyao:15"
-      ],
-      "updated_at": "2026-10-19T22:38:44"
-    },
-    {
-      "id": "mem-character_state-1ea4e5a795940b54",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "first_seen",
-      "value": "邱思甜",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:qiu_sitian:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-135db1dce99d13da",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "first_seen",
-      "value": "王思涵",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:wang_sihan:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-7b45c89176e10688",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "first_seen",
-      "value": "张书淮",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:zhang_shuhuai:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-426e4effe808c984",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "deng_shengbao",
-      "field": "first_seen",
-      "value": "邓声宝",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:deng_shengbao:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-89d29f25469fcdc4",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "laozhaotou_xianren",
-      "field": "first_seen",
-      "value": "老赵头的线人（柳条巷茶馆跑堂）",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:laozhaotou_xianren:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-652a4200977d9ac6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan_residence",
-      "field": "first_seen",
-      "value": "张艺宣府上（亲王府）",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:zhang_yixuan_residence:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-4d523b786aaf30d0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "junxie_zongku",
-      "field": "first_seen",
-      "value": "军械总库",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:junxie_zongku:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-b58f88564320b005",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liutiao_xiang",
-      "field": "first_seen",
-      "value": "柳条巷",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:liutiao_xiang:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
-      "id": "mem-character_state-351aec0c1048e34a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan_family_guard",
-      "field": "first_seen",
-      "value": "张艺宣府上的王家近卫军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "entity_new:zhang_yixuan_family_guard:15"
-      ],
-      "updated_at": "2026-10-19T22:38:45"
-    },
-    {
       "id": "mem-character_state-9a0288980700b183",
       "layer": "semantic",
       "category": "character_state",
@@ -6388,6 +5900,494 @@
         "state_change:deng_shengbao:current_task:14"
       ],
       "updated_at": "2026-10-19T21:08:05"
+    },
+    {
+      "id": "mem-character_state-7df1b24d4b9e35b0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "location.current",
+      "value": "二月九日丑初自张艺宣府上骑马北去，赴军械总库扑救",
+      "payload": {
+        "old_value": "携周君瑶出营赴张艺宣府上小聚途中（二月八日戌初出营）"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhou_junzhou:location.current:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-fe23bebf8b6c8183",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "current_task",
+      "value": "奉参谋本部特令带灵武军扑救军械总库大火",
+      "payload": {
+        "old_value": "九日辰时亲带领用册抄本去军械总库对数；八日晚赴小聚"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhou_junzhou:current_task:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-91aa4707d2090565",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "belongings",
+      "value": "怀里揣着王思涵的命案名单与清点行文（折在一处）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhou_junzhou:belongings:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-9ac0339726499369",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junyao",
+      "field": "location.current",
+      "value": "张艺宣府上北边那间屋子（挨着张艺宣的屋子）；天亮由周府老家人送回府，不去学堂",
+      "payload": {
+        "old_value": "随周君州赴张艺宣府上小聚途中"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhou_junyao:location.current:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-4360428e614ac43b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junyao",
+      "field": "belongings",
+      "value": "周君州的皮手套仍在她手里（睡前搁在枕边）",
+      "payload": {
+        "old_value": "手炉给了老家人；戴着周君州的皮手套（说好回家再还）"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhou_junyao:belongings:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-2e875d5e4bcb63fd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "location.current",
+      "value": "张艺宣府上东厢（与王思涵同住）",
+      "payload": {
+        "old_value": "王府（换衣裳，候张艺宣的车接去小聚）"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:qiu_sitian:location.current:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-35e90958dd9b9cd4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "location.current",
+      "value": "张艺宣府上东厢（与邱思甜同住）",
+      "payload": {
+        "old_value": "王府（候张艺宣的车接去小聚）"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:wang_sihan:location.current:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-f0ccd15b59eb0cc9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "current_task",
+      "value": "名单已交周君州、与其线人之死对上；复验难批，底账存亡未卜",
+      "payload": {
+        "old_value": "证人与经手人死的死、失踪的失踪；携命案名单打算当晚交给周君州"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:wang_sihan:current_task:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-169477a0e9b946fd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "location.current",
+      "value": "张艺宣府上西厢",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhang_shuhuai:location.current:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-49f3ecee750c856e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "current_task",
+      "value": "照看周君瑶，天亮叫老家人送她回府；九日东宫家宴坐宗室末席",
+      "payload": {
+        "old_value": "宵禁前亲到王家送帖，约车接客、散席都住下"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhang_yixuan:current_task:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-2ad337757bca83ef",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "junxie_zongku",
+      "field": "status",
+      "value": "二月九日丑初失火，灵武军奉令扑救",
+      "payload": {
+        "old_value": "羽林军看守，库门加封，账册不出库"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:junxie_zongku:status:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-22c3f829421d4da2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "deng_shengbao",
+      "field": "current_task",
+      "value": "丑初集合灵武军人马扑救军械总库，派马弁牵马去张艺宣府上接周君州",
+      "payload": {
+        "old_value": "八日夜守营；九日卯正带随员去总库"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:deng_shengbao:current_task:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-764b22a84bdfe09a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "night_pass",
+      "value": "夜行腰牌（念晚间广播所领）；已由跟车的王家近卫军交还本人",
+      "payload": {
+        "old_value": "夜行腰牌（念晚间广播所领）；今晚交跟车的王家近卫军带着去城南接张书淮"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhang_yixuan:night_pass:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-849516cdcbfed2da",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "injury",
+      "value": "额上缝线贴纱布，二月十日拆线",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:qiu_sitian:injury:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-1eca62d83723ad95",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "current_task",
+      "value": "城南寺外粥棚，打算搭到没人来领",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhang_shuhuai:current_task:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-87ab5ad9bc38433a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "lingwu_avenue_compensation",
+      "value": "灵武大街抚恤由她先垫、记在她名下，户部不认就自己掏",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:wang_sihan:lingwu_avenue_compensation:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-0deba8f9358d35f5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "first_seen",
+      "value": "张艺宣",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:zhang_yixuan:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-d54a6c6dea4acb04",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "first_seen",
+      "value": "周君州",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:zhou_junzhou:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-8990116d593bae14",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junyao",
+      "field": "first_seen",
+      "value": "周君瑶",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:zhou_junyao:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-1ea4e5a795940b54",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "first_seen",
+      "value": "邱思甜",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:qiu_sitian:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-135db1dce99d13da",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "first_seen",
+      "value": "王思涵",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:wang_sihan:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-7b45c89176e10688",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "first_seen",
+      "value": "张书淮",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:zhang_shuhuai:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-426e4effe808c984",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "deng_shengbao",
+      "field": "first_seen",
+      "value": "邓声宝",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:deng_shengbao:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-89d29f25469fcdc4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "laozhaotou_xianren",
+      "field": "first_seen",
+      "value": "老赵头的线人（柳条巷茶馆跑堂）",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:laozhaotou_xianren:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-652a4200977d9ac6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan_residence",
+      "field": "first_seen",
+      "value": "张艺宣府上（亲王府）",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:zhang_yixuan_residence:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-4d523b786aaf30d0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "junxie_zongku",
+      "field": "first_seen",
+      "value": "军械总库",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:junxie_zongku:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-b58f88564320b005",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "liutiao_xiang",
+      "field": "first_seen",
+      "value": "柳条巷",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:liutiao_xiang:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
+    },
+    {
+      "id": "mem-character_state-351aec0c1048e34a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan_family_guard",
+      "field": "first_seen",
+      "value": "张艺宣府上的王家近卫军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "entity_new:zhang_yixuan_family_guard:15"
+      ],
+      "updated_at": "2026-10-19T23:03:37"
     }
   ],
   "story_facts": [],
@@ -8493,7 +8493,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     },
     {
       "id": "mem-open_loop-0004b2ffaf77e55c",
@@ -8513,7 +8513,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     },
     {
       "id": "mem-open_loop-2e56a85e0f9c503b",
@@ -8533,7 +8533,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     },
     {
       "id": "mem-open_loop-bd9608c802f7fc8c",
@@ -8553,7 +8553,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     }
   ],
   "reader_promises": [
@@ -8987,7 +8987,7 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     },
     {
       "id": "mem-reader_promise-b8f85ae5e72e1e87",
@@ -9005,7 +9005,7 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     },
     {
       "id": "mem-reader_promise-bd6f1934ccc72226",
@@ -9023,13 +9023,13 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T22:38:45"
+      "updated_at": "2026-10-19T23:03:37"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-19T22:38:45",
+    "last_updated": "2026-10-19T23:03:37",
     "total_items": 500
   }
 }

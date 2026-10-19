@@ -418,3 +418,17 @@
 {"timestamp": "2026-10-19T22:36:49.282851", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 礼部"}
 {"timestamp": "2026-10-19T22:36:54.964984", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
 {"timestamp": "2026-10-19T22:38:47.964716", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:02:27.569647", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-19T23:02:33.833167", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:02:34.338500", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-19T23:02:34.814120", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 张艺宣府上"}
+{"timestamp": "2026-10-19T23:02:35.293231", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 王家近卫军"}
+{"timestamp": "2026-10-19T23:02:35.787691", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 老赵头的线人"}
+{"timestamp": "2026-10-19T23:02:36.278625", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:02:36.744239", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 暖阁"}
+{"timestamp": "2026-10-19T23:02:41.732666", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:02:42.196840", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-10-19T23:02:42.655859", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-19T23:02:47.575797", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:02:48.055816", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:03:40.262936", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
