@@ -1,1212 +1,641 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch13-001",
-      "chapter": 13,
+      "event_id": "evt-ch14-001",
+      "chapter": 14,
+      "event_type": "world_rule_revealed",
+      "subject": "zhuan_an_zu",
+      "payload": {
+        "rule_content": "专案组行文（奉旨）：康建五十年二月九日辰时起，专案组会同军务本部，调军务本部所存D67出厂、配发底账，各营主官携领用册抄本到场，逐营对数。地点不在军务本部签押房，而在军械总库库内：账不出库",
+        "rule_category": "军务清点",
+        "scope": "已封存D67的近卫各营（含灵武军）"
+      }
+    },
+    {
+      "event_id": "evt-ch14-002",
+      "chapter": 14,
+      "event_type": "world_rule_revealed",
+      "subject": "junxie_zongku",
+      "payload": {
+        "rule_content": "封枪当夜，羽林军大元帅张永怀在参谋本部奏准：军械总库交羽林军看守，库门加封，账册一律不出库；总库外已围一圈羽林军，连军务本部自己的人进出都要登记（金志文八日在参谋本部听差时得知后转述）",
+        "rule_category": "军械管制",
+        "scope": "军械总库（存D67出厂、配发底账）"
+      }
+    },
+    {
+      "event_id": "evt-ch14-003",
+      "chapter": 14,
       "event_type": "character_state_changed",
-      "subject": "tingzhan_caogao",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "field": "current_task",
+        "old": "封枪后坐营，配合专案组问话",
+        "new": "九日辰时亲带领用册抄本与两三名随员去军械总库对数；八日戌初先出营赴小聚，若明早未回则直接去总库",
+        "note": "接行文时以为底账是灵武军的清白；听完老赵头的报告后想明白，底账也是眼下唯一还能开口说话的东西；认为羽林军看守总库是该有的防备（“叫谁看着都行，总比没人看着强”）"
+      }
+    },
+    {
+      "event_id": "evt-ch14-004",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "laozhaotou_xianren",
       "payload": {
         "field": "status",
-        "old": "下落不明，压在参谋本部，有无人看过不明",
-        "new": "二月五日上午被川椴楼机要处从宏飞楼收走，当天即加盖“已泄露／作废”朱红印戳，登记机字第十一号（日期康建五十年二月五日），原件封存备查，不得调出、一字不得抄出",
-        "note": "原件为外交部秘书小楷手写、太子副官签字（太子点过头）；邱思甜在川椴楼签登记簿调阅，只准看不准带走、不准抄；登记簿上另记“外交部长于二月八日到此请调此件，未准”，将官签名"
+        "old": "存活，替老赵头递消息",
+        "new": "死亡：二月六日夜死于柳条巷口（离自家门口不到二十步），京兆府验状记“醉后冻毙”，七日一早抬走",
+        "note": "茶馆跑堂十几年，沾一口酒浑身起疹、一夜不退，客人敬酒都倒在地上；新年夜军中有人参与的消息是他头一个递给老赵头的，说这两天能问出眉目；老赵头约他七日晌午老地方见，未至"
       }
     },
     {
-      "event_id": "evt-ch13-002",
-      "chapter": 13,
-      "event_type": "open_loop_closed",
-      "subject": "tingzhan_caogao",
+      "event_id": "evt-ch14-005",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "lao_zhao_tou",
       "payload": {
-        "content": "停战草稿下落揭晓：已被参谋本部机要处收走，按保密条例视同泄露作废、封存备查；邱思甜亲赴参谋本部也未能取回",
-        "closes_event_id": "evt-ch12-012",
-        "resolution": "草稿作废，邱思甜取回失败"
+        "field": "intel_line",
+        "old": "追查新年夜军中有人参与一线（线还在追）",
+        "new": "线断：唯一的递信人已死",
+        "note": "首次正面出场，亲到灵武军营从后门进来报信"
       }
     },
     {
-      "event_id": "evt-ch13-003",
-      "chapter": 13,
-      "event_type": "world_rule_revealed",
-      "subject": "general_staff",
-      "payload": {
-        "rule_content": "参谋本部保密条例：机密文书经手人遇袭身亡、文书脱离保管的，一律视同泄露（条例写“视同”不写“查实”，不必查）；视同泄露者所载条款作废，原件封存备查，不得调出，一字不得抄出；调阅须在登记簿签名并注明时辰",
-        "rule_category": "保密条例",
-        "scope": "参谋本部机要文书"
-      }
-    },
-    {
-      "event_id": "evt-ch13-004",
-      "chapter": 13,
-      "event_type": "world_rule_revealed",
-      "subject": "waijiaobu",
-      "payload": {
-        "rule_content": "外交部向参谋本部调阅文书须行文：外交部公文向来由军事情报局代转，军事情报局报参谋本部，参谋本部批给机要处，机要处再回文；快则一月、慢则三月，回文可能只是抄件或“封存备查，不便调阅”",
-        "rule_category": "公文程序",
-        "scope": "外交部与参谋本部之间"
-      }
-    },
-    {
-      "event_id": "evt-ch13-005",
-      "chapter": 13,
-      "event_type": "world_rule_revealed",
-      "subject": "third_bureau",
-      "payload": {
-        "rule_content": "第三处通报（二月八日起）：凡已封存D67之各营，营中官佐会客，来人姓名、身份、事由一律报专案组登记备查",
-        "rule_category": "军务管制",
-        "scope": "已封存D67的各近卫营（含灵武军营）"
-      }
-    },
-    {
-      "event_id": "evt-ch13-006",
-      "chapter": 13,
-      "event_type": "world_rule_revealed",
-      "subject": "nanjing",
-      "payload": {
-        "rule_content": "新年夜后京城城门盘查紧，乡下粮车十辆进不来三辆，城南米价一斗比前一日又贵两成，再过两天有钱也买不着；宵禁照旧，入夜非持腰牌者不得上街",
-        "rule_category": "城市民生",
-        "scope": "南京（康建五十年二月）"
-      }
-    },
-    {
-      "event_id": "evt-ch13-007",
-      "chapter": 13,
+      "event_id": "evt-ch14-006",
+      "chapter": 14,
       "event_type": "open_loop_created",
-      "subject": "tingzhan_caogao",
+      "subject": "laozhaotou_xianren",
       "payload": {
-        "content": "草稿原件作废，停战只能从头再谈：须太子殿下重新点头、另派人重新议定签字；而副官已死、内务本部被炸、满城传近卫军的枪全封了，第三处在问太子身边的人、已问到外交部，眼下无人敢去东宫请殿下重派、替殿下再签",
-        "loop_type": "主线进程",
-        "unanswered_question": "原件作废，停战还能不能从头谈？谁来请太子重新派人签字？",
-        "urgency": 100,
-        "planted_chapter": 13
-      }
-    },
-    {
-      "event_id": "evt-ch13-008",
-      "chapter": 13,
-      "event_type": "open_loop_created",
-      "subject": "qiu_sitian",
-      "payload": {
-        "content": "邱思甜在川椴楼反复看草稿，确认印戳底下一字未少；回程马车里用铅笔把条款默写在随身小本子上（三月二号前线彻底脱离接触、五号前全部返回国境线、两国交界分别留出五十与一百二十公里非军事区、东秦支付战争期间全部开支、火落城产出百分之七十移交帝国），无签名、无印戳、无登记号，连同张艺宣的帖子收在袖中",
-        "loop_type": "道具伏笔",
-        "unanswered_question": "这份谁也不会认的手抄条款将派上什么用场？",
+        "content": "老赵头的线人滴酒不沾却被京兆府记作醉后冻毙在自家巷口；周君州令老赵头设法抄一份京兆府验状，不许灵武军的人出面；金志文应承派人给线人眼睛不好的老娘送钱",
+        "loop_type": "命案疑点",
+        "unanswered_question": "线人是不是被灭口？验状抄件能看出什么？他要问出的“眉目”是什么？",
         "urgency": 60,
-        "planted_chapter": 13
+        "planted_chapter": 14,
+        "related_event_id": "evt-ch008-005"
       }
     },
     {
-      "event_id": "evt-ch13-009",
-      "chapter": 13,
-      "event_type": "open_loop_created",
-      "subject": "general_staff",
+      "event_id": "evt-ch14-007",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "maitan_hanzi",
       "payload": {
-        "content": "应邱思甜要求，川椴楼调阅登记簿上记下“外交部长于二月八日到此请调此件，未准”并写明依据，将官签名；眼下无用，日后有人问外交部到底来要过没有，这一行字可为凭",
-        "loop_type": "文书凭据",
-        "unanswered_question": "登记簿上这一行“请调未准”日后会被谁翻出来？",
-        "urgency": 20,
-        "planted_chapter": 13
+        "field": "status",
+        "old": "存活，通泰马车目击证人，答应有人再问先去首相府说",
+        "new": "死亡：二月七日夜死于神圣高地西坡自家炭窑，京兆府记“夜里封窑睡着、炭气熏毙”，不许家属闹；窑门贴京兆府交叉封条（日子二月八日），当日入殓",
+        "note": "原打算八日一早去首相府把通泰马车的事再说一遍、录供按手印；七日傍晚来过一个生面孔买炭半筐，穿得干净、说话客气，借闲聊打听马车（看清没有、下来几个人、什么穿戴），汉子答看清了、明天还要去首相府说"
       }
     },
     {
-      "event_id": "evt-ch13-010",
-      "chapter": 13,
-      "event_type": "relationship_changed",
-      "subject": "qiu_sitian",
-      "payload": {
-        "to_entity": "general_staff_ops_general",
-        "relationship_type": "立场对立（停战对主战）",
-        "change": "将官代作战局会办，依条例拒绝带走与抄录，称“不必查”“条例写的是‘视同’，不是‘查实’”，让太子另派人重议；直言开春东秦照样打来，前线弟兄拿命打下的地方“叫一张纸一寸不留，全让了回去”，“这张纸作废了，在我看来，正好”；邱思甜质问开春再打要多死多少兵、加几回粮税，将官答“那是户部的事”“我是按条例办事”；邱思甜以登记簿记一笔“请调未准”回敬，争执无果",
-        "old": null,
-        "new": "当面争执、不欢而散"
-      }
-    },
-    {
-      "event_id": "evt-ch13-011",
-      "chapter": 13,
-      "event_type": "promise_paid_off",
+      "event_id": "evt-ch14-008",
+      "chapter": 14,
+      "event_type": "promise_created",
       "subject": "wang_sihan",
       "payload": {
-        "content": "王思涵兑现承诺，派王家马车与两名护院护送邱思甜去参谋本部；护院寸步不离，川椴楼内被拦在门厅",
-        "closes_event_id": "evt-ch12-020"
+        "content": "王思涵把卖炭汉子的棺木、入殓、念经钱记首相府账、记在她名下；令首相府书办回去拟条陈，对汉子的婆娘比照神圣高地死难街坊抚恤",
+        "to_entity": "maitan_hanzi",
+        "urgency": 20,
+        "planted_chapter": 14
       }
     },
     {
-      "event_id": "evt-ch13-012",
-      "chapter": 13,
-      "event_type": "promise_created",
-      "subject": "zhang_yixuan",
-      "payload": {
-        "content": "张艺宣把内禁医院里随口许下的“宴会”（等你伤好了，好好庆祝死里逃生）改为当晚（康建五十年二月八日晚）在她府上（亲王府）后头暖阁的小聚：不请外人、不请乐班，只摆一桌便饭，几个人坐着说话。日子她昨夜就想定了：明天（九日）东宫家宴，宗室有头有脸的都要到，她一整天得在府里预备、脱不开身，过了明天城里又不知要出什么事；思甜的线还没拆，可等不得了。宵禁下的安排：王思涵、邱思甜都有官身腰牌、同住王家，府里的车去一趟一并接来；周君州有营里的腰牌；张艺宣平日念晚间广播、领着夜行腰牌，今晚换了人念，叫车夫带着她的腰牌去城南接张书淮。因腰牌是给公事用的，散席后深夜车辆一辆辆从亲王府出去，岗上一笔笔都要记下、明天就成闲话，故客人散席后都留宿暖阁两边的厢房，天亮再走。帖子四张，分请邱思甜、王思涵、张书淮（末尾添“不惊动长辈，勿辞”）、周君州（“周将军台鉴”）",
-        "to_entity": "qiu_sitian",
-        "urgency": 100,
-        "planted_chapter": 13,
-        "expected_payoff": "康建五十年二月八日晚",
-        "related_event_id": "evt-ch3-027"
-      }
-    },
-    {
-      "event_id": "evt-ch13-013",
-      "chapter": 13,
-      "event_type": "open_loop_created",
-      "subject": "zhang_yixuan",
-      "payload": {
-        "content": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想离开中央社时先绕灵武军营亲手把帖子交给他，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里；跑差提醒周将军这几天都住营里，送周府怕要入夜才转得到他手上，她答“那就入夜”。粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子；张艺宣说他营里这几天查得紧，等帖子转到他手里天怕都黑了，来不来得成还不一定；张书淮看在眼里未作声",
-        "loop_type": "情感暗线",
-        "unanswered_question": "帖子入夜才到，周君州今晚能否赴小聚？张艺宣、邱思甜、周君州三人的心事将如何碰面？",
-        "urgency": 100,
-        "planted_chapter": 13,
-        "expected_payoff": "康建五十年二月八日晚小聚"
-      }
-    },
-    {
-      "event_id": "evt-ch13-014",
-      "chapter": 13,
-      "event_type": "relationship_changed",
-      "subject": "zhang_shuhuai",
-      "payload": {
-        "to_entity": "qiu_sitian",
-        "relationship_type": "粥棚共事，私下互称名字，他的疏远只落在举动上",
-        "change": "私下互称“思甜”“书淮”（旁人前仍是“王爷”“邱大人”）。张书淮五日在西市馄饨摊听广播得知她重伤，碗没吃完就走，后来也没去王家探望；本章见她来，走到三四步外站住，开口叫“思甜”问伤；她说广播连他的封号都念了，“你还是这样。做了什么，自己从来不往外说，倒要旁人替你念出去”，他窘而不接话；不问她去参谋本部做什么；她写签手抖，他接笔替她写，她念他写；他亲自劝挤在前头的汉子排队，她念下一户号时声音轻了；她每吩咐完一件事总回头看他是否点头，他每回都点头随即转身搅锅搬米；日头偏西他端茶走了两步又停下，叫侍从送给“邱大人”；收工后锅边她叫“书淮”，说出讨草稿未果、草稿作废，但不肯说条款内容；他说“大哥那里，我说不上话”，她说没想叫他去说，只是不想回去躺着；看见她纱布渗红，他张了嘴终究没说，低头刷锅；她走后他把锅刷了三遍",
-        "old": "相识",
-        "new": "默契渐生，称呼亲近而举动隔着一步，双方均未说破"
-      }
-    },
-    {
-      "event_id": "evt-ch13-015",
-      "chapter": 13,
+      "event_id": "evt-ch14-009",
+      "chapter": 14,
       "event_type": "character_state_changed",
-      "subject": "zhang_shuhuai",
-      "payload": {
-        "field": "current_task",
-        "old": null,
-        "new": "带亲王府侍从在城南收治神圣高地伤员的寺前设棚施粥（二月七日午后起，本章为第二天），米有多少买多少、从自己俸禄里支；认得来领粥的街坊（问西街拉车汉子娃前些天那场烧退了没有，问黑脸膛汉子铺子的炉子扒出来没有），凭熟识劝动众人排队；经邱思甜整顿后按京兆府名册一户一签，寺里一锅凭签按户送粥、寺外一锅排队领"
-      }
-    },
-    {
-      "event_id": "evt-ch13-016",
-      "chapter": 13,
-      "event_type": "character_state_changed",
-      "subject": "zhang_shuhuai",
-      "payload": {
-        "field": "family_standing",
-        "old": null,
-        "new": "母后三子中两个穿军装、他不穿；不穿军装的他在家里说的话从来没人当回事，自认在大哥（太子）那里说不上话"
-      }
-    },
-    {
-      "event_id": "evt-ch13-017",
-      "chapter": 13,
-      "event_type": "character_state_changed",
-      "subject": "qiu_sitian",
-      "payload": {
-        "field": "location.current",
-        "old": "王思涵府上（王府）",
-        "new": "宵禁鼓响时乘王家马车离开城南，返回王府途中",
-        "note": "当日行程：王府→程明广场宏飞楼→川椴楼→城南寺前粥棚→回王府；答应护院天黑以前回府，宵禁鼓响时仍在途中；张艺宣叮嘱她先回王家歇一歇，晚些派车来接去小聚"
-      }
-    },
-    {
-      "event_id": "evt-ch13-018",
-      "chapter": 13,
-      "event_type": "character_state_changed",
-      "subject": "qiu_sitian",
-      "payload": {
-        "field": "injury",
-        "old": "额上缝针，卧床静养中",
-        "new": "额上缝针，线还没拆；带伤奔走一整天，下川椴楼时腿软，傍晚纱布边渗出淡红，回程伤口底下一扯一扯地疼"
-      }
-    },
-    {
-      "event_id": "evt-ch13-019",
-      "chapter": 13,
-      "event_type": "character_state_changed",
-      "subject": "waijiaobu_mishu",
-      "payload": {
-        "field": "location.current",
-        "old": null,
-        "new": "宜华医院（邱思甜至今未能去探望）"
-      }
-    },
-    {
-      "event_id": "evt-ch13-020",
-      "chapter": 13,
-      "event_type": "character_state_changed",
-      "subject": "hongfei_lou",
+      "subject": "deyu_tixian_huoji",
       "payload": {
         "field": "status",
-        "old": null,
-        "new": "靠程明广场一面窗户全换新玻璃、窗框新漆未干；大门关着、门口无人；楼梯红毯多日无人扫；太子新年夜后再未来过，二楼太子办公室门上挂铜锁（五日机要处所挂）；副官经手文书于二月五日上午被川椴楼机要处全部收走"
+        "old": "存活，德裕银号伙计，经手通泰户头腊月二十、二十六、正月初二三笔提现",
+        "new": "死亡：二月七日天擦黑（宵禁鼓前）与人在秦淮河边喝酒散后独自往河边走，从石阶滑落，八日一早在下游捞起，京兆府记“失足落水”",
+        "note": "他落水时正是王思涵在户部签押房翻德裕账、记下这三笔之时"
       }
     },
     {
-      "event_id": "evt-ch13-021",
-      "chapter": 13,
+      "event_id": "evt-ch14-010",
+      "chapter": 14,
+      "event_type": "artifact_obtained",
+      "subject": "deyu_piaogen",
+      "payload": {
+        "artifact_id": "deyu_piaogen",
+        "name": "德裕银号通泰户头提现票根",
+        "owner": "prime_minister_office",
+        "location": "首相府（德裕掌柜封好送去）",
+        "type": "物品",
+        "description": "死去的德裕伙计经手的一沓提现票根，麻绳捆着；字迹与王思涵前一日在户部账上所见同一笔字（“腊月二十”的“二”字下横总往上挑）"
+      }
+    },
+    {
+      "event_id": "evt-ch14-011",
+      "chapter": 14,
       "event_type": "character_state_changed",
-      "subject": "zhang_yixuan",
+      "subject": "piaohao_huipiao_huoji",
+      "payload": {
+        "field": "status",
+        "old": "北边票号京城分号管汇票的伙计",
+        "new": "下落不明：分号管事称其告假二月七日一早“回北边老家”，老家何处、几时回来都说不清，本是短工、走了也就走了；无人报失踪，京兆府无卷宗"
+      }
+    },
+    {
+      "event_id": "evt-ch14-012",
+      "chapter": 14,
+      "event_type": "world_rule_revealed",
+      "subject": "jingzhaofu",
+      "payload": {
+        "rule_content": "京兆府已结命案复验程序：验状由仵作签、京兆尹画押即结案，尸身发还家属；要翻须京兆尹重新签批、报刑部、刑部再派仵作，一来一回少说十天半月；单凭两人前后脚死，京兆尹多半不批",
+        "rule_category": "司法程序",
+        "scope": "京兆府命案"
+      }
+    },
+    {
+      "event_id": "evt-ch14-013",
+      "chapter": 14,
+      "event_type": "open_loop_created",
+      "subject": "wang_sihan",
+      "payload": {
+        "content": "王思涵在京兆府偏厅把二月五日以后城里报上的命案排开，抄下名字、日子、地点一纸，并请主簿卷宗先别归档：神圣高地西坡卖炭汉子七日夜炭气熏毙；德裕银号伙计七日夜秦淮河失足落水；柳条巷口茶馆跑堂六日夜醉后冻毙；城北车行伙计七日夜车行后院被捅、劫财杀人凶犯在逃（只有骡车，与通泰无涉）；北边票号分号伙计七日一早“回老家”不在卷宗。后两桩她对不上号单独摆开。复验被程序挡回，她打算当晚在小聚上当面把这张纸交给周君州，让他手下的人去查",
+        "loop_type": "线索交汇",
+        "unanswered_question": "名单上“柳条巷冻毙”的茶馆跑堂正是老赵头的线人——两条线何时在席上对上？",
+        "urgency": 100,
+        "planted_chapter": 14,
+        "expected_payoff": "康建五十年二月八日晚张艺宣府上小聚",
+        "related_event_id": "evt-ch10-011"
+      }
+    },
+    {
+      "event_id": "evt-ch14-014",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "wang_sihan",
+      "payload": {
+        "field": "current_task",
+        "old": "追查通泰商会马车与德裕银号账目",
+        "new": "证人与经手人死的死、失踪的失踪；袖中揣着抄下的命案名单，打算当晚在小聚上交给周君州"
+      }
+    },
+    {
+      "event_id": "evt-ch14-015",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "third_bureau",
+      "payload": {
+        "field": "investigation_focus",
+        "old": null,
+        "new": "只盯近卫军、太子身边的人与D67：六日经京兆府传参谋本部值夜参谋三名；七日经内务本部传皇太子府随员二名、外交部随员一名；内务本部回报皇家马车侍卫所供与参谋本部卫兵所供不合、请再传；八日通报封存D67各营会客登记。无一份问及羽林军军官出身、提及中庆；城里只抓过在京兆府门口闹事的神圣高地街坊，关一夜即放",
+        "note": "据第五军通讯连六日至八日晌午截下的电报底稿"
+      }
+    },
+    {
+      "event_id": "evt-ch14-016",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "qiu_shenao",
+      "payload": {
+        "field": "strategy",
+        "old": "断联蛰伏：谁也不许找谁，等风头过去",
+        "new": "恢复城内联络，只接一头（城南电报局），一头断了只断那一头；趁第三处顾不上自由派的空当扎根",
+        "note": "通讯连长警告线一接上就是活的、会断，城里一人被拿顺藤摸上来名册上的人一个也跑不了；邱深澳不驳，答等是等不来的，连长默许"
+      }
+    },
+    {
+      "event_id": "evt-ch14-017",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "ziyoupai_mingce",
+      "payload": {
+        "field": "status",
+        "old": "邱深澳七日进城前交代：天黑不回就烧掉、一页不留",
+        "new": "未烧：油布包着藏在通讯连里间一只装电报机零件的木箱底下；七日通讯连长守着它坐了一整天，火盆一直没灭"
+      }
+    },
+    {
+      "event_id": "evt-ch14-018",
+      "chapter": 14,
+      "event_type": "open_loop_created",
+      "subject": "chengnan_dianbaoju",
+      "payload": {
+        "content": "邱深澳选城南电报局为恢复联络的头一处（瓦尔基里新案里第五军“另以一个团接管城南电报局”）；通讯连长前年带出的老报务员退伍后在此当差，退伍时说过“往后有什么事，叫一声”。邱深澳用右手写了一封伪装成乡下人捎给城里亲戚的家书（粮备下了、开春的种挑好了、旧日朋友得空可来家里坐坐），交军需处上尉九日一早随军需车进城拉口粮时捎带；上尉说城门这几天查得紧、一辆车要翻个底朝天",
+        "loop_type": "暗线布局",
+        "unanswered_question": "暗信能否过城门盘查送到？老报务员是否应约？自由派伸进电报局会给瓦尔基里行动带来什么？",
+        "urgency": 60,
+        "planted_chapter": 14
+      }
+    },
+    {
+      "event_id": "evt-ch14-019",
+      "chapter": 14,
+      "event_type": "relationship_changed",
+      "subject": "signal_company_commander",
+      "payload": {
+        "to_entity": "chengnan_laobaowuyuan",
+        "relationship_type": "旧部（带出来的报务员）",
+        "change": "老报务员前年从第五军通讯连退伍，手艺是通讯连长带出来的；退伍那天连长送他出营门，他说往后有事叫一声",
+        "old": null,
+        "new": "可托之人"
+      }
+    },
+    {
+      "event_id": "evt-ch14-020",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "zhou_junyao",
+      "payload": {
+        "field": "location.current",
+        "old": "周府",
+        "new": "随周君州赴张艺宣府上小聚途中",
+        "note": "随周府老家人送换洗衣裳的车来营，带来张艺宣给周君州的帖子；营门哨兵登记“周府小姐，探亲”；在车窗里先喊“哥”；说想去小聚“不说话，我看”，想看看在医院只见过睡着样子的外交部长醒着是什么样；拿“帖子上请的是周家的人”硬缠，周君州十回里有九回拦不住她，答应带她去"
+      }
+    },
+    {
+      "event_id": "evt-ch14-021",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "field": "location.current",
+        "old": "灵武军营（这几天都住营里）",
+        "new": "携周君瑶出营赴张艺宣府上小聚途中（二月八日戌初出营，持腰牌，怀揣行文）"
+      }
+    },
+    {
+      "event_id": "evt-ch14-022",
+      "chapter": 14,
+      "event_type": "open_loop_created",
+      "subject": "zhou_junzhou",
+      "payload": {
+        "content": "按第三处通报，营门登记簿上记下：“灵武军军长周君州，携周府小姐，出营，事由，赴宴”，时辰戌初。周君州自知清点前一夜军长出营赴宴，叫专案组知道了又是一桩可记的事，仍为知会王思涵线人之死而去",
+        "loop_type": "风险伏笔",
+        "unanswered_question": "这行出营登记日后会不会被专案组翻出来做文章？",
+        "urgency": 60,
+        "planted_chapter": 14
+      }
+    },
+    {
+      "event_id": "evt-ch14-023",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "deng_shengbao",
       "payload": {
         "field": "current_task",
         "old": null,
-        "new": "主持中央社广播：晨间亲自念（首相府要求吴訥亲王施粥消息连播三天），晚间那一档平日由她念、领着夜行腰牌，今晚照她吩咐换了人念、她只过稿；筹办当晚（二月八日晚）府上暖阁小聚：周君州的帖子由中央社跑差送周府交门房（入夜才转得到），张书淮、邱思甜的帖子在城南粥棚当面递交；离开粥棚回府张罗晚上的事、收拾暖阁两边厢房供客人散席留宿，并赶在宵禁前先去王家把王思涵那张当面交给她、商量晚上怎么接人；说好晚些派府里的车去王家一并接邱思甜和王思涵（二人有官身腰牌），另派车夫带着她的夜行腰牌去城南接张书淮"
+        "new": "八日夜守营；九日卯正候曼桂槐把抄本送到军部，点好的两三名随员在营门口集合，周君州未回则先行去总库",
+        "note": "当面称周君瑶“君瑶”，打趣她戴的手套比手大一圈"
       }
     },
     {
-      "event_id": "evt-ch13-022",
-      "chapter": 13,
-      "event_type": "promise_created",
-      "subject": "zhang_shuhuai",
-      "payload": {
-        "content": "张书淮在粥棚当众答应：黑脸膛汉子铺子的炉子（还埋在瓦底下）等扒出来，他叫人去帮着搭；寺外一锅排队领“一个都少不了”，米不够他再去买",
-        "urgency": 20,
-        "planted_chapter": 13,
-        "expected_payoff": "神圣高地街坊重建期间"
-      }
-    },
-    {
-      "event_id": "evt-ch13-023",
-      "chapter": 13,
-      "event_type": "promise_created",
-      "subject": "zhang_yixuan",
-      "payload": {
-        "content": "张艺宣在粥棚当面对邱思甜说“晚些我叫车去王家，接你和思涵，你们俩都有腰牌，岗上不会拦”；对张书淮说收了锅府里的车来接，车夫身上带着她的腰牌；并说“散了席都别走了，厢房我叫人收拾好了”；临走又从车窗叮嘱邱思甜先回王家歇一歇，晚些车去接她",
-        "to_entity": "qiu_sitian",
-        "urgency": 100,
-        "planted_chapter": 13,
-        "expected_payoff": "康建五十年二月八日晚",
-        "related_event_id": "evt-ch13-012"
-      }
-    },
-    {
-      "event_id": "evt-ch13-024",
-      "chapter": 13,
-      "event_type": "world_rule_revealed",
-      "subject": "crown_prince",
-      "payload": {
-        "rule_content": "二月九日（太子生辰）东宫设家宴，宗室里有头有脸的都要到；张艺宣九日一整天须在府里预备，脱不开身",
-        "rule_category": "宫廷日程",
-        "scope": "宗室（康建五十年二月九日）"
-      }
-    },
-    {
-      "event_id": "evt-ch13-025",
-      "chapter": 13,
-      "event_type": "world_rule_revealed",
-      "subject": "nanjing",
-      "payload": {
-        "rule_content": "京城宵禁下的腰牌制度：入夜非持腰牌者不得上街；腰牌有官身腰牌（官员，如外交部长邱思甜、王思涵）、营里的腰牌（军官，如周君州）、夜行腰牌（因公夜间当差者，如念晚间广播的张艺宣）等；车夫可带主人的腰牌出车接人。腰牌是给公事用的，深夜车辆进出府邸，岗上逐一登记，私事用腰牌夜行会落人闲话",
-        "rule_category": "城市管制",
-        "scope": "南京（宵禁期间）"
-      }
-    },
-    {
-      "event_id": "evt-ch13-026",
-      "chapter": 13,
+      "event_id": "evt-ch14-024",
+      "chapter": 14,
       "event_type": "character_state_changed",
-      "subject": "zhang_yixuan",
+      "subject": "man_guihuai",
       "payload": {
-        "field": "night_pass",
+        "field": "current_task",
         "old": null,
-        "new": "因平日念晚间广播领有夜行腰牌；今晚换人念，腰牌仍在身上，交车夫带着去城南接张书淮"
+        "new": "领用册抄本已再核一遍、一支不少（去年十一月、腊月两批）；九日卯正把抄本送到军部",
+        "note": "指出底账出厂编号与灵武军册子是同一号段，一支一支念过去即可"
+      }
+    },
+    {
+      "event_id": "evt-ch14-025",
+      "chapter": 14,
+      "event_type": "character_state_changed",
+      "subject": "zhou_junyao",
+      "payload": {
+        "field": "belongings",
+        "old": "随身手炉",
+        "new": "手炉塞给了冻得手发紫的周府老家人（老家人捧着不知还给谁，她叫他路上拿着）；戴着周君州从大衣口袋掏出扔给她的皮手套（太大，她说“像熊掌”，他说“回家再还”）；腿上盖着周君州带上车的厚羊毛毯，四角掖好",
+        "note": "营门兄妹互动：周君州笑着迎上去替她拉开车门、侧身挡风，兄妹一边一个把老家人架进门房；他见她空着手，什么也没问就把手套扔给她。小聚席上她仍戴着这副手套"
       }
     }
   ],
   "state_deltas": [
-    {
-      "entity_id": "tingzhan_caogao",
-      "field": "status",
-      "old": null,
-      "new": "作废封存（已泄露／作废印戳，机字第十一号，二月五日）"
-    },
-    {
-      "entity_id": "tingzhan_caogao",
-      "field": "location.current",
-      "old": null,
-      "new": "川椴楼机要处（封存备查，不得调出）"
-    },
-    {
-      "entity_id": "qiu_sitian",
-      "field": "location.current",
-      "old": "王思涵府上（王府）",
-      "new": "返回王府途中（王家马车）"
-    },
-    {
-      "entity_id": "qiu_sitian",
-      "field": "injury",
-      "old": "额上缝针，卧床静养中",
-      "new": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红"
-    },
-    {
-      "entity_id": "qiu_sitian",
-      "field": "current_task",
-      "old": null,
-      "new": "停战草稿作废，停战须从头再谈；手中只有凭记性默写的条款本子与登记簿上一行“请调未准”"
-    },
-    {
-      "entity_id": "zhang_yixuan",
-      "field": "location.current",
-      "old": "灵武大街临时医疗点",
-      "new": "离开城南粥棚回府张罗当晚小聚，宵禁前先去王家当面交帖、商量接人"
-    },
-    {
-      "entity_id": "zhang_yixuan",
-      "field": "current_task",
-      "old": null,
-      "new": "筹办当晚（二月八日晚）府上暖阁小聚；府里的车去王家接邱思甜、王思涵，车夫带她的腰牌去城南接张书淮；客人散席留宿暖阁两边厢房"
-    },
-    {
-      "entity_id": "zhang_shuhuai",
-      "field": "location.current",
-      "old": "南京云中市街口（疏散人潮后）",
-      "new": "城南寺前粥棚"
-    },
-    {
-      "entity_id": "zhang_shuhuai",
-      "field": "current_task",
-      "old": null,
-      "new": "城南寺前设棚施粥，米钱从自己俸禄支"
-    },
-    {
-      "entity_id": "ying_wuyue",
-      "field": "location.current",
-      "old": "南京云中市街口",
-      "new": "城南寺前粥棚"
-    },
-    {
-      "entity_id": "zhou_junzhou",
-      "field": "location.current",
-      "old": null,
-      "new": "灵武军营（据中央社跑差，这几天都住营里；小聚帖子送周府，入夜才转得到）"
-    },
-    {
-      "entity_id": "waijiaobu_mishu",
-      "field": "location.current",
-      "old": null,
-      "new": "宜华医院"
-    },
-    {
-      "entity_id": "hongfei_lou",
-      "field": "status",
-      "old": null,
-      "new": "广场一面换新玻璃；太子办公室挂铜锁，副官文书已被收走"
-    },
-    {
-      "entity_id": "chengming_guangchang",
-      "field": "status",
-      "old": null,
-      "new": "爆炸炸开处已填新土"
-    },
-    {
-      "entity_id": "qiu_sitian",
-      "field": "next_engagement",
-      "old": null,
-      "new": "当晚（二月八日晚）张艺宣府上暖阁小聚，张艺宣府里的车来王家接她和王思涵；散席后留宿厢房，天亮再走"
-    },
-    {
-      "entity_id": "zhang_yixuan",
-      "field": "night_pass",
-      "old": null,
-      "new": "夜行腰牌（念晚间广播所领）；今晚交车夫接张书淮"
-    },
-    {
-      "entity_id": "qiu_sitian",
-      "field": "night_pass",
-      "old": null,
-      "new": "官身腰牌"
-    },
-    {
-      "entity_id": "wang_sihan",
-      "field": "night_pass",
-      "old": null,
-      "new": "官身腰牌"
-    },
-    {
-      "entity_id": "zhou_junzhou",
-      "field": "night_pass",
-      "old": null,
-      "new": "营里的腰牌"
-    },
-    {
-      "entity_id": "wang_sihan",
-      "field": "next_engagement",
-      "old": null,
-      "new": "当晚张艺宣府上暖阁小聚，与邱思甜同乘张艺宣府里的车前往；散席留宿厢房"
-    },
-    {
-      "entity_id": "zhang_shuhuai",
-      "field": "next_engagement",
-      "old": null,
-      "new": "当晚张艺宣府上暖阁小聚，收锅后张艺宣府里的车（车夫带她的腰牌）来城南接；散席留宿厢房"
-    }
+    {"entity_id": "zhou_junzhou", "field": "location.current", "old": "灵武军营（这几天都住营里）", "new": "携周君瑶出营赴张艺宣府上小聚途中（二月八日戌初出营）"},
+    {"entity_id": "zhou_junzhou", "field": "current_task", "old": "封枪后坐营，配合专案组问话", "new": "九日辰时亲带领用册抄本去军械总库对数；八日晚赴小聚"},
+    {"entity_id": "zhou_junyao", "field": "location.current", "old": "周府", "new": "随周君州赴张艺宣府上小聚途中"},
+    {"entity_id": "zhou_junyao", "field": "belongings", "old": "随身手炉", "new": "手炉给了老家人；戴着周君州的皮手套（说好回家再还）"},
+    {"entity_id": "wang_sihan", "field": "location.current", "old": null, "new": "王府（候张艺宣的车接去小聚）"},
+    {"entity_id": "wang_sihan", "field": "current_task", "old": "追查通泰商会马车与德裕银号账目", "new": "证人与经手人死的死、失踪的失踪；携命案名单打算当晚交给周君州"},
+    {"entity_id": "qiu_sitian", "field": "location.current", "old": "返回王府途中（王家马车）", "new": "王府（换衣裳，候张艺宣的车接去小聚）"},
+    {"entity_id": "qiu_sitian", "field": "injury", "old": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红", "new": "额上缝针，线还没拆；纱布叫汗浸得发黄、边角翘起（王思涵替她按平）"},
+    {"entity_id": "maitan_hanzi", "field": "status", "old": "存活", "new": "死亡（二月七日夜，西坡自家炭窑，京兆府记炭气熏毙）"},
+    {"entity_id": "laozhaotou_xianren", "field": "status", "old": "存活", "new": "死亡（二月六日夜，柳条巷口，京兆府记醉后冻毙）"},
+    {"entity_id": "deyu_tixian_huoji", "field": "status", "old": "存活", "new": "死亡（二月七日天擦黑，秦淮河，京兆府记失足落水）"},
+    {"entity_id": "piaohao_huipiao_huoji", "field": "status", "old": "在职", "new": "下落不明（二月七日一早称回北边老家，无人报失踪）"},
+    {"entity_id": "lao_zhao_tou", "field": "intel_line", "old": "追查新年夜军中有人参与一线", "new": "线断（递信人已死）"},
+    {"entity_id": "qiu_shenao", "field": "strategy", "old": "断联蛰伏，谁也不许找谁", "new": "恢复城内联络，只接一头（城南电报局）"},
+    {"entity_id": "ziyoupai_mingce", "field": "status", "old": "天黑不回即烧", "new": "未烧"},
+    {"entity_id": "ziyoupai_mingce", "field": "location.current", "old": null, "new": "君来乡第五军通讯连里间，装电报机零件的木箱底下（油布包）"},
+    {"entity_id": "deyu_piaogen", "field": "location.current", "old": "德裕银号", "new": "首相府（掌柜封好送去）"},
+    {"entity_id": "junxie_zongku", "field": "guard", "old": null, "new": "羽林军看守，库门加封，账册不出库，进出登记"},
+    {"entity_id": "third_bureau", "field": "investigation_focus", "old": null, "new": "近卫军、太子身边的人、D67；未触及羽林军军官出身与中庆"},
+    {"entity_id": "deng_shengbao", "field": "current_task", "old": null, "new": "八日夜守营；九日卯正带随员去总库"},
+    {"entity_id": "man_guihuai", "field": "current_task", "old": null, "new": "九日卯正把领用册抄本送到军部"}
   ],
   "entity_deltas": [
     {
-      "entity_id": "qiu_sitian",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "邱思甜",
-        "location": "返回王府途中（宵禁鼓响时）",
-        "injury": "额上缝针，线还没拆",
-        "holdings": "凭记性默写的停战条款小本子（无签名印戳）、张艺宣小聚帖子",
-        "night_pass": "官身腰牌"
-      }
+      "entity_id": "qiu_shenao", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "邱深澳", "tier": "核心", "is_protagonist": true, "chapter": 14,
+      "desc": "暗主角；羽林军第五军少校参谋，破格特招的中庆平民出身；自由派高级成员、自由派在羽林军中的最高负责人；周君瑶是他失散多年的亲妹妹",
+      "payload": {"name": "邱深澳", "strategy": "恢复城内联络，只接一头（城南电报局）", "injury": "左臂吊着，用右手翻纸写信"}
     },
     {
-      "entity_id": "zhang_yixuan",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "张艺宣",
-        "position": "帝国中央社广播主播（晨间亲念；晚间平日也由她念，今晚换人念、她过稿）；亲王府千金（中央社称殿下）",
-        "current_task": "筹办当晚（二月八日晚）府上暖阁小聚",
-        "schedule": "二月九日东宫家宴，一整天在府里预备",
-        "night_pass": "夜行腰牌（念晚间广播所领）"
-      }
+      "entity_id": "zhou_junzhou", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "周君州", "tier": "核心", "chapter": 14,
+      "desc": "明主角；帝国近卫灵武军军长，中将，公爵；保皇派，人品正、立场邪；倾心邱思甜，与张艺宣青梅竹马，与王思涵亦敌亦友",
+      "payload": {"name": "周君州", "location": "出营赴张艺宣府上小聚（戌初）", "current_task": "九日辰时带抄本去军械总库对数"}
     },
     {
-      "entity_id": "zhang_shuhuai",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "张书淮",
-        "title": "吴訥亲王",
-        "location": "城南寺前粥棚",
-        "attire": "棉袍，袖口浸透米汤，下摆溅泥",
-        "family_standing": "母后三子中唯一不穿军装者，家中说话没人当回事",
-        "note": "常年混迹市井，认得粥棚街坊的家常（娃发烧、铺子炉子）；私下与邱思甜互称名字，人前称“邱大人”"
-      }
+      "entity_id": "zhang_yixuan", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "张艺宣", "tier": "核心", "chapter": 14,
+      "desc": "某亲王之女，公主，不在皇位继承核心序列；帝国中央社广播主播；周君州的青梅竹马，对他暗怀情意；邱思甜的好友",
+      "payload": {"name": "张艺宣", "current_task": "宵禁前亲到王家送帖给王思涵，约车晚些来接王思涵、邱思甜，散席都住下"}
     },
     {
-      "entity_id": "ying_wuyue",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "嬴武玥",
-        "location": "城南寺前粥棚",
-        "note": "帮张书淮维持粥棚秩序，嗓子喊哑，直呼其名“书淮”；在张艺宣面前拱手"
-      }
+      "entity_id": "qiu_sitian", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "邱思甜", "tier": "核心", "chapter": 14,
+      "desc": "外交部长；邱深澳的同乡、高中同学与理念同志，但非自由派，倾向议会夺权；倾心张书淮，最厌恶周君州",
+      "payload": {"name": "邱思甜", "location": "王府（候车赴小聚）"}
     },
     {
-      "entity_id": "tingzhan_caogao",
-      "action": "upsert",
-      "entity_type": "物品",
-      "payload": {
-        "name": "停战草稿",
-        "status": "作废封存",
-        "registry": "机字第十一号，康建五十年二月五日",
-        "keeper": "general_staff",
-        "author": "外交部秘书小楷手写，太子副官签字"
-      }
+      "entity_id": "wang_sihan", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "王思涵", "tier": "核心", "chapter": 14,
+      "desc": "尚书右仆射（右丞相），伯爵；父亲王政炎为中执委委员；自上而下的改良派，与周君州亦敌亦友；邱思甜的闺蜜；奉旨查商会马车",
+      "payload": {"name": "王思涵", "current_task": "携命案名单，打算当晚在小聚上交给周君州", "walking_aid": "黑手杖"}
     },
     {
-      "entity_id": "general_staff_ops_general",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "参谋本部作战局将官",
-        "alias": [
-          "参谋将官",
-          "将官",
-          "将军"
-        ],
-        "rank": "一星将官，五十上下，鬓角已白，参谋本部深灰色军服",
-        "affiliation": "general_staff",
-        "stance": "主战，认为停战草稿作废正好",
-        "note": "无名人物，以职位代称"
-      }
+      "entity_id": "zhou_junyao", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "周君瑶", "tier": "核心", "chapter": 14,
+      "desc": "邱深澳失散的亲妹妹，幼时被周君州从饥民手里买下、由周家收养；皇家文理大学学生，心防极重，不爱同外人说话；与哥哥周君州亲近，想要的他十回里有九回拦不住",
+      "payload": {"name": "周君瑶", "location": "随周君州赴张艺宣府上小聚", "belongings": "戴着周君州的皮手套（回家再还）"}
     },
     {
-      "entity_id": "general_staff_clerk",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "川椴楼书记官",
-        "alias": [
-          "书记官"
-        ],
-        "affiliation": "general_staff",
-        "note": "无名人物，以职位代称；管机要卷宗与调阅登记簿"
-      }
+      "entity_id": "jin_zhiwen", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "金志文", "tier": "重要", "chapter": 14,
+      "desc": "灵武军督察（兼参谋本部官职），大校，男爵，北高丽省汉平府人；带回羽林军看守军械总库的消息",
+      "payload": {"name": "金志文", "habit": "在指头上转一支削得很短的铅笔"}
     },
     {
-      "entity_id": "hongfei_duty_captain",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "宏飞楼值日上尉",
-        "alias": [
-          "值日的上尉",
-          "上尉"
-        ],
-        "affiliation": "general_staff",
-        "note": "无名人物，以职位代称"
-      }
+      "entity_id": "man_guihuai", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "曼桂槐", "tier": "重要", "chapter": 14,
+      "desc": "灵武军总参谋长，中将，伯爵，淮南省庆安郡人；女将官，掌管灵武军账目，D67领用册由她亲手记",
+      "payload": {"name": "曼桂槐"}
     },
     {
-      "entity_id": "wangfu_huyuan",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "王家护院（两名）",
-        "alias": [
-          "护院",
-          "王家护院"
-        ],
-        "affiliation": "wangfu",
-        "note": "无名人物，以职位代称；奉王思涵之命寸步不离护送邱思甜，在粥棚被邱思甜派去守锅维持队伍"
-      }
+      "entity_id": "deng_shengbao", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "邓声宝", "tier": "重要", "chapter": 14,
+      "desc": "灵武军副军长，少将，侯爵，南江省饶信郡人；周君州的搭档；本章奉命守营，称周君瑶“君瑶”",
+      "payload": {"name": "邓声宝"}
     },
     {
-      "entity_id": "chengnan_temple_deacon",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "城南寺老执事",
-        "alias": [
-          "管事",
-          "老执事"
-        ],
-        "note": "无名人物，以职位代称；五十来岁，保管京兆府所造伤员名册，按签发粥"
-      }
+      "entity_id": "signal_company_commander", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "第五军通讯连长", "tier": "重要", "chapter": 14,
+      "desc": "羽林军第五军通讯连连长，邱深澳在营中的秘密同伴；截留电报底稿，保管自由派名册，荐出城南电报局的老报务员",
+      "payload": {"name": "第五军通讯连长"}
     },
     {
-      "entity_id": "qinwangfu_attendant",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "吴訥亲王府侍从",
-        "alias": [
-          "侍从"
-        ],
-        "note": "无名人物，以职位代称；随张书淮在粥棚熬粥、买米、送粥"
-      }
+      "entity_id": "lao_zhao_tou", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "老赵头", "tier": "次要", "chapter": 14,
+      "desc": "灵武军情报组的人（老赵头本是外号，见设定/人物.md）；穿灰布棉袍、戴旧毡帽，腿上有旧伤；本章首次正面出场，报其线人之死",
+      "payload": {"name": "老赵头", "intel_line": "线断"}
     },
     {
-      "entity_id": "cns_editor",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "中央社值班编辑",
-        "alias": [
-          "编辑",
-          "值班的编辑"
-        ],
-        "affiliation": "central_news_agency",
-        "note": "无名人物，以职位代称"
-      }
+      "entity_id": "laozhaotou_xianren", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "老赵头的线人（柳条巷茶馆跑堂）", "tier": "次要", "chapter": 14,
+      "desc": "替老赵头递消息的茶馆跑堂，跑堂十几年、沾酒即起疹；头一个递出新年夜军中有人参与；二月六日夜死于柳条巷口，京兆府记醉后冻毙；家有眼睛不好的老娘",
+      "payload": {"name": "老赵头的线人", "status": "死亡", "residence": "柳条巷"}
     },
     {
-      "entity_id": "cns_runner",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "中央社跑差",
-        "alias": [
-          "跑差"
-        ],
-        "affiliation": "central_news_agency",
-        "note": "无名人物，以职位代称；受张艺宣之命把周君州的帖子送到周府交门房"
-      }
+      "entity_id": "maitan_hanzi", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "神圣高地西坡卖炭汉子", "tier": "次要", "chapter": 14,
+      "desc": "第12章向王思涵作证见过六辆漆“通泰”的马车；二月七日夜死于自家炭窑，京兆府记炭气熏毙，死前傍晚有生人买炭打听马车",
+      "payload": {"name": "神圣高地西坡卖炭汉子", "status": "死亡"}
     },
     {
-      "entity_id": "chengnan_temple",
-      "action": "upsert",
-      "entity_type": "地点",
-      "payload": {
-        "name": "城南寺（收治神圣高地伤员的寺庙）",
-        "alias": [
-          "城南寺前粥棚",
-          "寺前粥棚",
-          "寺"
-        ],
-        "note": "二月七日午后礼部批文到后腾出，京兆府安置神圣高地伤员；吴訥亲王在寺门外搭草棚施粥"
-      }
+      "entity_id": "deyu_tixian_huoji", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "德裕银号经手提现的伙计", "tier": "装饰", "chapter": 14,
+      "desc": "经手通泰户头腊月二十、二十六、正月初二三笔提现的德裕银号伙计；二月七日天擦黑于秦淮河落水身亡，京兆府记失足落水",
+      "payload": {"name": "德裕银号伙计", "status": "死亡"}
     },
     {
-      "entity_id": "military_intelligence_bureau",
-      "action": "upsert",
-      "entity_type": "组织",
-      "payload": {
-        "name": "军事情报局",
-        "note": "外交部行文向参谋本部调档须经其代转"
-      }
+      "entity_id": "piaohao_huipiao_huoji", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "北边票号分号管汇票的伙计", "tier": "装饰", "chapter": 14,
+      "desc": "北边票号京城分号管汇票的短工伙计；二月七日一早告假“回北边老家”，去处不明，无人报失踪",
+      "payload": {"name": "票号管汇票的伙计", "status": "下落不明"}
     },
     {
-      "entity_id": "zhang_yixuan_residence",
-      "action": "upsert",
-      "entity_type": "地点",
-      "payload": {
-        "name": "张艺宣府上（亲王府）",
-        "alias": [
-          "亲王府",
-          "府里"
-        ],
-        "note": "后头有一间暖阁，二月八日晚小聚设在此，一桌便饭；暖阁两边有厢房，客人散席后留宿，天亮再走（免得深夜车辆出府被岗上记下、落人闲话）"
-      }
+      "entity_id": "jingzhaofu_zhubu", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "京兆府主簿", "tier": "次要", "chapter": 14,
+      "desc": "京兆府主簿，经办首相府抚恤银发放；向王思涵摊出二月五日后命案卷宗，说明复验程序难批，应承卷宗先不归档",
+      "payload": {"name": "京兆府主簿"}
     },
     {
-      "entity_id": "wang_sihan",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "王思涵",
-        "night_pass": "官身腰牌",
-        "residence": "王家（邱思甜在此同住养伤）"
-      }
+      "entity_id": "quartermaster_captain", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "军需处上尉", "tier": "次要", "chapter": 14,
+      "desc": "羽林军第五军军需处上尉；受托九日一早随军需车进城拉口粮时捎带邱深澳那封伪装家书",
+      "payload": {"name": "军需处上尉"}
     },
     {
-      "entity_id": "zhou_junzhou",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "周君州",
-        "night_pass": "营里的腰牌",
-        "location": "灵武军营（这几天都住营里）"
-      }
+      "entity_id": "chengnan_laobaowuyuan", "action": "upsert", "entity_type": "角色", "type": "角色",
+      "canonical_name": "城南电报局老报务员", "tier": "次要", "chapter": 14,
+      "desc": "前年从第五军通讯连退伍的老报务员，手艺由通讯连长带出，现于城南电报局当差；退伍时说往后有事叫一声",
+      "payload": {"name": "城南电报局老报务员", "location": "城南电报局"}
+    },
+    {
+      "entity_id": "zhuan_an_zu", "action": "upsert", "entity_type": "组织", "type": "组织",
+      "canonical_name": "专案组", "tier": "次要", "chapter": 14,
+      "desc": "第三处会同内务本部（林安华在内）办新年夜两案的专案组；行文定九日辰时会同军务本部用底账逐营清点D67",
+      "payload": {"name": "专案组"}
+    },
+    {
+      "entity_id": "yulin_army", "action": "upsert", "entity_type": "组织", "type": "组织",
+      "canonical_name": "羽林军", "tier": "次要", "chapter": 14,
+      "desc": "羽林军集团军群，张永怀统领，专司野战、用人不问出身（设定/军制.md）；奉准看守军械总库",
+      "payload": {"name": "羽林军"}
+    },
+    {
+      "entity_id": "junwu_benbu", "action": "upsert", "entity_type": "组织", "type": "组织",
+      "canonical_name": "军务本部", "tier": "次要", "chapter": 14,
+      "desc": "参谋本部下辖的军务部门，存D67出厂、配发底账；九日会同专案组清点",
+      "payload": {"name": "军务本部"}
+    },
+    {
+      "entity_id": "jingzhaofu", "action": "upsert", "entity_type": "组织", "type": "组织",
+      "canonical_name": "京兆府", "tier": "装饰", "chapter": 14,
+      "desc": "京城地方官府，安置神圣高地伤员；本章把数桩命案各以醉毙、熏毙、落水、劫杀结案",
+      "payload": {"name": "京兆府"}
+    },
+    {
+      "entity_id": "deyu_yinhao", "action": "upsert", "entity_type": "组织", "type": "组织",
+      "canonical_name": "德裕银号", "tier": "装饰", "chapter": 14,
+      "desc": "京城银号，通泰商会户头开在此；经手提现的伙计已落水身亡",
+      "payload": {"name": "德裕银号"}
+    },
+    {
+      "entity_id": "beibian_piaohao", "action": "upsert", "entity_type": "组织", "type": "组织",
+      "canonical_name": "北边一家票号（京城有分号）", "tier": "装饰", "chapter": 14,
+      "desc": "汇票兑入通泰户头的北边票号，京城分号管汇票的伙计已“回老家”不知去向",
+      "payload": {"name": "北边一家票号"}
+    },
+    {
+      "entity_id": "junxie_zongku", "action": "upsert", "entity_type": "地点", "type": "地点",
+      "canonical_name": "军械总库", "tier": "次要", "chapter": 14,
+      "desc": "军务本部的军械总库，存D67出厂、配发底账；封枪当夜起交羽林军看守、库门加封、账不出库；九日辰时在库内清点",
+      "payload": {"name": "军械总库", "guard": "羽林军"}
+    },
+    {
+      "entity_id": "chengnan_dianbaoju", "action": "upsert", "entity_type": "地点", "type": "地点",
+      "canonical_name": "城南电报局", "tier": "次要", "chapter": 14,
+      "desc": "京城城南电报局；瓦尔基里新案中第五军“另以一个团接管”之处；邱深澳恢复联络的头一处",
+      "payload": {"name": "城南电报局"}
+    },
+    {
+      "entity_id": "liutiao_xiang", "action": "upsert", "entity_type": "地点", "type": "地点",
+      "canonical_name": "柳条巷", "tier": "装饰", "chapter": 14,
+      "desc": "京城小巷，巷口有酒铺；老赵头的线人住此，死在巷口",
+      "payload": {"name": "柳条巷"}
+    },
+    {
+      "entity_id": "junlai_xiang", "action": "upsert", "entity_type": "地点", "type": "地点",
+      "canonical_name": "君来乡", "tier": "次要", "chapter": 14,
+      "desc": "京城西南二十余里，羽林军第五军驻地",
+      "payload": {"name": "君来乡"}
+    },
+    {
+      "entity_id": "ziyoupai_mingce", "action": "upsert", "entity_type": "物品", "type": "物品",
+      "canonical_name": "自由派名册", "tier": "次要", "chapter": 14,
+      "desc": "邱深澳所掌自由派在羽林军中成员的名册（正文称“那本东西”“名册”），油布包着，藏在通讯连木箱底下，未烧",
+      "payload": {"name": "自由派名册", "status": "未烧"}
+    },
+    {
+      "entity_id": "deyu_piaogen", "action": "upsert", "entity_type": "物品", "type": "物品",
+      "canonical_name": "德裕银号通泰户头提现票根", "tier": "次要", "chapter": 14,
+      "desc": "死去的德裕伙计经手的提现票根，字迹与户部账上同一笔字；掌柜封好送首相府",
+      "payload": {"name": "德裕银号提现票根", "holder": "首相府"}
     }
   ],
   "entities_appeared": [
-    {
-      "id": "qiu_sitian",
-      "type": "角色",
-      "mentions": [
-        "邱思甜",
-        "思甜",
-        "邱大人",
-        "邱部长",
-        "部长大人"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "zhang_yixuan",
-      "type": "角色",
-      "mentions": [
-        "张艺宣",
-        "艺宣",
-        "殿下（编辑、跑差称）",
-        "表妹"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "zhang_shuhuai",
-      "type": "角色",
-      "mentions": [
-        "张书淮",
-        "表兄",
-        "王爷",
-        "吴訥亲王",
-        "书淮"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "ying_wuyue",
-      "type": "角色",
-      "mentions": [
-        "嬴武玥"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "general_staff_ops_general",
-      "type": "角色",
-      "mentions": [
-        "将官",
-        "将军"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "general_staff_clerk",
-      "type": "角色",
-      "mentions": [
-        "书记官"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "hongfei_duty_captain",
-      "type": "角色",
-      "mentions": [
-        "值日的上尉",
-        "上尉"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "wangfu_huyuan",
-      "type": "角色",
-      "mentions": [
-        "护院",
-        "两个护院"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "chengnan_temple_deacon",
-      "type": "角色",
-      "mentions": [
-        "管事",
-        "老执事"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "qinwangfu_attendant",
-      "type": "角色",
-      "mentions": [
-        "侍从"
-      ],
-      "confidence": 0.85
-    },
-    {
-      "id": "cns_editor",
-      "type": "角色",
-      "mentions": [
-        "值班的编辑",
-        "编辑"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "cns_runner",
-      "type": "角色",
-      "mentions": [
-        "中央社的跑差",
-        "跑差"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "wang_sihan",
-      "type": "角色",
-      "mentions": [
-        "思涵",
-        "小姐",
-        "你家小姐"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "zhou_junzhou",
-      "type": "角色",
-      "mentions": [
-        "君州",
-        "周将军"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "qiu_shenao",
-      "type": "角色",
-      "mentions": [
-        "深澳"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "crown_prince",
-      "type": "角色",
-      "mentions": [
-        "太子殿下",
-        "殿下（川椴楼、锅边语境）",
-        "太子",
-        "大哥",
-        "东宫"
-      ],
-      "confidence": 0.85
-    },
-    {
-      "id": "crown_prince_adjutant",
-      "type": "角色",
-      "mentions": [
-        "副官",
-        "太子殿下的副官",
-        "皇太子副官"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "waijiaobu_mishu",
-      "type": "角色",
-      "mentions": [
-        "秘书"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "tingzhan_caogao",
-      "type": "物品",
-      "mentions": [
-        "停战条款",
-        "手写的草稿",
-        "那张纸",
-        "草稿",
-        "机字第十一号"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "general_staff",
-      "type": "组织",
-      "mentions": [
-        "参谋本部",
-        "作战局",
-        "机要处",
-        "川椴楼机要处"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "waijiaobu",
-      "type": "组织",
-      "mentions": [
-        "外交部"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "military_intelligence_bureau",
-      "type": "组织",
-      "mentions": [
-        "军事情报局"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "central_news_agency",
-      "type": "组织",
-      "mentions": [
-        "中央社"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "prime_minister_office",
-      "type": "组织",
-      "mentions": [
-        "首相府"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "jingzhaofu",
-      "type": "组织",
-      "mentions": [
-        "京兆府"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "third_bureau",
-      "type": "组织",
-      "mentions": [
-        "第三处",
-        "专案组"
-      ],
-      "confidence": 0.85
-    },
-    {
-      "id": "interior_ministry",
-      "type": "组织",
-      "mentions": [
-        "内务本部"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "hubu",
-      "type": "组织",
-      "mentions": [
-        "户部"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "dongqin",
-      "type": "势力",
-      "mentions": [
-        "东秦",
-        "东秦人"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "wangfu",
-      "type": "地点",
-      "mentions": [
-        "王家",
-        "王家偏厅"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "hongfei_lou",
-      "type": "地点",
-      "mentions": [
-        "宏飞楼"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "chuanduan_lou",
-      "type": "地点",
-      "mentions": [
-        "川椴楼"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "chengming_guangchang",
-      "type": "地点",
-      "mentions": [
-        "程明广场",
-        "广场"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "chengnan_temple",
-      "type": "地点",
-      "mentions": [
-        "城南",
-        "寺前",
-        "粥棚",
-        "寺"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "divine_heights",
-      "type": "地点",
-      "mentions": [
-        "神圣高地"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "neijin_hospital",
-      "type": "地点",
-      "mentions": [
-        "内禁医院"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "yihua_hospital",
-      "type": "地点",
-      "mentions": [
-        "宜华医院"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "zhou_mansion",
-      "type": "地点",
-      "mentions": [
-        "周府"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "lingwu_barracks",
-      "type": "地点",
-      "mentions": [
-        "灵武军营",
-        "营里"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "huoluo_cheng",
-      "type": "地点",
-      "mentions": [
-        "火落城"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "nanjing",
-      "type": "地点",
-      "mentions": [
-        "京城"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "yunzhong_shi",
-      "type": "地点",
-      "mentions": [
-        "云中市"
-      ],
-      "confidence": 0.95
-    },
-    {
-      "id": "xi_shi",
-      "type": "地点",
-      "mentions": [
-        "西市"
-      ],
-      "confidence": 0.9
-    },
-    {
-      "id": "zhang_yonghuai",
-      "type": "角色",
-      "mentions": [
-        "母后的三个儿子里，两个穿着军装（暗指，与太子同列）"
-      ],
-      "confidence": 0.75
-    },
-    {
-      "id": "zhang_yixuan_residence",
-      "type": "地点",
-      "mentions": [
-        "府里",
-        "亲王府",
-        "府里后头那间暖阁",
-        "暖阁两边的厢房",
-        "厢房"
-      ],
-      "confidence": 0.85
-    }
+    {"id": "zhou_junzhou", "type": "角色", "mentions": ["周君州", "将军", "哥", "少爷", "姓周的", "周将军"], "confidence": 0.98},
+    {"id": "man_guihuai", "type": "角色", "mentions": ["曼桂槐", "曼参谋长"], "confidence": 0.98},
+    {"id": "deng_shengbao", "type": "角色", "mentions": ["邓声宝"], "confidence": 0.98},
+    {"id": "jin_zhiwen", "type": "角色", "mentions": ["金志文"], "confidence": 0.98},
+    {"id": "lao_zhao_tou", "type": "角色", "mentions": ["老赵头"], "confidence": 0.98},
+    {"id": "laozhaotou_xianren", "type": "角色", "mentions": ["替我递消息的那个人", "茶馆跑堂"], "confidence": 0.9},
+    {"id": "wang_sihan", "type": "角色", "mentions": ["王思涵", "王大人", "右丞相大人", "大人"], "confidence": 0.98},
+    {"id": "maitan_hanzi", "type": "角色", "mentions": ["汉子", "卖炭的"], "confidence": 0.95},
+    {"id": "deyu_tixian_huoji", "type": "角色", "mentions": ["那孩子", "德裕银号伙计", "管那三笔提现的伙计"], "confidence": 0.9},
+    {"id": "piaohao_huipiao_huoji", "type": "角色", "mentions": ["管汇票的那个伙计", "管汇票的伙计"], "confidence": 0.9},
+    {"id": "jingzhaofu_zhubu", "type": "角色", "mentions": ["京兆府的主簿", "主簿"], "confidence": 0.95},
+    {"id": "qiu_shenao", "type": "角色", "mentions": ["邱深澳"], "confidence": 0.98},
+    {"id": "signal_company_commander", "type": "角色", "mentions": ["通讯连长"], "confidence": 0.95},
+    {"id": "quartermaster_captain", "type": "角色", "mentions": ["军需处的上尉", "上尉"], "confidence": 0.9},
+    {"id": "chengnan_laobaowuyuan", "type": "角色", "mentions": ["老报务员"], "confidence": 0.9},
+    {"id": "zhang_yixuan", "type": "角色", "mentions": ["张艺宣", "艺宣", "艺宣姐姐"], "confidence": 0.98},
+    {"id": "qiu_sitian", "type": "角色", "mentions": ["邱思甜", "思甜", "甜甜", "那位外交部长"], "confidence": 0.97},
+    {"id": "zhou_junyao", "type": "角色", "mentions": ["周君瑶", "君瑶", "小姐", "周府小姐", "妹妹"], "confidence": 0.98},
+    {"id": "zhang_yonghuai", "type": "角色", "mentions": ["羽林军大元帅"], "confidence": 0.9},
+    {"id": "lin_anhua", "type": "角色", "mentions": ["林安华", "那个姓林的"], "confidence": 0.9},
+    {"id": "zhang_shuhuai", "type": "角色", "mentions": ["表兄"], "confidence": 0.85},
+    {"id": "zhuan_an_zu", "type": "组织", "mentions": ["专案组"], "confidence": 0.95},
+    {"id": "third_bureau", "type": "组织", "mentions": ["第三处"], "confidence": 0.95},
+    {"id": "junwu_benbu", "type": "组织", "mentions": ["军务本部"], "confidence": 0.95},
+    {"id": "general_staff", "type": "组织", "mentions": ["参谋本部"], "confidence": 0.95},
+    {"id": "interior_ministry", "type": "组织", "mentions": ["内务本部"], "confidence": 0.95},
+    {"id": "yulin_army", "type": "组织", "mentions": ["羽林军"], "confidence": 0.95},
+    {"id": "jingzhaofu", "type": "组织", "mentions": ["京兆府"], "confidence": 0.95},
+    {"id": "prime_minister_office", "type": "组织", "mentions": ["首相府"], "confidence": 0.95},
+    {"id": "deyu_yinhao", "type": "组织", "mentions": ["德裕银号", "德裕"], "confidence": 0.95},
+    {"id": "beibian_piaohao", "type": "组织", "mentions": ["北边那家票号的分号"], "confidence": 0.9},
+    {"id": "tongtai_guild", "type": "组织", "mentions": ["通泰"], "confidence": 0.85},
+    {"id": "hubu", "type": "组织", "mentions": ["户部"], "confidence": 0.9},
+    {"id": "fifth_army", "type": "组织", "mentions": ["第五军"], "confidence": 0.9},
+    {"id": "lingwu_army", "type": "组织", "mentions": ["灵武军"], "confidence": 0.95},
+    {"id": "lingwu_barracks", "type": "地点", "mentions": ["灵武军营", "营门"], "confidence": 0.95},
+    {"id": "junxie_zongku", "type": "地点", "mentions": ["军械总库", "总库"], "confidence": 0.95},
+    {"id": "liutiao_xiang", "type": "地点", "mentions": ["柳条巷"], "confidence": 0.95},
+    {"id": "divine_heights", "type": "地点", "mentions": ["神圣高地西坡"], "confidence": 0.95},
+    {"id": "lingwu_avenue", "type": "地点", "mentions": ["灵武大街"], "confidence": 0.85},
+    {"id": "junlai_xiang", "type": "地点", "mentions": ["君来乡"], "confidence": 0.95},
+    {"id": "chengnan_dianbaoju", "type": "地点", "mentions": ["城南电报局"], "confidence": 0.95},
+    {"id": "wangfu", "type": "地点", "mentions": ["王家"], "confidence": 0.9},
+    {"id": "zhang_yixuan_residence", "type": "地点", "mentions": ["张艺宣府上", "府上"], "confidence": 0.9},
+    {"id": "ziyoupai_mingce", "type": "物品", "mentions": ["名册", "油布包", "这本东西"], "confidence": 0.9},
+    {"id": "deyu_piaogen", "type": "物品", "mentions": ["票根"], "confidence": 0.9},
+    {"id": "d67_rifle", "type": "物品", "mentions": ["D67"], "confidence": 0.95}
   ],
   "scenes": [
     {
-      "index": 1,
-      "start_line": 3,
-      "end_line": 15,
-      "location": "帝国中央社播音室",
-      "summary": "张艺宣念完晨间广播，最后一条是吴訥亲王昨日起在城南寺前施粥，她今早才知表兄已熬到宵禁。值班编辑说首相府要粥棚消息连播三天，晚间那档照她吩咐换了人念、请她过稿，第三处通报压在最上头。",
-      "characters": [
-        "zhang_yixuan",
-        "cns_editor"
-      ],
-      "content": "晨间广播；施粥消息连播三天；晚间换人念她过稿；第三处通报送到"
+      "index": 1, "start_line": 3, "end_line": 30, "location": "灵武军营军部议事厅",
+      "summary": "辰时专案组行文到营：九日辰时会同军务本部用底账逐营对数D67，另附会客登记通报。周君州刮了两天没刮的胡子，曼桂槐再核抄本一支不少，约卯正送来；邓声宝要姓林的一支支听着。",
+      "characters": ["zhou_junzhou", "man_guihuai", "deng_shengbao"],
+      "content": "清点行文到营；周君州心里一松；曼桂槐核抄本"
     },
     {
-      "index": 2,
-      "start_line": 17,
-      "end_line": 63,
-      "location": "帝国中央社播音室",
-      "summary": "张艺宣把医院许的宴会改作今晚府上暖阁小聚，日子昨夜就定了。众人各有腰牌可接来，但腰牌为公事所用，深夜出府会落闲话，便定散席都住厢房。写帖四张，“君州”揉掉改“周将军台鉴”；看到第三处通报后改送周府。",
-      "characters": [
-        "zhang_yixuan",
-        "cns_runner"
-      ],
-      "content": "宴会改今晚小聚；腰牌接人、散席留宿厢房；“君州”笺揉掉；看通报后改送周府，入夜才到"
+      "index": 2, "start_line": 31, "end_line": 50, "location": "灵武军营军部议事厅",
+      "summary": "近午金志文从参谋本部回来：清点改在军械总库库内，账不出库；封枪当夜羽林军大元帅奏准总库交羽林军看守、库门加封。邓声宝不忿，周君州说看着好，漏枪的人最盼账没了。",
+      "characters": ["zhou_junzhou", "jin_zhiwen", "deng_shengbao"],
+      "content": "羽林军看守军械总库；账不出库"
     },
     {
-      "index": 3,
-      "start_line": 65,
-      "end_line": 79,
-      "location": "王家偏厅／王家马车",
-      "summary": "邱思甜在王家听着艺宣的广播出门，遮不住纱布便作罢，丫头不肯递大衣也拗不过她。听到城南粥棚和吴訥亲王时她停了手。王家马车与两名护院送她出门，这是她伤后头一回自己办公事。",
-      "characters": [
-        "qiu_sitian",
-        "wangfu_huyuan"
-      ],
-      "content": "邱思甜带伤出门；广播里听到粥棚"
+      "index": 3, "start_line": 51, "end_line": 103, "location": "灵武军营军部议事厅",
+      "summary": "老赵头从后门进来报：线人六日夜死在柳条巷口，京兆府记醉后冻毙，可他沾酒即起疹、离家不到二十步。周君州令其抄验状、不许灵武军出面，金志文给老娘送钱。周君州明白底账已是唯一能开口的东西。",
+      "characters": ["zhou_junzhou", "lao_zhao_tou", "jin_zhiwen", "deng_shengbao"],
+      "content": "老赵头首次正面出场；线人之死；线断"
     },
     {
-      "index": 4,
-      "start_line": 81,
-      "end_line": 105,
-      "location": "程明广场／宏飞楼",
-      "summary": "广场爆炸处已填新土，宏飞楼换了新玻璃、门口无人。值日上尉告知太子新年夜后未再来，副官经手文书五日上午已被川椴楼机要处全部收走，二楼办公室挂了铜锁。邱思甜横穿广场往北去川椴楼。",
-      "characters": [
-        "qiu_sitian",
-        "hongfei_duty_captain",
-        "wangfu_huyuan"
-      ],
-      "content": "宏飞楼寻草稿未果，文书已被机要处收走"
+      "index": 4, "start_line": 105, "end_line": 136, "location": "神圣高地西坡炭窑",
+      "summary": "王思涵带首相府书办到西坡，卖炭汉子已死在窑里，京兆府记炭气熏毙。婆娘说他本要今早去首相府录供，昨天傍晚有个生面孔买炭打听马车。王思涵把丧葬记在自己名下，叫书办拟条陈抚恤。",
+      "characters": ["wang_sihan", "maitan_hanzi"],
+      "content": "卖炭汉子之死；买炭生人打听马车；抚恤"
     },
     {
-      "index": 5,
-      "start_line": 107,
-      "end_line": 229,
-      "location": "川椴楼参谋本部三楼会客室",
-      "summary": "作战局将官出示盖“已泄露·作废”印的草稿，只许看、不许带、不许抄。邱思甜质问当日盖印查过谁，将官称条例是“视同”非“查实”，直言作废正好。她请将官在登记簿记下“请调未准”，出楼后不回府，转去城南。",
-      "characters": [
-        "qiu_sitian",
-        "general_staff_ops_general",
-        "general_staff_clerk",
-        "wangfu_huyuan"
-      ],
-      "content": "草稿已按泄露作废封存；带不走抄不得；登记簿记“请调未准”"
+      "index": 5, "start_line": 137, "end_line": 165, "location": "德裕银号；北边票号京城分号",
+      "summary": "德裕掌柜说经手三笔提现的伙计昨天天擦黑落水，正是她在户部翻那笔账的时候；票根上的字她认得，封好送首相府。书办回报票号管汇票的伙计七日一早回老家、去处不明。",
+      "characters": ["wang_sihan", "deyu_tixian_huoji", "piaohao_huipiao_huoji"],
+      "content": "德裕伙计落水；票根送首相府；票号伙计失踪"
     },
     {
-      "index": 6,
-      "start_line": 231,
-      "end_line": 373,
-      "location": "城南寺前粥棚",
-      "summary": "粥棚开张第二天，粥一出锅即被抢空，伤员挤不出来。邱思甜到来，张书淮叫她“思甜”，她笑他做了事从不往外说。她调名册、劈竹签，手抖时他接笔替写；他问汉子娃的烧、铺子的炉子，劝动众人排队，两锅分领理顺粥棚。",
-      "characters": [
-        "qiu_sitian",
-        "zhang_shuhuai",
-        "ying_wuyue",
-        "chengnan_temple_deacon",
-        "qinwangfu_attendant",
-        "wangfu_huyuan"
-      ],
-      "content": "互称名字；她念他写；他凭熟识劝排队；一户一签、两锅分领"
+      "index": 6, "start_line": 167, "end_line": 219, "location": "京兆府偏厅",
+      "summary": "申时王思涵在京兆府把二月五日后的命案卷宗按日子排开：卖炭的熏毙、德裕伙计落水、柳条巷跑堂冻毙、城北车行伙计劫杀。她要复验两桩，主簿说已结案、要报刑部，批不下来。她抄下名单，请卷宗先别归档。",
+      "characters": ["wang_sihan", "jingzhaofu_zhubu"],
+      "content": "排开命案；复验受阻；抄名单"
     },
     {
-      "index": 7,
-      "start_line": 375,
-      "end_line": 415,
-      "location": "城南寺前粥棚",
-      "summary": "张艺宣赶到，嗔怪思甜带伤乱跑，递上今晚小聚的帖子：车去王家接她和思涵，车夫带腰牌来接表兄，散席都住下。报到“周将军”时顿了一顿，思甜笑意淡下；她说帖子入夜才转到，来不来不一定，随即回府并先去王家。",
-      "characters": [
-        "zhang_yixuan",
-        "qiu_sitian",
-        "zhang_shuhuai",
-        "ying_wuyue",
-        "wangfu_huyuan"
-      ],
-      "content": "送帖定在今晚；派车与腰牌接人、散席留宿；说出请了周将军；三人各怀心事"
+      "index": 7, "start_line": 221, "end_line": 269, "location": "君来乡第五军通讯连里间",
+      "summary": "邱深澳和通讯连长翻六日以来截下的电报：第三处传的问的全是近卫军、太子身边人和D67，没碰羽林军出身与中庆。名册没烧。邱深澳决定把断了的线接回来，只接一头，连长警告后默许。",
+      "characters": ["qiu_shenao", "signal_company_commander"],
+      "content": "截获电报；朝廷只盯近卫军；名册未烧；只接一头"
     },
     {
-      "index": 8,
-      "start_line": 417,
-      "end_line": 465,
-      "location": "城南寺前粥棚锅边",
-      "summary": "收工后锅边只剩二人，邱思甜说出去讨草稿、草稿已作废，却不肯说上面写了什么，停战须殿下重新点头派人。张书淮只说“大哥那里，我说不上话”；她笑说没想叫他去说，只是不想回去躺着。她走后他把锅刷了三遍。",
-      "characters": [
-        "qiu_sitian",
-        "zhang_shuhuai",
-        "ying_wuyue",
-        "wangfu_huyuan"
-      ],
-      "content": "草稿作废告知张书淮，不说条款；张书淮说不上话"
+      "index": 8, "start_line": 271, "end_line": 297, "location": "君来乡第五军通讯连里间",
+      "summary": "邱深澳拿出瓦尔基里草图，选中第五军要接管的城南电报局；连长说那里有他带出来的退伍老报务员。邱深澳写了一封伪装家书，傍晚交军需处上尉，明早随军需车进城捎去。",
+      "characters": ["qiu_shenao", "signal_company_commander", "quartermaster_captain", "chengnan_laobaowuyuan"],
+      "content": "选定城南电报局；暗信交上尉"
     },
     {
-      "index": 9,
-      "start_line": 467,
-      "end_line": 505,
-      "location": "回王府的马车上",
-      "summary": "宵禁鼓响，邱思甜乘车回王府，护院一路盯着她。她在车灯下用铅笔把停战条款一条条默写进小本子，想起深澳问她一张纸挡得住谁。字迹没有签名印戳，谁也不认，可原件作废了，条款还在。",
-      "characters": [
-        "qiu_sitian",
-        "wangfu_huyuan"
-      ],
-      "content": "马车里凭记性默写条款；原件作废，条款还在"
+      "index": 9, "start_line": 299, "end_line": 331, "location": "王家门口",
+      "summary": "张艺宣在王家门口等着给王思涵送帖，说思甜在城南粥棚帮了一下午。鼓响时邱思甜回来，纱布汗湿翘起。王思涵袖里揣着死人的名单，没有骂她，替她按平纱布，打算今晚把名单交给周君州。",
+      "characters": ["wang_sihan", "zhang_yixuan", "qiu_sitian"],
+      "content": "送帖；邱思甜归来；王思涵按下责备"
+    },
+    {
+      "index": 10, "start_line": 333, "end_line": 363, "location": "灵武军营营门与门房",
+      "summary": "周府送衣裳的车载周君瑶进营，哨兵登记周府小姐探亲。她在车窗里喊哥，周君州笑着替她开门挡风，兄妹把老家人架进门房；她把手炉给了老家人，他掏出皮手套扔给她，她笑说像熊掌，他说回家再还。",
+      "characters": ["zhou_junzhou", "zhou_junyao"],
+      "content": "周君瑶来营；兄妹扶老家人；手炉与皮手套"
+    },
+    {
+      "index": 11, "start_line": 365, "end_line": 421, "location": "灵武军营军部门口；营门",
+      "summary": "周君瑶递上“周将军台鉴”的帖子，说想看醒着的外交部长。周君州为知会王思涵线人之死，也拦不住妹妹，答应带她赴宴；令邓声宝守营、明早先走。他给她盖毯掖角，戌初登记出营，往张艺宣府上去。",
+      "characters": ["zhou_junzhou", "zhou_junyao", "deng_shengbao"],
+      "content": "帖子；决定赴宴；邓声宝守营；出营登记"
     }
   ],
-  "chapter_meta": {
-    "time": "康建五十年二月八日，辰时至宵禁",
-    "location": "帝国中央社、王家、宏飞楼、川椴楼、城南寺前粥棚",
-    "characters": [
-      "张艺宣",
-      "邱思甜",
-      "张书淮",
-      "嬴武玥",
-      "参谋将官"
-    ],
-    "hook_type": "悬念钩",
-    "hook_strength": "medium",
-    "countdown": "太子生辰 D-1（九日），小聚在当晚",
-    "handoff": "原件作废、条款仅存手抄；当晚暖阁小聚在即，客人散席留宿，周君州来否未定"
-  },
+  "summary_text": "专案组定九日辰时在军械总库用底账清点D67，羽林军已奉准看守总库、账不出库。老赵头报线人六日夜死于柳条巷口，记醉后冻毙，可他滴酒不沾。王思涵发现卖炭汉子已死、德裕伙计落水、票号伙计失踪，复验被挡，抄下名单。邱深澳看清第三处只盯近卫军，决定先接城南电报局。入夜周君瑶来营，周君州拦不住，带她出营赴小聚。",
   "dominant_strand": "quest",
-  "summary_text": "二月八日，张艺宣在中央社把宴会改作当晚府上暖阁小聚，客人凭腰牌接来、散席留宿厢房；她揉掉写着“君州”的笺纸，见第三处通报后改叫跑差送周府。邱思甜带伤到川椴楼讨停战草稿，原件已盖“已泄露·作废”印，不准带走抄录。午后她在城南与张书淮理顺粥棚，张艺宣送帖说出请了周将军。回程车里，邱思甜默写下全部条款。"
+  "chapter_meta": {
+    "title": "断线",
+    "time": "康建五十年二月八日，辰时至戌初（宵禁后）",
+    "location": "灵武军营、神圣高地西坡、德裕银号、京兆府、君来乡第五军通讯连、王家门口",
+    "characters": ["周君州", "曼桂槐", "邓声宝", "金志文", "老赵头", "王思涵", "京兆府主簿", "邱深澳", "第五军通讯连长", "军需处上尉", "张艺宣", "邱思甜", "周君瑶"],
+    "hook_type": "悬念钩",
+    "hook_strength": "strong",
+    "countdown": "太子生辰 D-1（九日）；九日辰时军械总库清点",
+    "handoff": "名单与线人之死将在小聚席上对上；周君州清点前夜戌初出营赴宴，周君瑶戴着他的皮手套同去"
+  }
 }

@@ -1,36 +1,54 @@
 {
-  "chapter": 13,
+  "chapter": 14,
   "issues": [
     {
       "severity": "medium",
-      "category": "logic",
-      "location": "第13、25、27段",
-      "description": "晚间广播换人的吩咐早于定下今晚，因果倒置；“念晚间那一档”与已换人冲突。",
-      "evidence": "第13、25、27段",
-      "fix_hint": "改为昨夜已定，腰牌因平日差事所领",
+      "category": "continuity",
+      "location": "营门兄妹戏",
+      "description": "与第3、11章动作句子重复。",
+      "evidence": "第3、11章",
+      "fix_hint": "保留独有部分，换掉重复部分",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "continuity",
+      "location": "车门一开、一把",
+      "description": "章内句式重复。",
+      "evidence": "本章319、343、345、355段",
+      "fix_hint": "换写法",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "character",
+      "location": "“没有一回拦得住”",
+      "description": "与第3章他拦下过她相矛盾。",
+      "evidence": "第3章",
+      "fix_hint": "改为十回九回",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "character",
+      "location": "邓声宝“熊掌”与称呼",
+      "description": "未在场却说熊掌；称呼应为君瑶。",
+      "evidence": "第3章",
+      "fix_hint": "改称呼与台词",
       "blocking": false
     },
     {
       "severity": "low",
       "category": "logic",
-      "location": "第27、397、469段",
-      "description": "张书淮坐府里的车夜里过岗凭据未交代。",
-      "evidence": "第27、397段；第10章",
-      "fix_hint": "车夫带着张艺宣的腰牌",
-      "blocking": false
-    },
-    {
-      "severity": "low",
-      "category": "setting",
-      "location": "第27、109、397段",
-      "description": "邱思甜有腰牌却写成跟车；接人的车两处说法不一。",
-      "evidence": "第27、109、397段",
-      "fix_hint": "改为二人同住王家一并接来",
+      "location": "戴手套捂手",
+      "description": "动作顺序不通。",
+      "evidence": "本章363段",
+      "fix_hint": "手套从口袋取出",
       "blocking": false
     }
   ],
-  "issues_count": 3,
+  "issues_count": 5,
   "blocking_count": 0,
   "has_blocking": false,
-  "summary": "3个问题：0个阻断，0个高优"
+  "summary": "5个问题：0个阻断，0个高优"
 }

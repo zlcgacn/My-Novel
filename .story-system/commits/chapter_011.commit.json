@@ -6,7 +6,7 @@
   },
   "contract_refs": {
     "master": "MASTER_SETTING.json",
-    "volume": "volume_001.json",
+    "volume": "volume_002.json",
     "chapter": "chapter_011.json",
     "review": "chapter_011.review.json"
   },
@@ -16,47 +16,200 @@
     "legacy_state_role": "projection_only"
   },
   "outline_snapshot": {
-    "planned_nodes": [],
+    "planned_nodes": [
+      "周君州天不亮从周府回营",
+      "邓声宝陪睡不着的兵坐了一宿",
+      "灵武军空着手出操",
+      "林安华会同第三处到军部问话，曼桂槐答账，李文斌、金志文按本职列席",
+      "问话句句绕着灵武军的枪打转，周君州只觉得问得刁，不往深处想",
+      "李文斌不让原册出营，与金志文在抄本上署名作保",
+      "提到“军务本部有底账”，为第四章大火埋线",
+      "金志文报：老赵头那条线还在追",
+      "金志文报：新年夜参谋本部里的人都查过，只有邱深澳的档案像被动过",
+      "周君州让情报组私下接着查",
+      "周君瑶接卷一末那句没说完的“你又在那儿……”",
+      "周君瑶跟到营里，兵们把她当全军的宝贝",
+      "兵们拿周君州在神圣高地的仗当英雄故事讲给她听；对兵们是荣耀，对她是哥哥差一点回不来",
+      "专案组走后，她对哥哥说完那句话",
+      "她替他扣好领扣",
+      "主题：尚武帝国里人人把枪口底下走一遭当成荣耀，只有她一个人在怕再丢一回家人"
+    ],
     "covered_nodes": [
-      "周君州清晨离开周府，教授与议员宵禁一解即离府",
-      "周君州回灵武军营，邓声宝报告封条贴完、官兵彻夜未眠",
-      "灵武军空手出操",
-      "第三处与内务本部专案组到营，林安华盘问D67领用、库钥、打靶与军官行踪",
-      "李文斌、金志文署名作保，以抄本代替原册交专案组",
-      "金志文密报邱深澳档案有数年空白，周君州命私下连同爆炸案续查",
-      "周君瑶赴营，在营房听士兵讲神圣高地之战",
-      "兄妹相见，周君瑶替周君州扣上领扣"
+      "周君州天不亮从周府回营",
+      "邓声宝陪睡不着的兵坐了一宿",
+      "灵武军空着手出操",
+      "林安华会同第三处到军部问话，曼桂槐答账，李文斌、金志文按本职列席",
+      "问话句句绕着灵武军的枪打转，周君州只觉得问得刁，不往深处想",
+      "李文斌不让原册出营，与金志文在抄本上署名作保",
+      "提到“军务本部有底账”，为第四章大火埋线（曼桂槐交代签收单一份带回军务本部；“军务本部有底账，拿去对就是”一句由周君州说出）",
+      "金志文报：老赵头那条线还在追",
+      "金志文报：新年夜参谋本部里的人都查过，只有邱深澳的档案像被动过",
+      "周君州让情报组私下接着查",
+      "周君瑶接卷一末那句没说完的“你又在那儿……”",
+      "周君瑶跟到营里，兵们把她当全军的宝贝",
+      "兵们拿周君州在神圣高地的仗当英雄故事讲给她听；对兵们是荣耀，对她是哥哥差一点回不来",
+      "专案组走后，她对哥哥说完那句话",
+      "她替他扣好领扣",
+      "主题：尚武帝国里人人把枪口底下走一遭当成荣耀，只有她一个人在怕再丢一回家人"
     ],
     "missed_nodes": [],
-    "extra_nodes": []
+    "extra_nodes": [
+      "教授与议员宵禁一解即分头离开周府，昨夜花厅的话谁也不再提",
+      "林安华追问D67两批领用、西山靶场打靶与弹壳回收、新年夜与昨天军官行踪，以及神策军中尉临死前的话",
+      "李文斌问如何向宫里递话，留下“照实写，也有个先后”",
+      "周君瑶昨夜未眠，想把回廊上没说完的话说完而忍住；赴营途中见长安大街一户人家春联底下挂起白布",
+      "周君瑶在军部门外雪地里等了小半刻，周君州下两级台阶看见她，问她站了多久，解下围巾俯身给她围到下巴；她扣好领扣后，他把她的围巾拉上盖住鼻尖"
+    ]
   },
   "review_result": {
     "blocking_count": 0,
     "chapter": 11,
-    "issues": [],
-    "issues_count": 0,
+    "issues": [
+      {
+        "severity": "high",
+        "category": "timeline",
+        "location": "多处“前天神圣高地”",
+        "description": "神圣高地爆炸在五日，本章（六日）应为昨天。",
+        "evidence": "第8、9、10章",
+        "fix_hint": "前天改为昨天",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "continuity",
+        "location": "围巾",
+        "description": "已遮住鼻子又往上拉。",
+        "evidence": "本章257、271行",
+        "fix_hint": "围到下巴",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "logic",
+        "location": "台阶站位",
+        "description": "他已到跟前，她却上两级台阶扣领扣。",
+        "evidence": "本章249、267行",
+        "fix_hint": "他只下两级台阶",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "continuity",
+        "location": "兄妹戏与第14章重复",
+        "description": "同一套暖手写法。",
+        "evidence": "第14章营门段",
+        "fix_hint": "本章不写捂手",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "continuity",
+        "location": "“下午那句话”",
+        "description": "实为昨夜回廊上。",
+        "evidence": "第10章",
+        "fix_hint": "改为回廊上",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "continuity",
+        "location": "眼底青、胡茬重复",
+        "description": "章内两次。",
+        "evidence": "本章5、259行",
+        "fix_hint": "换细节",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "logic",
+        "location": "手冻缺来由",
+        "description": "从暖屋出来。",
+        "evidence": "本章201、245行",
+        "fix_hint": "补门外雪地等候",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "setting",
+        "location": "帽檐落雪",
+        "description": "无下雪交代。",
+        "evidence": "本章与第12章",
+        "fix_hint": "改为风吹耳朵",
+        "blocking": false
+      }
+    ],
+    "issues_count": 8,
     "has_blocking": false,
-    "summary": "import mode: author-finalized chapter imported from 淮南往事.md; reviewer skipped",
-    "review_skipped": true,
-    "review_mode": "import"
+    "summary": "8个问题：0个阻断，1个高优"
   },
   "fulfillment_result": {
-    "planned_nodes": [],
+    "planned_nodes": [
+      "周君州天不亮从周府回营",
+      "邓声宝陪睡不着的兵坐了一宿",
+      "灵武军空着手出操",
+      "林安华会同第三处到军部问话，曼桂槐答账，李文斌、金志文按本职列席",
+      "问话句句绕着灵武军的枪打转，周君州只觉得问得刁，不往深处想",
+      "李文斌不让原册出营，与金志文在抄本上署名作保",
+      "提到“军务本部有底账”，为第四章大火埋线",
+      "金志文报：老赵头那条线还在追",
+      "金志文报：新年夜参谋本部里的人都查过，只有邱深澳的档案像被动过",
+      "周君州让情报组私下接着查",
+      "周君瑶接卷一末那句没说完的“你又在那儿……”",
+      "周君瑶跟到营里，兵们把她当全军的宝贝",
+      "兵们拿周君州在神圣高地的仗当英雄故事讲给她听；对兵们是荣耀，对她是哥哥差一点回不来",
+      "专案组走后，她对哥哥说完那句话",
+      "她替他扣好领扣",
+      "主题：尚武帝国里人人把枪口底下走一遭当成荣耀，只有她一个人在怕再丢一回家人"
+    ],
     "covered_nodes": [
-      "周君州清晨离开周府，教授与议员宵禁一解即离府",
-      "周君州回灵武军营，邓声宝报告封条贴完、官兵彻夜未眠",
-      "灵武军空手出操",
-      "第三处与内务本部专案组到营，林安华盘问D67领用、库钥、打靶与军官行踪",
-      "李文斌、金志文署名作保，以抄本代替原册交专案组",
-      "金志文密报邱深澳档案有数年空白，周君州命私下连同爆炸案续查",
-      "周君瑶赴营，在营房听士兵讲神圣高地之战",
-      "兄妹相见，周君瑶替周君州扣上领扣"
+      "周君州天不亮从周府回营",
+      "邓声宝陪睡不着的兵坐了一宿",
+      "灵武军空着手出操",
+      "林安华会同第三处到军部问话，曼桂槐答账，李文斌、金志文按本职列席",
+      "问话句句绕着灵武军的枪打转，周君州只觉得问得刁，不往深处想",
+      "李文斌不让原册出营，与金志文在抄本上署名作保",
+      "提到“军务本部有底账”，为第四章大火埋线（曼桂槐交代签收单一份带回军务本部；“军务本部有底账，拿去对就是”一句由周君州说出）",
+      "金志文报：老赵头那条线还在追",
+      "金志文报：新年夜参谋本部里的人都查过，只有邱深澳的档案像被动过",
+      "周君州让情报组私下接着查",
+      "周君瑶接卷一末那句没说完的“你又在那儿……”",
+      "周君瑶跟到营里，兵们把她当全军的宝贝",
+      "兵们拿周君州在神圣高地的仗当英雄故事讲给她听；对兵们是荣耀，对她是哥哥差一点回不来",
+      "专案组走后，她对哥哥说完那句话",
+      "她替他扣好领扣",
+      "主题：尚武帝国里人人把枪口底下走一遭当成荣耀，只有她一个人在怕再丢一回家人"
     ],
     "missed_nodes": [],
-    "extra_nodes": []
+    "extra_nodes": [
+      "教授与议员宵禁一解即分头离开周府，昨夜花厅的话谁也不再提",
+      "林安华追问D67两批领用、西山靶场打靶与弹壳回收、新年夜与昨天军官行踪，以及神策军中尉临死前的话",
+      "李文斌问如何向宫里递话，留下“照实写，也有个先后”",
+      "周君瑶昨夜未眠，想把回廊上没说完的话说完而忍住；赴营途中见长安大街一户人家春联底下挂起白布",
+      "周君瑶在军部门外雪地里等了小半刻，周君州下两级台阶看见她，问她站了多久，解下围巾俯身给她围到下巴；她扣好领扣后，他把她的围巾拉上盖住鼻尖"
+    ]
   },
   "disambiguation_result": {
-    "pending": []
+    "pending": [],
+    "warnings": [
+      {
+        "mention": "教会的死亡骑兵",
+        "entity_id": "death_cavalry_officer",
+        "confidence": 0.75,
+        "note": "士兵转述“一个人，一匹马……一杆长矛”，与第7、8章那名死亡骑兵军官吻合，按同一人采用"
+      },
+      {
+        "mention": "神策军那位中尉",
+        "entity_id": "shence_lieutenant",
+        "confidence": 0.9,
+        "note": "更正：导入版误挂到 the_lieutenant（第3章参谋本部值守的羽林军中尉）；死在周君州跟前、说“训练有素，手段凶狠，见人就杀”的是第7章神策军中尉中队长 shence_lieutenant。旧的 the_lieutenant 第11章出场记录需另行清理"
+      },
+      {
+        "mention": "王家的车",
+        "entity_id": null,
+        "confidence": 0.6,
+        "note": "第10章王政炎、王思涵同车到周府，此处仅泛指王家车驾离开，不单独计 wang_zhengyan 出场"
+      }
+    ]
   },
   "extraction_result": {
     "accepted_events": [
@@ -64,28 +217,16 @@
         "event_id": "evt-ch11-001",
         "chapter": 11,
         "event_type": "character_state_changed",
-        "subject": "zhou_junzhou",
-        "payload": {
-          "field": "location.current",
-          "old": "zhou_mansion",
-          "new": "lingwu_barracks",
-          "note": "天未亮换军装离开周府回灵武军营"
-        }
-      },
-      {
-        "event_id": "evt-ch11-002",
-        "chapter": 11,
-        "event_type": "character_state_changed",
         "subject": "lingwu_army",
         "payload": {
           "field": "investigation_status",
           "old": "D67已封存待查",
           "new": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组",
-          "note": "全军空手出操"
+          "note": "全军空着手出操；专案组为第三处三人、内务本部两人"
         }
       },
       {
-        "event_id": "evt-ch11-003",
+        "event_id": "evt-ch11-002",
         "chapter": 11,
         "event_type": "world_rule_revealed",
         "subject": "lingwu_army",
@@ -96,7 +237,7 @@
         }
       },
       {
-        "event_id": "evt-ch11-004",
+        "event_id": "evt-ch11-003",
         "chapter": 11,
         "event_type": "world_rule_revealed",
         "subject": "junwu_benbu",
@@ -107,7 +248,7 @@
         }
       },
       {
-        "event_id": "evt-ch11-005",
+        "event_id": "evt-ch11-004",
         "chapter": 11,
         "event_type": "world_rule_revealed",
         "subject": "lingwu_army",
@@ -118,7 +259,7 @@
         }
       },
       {
-        "event_id": "evt-ch11-006",
+        "event_id": "evt-ch11-005",
         "chapter": 11,
         "event_type": "world_rule_revealed",
         "subject": "third_bureau",
@@ -126,6 +267,17 @@
           "rule_content": "御前第三处探员着黑色制服；内务本部人员着白色警察制服；军中公文原册按例不出营",
           "rule_category": "制度",
           "scope": "nanjing"
+        }
+      },
+      {
+        "event_id": "evt-ch11-006",
+        "chapter": 11,
+        "event_type": "world_rule_revealed",
+        "subject": "d67_rifle",
+        "payload": {
+          "rule_content": "灵武军领到D67两批（去年十一月一批、腊月一批）；新枪试装期间参谋本部要看损耗，打靶领出、交回、发射数与回收弹壳都记册，弹壳一颗不少；腊月在西山靶场打过两回靶",
+          "rule_category": "军制",
+          "scope": "lingwu_army"
         }
       },
       {
@@ -167,17 +319,6 @@
       {
         "event_id": "evt-ch11-010",
         "chapter": 11,
-        "event_type": "relationship_changed",
-        "subject": "zhou_junzhou",
-        "payload": {
-          "to_entity": "qiu_shenao",
-          "relationship_type": "暗中调查",
-          "note": "因档案空缺将其列为私下调查对象"
-        }
-      },
-      {
-        "event_id": "evt-ch11-011",
-        "chapter": 11,
         "event_type": "open_loop_created",
         "subject": "lin_anhua",
         "payload": {
@@ -189,7 +330,7 @@
         }
       },
       {
-        "event_id": "evt-ch11-012",
+        "event_id": "evt-ch11-011",
         "chapter": 11,
         "event_type": "open_loop_created",
         "subject": "li_wenbin",
@@ -202,249 +343,369 @@
         }
       },
       {
+        "event_id": "evt-ch11-012",
+        "chapter": 11,
+        "event_type": "open_loop_created",
+        "subject": "junwu_benbu",
+        "payload": {
+          "content": "D67两批都由军务本部押送、当面点数签收，一份带回军务本部；周君州当专案组的面说“军务本部有底账，拿去对就是”——灵武军的账能否自证，系于军务本部那份底账",
+          "loop_type": "伏线",
+          "unanswered_question": "军务本部的底账是否还在、能否与灵武军的领用册对上",
+          "urgency": 60,
+          "planted_chapter": 11,
+          "expected_payoff": "卷二第四章（军械总库对数）"
+        }
+      },
+      {
         "event_id": "evt-ch11-013",
         "chapter": 11,
-        "event_type": "character_state_changed",
-        "subject": "zhou_junyao",
+        "event_type": "relationship_changed",
+        "subject": "zhou_junzhou",
         "payload": {
-          "field": "location.current",
-          "old": "zhou_mansion",
-          "new": "lingwu_barracks",
-          "note": "不顾管家劝阻，带两名护院乘车赴营"
+          "to_entity": "qiu_shenao",
+          "relationship_type": "暗中调查",
+          "note": "因档案空缺将其列为私下调查对象"
         }
       }
     ],
     "state_deltas": [
       {
-        "entity_id": "zhou_junzhou",
-        "field": "location.current",
-        "old": "zhou_mansion",
-        "new": "lingwu_barracks"
+        "entity_id": "lingwu_army",
+        "field": "investigation_status",
+        "old": "D67已封存待查",
+        "new": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组"
       },
       {
         "entity_id": "zhou_junzhou",
         "field": "condition",
         "old": "疲惫",
         "new": "自新年夜起几乎未眠，眼底发青、未刮胡茬"
-      },
-      {
-        "entity_id": "zhou_junyao",
-        "field": "location.current",
-        "old": "zhou_mansion",
-        "new": "lingwu_barracks"
-      },
-      {
-        "entity_id": "lingwu_army",
-        "field": "investigation_status",
-        "old": "D67已封存待查",
-        "new": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组"
       }
     ],
     "entity_deltas": [
       {
-        "entity_id": "zhou_junzhou",
+        "entity_id": "lin_anhua",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "林安华",
+        "tier": "重要",
+        "chapter": 11,
+        "desc": "内务本部公安处刑事侦查科二级警督，参谋本部爆炸案的调查者；三十来岁，臂缠黑纱，第11章随专案组到灵武军问询",
         "payload": {
-          "name": "周君州",
-          "note": "下令灵武军情报组私下调查邱深澳及爆炸案"
-        }
-      },
-      {
-        "entity_id": "qiu_shenao",
-        "action": "upsert",
-        "entity_type": "角色",
-        "is_protagonist": true,
-        "payload": {
-          "name": "邱深澳",
-          "dossier": "档案仅几行：中庆人，平民，破格特招；中庆大旱至特招间空缺数年"
-        }
-      },
-      {
-        "entity_id": "man_guihuai",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "曼桂槐",
-          "title": "灵武军总参谋长",
-          "note": "女，与周君州年纪相仿，话不多，掌灵武军全部账目"
+          "name": "林安华"
         }
       },
       {
         "entity_id": "li_wenbin",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "李文斌",
+        "tier": "重要",
+        "chapter": 11,
+        "desc": "灵武军政委（兼皇宫郎官），少将，公爵，京兆府鄠都万年县人；列席替宫里看着，每晚照例向宫里递话",
         "payload": {
-          "name": "李文斌",
-          "title": "灵武军政委",
-          "rank_of_nobility": "公爵",
-          "concurrent_post": "皇宫郎官",
-          "note": "列席替宫里看着，每晚照例向宫里递话"
+          "name": "李文斌"
         }
       },
       {
-        "entity_id": "jin_zhiwen",
+        "entity_id": "emperor",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "皇帝（康建皇帝）",
+        "tier": "重要",
+        "chapter": 11,
+        "desc": "康建皇帝，正文以“皇帝”“圣上”代称出场；帝国理论上的最高统帅；下旨封存近卫军D67并命专案组清查",
         "payload": {
-          "name": "金志文",
-          "title": "灵武军督察",
-          "note": "列席替参谋本部看着；兼管情报组排查"
+          "name": "皇帝（康建皇帝）"
         }
       },
       {
-        "entity_id": "lin_anhua",
+        "entity_id": "zhou_shiheng",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "周世衡",
+        "tier": "重要",
+        "chapter": 11,
+        "desc": "周君州的父亲，近卫军元帅，中央近卫集团军群司令官，太子太傅（教军事），改良派骨干",
         "payload": {
-          "name": "林安华",
-          "title": "内务本部公安处刑事侦查科，二级警督",
-          "note": "三十来岁，臂缠黑纱，专案组内务本部方领头"
+          "name": "周世衡"
         }
       },
       {
         "entity_id": "wenli_professor",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "教授",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "帝国文理大学的一位教授，开明学者、看重舆论的改良派（设定/人物.md）；密会后留宿周府，宵禁一解即离开",
         "payload": {
-          "name": "教授",
-          "aliases": [
-            "教授"
-          ],
-          "note": "帝国文理大学教授，改良派，昨夜留宿周府，宵禁解后离开"
+          "name": "教授"
         }
       },
       {
         "entity_id": "assembly_member",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "公民议会议员",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "公民议会的一位议员，改良派在民间的一头（设定/人物.md）；密会后留宿周府，宵禁一解即离开",
         "payload": {
-          "name": "议员",
-          "aliases": [
-            "议员",
-            "那位议员"
-          ],
-          "note": "公民议会议员，改良派，昨夜留宿周府，宵禁解后离开"
+          "name": "公民议会议员"
         }
       },
       {
-        "entity_id": "disanchu_lingtou_tanyuan",
+        "entity_id": "shence_lieutenant",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "神策军中尉",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "神策军内务本部卫队第三大队第二中队中尉中队长；神圣高地巷战中翻找弹药时中冷枪死在周君州跟前，生前说那伙人训练有素、手段凶狠、见人就杀",
         "payload": {
-          "name": "第三处领头探员",
-          "note": "年纪不轻，奉旨会同内务本部办案，少开口，要求带走D67领用册与库房档册"
-        }
-      },
-      {
-        "entity_id": "queer_laobing",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "缺耳朵的老兵",
-          "aliases": [
-            "老兵"
-          ],
-          "note": "灵武军老兵，左耳缺了半边，与周君瑶相熟"
-        }
-      },
-      {
-        "entity_id": "nianqing_shibing",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "年轻的兵",
-          "note": "灵武军士兵，在营房向周君瑶转述神圣高地之战"
-        }
-      },
-      {
-        "entity_id": "jingweiying_shangshi",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "警卫营上士",
-          "note": "灵武军军直属警卫营上士"
-        }
-      },
-      {
-        "entity_id": "zhoufu_guanjia",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "管家",
-          "note": "周府管家"
+          "name": "神策军中尉"
         }
       },
       {
         "entity_id": "death_cavalry_officer",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "死亡骑兵军官",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "教会死亡骑兵军官，马刀系百合花丝线；神圣高地巷战中单骑以长矛挑杀冷枪手，救下周君州与邓声宝（本章为士兵转述）",
         "payload": {
-          "name": "死亡骑兵军官",
-          "note": "教会死亡骑兵，神圣高地巷战中单骑以长矛挑杀冷枪手（本章为士兵转述）"
+          "name": "死亡骑兵军官"
+        }
+      },
+      {
+        "entity_id": "disanchu_lingtou_tanyuan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "第三处领头探员",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "御前第三处探员领头者，年纪不轻、少开口；奉旨会同内务本部到灵武军办案，要求带走D67领用册与库房档册",
+        "payload": {
+          "name": "第三处领头探员"
+        }
+      },
+      {
+        "entity_id": "queer_laobing",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "缺耳朵的老兵",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "灵武军老兵，左耳缺了半边，与周君瑶相熟；众人把神圣高地之战当英雄故事讲时，看出她害怕，没有笑",
+        "payload": {
+          "name": "缺耳朵的老兵"
+        }
+      },
+      {
+        "entity_id": "nianqing_shibing",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "年轻的兵",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "灵武军年轻士兵，在营房向周君瑶转述邓声宝讲的神圣高地之战",
+        "payload": {
+          "name": "年轻的兵"
+        }
+      },
+      {
+        "entity_id": "jingweiying_shangshi",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "警卫营上士",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "灵武军军直属警卫营上士，拦下周君瑶说第三处的人在里头，近午来报专案组已走",
+        "payload": {
+          "name": "警卫营上士"
+        }
+      },
+      {
+        "entity_id": "zhoufu_guanjia",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "管家",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "周府管家，劝周君瑶留在家中未果，派两名护院跟车",
+        "payload": {
+          "name": "管家"
+        }
+      },
+      {
+        "entity_id": "lingwu_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "灵武军",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "帝国近卫灵武军，周君州任军长（设定/灵武军.md）；D67奉旨封存，全军空手出操，接受专案组问询",
+        "payload": {
+          "name": "灵武军"
+        }
+      },
+      {
+        "entity_id": "lingwu_intel_group",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "灵武军情报组",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "灵武军情报组，由督察金志文督办；排查新年夜参谋本部在楼人员，查出邱深澳档案空缺，奉命私下续查",
+        "payload": {
+          "name": "灵武军情报组"
+        }
+      },
+      {
+        "entity_id": "lingwu_guard_battalion",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "灵武军警卫营",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "灵武军军直属警卫营（设定/灵武军.md）；营长与军需处各执一把军械库钥匙",
+        "payload": {
+          "name": "灵武军警卫营"
+        }
+      },
+      {
+        "entity_id": "shence_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "神策军",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "神策军，定位相当于武装警察，归内务本部节制（设定/政体.md、军制.md）；爆炸后在京城街口添设岗哨盘查",
+        "payload": {
+          "name": "神策军"
+        }
+      },
+      {
+        "entity_id": "fifth_army",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "羽林军第五军",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "羽林军第五军，邱深澳任少校参谋的部队（设定/军制.md）",
+        "payload": {
+          "name": "羽林军第五军"
         }
       },
       {
         "entity_id": "state_church",
         "action": "upsert",
         "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "教会",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "帝国国教教会，死亡军团隶属于此（设定/军制.md）；其死亡骑兵在神圣高地巷战中救场",
         "payload": {
-          "name": "教会",
-          "note": "拥有死亡骑兵"
+          "name": "教会"
         }
       },
       {
-        "entity_id": "junwu_benbu",
+        "entity_id": "black_clad_gunmen",
         "action": "upsert",
         "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "黑衣人",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "神圣高地爆炸后持D67见人就杀的武装人员（正文称“那伙人”），来历不明；其所用枪与近卫军D67同式，致近卫军封枪",
         "payload": {
-          "name": "军务本部",
-          "note": "负责押送新式枪械进营并留存底账"
+          "name": "黑衣人"
         }
       },
       {
-        "entity_id": "lingwu_barracks",
+        "entity_id": "zhongqing",
         "action": "upsert",
         "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "中庆省",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "邱深澳、邱思甜的家乡；中庆大旱时邱家家破人亡（设定/人物.md）",
         "payload": {
-          "name": "灵武军营",
-          "note": "含军部、议事厅、操场、营房、军械库"
+          "name": "中庆省"
         }
       },
       {
         "entity_id": "changan_dajie",
         "action": "upsert",
         "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "长安大街",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "京城大街，周府去灵武军营的必经之路；爆炸后沿街铺子多上门板，街口有神策军岗哨",
         "payload": {
-          "name": "长安大街",
-          "note": "南京城内大街，沿街铺子多上门板，有神策军岗哨"
-        }
-      },
-      {
-        "entity_id": "chengming_guangchang",
-        "action": "upsert",
-        "entity_type": "地点",
-        "payload": {
-          "name": "程明广场",
-          "note": "新年夜观礼地点"
+          "name": "长安大街"
         }
       },
       {
         "entity_id": "xishan_bachang",
         "action": "upsert",
         "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "西山靶场",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "灵武军腊月在此用D67打过两回靶",
         "payload": {
-          "name": "西山靶场",
-          "note": "灵武军腊月在此用D67打过两回靶"
+          "name": "西山靶场"
+        }
+      },
+      {
+        "entity_id": "d67_rifle",
+        "action": "upsert",
+        "entity_type": "物品",
+        "type": "物品",
+        "canonical_name": "D67 半自动步枪",
+        "tier": "次要",
+        "chapter": 11,
+        "desc": "试验性新锐半自动步枪，只配发禁卫军龙武、木兰两军与近卫军数部；袭击者所用同式，致近卫军奉旨封枪；灵武军领到两批",
+        "payload": {
+          "name": "D67 半自动步枪"
         }
       },
       {
         "entity_id": "l12_rifle",
         "action": "upsert",
         "entity_type": "物品",
+        "type": "物品",
+        "canonical_name": "L12步枪",
+        "tier": "装饰",
+        "chapter": 11,
+        "desc": "五十年前的老式步枪，神策军换装前的旧枪，在神圣高地巷战中不敌D67",
         "payload": {
-          "name": "L12步枪",
-          "note": "五十年前的老式步枪，神策军仍在使用"
+          "name": "L12步枪"
         }
       }
     ],
@@ -541,8 +802,7 @@
         "id": "wang_sihan",
         "type": "角色",
         "mentions": [
-          "王思涵",
-          "王家"
+          "王思涵"
         ],
         "confidence": 0.95
       },
@@ -564,13 +824,13 @@
         "confidence": 0.9
       },
       {
-        "id": "the_lieutenant",
+        "id": "shence_lieutenant",
         "type": "角色",
         "mentions": [
           "神策军那位中尉",
           "神策军那个中尉"
         ],
-        "confidence": 0.92
+        "confidence": 0.9
       },
       {
         "id": "lao_zhao_tou",
@@ -602,7 +862,8 @@
         "type": "角色",
         "mentions": [
           "领头的那位",
-          "第三处那位领头的"
+          "第三处那位领头的",
+          "领头的"
         ],
         "confidence": 0.9
       },
@@ -658,6 +919,23 @@
         "confidence": 0.98
       },
       {
+        "id": "lingwu_intel_group",
+        "type": "组织",
+        "mentions": [
+          "情报组"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "lingwu_guard_battalion",
+        "type": "组织",
+        "mentions": [
+          "军直属警卫营",
+          "警卫营"
+        ],
+        "confidence": 0.85
+      },
+      {
         "id": "third_bureau",
         "type": "组织",
         "mentions": [
@@ -703,13 +981,21 @@
         "mentions": [
           "军务本部"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "state_church",
         "type": "组织",
         "mentions": [
           "教会"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "black_clad_gunmen",
+        "type": "组织",
+        "mentions": [
+          "那伙人"
         ],
         "confidence": 0.85
       },
@@ -774,7 +1060,7 @@
         "mentions": [
           "长安大街"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "chengming_guangchang",
@@ -782,7 +1068,7 @@
         "mentions": [
           "程明广场"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "xishan_bachang",
@@ -790,7 +1076,7 @@
         "mentions": [
           "西山靶场"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "d67_rifle",
@@ -806,7 +1092,7 @@
         "mentions": [
           "老L12"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       }
     ],
     "scenes": [
@@ -815,20 +1101,20 @@
         "start_line": 3,
         "end_line": 13,
         "location": "zhou_mansion",
-        "summary": "周君州在书房靠了两个时辰，天亮换军装出门，在妹妹窗下停步未敲门；教授与议员宵禁一解分头离府。他骑马穿城回营，街口添了神策军岗哨。",
+        "summary": "周君州在书房靠了两个时辰，天亮换军装出门，在妹妹窗下站了一会儿没敲门；教授与议员宵禁一解便分头离府。他骑马穿城回营，街口添了神策军岗哨，昨天神圣高地的事已传遍全城。",
         "characters": [
           "zhou_junzhou",
           "wenli_professor",
           "assembly_member"
         ],
-        "content": "周府清晨与穿城回营"
+        "content": "周府清晨，周君州穿城回营"
       },
       {
         "index": 2,
         "start_line": 15,
         "end_line": 35,
         "location": "lingwu_barracks",
-        "summary": "邓声宝在营门等候，报告封条贴到后半夜、军械官不点数，自己陪弟兄坐了一宿讲前天的事。各营空手出操，步子格外整齐；周君州说让专案组查个明白。",
+        "summary": "邓声宝在营门等候，说封条贴到后半夜、军械官只贴不点，他陪睡不着的兵坐了一宿讲昨天的事。各营空着手出操，步子格外齐整；周君州说圣上叫查，就让人家查个明白。",
         "characters": [
           "zhou_junzhou",
           "deng_shengbao"
@@ -840,7 +1126,7 @@
         "start_line": 37,
         "end_line": 119,
         "location": "lingwu_barracks",
-        "summary": "第三处三人、内务本部两人组成的专案组到营。林安华逐项盘问D67领用、库钥、打靶弹壳与军官行踪，曼桂槐以账册一一作答。第三处要带走原册，李文斌、金志文署名作保改交抄本。",
+        "summary": "第三处与内务本部的专案组到营。林安华逐项盘问D67领用、库钥、打靶弹壳、军官行踪及中尉遗言，曼桂槐以账册一一作答，周君州只觉问得刁。第三处要带走原册，李文斌、金志文署名作保改交抄本。",
         "characters": [
           "zhou_junzhou",
           "deng_shengbao",
@@ -857,7 +1143,7 @@
         "start_line": 121,
         "end_line": 145,
         "location": "lingwu_barracks",
-        "summary": "李文斌问如何向宫里递话，留下一句“照实写，也有个先后”。金志文报告老赵头线索未有新消息，并指出邱深澳档案空缺数年；周君州命其连同爆炸案私下续查。",
+        "summary": "李文斌问今晚如何向宫里递话，留下一句“照实写，也有个先后”。金志文报老赵头那条线暂无新消息，新年夜参谋本部里的人只有邱深澳档案空缺数年、像被动过；周君州命连同爆炸案私下续查。",
         "characters": [
           "zhou_junzhou",
           "li_wenbin",
@@ -870,7 +1156,7 @@
         "start_line": 147,
         "end_line": 175,
         "location": "changan_dajie",
-        "summary": "周君瑶昨夜未眠，醒来得知哥哥已回营，便不顾管家劝阻套车赴营。沿长安大街所见铺子关门、岗哨盘查，一户人家春联下已挂白布。",
+        "summary": "周君瑶昨夜一直没睡着，想把回廊上没说完的话说完，又怕扰哥哥歇息而忍住；醒来得知哥哥已回营，不顾管家劝阻套车赴营。长安大街铺子关门、岗哨盘查，一户人家春联底下已挂起白布。",
         "characters": [
           "zhou_junyao",
           "zhoufu_guanjia"
@@ -882,7 +1168,7 @@
         "start_line": 177,
         "end_line": 243,
         "location": "lingwu_barracks",
-        "summary": "士兵围住周君瑶迎进营房，枪架空着。年轻士兵转述神圣高地之战：手枪对D67、中尉中冷枪、死亡骑兵救场，满屋叫好；周君瑶追问细节，姜汤凉了也未放下。",
+        "summary": "兵们把周君瑶当宝贝迎进营房，枪架空着。年轻的兵把神圣高地之战当英雄故事讲：手枪顶着D67往上冲、中尉中冷枪、死亡骑兵救场，满屋叫好；她追问“然后呢”，姜汤凉了也没放下，缺耳朵的老兵没有笑。",
         "characters": [
           "zhou_junyao",
           "queer_laobing",
@@ -894,20 +1180,20 @@
       {
         "index": 7,
         "start_line": 245,
-        "end_line": 269,
+        "end_line": 273,
         "location": "lingwu_barracks",
-        "summary": "专案组离营，邓声宝脸色难看。周君州出军部，见妹妹在雪地里先是责问；周君瑶说“你又在那儿”，听他说没事后，上前替他扣好刚解开的领扣。",
+        "summary": "专案组近午离营。周君瑶在军部门外雪地里等了小半刻，周君州下两级台阶才看见她，问她站了多久，解下围巾给她围到下巴。她说出回廊上没说完的“你又在那儿”，替他扣上领扣；他由她扣，又把她的围巾拉上盖住鼻尖。",
         "characters": [
           "zhou_junyao",
           "zhou_junzhou",
           "deng_shengbao"
         ],
-        "content": "兄妹相见扣领扣"
+        "content": "雪地相见，围巾与领扣"
       }
     ],
     "chapter_meta": {},
-    "dominant_strand": "",
-    "summary_text": "封枪次日，周君州回灵武军营，邓声宝报告封条贴完、官兵一夜未眠，全军空手出操。第三处与内务本部专案组到营，林安华逐项盘问D67领用、库钥、打靶与军官行踪，李文斌、金志文署名作保交出抄本。金志文密报邱深澳档案空缺数年，周君州命连同爆炸案私下续查。周君瑶赴营听士兵讲神圣高地之战，兄妹相见，她替哥哥扣上领扣。"
+    "dominant_strand": "quest",
+    "summary_text": "封枪次日，周君州回营，全军空手出操。第三处会同林安华到营问话，句句绕着灵武军的枪，周君州只觉问得刁；李文斌、金志文在抄本上署名作保。金志文密报邱深澳档案像被动过，周君州命私下续查。周君瑶赶到营里，听兵们把神圣高地之战当英雄故事讲；雪地里等到哥哥，她说出“你又在那儿”，他给她围上围巾，她替他扣好领扣。"
   },
   "projection_status": {
     "state": "done",

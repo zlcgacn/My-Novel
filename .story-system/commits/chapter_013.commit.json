@@ -564,21 +564,43 @@
     ],
     "entity_deltas": [
       {
-        "entity_id": "qiu_sitian",
+        "entity_id": "qiu_shenao",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "邱深澳",
+        "tier": "核心",
+        "desc": "暗主角；羽林军第五军少校参谋，破格特招的中庆平民出身；自由派高级成员、自由派在羽林军中的最高负责人；周君瑶是他失散多年的亲妹妹",
+        "is_protagonist": true,
+        "chapter": 13,
         "payload": {
-          "name": "邱思甜",
-          "location": "返回王府途中（宵禁鼓响时）",
-          "injury": "额上缝针，线还没拆",
-          "holdings": "凭记性默写的停战条款小本子（无签名印戳）、张艺宣小聚帖子",
-          "night_pass": "官身腰牌"
+          "name": "邱深澳"
+        }
+      },
+      {
+        "entity_id": "zhou_junzhou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "周君州",
+        "tier": "核心",
+        "desc": "明主角；帝国近卫灵武军军长，中将，公爵；保皇派，人品正、立场邪；倾心邱思甜，与张艺宣青梅竹马，与王思涵亦敌亦友",
+        "chapter": 13,
+        "payload": {
+          "name": "周君州",
+          "night_pass": "营里的腰牌",
+          "location": "灵武军营（这几天都住营里）"
         }
       },
       {
         "entity_id": "zhang_yixuan",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "张艺宣",
+        "tier": "核心",
+        "desc": "某亲王之女，公主，不在皇位继承核心序列；帝国中央社广播主播；周君州的青梅竹马，对他暗怀情意；邱思甜的好友",
+        "chapter": 13,
         "payload": {
           "name": "张艺宣",
           "position": "帝国中央社广播主播（晨间亲念；晚间平日也由她念，今晚换人念、她过稿）；亲王府千金（中央社称殿下）",
@@ -588,9 +610,58 @@
         }
       },
       {
+        "entity_id": "qiu_sitian",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "邱思甜",
+        "tier": "核心",
+        "desc": "外交部长；邱深澳的同乡、高中同学与理念同志，但非自由派，倾向议会夺权；倾心张书淮，最厌恶周君州；一心促成与东秦议和",
+        "chapter": 13,
+        "payload": {
+          "name": "邱思甜",
+          "location": "返回王府途中（宵禁鼓响时）",
+          "injury": "额上缝针，线还没拆",
+          "holdings": "凭记性默写的停战条款小本子（无签名印戳）、张艺宣小聚帖子",
+          "night_pass": "官身腰牌"
+        }
+      },
+      {
+        "entity_id": "wang_sihan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "王思涵",
+        "tier": "核心",
+        "desc": "尚书右仆射（右丞相），伯爵；父亲王政炎为中执委委员；自上而下的改良派，与周君州亦敌亦友；邱思甜的闺蜜兼亲戚",
+        "chapter": 13,
+        "payload": {
+          "name": "王思涵",
+          "night_pass": "官身腰牌",
+          "residence": "王家（邱思甜在此同住养伤）"
+        }
+      },
+      {
+        "entity_id": "zhou_junyao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "周君瑶",
+        "tier": "核心",
+        "desc": "邱深澳失散的亲妹妹，幼时被周君州从饥民手里买下、由周家收养；皇家文理大学学生，心防极重，在家活泼、在外冷淡",
+        "payload": {
+          "name": "周君瑶"
+        }
+      },
+      {
         "entity_id": "zhang_shuhuai",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "张书淮",
+        "tier": "核心",
+        "desc": "吴訥亲王，先皇后所出，与皇太子、张永怀同母；拒绝从军而在皇室中备受冷落；常年混迹市井，人称“平民亲王”，憎恨战争、崇尚和平",
+        "chapter": 13,
         "payload": {
           "name": "张书淮",
           "title": "吴訥亲王",
@@ -601,9 +672,136 @@
         }
       },
       {
+        "entity_id": "zhang_yonghuai",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "张永怀",
+        "tier": "核心",
+        "desc": "二王子，羽林军大元帅，元帅；反派首脑，封建主义野心家，谋划政变；丧母后日渐偏执好战，用人只认战功、不问出身",
+        "chapter": 13,
+        "payload": {
+          "name": "张永怀"
+        }
+      },
+      {
+        "entity_id": "crown_prince",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "皇太子",
+        "tier": "重要",
+        "desc": "皇太子，改良派之首；与张永怀、张书淮同为先皇后所出；周世衡、王政炎为其太傅",
+        "chapter": 13,
+        "payload": {
+          "name": "皇太子"
+        }
+      },
+      {
+        "entity_id": "emperor",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "皇帝（康建皇帝）",
+        "tier": "重要",
+        "desc": "康建皇帝，正文以“皇帝”代称出场；帝国理论上的最高统帅",
+        "payload": {
+          "name": "皇帝（康建皇帝）"
+        }
+      },
+      {
+        "entity_id": "zhou_shiheng",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "周世衡",
+        "tier": "重要",
+        "desc": "周君州的父亲，近卫军元帅，中央近卫集团军群司令官，太子太傅（教军事），改良派骨干",
+        "payload": {
+          "name": "周世衡"
+        }
+      },
+      {
+        "entity_id": "wang_zhengyan",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "王政炎",
+        "tier": "重要",
+        "desc": "王思涵的父亲，内阁辅臣，中执委委员，太子太傅（教治国），改良派骨干",
+        "payload": {
+          "name": "王政炎"
+        }
+      },
+      {
+        "entity_id": "lin_anhua",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "林安华",
+        "tier": "重要",
+        "desc": "内务本部公安处刑事侦查科二级警督，参谋本部爆炸案的调查者",
+        "payload": {
+          "name": "林安华"
+        }
+      },
+      {
+        "entity_id": "deng_shengbao",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "邓声宝",
+        "tier": "重要",
+        "desc": "灵武军副军长，少将，侯爵，南江省饶信郡人；周君州的搭档",
+        "payload": {
+          "name": "邓声宝"
+        }
+      },
+      {
+        "entity_id": "jin_zhiwen",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "金志文",
+        "tier": "重要",
+        "desc": "灵武军督察（兼参谋本部官职），大校，男爵，北高丽省汉平府人",
+        "payload": {
+          "name": "金志文"
+        }
+      },
+      {
+        "entity_id": "man_guihuai",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "曼桂槐",
+        "tier": "重要",
+        "desc": "灵武军总参谋长，中将，伯爵，淮南省庆安郡人；女将官，与周君州年纪相仿，掌管灵武军账目",
+        "payload": {
+          "name": "曼桂槐"
+        }
+      },
+      {
+        "entity_id": "li_wenbin",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "李文斌",
+        "tier": "重要",
+        "desc": "灵武军政委（兼皇宫郎官），少将，公爵，京兆府鄠都万年县人",
+        "payload": {
+          "name": "李文斌"
+        }
+      },
+      {
         "entity_id": "ying_wuyue",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "嬴武玥",
+        "tier": "重要",
+        "desc": "张书淮的同伴，老家咸阳",
+        "chapter": 13,
         "payload": {
           "name": "嬴武玥",
           "location": "城南寺前粥棚",
@@ -611,21 +809,64 @@
         }
       },
       {
-        "entity_id": "tingzhan_caogao",
+        "entity_id": "fifth_army_commander",
         "action": "upsert",
-        "entity_type": "物品",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "第五军军长",
+        "tier": "重要",
+        "desc": "羽林军第五军军长，五十上下、鬓角花白；邱深澳的上级，与参谋长分持封存平乱命令的机要柜钥匙",
         "payload": {
-          "name": "停战草稿",
-          "status": "作废封存",
-          "registry": "机字第十一号，康建五十年二月五日",
-          "keeper": "general_staff",
-          "author": "外交部秘书小楷手写，太子副官签字"
+          "name": "第五军军长"
+        }
+      },
+      {
+        "entity_id": "signal_company_commander",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "第五军通讯连长",
+        "tier": "重要",
+        "desc": "羽林军第五军通讯连连长，邱深澳在营中的秘密同伴之一；奉命留心电报打探第三处动向，受托在邱深澳未归时烧毁“那本东西”",
+        "payload": {
+          "name": "第五军通讯连长"
+        }
+      },
+      {
+        "entity_id": "crown_prince_adjutant",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "皇太子副官",
+        "tier": "次要",
+        "desc": "皇太子副官（原稿名兆思达，以代称出场）；新年夜在程明广场马车爆炸中身亡，停战草稿由他签字经手",
+        "chapter": 13,
+        "payload": {
+          "name": "皇太子副官"
+        }
+      },
+      {
+        "entity_id": "waijiaobu_mishu",
+        "action": "upsert",
+        "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "邱思甜的秘书",
+        "tier": "次要",
+        "desc": "邱思甜的秘书（原稿名鞠小妹，以代称出场）；停战草稿由她小楷手写，现在宜华医院",
+        "chapter": 13,
+        "payload": {
+          "name": "邱思甜的秘书"
         }
       },
       {
         "entity_id": "general_staff_ops_general",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "参谋本部作战局将官",
+        "tier": "次要",
+        "desc": "参谋本部作战局一星将官，五十上下、鬓角已白；主战，依保密条例拒绝邱思甜带走或抄录停战草稿",
+        "chapter": 13,
         "payload": {
           "name": "参谋本部作战局将官",
           "alias": [
@@ -643,6 +884,11 @@
         "entity_id": "general_staff_clerk",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "川椴楼书记官",
+        "tier": "装饰",
+        "desc": "川椴楼机要处书记官，管机要卷宗与调阅登记簿",
+        "chapter": 13,
         "payload": {
           "name": "川椴楼书记官",
           "alias": [
@@ -656,6 +902,11 @@
         "entity_id": "hongfei_duty_captain",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "宏飞楼值日上尉",
+        "tier": "装饰",
+        "desc": "宏飞楼值日上尉，告知邱思甜副官经手文书已被机要处收走",
+        "chapter": 13,
         "payload": {
           "name": "宏飞楼值日上尉",
           "alias": [
@@ -670,6 +921,11 @@
         "entity_id": "wangfu_huyuan",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "王家护院（两名）",
+        "tier": "装饰",
+        "desc": "王家两名护院，奉王思涵之命护送邱思甜",
+        "chapter": 13,
         "payload": {
           "name": "王家护院（两名）",
           "alias": [
@@ -684,6 +940,11 @@
         "entity_id": "chengnan_temple_deacon",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "城南寺老执事",
+        "tier": "装饰",
+        "desc": "城南寺老执事，五十来岁，保管京兆府所造伤员名册",
+        "chapter": 13,
         "payload": {
           "name": "城南寺老执事",
           "alias": [
@@ -697,6 +958,11 @@
         "entity_id": "qinwangfu_attendant",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "吴訥亲王府侍从",
+        "tier": "装饰",
+        "desc": "吴訥亲王府侍从，随张书淮在粥棚熬粥、买米、送粥",
+        "chapter": 13,
         "payload": {
           "name": "吴訥亲王府侍从",
           "alias": [
@@ -709,6 +975,11 @@
         "entity_id": "cns_editor",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "中央社值班编辑",
+        "tier": "装饰",
+        "desc": "帝国中央社值班编辑",
+        "chapter": 13,
         "payload": {
           "name": "中央社值班编辑",
           "alias": [
@@ -723,6 +994,11 @@
         "entity_id": "cns_runner",
         "action": "upsert",
         "entity_type": "角色",
+        "type": "角色",
+        "canonical_name": "中央社跑差",
+        "tier": "装饰",
+        "desc": "帝国中央社跑差，替张艺宣把小聚帖子送到周府",
+        "chapter": 13,
         "payload": {
           "name": "中央社跑差",
           "alias": [
@@ -733,9 +1009,214 @@
         }
       },
       {
+        "entity_id": "tingzhan_caogao",
+        "action": "upsert",
+        "entity_type": "物品",
+        "type": "物品",
+        "canonical_name": "停战草稿",
+        "tier": "次要",
+        "desc": "与东秦的停战条款草稿，外交部秘书手写、太子副官签字；二月五日被参谋本部视同泄露作废，封存于川椴楼机要处",
+        "chapter": 13,
+        "payload": {
+          "name": "停战草稿",
+          "status": "作废封存",
+          "registry": "机字第十一号，康建五十年二月五日",
+          "keeper": "general_staff",
+          "author": "外交部秘书小楷手写，太子副官签字"
+        }
+      },
+      {
+        "entity_id": "general_staff",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "参谋本部",
+        "tier": "次要",
+        "desc": "负责实际执行皇帝军令的军政机关，下辖陆军、海军、军务本部、军事情报局；名义上隶属中执委",
+        "chapter": 13,
+        "payload": {
+          "name": "参谋本部"
+        }
+      },
+      {
+        "entity_id": "waijiaobu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "外交部",
+        "tier": "次要",
+        "desc": "军事情报局下属的子单位，属军政体系但不掌握实权；邱思甜任部长",
+        "chapter": 13,
+        "payload": {
+          "name": "外交部"
+        }
+      },
+      {
+        "entity_id": "military_intelligence_bureau",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "军事情报局",
+        "tier": "装饰",
+        "desc": "隶属参谋本部，实际负责外交事务；外交部公文由其代转",
+        "chapter": 13,
+        "payload": {
+          "name": "军事情报局",
+          "note": "外交部行文向参谋本部调档须经其代转"
+        }
+      },
+      {
+        "entity_id": "central_news_agency",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "帝国中央社",
+        "tier": "次要",
+        "desc": "帝国官方广播与通讯机构，张艺宣在此任广播主播",
+        "chapter": 13,
+        "payload": {
+          "name": "帝国中央社"
+        }
+      },
+      {
+        "entity_id": "prime_minister_office",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "首相府",
+        "tier": "装饰",
+        "desc": "民政体系的主导机关，礼部等全部民政部门隶属于此；本章向中央社送广播稿",
+        "chapter": 13,
+        "payload": {
+          "name": "首相府"
+        }
+      },
+      {
+        "entity_id": "jingzhaofu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "京兆府",
+        "tier": "装饰",
+        "desc": "京城地方官府，安置神圣高地伤员并造伤员名册",
+        "chapter": 13,
+        "payload": {
+          "name": "京兆府"
+        }
+      },
+      {
+        "entity_id": "third_bureau",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "御前第三处",
+        "tier": "次要",
+        "desc": "皇帝直属特务机构，不归参谋本部和内务本部管辖，负责监察言论、侦缉要案",
+        "chapter": 13,
+        "payload": {
+          "name": "御前第三处"
+        }
+      },
+      {
+        "entity_id": "interior_ministry",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "内务本部",
+        "tier": "次要",
+        "desc": "军政体系中独立的最高一级部门，负责警察和城防，节制神策军",
+        "chapter": 13,
+        "payload": {
+          "name": "内务本部"
+        }
+      },
+      {
+        "entity_id": "hubu",
+        "action": "upsert",
+        "entity_type": "组织",
+        "type": "组织",
+        "canonical_name": "户部",
+        "tier": "装饰",
+        "desc": "首相府下的民政部门",
+        "chapter": 13,
+        "payload": {
+          "name": "户部"
+        }
+      },
+      {
+        "entity_id": "dongqin",
+        "action": "upsert",
+        "entity_type": "势力",
+        "type": "势力",
+        "canonical_name": "东秦",
+        "tier": "次要",
+        "desc": "与帝国交战的敌国，邱思甜一心促成与之议和",
+        "chapter": 13,
+        "payload": {
+          "name": "东秦"
+        }
+      },
+      {
+        "entity_id": "wangfu",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "王府（王思涵府邸）",
+        "tier": "次要",
+        "desc": "王思涵府邸，邱思甜在此同住养伤",
+        "chapter": 13,
+        "payload": {
+          "name": "王府（王思涵府邸）"
+        }
+      },
+      {
+        "entity_id": "hongfei_lou",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "宏飞楼",
+        "tier": "次要",
+        "desc": "程明广场旁的楼，太子办公室所在，因历史人物张宏飞得名",
+        "chapter": 13,
+        "payload": {
+          "name": "宏飞楼"
+        }
+      },
+      {
+        "entity_id": "chuanduan_lou",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "川椴楼",
+        "tier": "次要",
+        "desc": "参谋本部所在楼，机要处在此，因历史人物南川椴得名",
+        "chapter": 13,
+        "payload": {
+          "name": "川椴楼"
+        }
+      },
+      {
+        "entity_id": "chengming_guangchang",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "程明广场",
+        "tier": "装饰",
+        "desc": "川椴楼、宏飞楼前的广场，新年夜皇太子副官的马车在此爆炸",
+        "chapter": 13,
+        "payload": {
+          "name": "程明广场"
+        }
+      },
+      {
         "entity_id": "chengnan_temple",
         "action": "upsert",
         "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "城南寺（收治神圣高地伤员的寺庙）",
+        "tier": "次要",
+        "desc": "城南收治神圣高地伤员的寺庙，吴訥亲王在寺门外设棚施粥",
+        "chapter": 13,
         "payload": {
           "name": "城南寺（收治神圣高地伤员的寺庙）",
           "alias": [
@@ -747,18 +1228,131 @@
         }
       },
       {
-        "entity_id": "military_intelligence_bureau",
+        "entity_id": "divine_heights",
         "action": "upsert",
-        "entity_type": "组织",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "神圣高地",
+        "tier": "次要",
+        "desc": "京城街区，城中爆炸后死伤众多、塌了几条街，街坊被京兆府安置到城南寺",
+        "chapter": 13,
         "payload": {
-          "name": "军事情报局",
-          "note": "外交部行文向参谋本部调档须经其代转"
+          "name": "神圣高地"
+        }
+      },
+      {
+        "entity_id": "neijin_hospital",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "内禁医院",
+        "tier": "装饰",
+        "desc": "内卫禁军的医院，城中爆炸时塌了半边",
+        "chapter": 13,
+        "payload": {
+          "name": "内禁医院"
+        }
+      },
+      {
+        "entity_id": "yihua_hospital",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "宜华医院",
+        "tier": "装饰",
+        "desc": "邱思甜的秘书在此住院",
+        "chapter": 13,
+        "payload": {
+          "name": "宜华医院"
+        }
+      },
+      {
+        "entity_id": "zhou_mansion",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "周府",
+        "tier": "装饰",
+        "desc": "周家府邸，张艺宣的帖子送到此处交门房",
+        "chapter": 13,
+        "payload": {
+          "name": "周府"
+        }
+      },
+      {
+        "entity_id": "lingwu_barracks",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "灵武军营",
+        "tier": "次要",
+        "desc": "灵武军驻京营地，周君州这几天都住在营里",
+        "chapter": 13,
+        "payload": {
+          "name": "灵武军营"
+        }
+      },
+      {
+        "entity_id": "huoluo_cheng",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "火落城",
+        "tier": "装饰",
+        "desc": "停战条款中要求将产出百分之七十移交帝国的城市",
+        "chapter": 13,
+        "payload": {
+          "name": "火落城"
+        }
+      },
+      {
+        "entity_id": "nanjing",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "南京（京城）",
+        "tier": "次要",
+        "desc": "淮南帝国首都，现行宵禁，入夜非持腰牌者不得上街",
+        "chapter": 13,
+        "payload": {
+          "name": "南京（京城）"
+        }
+      },
+      {
+        "entity_id": "yunzhong_shi",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "云中市",
+        "tier": "装饰",
+        "desc": "京城一处街区，新年夜上千人堵在街上，张书淮带人疏散",
+        "chapter": 13,
+        "payload": {
+          "name": "云中市"
+        }
+      },
+      {
+        "entity_id": "xi_shi",
+        "action": "upsert",
+        "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "西市",
+        "tier": "装饰",
+        "desc": "京城集市，张书淮曾在此馄饨摊听广播",
+        "chapter": 13,
+        "payload": {
+          "name": "西市"
         }
       },
       {
         "entity_id": "zhang_yixuan_residence",
         "action": "upsert",
         "entity_type": "地点",
+        "type": "地点",
+        "canonical_name": "张艺宣府上（亲王府）",
+        "tier": "次要",
+        "desc": "张艺宣所住的亲王府，后头有一间暖阁，两边带厢房；二月八日晚小聚设在此",
+        "chapter": 13,
         "payload": {
           "name": "张艺宣府上（亲王府）",
           "alias": [
@@ -766,26 +1360,6 @@
             "府里"
           ],
           "note": "后头有一间暖阁，二月八日晚小聚设在此，一桌便饭；暖阁两边有厢房，客人散席后留宿，天亮再走（免得深夜车辆出府被岗上记下、落人闲话）"
-        }
-      },
-      {
-        "entity_id": "wang_sihan",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "王思涵",
-          "night_pass": "官身腰牌",
-          "residence": "王家（邱思甜在此同住养伤）"
-        }
-      },
-      {
-        "entity_id": "zhou_junzhou",
-        "action": "upsert",
-        "entity_type": "角色",
-        "payload": {
-          "name": "周君州",
-          "night_pass": "营里的腰牌",
-          "location": "灵武军营（这几天都住营里）"
         }
       }
     ],
@@ -1202,7 +1776,7 @@
         "start_line": 3,
         "end_line": 15,
         "location": "帝国中央社播音室",
-        "summary": "张艺宣念完晨间广播，最后一条是吴訥亲王昨日起在城南寺前施粥，她今早才知表兄已熬到宵禁。值班编辑说首相府要粥棚消息连播三天，晚间那档照她吩咐换了人念、请她过稿，第三处通报压在最上头。",
+        "summary": "张艺宣念完晨间广播，末条是吴訥亲王昨日起在城南寺前施粥；她这个表妹今早拿到稿子才知道，表兄一句没提过。编辑说首相府要连播三天，晚间那档照她吩咐换人念、请她过稿，第三处通报压在最上头。",
         "characters": [
           "zhang_yixuan",
           "cns_editor"

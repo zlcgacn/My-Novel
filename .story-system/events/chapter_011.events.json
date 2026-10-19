@@ -3,28 +3,16 @@
     "event_id": "evt-ch11-001",
     "chapter": 11,
     "event_type": "character_state_changed",
-    "subject": "zhou_junzhou",
-    "payload": {
-      "field": "location.current",
-      "old": "zhou_mansion",
-      "new": "lingwu_barracks",
-      "note": "天未亮换军装离开周府回灵武军营"
-    }
-  },
-  {
-    "event_id": "evt-ch11-002",
-    "chapter": 11,
-    "event_type": "character_state_changed",
     "subject": "lingwu_army",
     "payload": {
       "field": "investigation_status",
       "old": "D67已封存待查",
       "new": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组",
-      "note": "全军空手出操"
+      "note": "全军空着手出操；专案组为第三处三人、内务本部两人"
     }
   },
   {
-    "event_id": "evt-ch11-003",
+    "event_id": "evt-ch11-002",
     "chapter": 11,
     "event_type": "world_rule_revealed",
     "subject": "lingwu_army",
@@ -35,7 +23,7 @@
     }
   },
   {
-    "event_id": "evt-ch11-004",
+    "event_id": "evt-ch11-003",
     "chapter": 11,
     "event_type": "world_rule_revealed",
     "subject": "junwu_benbu",
@@ -46,7 +34,7 @@
     }
   },
   {
-    "event_id": "evt-ch11-005",
+    "event_id": "evt-ch11-004",
     "chapter": 11,
     "event_type": "world_rule_revealed",
     "subject": "lingwu_army",
@@ -57,7 +45,7 @@
     }
   },
   {
-    "event_id": "evt-ch11-006",
+    "event_id": "evt-ch11-005",
     "chapter": 11,
     "event_type": "world_rule_revealed",
     "subject": "third_bureau",
@@ -65,6 +53,17 @@
       "rule_content": "御前第三处探员着黑色制服；内务本部人员着白色警察制服；军中公文原册按例不出营",
       "rule_category": "制度",
       "scope": "nanjing"
+    }
+  },
+  {
+    "event_id": "evt-ch11-006",
+    "chapter": 11,
+    "event_type": "world_rule_revealed",
+    "subject": "d67_rifle",
+    "payload": {
+      "rule_content": "灵武军领到D67两批（去年十一月一批、腊月一批）；新枪试装期间参谋本部要看损耗，打靶领出、交回、发射数与回收弹壳都记册，弹壳一颗不少；腊月在西山靶场打过两回靶",
+      "rule_category": "军制",
+      "scope": "lingwu_army"
     }
   },
   {
@@ -106,17 +105,6 @@
   {
     "event_id": "evt-ch11-010",
     "chapter": 11,
-    "event_type": "relationship_changed",
-    "subject": "zhou_junzhou",
-    "payload": {
-      "to_entity": "qiu_shenao",
-      "relationship_type": "暗中调查",
-      "note": "因档案空缺将其列为私下调查对象"
-    }
-  },
-  {
-    "event_id": "evt-ch11-011",
-    "chapter": 11,
     "event_type": "open_loop_created",
     "subject": "lin_anhua",
     "payload": {
@@ -128,7 +116,7 @@
     }
   },
   {
-    "event_id": "evt-ch11-012",
+    "event_id": "evt-ch11-011",
     "chapter": 11,
     "event_type": "open_loop_created",
     "subject": "li_wenbin",
@@ -141,15 +129,28 @@
     }
   },
   {
+    "event_id": "evt-ch11-012",
+    "chapter": 11,
+    "event_type": "open_loop_created",
+    "subject": "junwu_benbu",
+    "payload": {
+      "content": "D67两批都由军务本部押送、当面点数签收，一份带回军务本部；周君州当专案组的面说“军务本部有底账，拿去对就是”——灵武军的账能否自证，系于军务本部那份底账",
+      "loop_type": "伏线",
+      "unanswered_question": "军务本部的底账是否还在、能否与灵武军的领用册对上",
+      "urgency": 60,
+      "planted_chapter": 11,
+      "expected_payoff": "卷二第四章（军械总库对数）"
+    }
+  },
+  {
     "event_id": "evt-ch11-013",
     "chapter": 11,
-    "event_type": "character_state_changed",
-    "subject": "zhou_junyao",
+    "event_type": "relationship_changed",
+    "subject": "zhou_junzhou",
     "payload": {
-      "field": "location.current",
-      "old": "zhou_mansion",
-      "new": "lingwu_barracks",
-      "note": "不顾管家劝阻，带两名护院乘车赴营"
+      "to_entity": "qiu_shenao",
+      "relationship_type": "暗中调查",
+      "note": "因档案空缺将其列为私下调查对象"
     }
   }
 ]

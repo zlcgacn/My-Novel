@@ -1,3 +1,28 @@
 {
-  "pending": []
+  "chapter": 14,
+  "pending": [],
+  "resolved": [
+    {"mention": "老赵头", "entity_id": "lao_zhao_tou", "confidence": 0.98, "method": "alias_exact"},
+    {"mention": "卖炭汉子／汉子／卖炭的", "entity_id": "maitan_hanzi", "confidence": 0.95, "method": "context_ch12_witness"},
+    {"mention": "京兆府的主簿／主簿", "entity_id": "jingzhaofu_zhubu", "confidence": 0.95, "method": "alias_exact"},
+    {"mention": "军需处的上尉／上尉", "entity_id": "quartermaster_captain", "confidence": 0.9, "method": "alias_exact"},
+    {"mention": "通讯连长", "entity_id": "signal_company_commander", "confidence": 0.95, "method": "alias_context"},
+    {"mention": "羽林军大元帅", "entity_id": "zhang_yonghuai", "confidence": 0.95, "method": "title_unique"},
+    {"mention": "那个姓林的", "entity_id": "lin_anhua", "confidence": 0.9, "method": "context_ch11"},
+    {"mention": "北边那家票号的分号", "entity_id": "beibian_piaohao", "confidence": 0.9, "method": "context_ch12"},
+    {"mention": "通泰", "entity_id": "tongtai_guild", "confidence": 0.9, "method": "alias_partial"},
+    {"mention": "曼参谋长", "entity_id": "man_guihuai", "confidence": 0.98, "method": "title_unique"},
+    {"mention": "甜甜／思甜", "entity_id": "qiu_sitian", "confidence": 0.97, "method": "alias_context"},
+    {"mention": "艺宣姐姐／艺宣", "entity_id": "zhang_yixuan", "confidence": 0.97, "method": "alias_context"},
+    {"mention": "那位外交部长", "entity_id": "qiu_sitian", "confidence": 0.95, "method": "title_unique"},
+    {"mention": "姓周的", "entity_id": "zhou_junzhou", "confidence": 0.95, "method": "context"},
+    {"mention": "哥／少爷／周将军", "entity_id": "zhou_junzhou", "confidence": 0.97, "method": "context_speaker"},
+    {"mention": "君瑶／小姐／周府小姐／妹妹", "entity_id": "zhou_junyao", "confidence": 0.98, "method": "alias_context"},
+    {"mention": "表兄", "entity_id": "zhang_shuhuai", "confidence": 0.85, "method": "context_ch13_porridge_shed"}
+  ],
+  "warnings": [
+    "“周府的老家人”未与既有实体 zhoufu_guanjia（管家）合并：正文只称老家人、赶车送衣裳、称周君州“少爷”，身份是否即管家无据（置信度约0.4），按无名代称处理，不入库。",
+    "“车行伙计”“德裕掌柜”“票号管事”“酒铺伙计”“营门哨兵”“首相府书办”“卖炭汉子的婆娘”“马弁”按职位代称处理，未建实体。",
+    "“表兄”（粥棚）按第13章语境指张书淮，置信度0.85采用；仅被提及、未出场，不写 entity_delta。"
+  ]
 }

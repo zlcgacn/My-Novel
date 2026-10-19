@@ -39,9 +39,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 13,
-    "total_words": 65627,
-    "last_updated": "2026-10-18 18:27:11",
+    "current_chapter": 14,
+    "total_words": 74681,
+    "last_updated": "2026-10-18 20:45:46",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -69,7 +69,8 @@
       "10": "chapter_committed",
       "11": "chapter_committed",
       "12": "chapter_committed",
-      "13": "chapter_committed"
+      "13": "chapter_committed",
+      "14": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -109,7 +110,8 @@
     },
     "backstory": {
       "sister": "邱深澳自述曾从中庆城找到乡下、找到海边，进赎罪军团后便无法再找，认定已无消息"
-    }
+    },
+    "strategy": "恢复城内联络，只接一头（城南电报局）"
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -484,17 +486,42 @@
         "content": "张艺宣在笺头写下“君州”二字，墨洇开后揉掉改写“周将军台鉴”，废笺扔进铜炭盆；原想离开中央社时先绕灵武军营亲手把帖子交给他，看到第三处会客登记通报后改叫中央社跑差送周府交门房、不送营里；跑差提醒周将军这几天都住营里，送周府怕要入夜才转得到他手上，她答“那就入夜”。粥棚报名单报到“周将军”时顿了一顿，邱思甜笑意淡下、收起帖子；张艺宣说他营里这几天查得紧，等帖子转到他手里天怕都黑了，来不来得成还不一定；张书淮看在眼里未作声",
         "status": "active",
         "planted_chapter": 13
+      },
+      {
+        "content": "老赵头的线人滴酒不沾却被京兆府记作醉后冻毙在自家巷口；周君州令老赵头设法抄一份京兆府验状，不许灵武军的人出面；金志文应承派人给线人眼睛不好的老娘送钱",
+        "status": "active",
+        "planted_chapter": 14
+      },
+      {
+        "content": "王思涵在京兆府偏厅把二月五日以后城里报上的命案排开，抄下名字、日子、地点一纸，并请主簿卷宗先别归档：神圣高地西坡卖炭汉子七日夜炭气熏毙；德裕银号伙计七日夜秦淮河失足落水；柳条巷口茶馆跑堂六日夜醉后冻毙；城北车行伙计七日夜车行后院被捅、劫财杀人凶犯在逃（只有骡车，与通泰无涉）；北边票号分号伙计七日一早“回老家”不在卷宗。后两桩她对不上号单独摆开。复验被程序挡回，她打算当晚在小聚上当面把这张纸交给周君州，让他手下的人去查",
+        "status": "active",
+        "planted_chapter": 14
+      },
+      {
+        "content": "邱深澳选城南电报局为恢复联络的头一处（瓦尔基里新案里第五军“另以一个团接管城南电报局”）；通讯连长前年带出的老报务员退伍后在此当差，退伍时说过“往后有什么事，叫一声”。邱深澳用右手写了一封伪装成乡下人捎给城里亲戚的家书（粮备下了、开春的种挑好了、旧日朋友得空可来家里坐坐），交军需处上尉九日一早随军需车进城拉口粮时捎带；上尉说城门这几天查得紧、一辆车要翻个底朝天",
+        "status": "active",
+        "planted_chapter": 14
+      },
+      {
+        "content": "按第三处通报，营门登记簿上记下：“灵武军军长周君州，携周府小姐，出营，事由，赴宴”，时辰戌初。周君州自知清点前一夜军长出营赴宴，叫专案组知道了又是一桩可记的事，仍为知会王思涵线人之死而去",
+        "status": "active",
+        "planted_chapter": 14
+      },
+      {
+        "content": "D67两批都由军务本部押送、当面点数签收，一份带回军务本部；周君州当专案组的面说“军务本部有底账，拿去对就是”——灵武军的账能否自证，系于军务本部那份底账",
+        "status": "active",
+        "planted_chapter": 11
       }
     ]
   },
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 13,
+    "last_quest_chapter": 14,
     "last_fire_chapter": 3,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 5,
+    "chapters_since_switch": 7,
     "history": [
       {
         "chapter": 3,
@@ -517,7 +544,15 @@
         "dominant": "quest"
       },
       {
+        "chapter": 11,
+        "dominant": "quest"
+      },
+      {
         "chapter": 13,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 14,
         "dominant": "quest"
       }
     ]
@@ -546,7 +581,8 @@
       },
       "backstory": {
         "sister": "邱深澳自述曾从中庆城找到乡下、找到海边，进赎罪军团后便无法再找，认定已无消息"
-      }
+      },
+      "strategy": "恢复城内联络，只接一头（城南电报局）"
     },
     "colleague_fifth_army": {
       "position": "羽林军第五军参谋，上尉",
@@ -562,13 +598,14 @@
     },
     "zhou_junzhou": {
       "location": {
-        "current": "灵武军营（据中央社跑差，这几天都住营里；小聚帖子送周府，入夜才转得到）"
+        "current": "携周君瑶出营赴张艺宣府上小聚途中（二月八日戌初出营）"
       },
       "position": "近卫灵武军军长，中将，帝国公爵",
       "honors": "白武一级军功勋章",
       "pending_appointment": "今夜戌时到周府见周世衡",
       "condition": "自新年夜起几乎未眠，眼底发青、未刮胡茬",
-      "night_pass": "营里的腰牌"
+      "night_pass": "营里的腰牌",
+      "current_task": "九日辰时亲带领用册抄本去军械总库对数；八日晚赴小聚"
     },
     "zhang_yixuan": {
       "location": {
@@ -605,23 +642,23 @@
     },
     "wang_sihan": {
       "location": {
-        "current": "紫宸殿"
+        "current": "王府（候张艺宣的车接去小聚）"
       },
       "position": "尚书省右仆射（右丞相），帝国伯爵",
       "honors": "二级帝国政府官员荣誉十字奖章",
       "injury": "内禁医院爆炸中受皮肉伤",
       "assignment": "奉旨查商会马车来历",
-      "current_task": "奉旨追查商会马车（商会线），户部侍郎协助调银号底账",
+      "current_task": "证人与经手人死的死、失踪的失踪；携命案名单打算当晚交给周君州",
       "investigation": "掌握卖炭人证词与德裕银号/票号账目异常，记于自己本子上，叮嘱证人有人来问先报首相府",
       "night_pass": "官身腰牌",
       "next_engagement": "当晚张艺宣府上暖阁小聚，与邱思甜同乘张艺宣府里的车前往；散席留宿厢房"
     },
     "qiu_sitian": {
       "location": {
-        "current": "返回王府途中（王家马车）"
+        "current": "王府（换衣裳，候张艺宣的车接去小聚）"
       },
       "health": "昏迷约九小时后苏醒，额上缠纱布，能下床走动",
-      "injury": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红",
+      "injury": "额上缝针，线还没拆；纱布叫汗浸得发黄、边角翘起（王思涵替她按平）",
       "current_task": "停战草稿作废，停战须从头再谈；手中只有凭记性默写的条款本子与登记簿上一行“请调未准”",
       "next_engagement": "当晚（二月八日晚）张艺宣府上暖阁小聚，张艺宣府里的车来王家接她和王思涵；散席后留宿厢房，天亮再走",
       "night_pass": "官身腰牌"
@@ -641,13 +678,15 @@
     },
     "zhou_junyao": {
       "location": {
-        "current": "lingwu_barracks"
-      }
+        "current": "随周君州赴张艺宣府上小聚途中"
+      },
+      "belongings": "手炉给了老家人；戴着周君州的皮手套（说好回家再还）"
     },
     "deng_shengbao": {
       "location": {
         "current": "灵武大街临时医疗点"
-      }
+      },
+      "current_task": "八日夜守营；九日卯正带随员去总库"
     },
     "lin_anhua": {
       "location": {
@@ -718,7 +757,8 @@
       "status": "压在内务本部废墟下，下落不明"
     },
     "third_bureau": {
-      "assignment": "会同内务本部查爆炸案及新年夜案；会同参谋本部封存D67"
+      "assignment": "会同内务本部查爆炸案及新年夜案；会同参谋本部封存D67",
+      "investigation_focus": "近卫军、太子身边的人、D67；未触及羽林军军官出身与中庆"
     },
     "d67_rifle": {
       "status": "全数封存待查"
@@ -767,6 +807,38 @@
     },
     "chengming_guangchang": {
       "status": "爆炸炸开处已填新土"
+    },
+    "maitan_hanzi": {
+      "status": "死亡（二月七日夜，西坡自家炭窑，京兆府记炭气熏毙）"
+    },
+    "laozhaotou_xianren": {
+      "status": "死亡（二月六日夜，柳条巷口，京兆府记醉后冻毙）"
+    },
+    "deyu_tixian_huoji": {
+      "status": "死亡（二月七日天擦黑，秦淮河，京兆府记失足落水）"
+    },
+    "piaohao_huipiao_huoji": {
+      "status": "下落不明（二月七日一早称回北边老家，无人报失踪）"
+    },
+    "lao_zhao_tou": {
+      "intel_line": "线断（递信人已死）"
+    },
+    "ziyoupai_mingce": {
+      "status": "未烧",
+      "location": {
+        "current": "君来乡第五军通讯连里间，装电报机零件的木箱底下（油布包）"
+      }
+    },
+    "deyu_piaogen": {
+      "location": {
+        "current": "首相府（掌柜封好送去）"
+      }
+    },
+    "junxie_zongku": {
+      "guard": "羽林军看守，库门加封，账册不出库，进出登记"
+    },
+    "man_guihuai": {
+      "current_task": "九日卯正把领用册抄本送到军部"
     }
   }
 }

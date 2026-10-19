@@ -140,3 +140,175 @@
 {"timestamp": "2026-10-18T18:25:44.916114", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 腰牌"}
 {"timestamp": "2026-10-18T18:25:45.347871", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 亲王府"}
 {"timestamp": "2026-10-18T18:25:45.780597", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 暖阁"}
+{"timestamp": "2026-10-18T18:29:20.242347", "tool_name": "index_manager:stats", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:29:26.088313", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:29:39.132862", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:06.956243", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-10-18T18:31:16.865498", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-10-18T18:31:25.107760", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:25.516771", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:25.931321", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:26.346523", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:26.767120", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:27.183922", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:27.585626", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:27.993406", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:28.411279", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-18T18:31:28.831917", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:29.240299", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:29.642560", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:30.046055", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:30.450518", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:30.860549", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:31.264083", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:31.670539", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:32.076247", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:32.485437", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:32.894491", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:33.295345", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:33.702892", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:34.114297", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:34.518977", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:34.934513", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:35.342379", "tool_name": "index_manager:get-entity", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到实体: prime_minister_office"}
+{"timestamp": "2026-10-18T18:31:35.745619", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:36.148429", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:36.555042", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:36.957201", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:37.359286", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:37.767248", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:38.168071", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:38.579006", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:38.998911", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:39.405440", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:39.812963", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:40.219903", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:40.633719", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:41.045288", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:41.451243", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:41.852428", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:42.254467", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:42.669970", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:43.076085", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:43.493334", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:43.903968", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:44.322755", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:44.733647", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:45.142257", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:45.545434", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:31:45.954667", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:46.358190", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:46.762145", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:47.181099", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:47.586001", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:31:53.818128", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 首相府"}
+{"timestamp": "2026-10-18T18:31:54.237767", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 首相"}
+{"timestamp": "2026-10-18T18:31:54.700242", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 45, "error_code": "NOT_FOUND", "error_message": "未找到别名: 内阁"}
+{"timestamp": "2026-10-18T18:33:08.643592", "tool_name": "index_manager:stats", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:33:18.987673", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:33:19.415824", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:33:19.841089", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:33:20.262176", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:33:20.683122", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:35:20.049740", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:40.585740", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:48.605138", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:49.014371", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 卖炭汉子"}
+{"timestamp": "2026-10-18T18:58:49.439808", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:49.875148", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-10-18T18:58:50.301853", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 军械总库"}
+{"timestamp": "2026-10-18T18:58:50.714074", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 城南电报局"}
+{"timestamp": "2026-10-18T18:58:51.120364", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:51.529071", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:51.954121", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 专案组"}
+{"timestamp": "2026-10-18T18:58:52.388033", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 第三处"}
+{"timestamp": "2026-10-18T18:58:52.794660", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:58:53.204527", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 票号"}
+{"timestamp": "2026-10-18T18:58:53.616604", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 柳条巷"}
+{"timestamp": "2026-10-18T18:58:54.024265", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:58:54.434298", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:54.840575", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 羽林军"}
+{"timestamp": "2026-10-18T18:58:55.268564", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 通泰"}
+{"timestamp": "2026-10-18T18:58:55.695746", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:58:56.100662", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 炭窑"}
+{"timestamp": "2026-10-18T18:58:56.507939", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: D67"}
+{"timestamp": "2026-10-18T18:58:56.919768", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 名册"}
+{"timestamp": "2026-10-18T18:58:57.345330", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:58:57.751172", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:58:58.165568", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:58:58.582843", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 秦淮河"}
+{"timestamp": "2026-10-18T18:58:59.009879", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 君来乡"}
+{"timestamp": "2026-10-18T18:58:59.415703", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 第五军"}
+{"timestamp": "2026-10-18T18:58:59.821346", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:59:00.232003", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 王府"}
+{"timestamp": "2026-10-18T18:59:00.635242", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:59:01.038725", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 亲王府"}
+{"timestamp": "2026-10-18T18:59:01.446691", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 张艺宣府"}
+{"timestamp": "2026-10-18T18:59:01.870536", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:59:02.267472", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 车行"}
+{"timestamp": "2026-10-18T18:59:02.693745", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 小聚"}
+{"timestamp": "2026-10-18T18:59:03.100754", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 书办"}
+{"timestamp": "2026-10-18T18:59:03.508304", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 线人"}
+{"timestamp": "2026-10-18T18:59:15.494302", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:59:15.903731", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T18:59:16.309976", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:59:16.734675", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:59:17.168790", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:59:25.081993", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 自由派"}
+{"timestamp": "2026-10-18T18:59:25.499684", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 13, "error_code": "NOT_FOUND", "error_message": "未找到别名: 羽林军"}
+{"timestamp": "2026-10-18T18:59:25.917321", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 17, "error_code": "NOT_FOUND", "error_message": "未找到别名: 专案组"}
+{"timestamp": "2026-10-18T18:59:26.336579", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 名册"}
+{"timestamp": "2026-10-18T18:59:26.761015", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 18, "error_code": "NOT_FOUND", "error_message": "未找到别名: 自由派名册"}
+{"timestamp": "2026-10-18T18:59:27.198866", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 新案"}
+{"timestamp": "2026-10-18T18:59:27.612309", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 羽林"}
+{"timestamp": "2026-10-18T18:59:28.058229", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 15, "error_code": "NOT_FOUND", "error_message": "未找到别名: 近卫军"}
+{"timestamp": "2026-10-18T18:59:41.655812", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 自由党"}
+{"timestamp": "2026-10-18T18:59:42.100701", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 17, "error_code": "NOT_FOUND", "error_message": "未找到别名: 羽林军大元帅"}
+{"timestamp": "2026-10-18T18:59:42.515996", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 军队"}
+{"timestamp": "2026-10-18T18:59:42.926271", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 禁卫军"}
+{"timestamp": "2026-10-18T18:59:43.339282", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 15, "error_code": "NOT_FOUND", "error_message": "未找到别名: 公安处"}
+{"timestamp": "2026-10-18T18:59:43.738410", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 专案"}
+{"timestamp": "2026-10-18T18:59:44.154033", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 林督"}
+{"timestamp": "2026-10-18T18:59:44.572683", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-10-18T18:59:44.969840", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T18:59:45.378992", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-18T19:05:27.397458", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:39:55.541416", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:40:08.576352", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:40:08.993260", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:40:09.408853", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:40:09.837012", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:40:10.251984", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:34.473676", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:41:34.921919", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:35.352280", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:35.803458", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:36.238844", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:36.690435", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:37.115573", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:41:37.555459", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:38.000237", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:38.437190", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-10-18T20:41:38.883367", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:39.311320", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:39.763270", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:40.218224", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:40.663133", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:41:41.101676", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:45:50.352414", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:46:32.505798", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:46:32.943329", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 老家人"}
+{"timestamp": "2026-10-18T20:46:33.363903", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 卖炭汉子"}
+{"timestamp": "2026-10-18T20:46:33.805780", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-18T20:46:34.238482", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:46:34.674742", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 周府管家"}
+{"timestamp": "2026-10-18T20:46:55.212372", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:46:55.646709", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:46:56.076853", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:46:56.493007", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:46:56.940408", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 第三处"}
+{"timestamp": "2026-10-18T20:46:57.375489", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:46:57.830495", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-10-18T20:46:58.258877", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-18T20:46:58.680275", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-18T20:50:31.732589", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
