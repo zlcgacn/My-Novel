@@ -432,3 +432,6 @@
 {"timestamp": "2026-10-19T23:02:47.575797", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-10-19T23:02:48.055816", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
 {"timestamp": "2026-10-19T23:03:40.262936", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:19:32.819314", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:20:39.900171", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:21:09.284519", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}

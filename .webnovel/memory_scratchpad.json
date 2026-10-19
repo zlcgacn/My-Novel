@@ -5916,7 +5916,7 @@
       "evidence": [
         "state_change:zhou_junzhou:location.current:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-fe23bebf8b6c8183",
@@ -5933,7 +5933,7 @@
       "evidence": [
         "state_change:zhou_junzhou:current_task:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-91aa4707d2090565",
@@ -5950,7 +5950,7 @@
       "evidence": [
         "state_change:zhou_junzhou:belongings:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-9ac0339726499369",
@@ -5967,7 +5967,7 @@
       "evidence": [
         "state_change:zhou_junyao:location.current:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-4360428e614ac43b",
@@ -5984,7 +5984,7 @@
       "evidence": [
         "state_change:zhou_junyao:belongings:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-2e875d5e4bcb63fd",
@@ -6001,7 +6001,7 @@
       "evidence": [
         "state_change:qiu_sitian:location.current:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-35e90958dd9b9cd4",
@@ -6018,7 +6018,7 @@
       "evidence": [
         "state_change:wang_sihan:location.current:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-f0ccd15b59eb0cc9",
@@ -6035,7 +6035,7 @@
       "evidence": [
         "state_change:wang_sihan:current_task:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-169477a0e9b946fd",
@@ -6052,7 +6052,7 @@
       "evidence": [
         "state_change:zhang_shuhuai:location.current:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-49f3ecee750c856e",
@@ -6069,7 +6069,7 @@
       "evidence": [
         "state_change:zhang_yixuan:current_task:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-2ad337757bca83ef",
@@ -6086,7 +6086,7 @@
       "evidence": [
         "state_change:junxie_zongku:status:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-22c3f829421d4da2",
@@ -6103,7 +6103,7 @@
       "evidence": [
         "state_change:deng_shengbao:current_task:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-764b22a84bdfe09a",
@@ -6120,7 +6120,7 @@
       "evidence": [
         "state_change:zhang_yixuan:night_pass:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-849516cdcbfed2da",
@@ -6137,7 +6137,7 @@
       "evidence": [
         "state_change:qiu_sitian:injury:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-1eca62d83723ad95",
@@ -6154,7 +6154,7 @@
       "evidence": [
         "state_change:zhang_shuhuai:current_task:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-87ab5ad9bc38433a",
@@ -6171,7 +6171,7 @@
       "evidence": [
         "state_change:wang_sihan:lingwu_avenue_compensation:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:06"
     },
     {
       "id": "mem-character_state-0deba8f9358d35f5",
@@ -6189,7 +6189,7 @@
       "evidence": [
         "entity_new:zhang_yixuan:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-d54a6c6dea4acb04",
@@ -6207,7 +6207,7 @@
       "evidence": [
         "entity_new:zhou_junzhou:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-8990116d593bae14",
@@ -6225,7 +6225,7 @@
       "evidence": [
         "entity_new:zhou_junyao:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-1ea4e5a795940b54",
@@ -6243,7 +6243,7 @@
       "evidence": [
         "entity_new:qiu_sitian:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-135db1dce99d13da",
@@ -6261,7 +6261,7 @@
       "evidence": [
         "entity_new:wang_sihan:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-7b45c89176e10688",
@@ -6279,7 +6279,7 @@
       "evidence": [
         "entity_new:zhang_shuhuai:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-426e4effe808c984",
@@ -6297,7 +6297,7 @@
       "evidence": [
         "entity_new:deng_shengbao:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-89d29f25469fcdc4",
@@ -6315,7 +6315,7 @@
       "evidence": [
         "entity_new:laozhaotou_xianren:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-652a4200977d9ac6",
@@ -6333,7 +6333,7 @@
       "evidence": [
         "entity_new:zhang_yixuan_residence:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-4d523b786aaf30d0",
@@ -6351,7 +6351,7 @@
       "evidence": [
         "entity_new:junxie_zongku:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-b58f88564320b005",
@@ -6369,7 +6369,7 @@
       "evidence": [
         "entity_new:liutiao_xiang:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-character_state-351aec0c1048e34a",
@@ -6387,7 +6387,7 @@
       "evidence": [
         "entity_new:zhang_yixuan_family_guard:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     }
   ],
   "story_facts": [],
@@ -8493,7 +8493,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-open_loop-0004b2ffaf77e55c",
@@ -8513,7 +8513,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-open_loop-2e56a85e0f9c503b",
@@ -8533,7 +8533,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-open_loop-bd9608c802f7fc8c",
@@ -8553,7 +8553,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     }
   ],
   "reader_promises": [
@@ -8987,7 +8987,7 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-reader_promise-b8f85ae5e72e1e87",
@@ -9005,7 +9005,7 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     },
     {
       "id": "mem-reader_promise-bd6f1934ccc72226",
@@ -9023,13 +9023,13 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T23:03:37"
+      "updated_at": "2026-10-19T23:21:07"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-19T23:03:37",
+    "last_updated": "2026-10-19T23:21:07",
     "total_items": 500
   }
 }
