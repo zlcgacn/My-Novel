@@ -2151,23 +2151,6 @@
       "updated_at": "2026-10-18T18:35:16"
     },
     {
-      "id": "mem-character_state-9a0288980700b183",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "current_task",
-      "value": "城南寺前设棚施粥，米钱从自己俸禄支",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 13,
-      "evidence": [
-        "state_change:zhang_shuhuai:current_task:13"
-      ],
-      "updated_at": "2026-10-18T18:35:16"
-    },
-    {
       "id": "mem-character_state-1a2ff7be0ba178b9",
       "layer": "semantic",
       "category": "character_state",
@@ -2704,23 +2687,6 @@
         "entity_new:l12_rifle:11"
       ],
       "updated_at": "2026-10-18T20:45:47"
-    },
-    {
-      "id": "mem-character_state-eb69c2d58650b562",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "injury",
-      "value": "额上缝针，线还没拆；纱布叫汗浸得发黄、边角翘起（王思涵替她按平）",
-      "payload": {
-        "old_value": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红"
-      },
-      "status": "active",
-      "source_chapter": 14,
-      "evidence": [
-        "state_change:qiu_sitian:injury:14"
-      ],
-      "updated_at": "2026-10-18T20:50:28"
     },
     {
       "id": "mem-character_state-2ec7ec77c4d0ab5b",
@@ -4171,7 +4137,7 @@
       "evidence": [
         "state_change:zhou_junzhou:location.current:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-fe23bebf8b6c8183",
@@ -4188,7 +4154,7 @@
       "evidence": [
         "state_change:zhou_junzhou:current_task:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-91aa4707d2090565",
@@ -4205,7 +4171,7 @@
       "evidence": [
         "state_change:zhou_junzhou:belongings:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-9ac0339726499369",
@@ -4222,7 +4188,7 @@
       "evidence": [
         "state_change:zhou_junyao:location.current:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-4360428e614ac43b",
@@ -4230,7 +4196,7 @@
       "category": "character_state",
       "subject": "zhou_junyao",
       "field": "belongings",
-      "value": "周君州的皮手套仍在她手里",
+      "value": "周君州的皮手套仍在她手里（睡前搁在枕边）",
       "payload": {
         "old_value": "手炉给了老家人；戴着周君州的皮手套（说好回家再还）"
       },
@@ -4239,7 +4205,7 @@
       "evidence": [
         "state_change:zhou_junyao:belongings:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-2e875d5e4bcb63fd",
@@ -4256,7 +4222,7 @@
       "evidence": [
         "state_change:qiu_sitian:location.current:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-35e90958dd9b9cd4",
@@ -4273,7 +4239,7 @@
       "evidence": [
         "state_change:wang_sihan:location.current:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-f0ccd15b59eb0cc9",
@@ -4290,7 +4256,7 @@
       "evidence": [
         "state_change:wang_sihan:current_task:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-169477a0e9b946fd",
@@ -4307,7 +4273,7 @@
       "evidence": [
         "state_change:zhang_shuhuai:location.current:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-49f3ecee750c856e",
@@ -4324,7 +4290,7 @@
       "evidence": [
         "state_change:zhang_yixuan:current_task:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-2ad337757bca83ef",
@@ -4341,7 +4307,7 @@
       "evidence": [
         "state_change:junxie_zongku:status:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-22c3f829421d4da2",
@@ -4358,7 +4324,7 @@
       "evidence": [
         "state_change:deng_shengbao:current_task:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-764b22a84bdfe09a",
@@ -4375,7 +4341,58 @@
       "evidence": [
         "state_change:zhang_yixuan:night_pass:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
+    },
+    {
+      "id": "mem-character_state-849516cdcbfed2da",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "injury",
+      "value": "额上缝线贴纱布，二月十日拆线",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:qiu_sitian:injury:15"
+      ],
+      "updated_at": "2026-10-19T22:38:44"
+    },
+    {
+      "id": "mem-character_state-1eca62d83723ad95",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "current_task",
+      "value": "城南寺外粥棚，打算搭到没人来领",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:zhang_shuhuai:current_task:15"
+      ],
+      "updated_at": "2026-10-19T22:38:44"
+    },
+    {
+      "id": "mem-character_state-87ab5ad9bc38433a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "lingwu_avenue_compensation",
+      "value": "灵武大街抚恤由她先垫、记在她名下，户部不认就自己掏",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "state_change:wang_sihan:lingwu_avenue_compensation:15"
+      ],
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-0deba8f9358d35f5",
@@ -4393,7 +4410,7 @@
       "evidence": [
         "entity_new:zhang_yixuan:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-d54a6c6dea4acb04",
@@ -4411,7 +4428,7 @@
       "evidence": [
         "entity_new:zhou_junzhou:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-8990116d593bae14",
@@ -4429,7 +4446,7 @@
       "evidence": [
         "entity_new:zhou_junyao:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-1ea4e5a795940b54",
@@ -4447,7 +4464,7 @@
       "evidence": [
         "entity_new:qiu_sitian:15"
       ],
-      "updated_at": "2026-10-19T22:21:59"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-135db1dce99d13da",
@@ -4465,7 +4482,7 @@
       "evidence": [
         "entity_new:wang_sihan:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-7b45c89176e10688",
@@ -4483,7 +4500,7 @@
       "evidence": [
         "entity_new:zhang_shuhuai:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-426e4effe808c984",
@@ -4501,7 +4518,7 @@
       "evidence": [
         "entity_new:deng_shengbao:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-89d29f25469fcdc4",
@@ -4519,7 +4536,7 @@
       "evidence": [
         "entity_new:laozhaotou_xianren:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-652a4200977d9ac6",
@@ -4537,7 +4554,7 @@
       "evidence": [
         "entity_new:zhang_yixuan_residence:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-4d523b786aaf30d0",
@@ -4555,7 +4572,7 @@
       "evidence": [
         "entity_new:junxie_zongku:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-b58f88564320b005",
@@ -4573,7 +4590,7 @@
       "evidence": [
         "entity_new:liutiao_xiang:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-character_state-351aec0c1048e34a",
@@ -4591,7 +4608,41 @@
       "evidence": [
         "entity_new:zhang_yixuan_family_guard:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
+    },
+    {
+      "id": "mem-character_state-9a0288980700b183",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "current_task",
+      "value": "城南寺前设棚施粥，米钱从自己俸禄支",
+      "payload": {
+        "old_value": null
+      },
+      "status": "outdated",
+      "source_chapter": 13,
+      "evidence": [
+        "state_change:zhang_shuhuai:current_task:13"
+      ],
+      "updated_at": "2026-10-19T22:38:44"
+    },
+    {
+      "id": "mem-character_state-eb69c2d58650b562",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "injury",
+      "value": "额上缝针，线还没拆；纱布叫汗浸得发黄、边角翘起（王思涵替她按平）",
+      "payload": {
+        "old_value": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红"
+      },
+      "status": "outdated",
+      "source_chapter": 14,
+      "evidence": [
+        "state_change:qiu_sitian:injury:14"
+      ],
+      "updated_at": "2026-10-19T22:38:44"
     },
     {
       "id": "mem-character_state-83700d60e5af58a0",
@@ -5595,23 +5646,6 @@
       "updated_at": "2026-10-19T21:08:04"
     },
     {
-      "id": "mem-character_state-c693eecf24b56a3c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "injury",
-      "value": "额上缝针，线还没拆；奔走一天伤口作痛、纱布渗红",
-      "payload": {
-        "old_value": "额上缝针，卧床静养中"
-      },
-      "status": "outdated",
-      "source_chapter": 13,
-      "evidence": [
-        "state_change:qiu_sitian:injury:13"
-      ],
-      "updated_at": "2026-10-18T19:05:24"
-    },
-    {
       "id": "mem-character_state-7704411eac9a1020",
       "layer": "semantic",
       "category": "character_state",
@@ -5927,42 +5961,6 @@
       "source_chapter": 9,
       "evidence": [
         "entity_new:state_church:9"
-      ],
-      "updated_at": "2026-10-18T11:05:28"
-    },
-    {
-      "id": "mem-character_state-33d4329e36c51c08",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xingqing_gate",
-      "field": "first_seen",
-      "value": "兴庆门",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:xingqing_gate:1"
-      ],
-      "updated_at": "2026-10-18T11:05:21"
-    },
-    {
-      "id": "mem-character_state-7ca0eeaa6db46c2b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "changan_dajie",
-      "field": "first_seen",
-      "value": "长安大街",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:changan_dajie:1"
       ],
       "updated_at": "2026-10-18T11:05:28"
     },
@@ -7077,24 +7075,6 @@
         "memory_facts:world_rule:11"
       ],
       "updated_at": "2026-10-19T22:16:44"
-    },
-    {
-      "id": "mem-world_rule-8fba4e3aad1895b5",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "军备",
-      "field": "world_rule_revealed",
-      "value": "禁卫军阅兵彩排方阵肩扛今年才开始试装的新式步枪，全京城只有寥寥几支部队拿到。",
-      "payload": {
-        "scope": "京城",
-        "rule_text": "禁卫军阅兵彩排方阵肩扛今年才开始试装的新式步枪，全京城只有寥寥几支部队拿到。"
-      },
-      "status": "outdated",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:world_rule:1"
-      ],
-      "updated_at": "2026-10-18T11:05:23"
     },
     {
       "id": "mem-world_rule-36f0562c239b7348",
@@ -8513,7 +8493,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-open_loop-0004b2ffaf77e55c",
@@ -8533,7 +8513,7 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-open_loop-2e56a85e0f9c503b",
@@ -8553,7 +8533,27 @@
       "evidence": [
         "memory_facts:open_loop:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
+    },
+    {
+      "id": "mem-open_loop-bd9608c802f7fc8c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "击鼓传花王思涵问邱思甜额上的线几时拆，她答“后天”（二月十日），“拆了线，我从头再谈”——指作废的停战草稿；周君州手里没拿花，接了一句“那就谈”，低头喝酒。邱思甜转头看他，没说话，把花递了出去；开席时她拿话刺他，这一回什么也没刺",
+      "field": "status",
+      "value": "击鼓传花王思涵问邱思甜额上的线几时拆，她答“后天”（二月十日），“拆了线，我从头再谈”——指作废的停战草稿；周君州手里没拿花，接了一句“那就谈”，低头喝酒。邱思甜转头看他，没说话，把花递了出去；开席时她拿话刺他，这一回什么也没刺",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 15,
+        "expected_payoff": "康建五十年二月十日后",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 15,
+      "evidence": [
+        "memory_facts:open_loop:15"
+      ],
+      "updated_at": "2026-10-19T22:38:45"
     }
   ],
   "reader_promises": [
@@ -8987,7 +8987,7 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-reader_promise-b8f85ae5e72e1e87",
@@ -9005,7 +9005,7 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     },
     {
       "id": "mem-reader_promise-bd6f1934ccc72226",
@@ -9023,13 +9023,13 @@
       "evidence": [
         "memory_facts:reader_promise:15"
       ],
-      "updated_at": "2026-10-19T22:22:00"
+      "updated_at": "2026-10-19T22:38:45"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-19T22:22:00",
+    "last_updated": "2026-10-19T22:38:45",
     "total_items": 500
   }
 }

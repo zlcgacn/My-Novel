@@ -3,7 +3,7 @@
   "chapter": 15,
   "resolved": [
     {
-      "mention": "表兄",
+      "mention": "表兄／书淮",
       "entity_id": "zhang_shuhuai",
       "confidence": 0.97,
       "method": "context_named_speaker"
@@ -21,13 +21,13 @@
       "method": "alias_context"
     },
     {
-      "mention": "大小姐（周君州：有件事要和大小姐对一对）",
+      "mention": "大小姐（开席斗嘴、击鼓传花中周君州所称；“有件事要和大小姐对一对”）",
       "entity_id": "wang_sihan",
-      "confidence": 0.85,
+      "confidence": 0.92,
       "method": "context_side_room_scene"
     },
     {
-      "mention": "小宣／艺宣姐姐",
+      "mention": "小宣／艺宣姐姐／艺宣",
       "entity_id": "zhang_yixuan",
       "confidence": 0.98,
       "method": "alias_context"
@@ -127,6 +127,18 @@
       "entity_id": "zhang_yixuan",
       "confidence": 0.88,
       "method": "context_household_address_princess"
+    },
+    {
+      "mention": "户部（抚恤户部要是不认）",
+      "entity_id": "hubu",
+      "confidence": 0.95,
+      "method": "alias_exact"
+    },
+    {
+      "mention": "灵武大街",
+      "entity_id": "lingwu_avenue",
+      "confidence": 0.95,
+      "method": "alias_exact"
     }
   ],
   "warnings": [
@@ -135,6 +147,8 @@
     "张艺宣对周君州的情意按约束不入事实，只记她的举动（糖芋苗、认手套、解围、叫“君州”后改口说粥、递军帽）。",
     "失火起因未写、未记；周君瑶身世未点破，事件只记中庆话一问一答与她闪回的感官片段。",
     "“殿下”一词本章两指：值夜王家近卫军喊的“殿下”指张艺宣（亲王府私兵称公主），张艺宣口中“离殿下远着呢”“替我给殿下道一声贺”指皇太子；已分开消歧，置信度0.88/0.93。",
-    "王家近卫军（张艺宣府上）只作为组织 zhang_yixuan_family_guard 记录出场与举动，个别兵卒未建实体。"
+    "王家近卫军（张艺宣府上）只作为组织 zhang_yixuan_family_guard 记录出场与举动，个别兵卒未建实体。",
+    "新增段落中邱思甜与张书淮、张艺宣对周君州的情意均按约束不入事实，只记举动（推酥饼、回廊道谢叫“书淮”、他退步拱手；张艺宣听“怕君瑶哭”后给自己斟半杯酒）。",
+    "“后天”拆线按本章时间（二月八日夜）换算为二月十日，置信度0.9。"
   ]
 }

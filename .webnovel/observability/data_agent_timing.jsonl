@@ -413,3 +413,8 @@
 {"timestamp": "2026-10-19T22:20:20.089244", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
 {"timestamp": "2026-10-19T22:20:20.535549", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 10}
 {"timestamp": "2026-10-19T22:22:02.702000", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T22:36:48.376334", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T22:36:48.829125", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T22:36:49.282851", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 礼部"}
+{"timestamp": "2026-10-19T22:36:54.964984", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T22:38:47.964716", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
