@@ -22,18 +22,6 @@
     }
   },
   {
-    "event_id": "evt-ch14-003",
-    "chapter": 14,
-    "event_type": "character_state_changed",
-    "subject": "zhou_junzhou",
-    "payload": {
-      "field": "current_task",
-      "old": "封枪后坐营，配合专案组问话",
-      "new": "九日辰时亲带领用册抄本与两三名随员去军械总库对数；八日戌初先出营赴小聚，若明早未回则直接去总库",
-      "note": "接行文时以为底账是灵武军的清白；听完老赵头的报告后想明白，底账也是眼下唯一还能开口说话的东西；认为羽林军看守总库是该有的防备（“叫谁看着都行，总比没人看着强”）"
-    }
-  },
-  {
     "event_id": "evt-ch14-004",
     "chapter": 14,
     "event_type": "character_state_changed",
@@ -159,17 +147,6 @@
     }
   },
   {
-    "event_id": "evt-ch14-014",
-    "chapter": 14,
-    "event_type": "character_state_changed",
-    "subject": "wang_sihan",
-    "payload": {
-      "field": "current_task",
-      "old": "追查通泰商会马车与德裕银号账目",
-      "new": "证人与经手人死的死、失踪的失踪；袖中揣着抄下的命案名单，打算当晚在小聚上交给周君州"
-    }
-  },
-  {
     "event_id": "evt-ch14-015",
     "chapter": 14,
     "event_type": "character_state_changed",
@@ -231,29 +208,6 @@
     }
   },
   {
-    "event_id": "evt-ch14-020",
-    "chapter": 14,
-    "event_type": "character_state_changed",
-    "subject": "zhou_junyao",
-    "payload": {
-      "field": "location.current",
-      "old": "周府",
-      "new": "随周君州赴张艺宣府上小聚途中",
-      "note": "随周府老家人送换洗衣裳的车来营，带来张艺宣给周君州的帖子；营门哨兵登记“周府小姐，探亲”；在车窗里先喊“哥”；说想去小聚“不说话，我看”，想看看在医院只见过睡着样子的外交部长醒着是什么样；拿“帖子上请的是周家的人”硬缠，周君州十回里有九回拦不住她，答应带她去"
-    }
-  },
-  {
-    "event_id": "evt-ch14-021",
-    "chapter": 14,
-    "event_type": "character_state_changed",
-    "subject": "zhou_junzhou",
-    "payload": {
-      "field": "location.current",
-      "old": "灵武军营（这几天都住营里）",
-      "new": "携周君瑶出营赴张艺宣府上小聚途中（二月八日戌初出营，持腰牌，怀揣行文）"
-    }
-  },
-  {
     "event_id": "evt-ch14-022",
     "chapter": 14,
     "event_type": "open_loop_created",
@@ -267,18 +221,6 @@
     }
   },
   {
-    "event_id": "evt-ch14-023",
-    "chapter": 14,
-    "event_type": "character_state_changed",
-    "subject": "deng_shengbao",
-    "payload": {
-      "field": "current_task",
-      "old": null,
-      "new": "八日夜守营；九日卯正候曼桂槐把抄本送到军部，点好的两三名随员在营门口集合，周君州未回则先行去总库",
-      "note": "当面称周君瑶“君瑶”，打趣她戴的手套比手大一圈"
-    }
-  },
-  {
     "event_id": "evt-ch14-024",
     "chapter": 14,
     "event_type": "character_state_changed",
@@ -288,18 +230,6 @@
       "old": null,
       "new": "领用册抄本已再核一遍、一支不少（去年十一月、腊月两批）；九日卯正把抄本送到军部",
       "note": "指出底账出厂编号与灵武军册子是同一号段，一支一支念过去即可"
-    }
-  },
-  {
-    "event_id": "evt-ch14-025",
-    "chapter": 14,
-    "event_type": "character_state_changed",
-    "subject": "zhou_junyao",
-    "payload": {
-      "field": "belongings",
-      "old": "随身手炉",
-      "new": "手炉塞给了冻得手发紫的周府老家人（老家人捧着不知还给谁，她叫他路上拿着）；戴着周君州从大衣口袋掏出扔给她的皮手套（太大，她说“像熊掌”，他说“回家再还”）；腿上盖着周君州带上车的厚羊毛毯，四角掖好",
-      "note": "营门兄妹互动：周君州笑着迎上去替她拉开车门、侧身挡风，兄妹一边一个把老家人架进门房；他见她空着手，什么也没问就把手套扔给她。小聚席上她仍戴着这副手套"
     }
   }
 ]

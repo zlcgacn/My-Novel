@@ -1,28 +1,140 @@
 {
-  "chapter": 14,
   "pending": [],
+  "chapter": 15,
   "resolved": [
-    {"mention": "老赵头", "entity_id": "lao_zhao_tou", "confidence": 0.98, "method": "alias_exact"},
-    {"mention": "卖炭汉子／汉子／卖炭的", "entity_id": "maitan_hanzi", "confidence": 0.95, "method": "context_ch12_witness"},
-    {"mention": "京兆府的主簿／主簿", "entity_id": "jingzhaofu_zhubu", "confidence": 0.95, "method": "alias_exact"},
-    {"mention": "军需处的上尉／上尉", "entity_id": "quartermaster_captain", "confidence": 0.9, "method": "alias_exact"},
-    {"mention": "通讯连长", "entity_id": "signal_company_commander", "confidence": 0.95, "method": "alias_context"},
-    {"mention": "羽林军大元帅", "entity_id": "zhang_yonghuai", "confidence": 0.95, "method": "title_unique"},
-    {"mention": "那个姓林的", "entity_id": "lin_anhua", "confidence": 0.9, "method": "context_ch11"},
-    {"mention": "北边那家票号的分号", "entity_id": "beibian_piaohao", "confidence": 0.9, "method": "context_ch12"},
-    {"mention": "通泰", "entity_id": "tongtai_guild", "confidence": 0.9, "method": "alias_partial"},
-    {"mention": "曼参谋长", "entity_id": "man_guihuai", "confidence": 0.98, "method": "title_unique"},
-    {"mention": "甜甜／思甜", "entity_id": "qiu_sitian", "confidence": 0.97, "method": "alias_context"},
-    {"mention": "艺宣姐姐／艺宣", "entity_id": "zhang_yixuan", "confidence": 0.97, "method": "alias_context"},
-    {"mention": "那位外交部长", "entity_id": "qiu_sitian", "confidence": 0.95, "method": "title_unique"},
-    {"mention": "姓周的", "entity_id": "zhou_junzhou", "confidence": 0.95, "method": "context"},
-    {"mention": "哥／少爷／周将军", "entity_id": "zhou_junzhou", "confidence": 0.97, "method": "context_speaker"},
-    {"mention": "君瑶／小姐／周府小姐／妹妹", "entity_id": "zhou_junyao", "confidence": 0.98, "method": "alias_context"},
-    {"mention": "表兄", "entity_id": "zhang_shuhuai", "confidence": 0.85, "method": "context_ch13_porridge_shed"}
+    {
+      "mention": "表兄",
+      "entity_id": "zhang_shuhuai",
+      "confidence": 0.97,
+      "method": "context_named_speaker"
+    },
+    {
+      "mention": "思甜／邱部长／外交部长",
+      "entity_id": "qiu_sitian",
+      "confidence": 0.98,
+      "method": "alias_context"
+    },
+    {
+      "mention": "思涵／涵涵",
+      "entity_id": "wang_sihan",
+      "confidence": 0.98,
+      "method": "alias_context"
+    },
+    {
+      "mention": "大小姐（周君州：有件事要和大小姐对一对）",
+      "entity_id": "wang_sihan",
+      "confidence": 0.85,
+      "method": "context_side_room_scene"
+    },
+    {
+      "mention": "小宣／艺宣姐姐",
+      "entity_id": "zhang_yixuan",
+      "confidence": 0.98,
+      "method": "alias_context"
+    },
+    {
+      "mention": "周将军／将军／姓周的／哥哥／君州",
+      "entity_id": "zhou_junzhou",
+      "confidence": 0.98,
+      "method": "context_speaker"
+    },
+    {
+      "mention": "君瑶",
+      "entity_id": "zhou_junyao",
+      "confidence": 0.99,
+      "method": "alias_exact"
+    },
+    {
+      "mention": "副军长",
+      "entity_id": "deng_shengbao",
+      "confidence": 0.95,
+      "method": "title_unique_lingwu"
+    },
+    {
+      "mention": "殿下（离殿下远着呢／替我给殿下道一声贺）／东宫",
+      "entity_id": "crown_prince",
+      "confidence": 0.93,
+      "method": "context_birthday_banquet"
+    },
+    {
+      "mention": "圣上",
+      "entity_id": "emperor",
+      "confidence": 0.93,
+      "method": "title_unique"
+    },
+    {
+      "mention": "柳条巷口，茶馆跑堂／替我递消息的",
+      "entity_id": "laozhaotou_xianren",
+      "confidence": 0.97,
+      "method": "context_ch14"
+    },
+    {
+      "mention": "卖炭的",
+      "entity_id": "maitan_hanzi",
+      "confidence": 0.95,
+      "method": "context_ch14"
+    },
+    {
+      "mention": "德裕银号伙计",
+      "entity_id": "deyu_tixian_huoji",
+      "confidence": 0.95,
+      "method": "context_ch14"
+    },
+    {
+      "mention": "北边票号分号管汇票的伙计",
+      "entity_id": "piaohao_huipiao_huoji",
+      "confidence": 0.95,
+      "method": "context_ch14"
+    },
+    {
+      "mention": "城南那座寺",
+      "entity_id": "chengnan_temple",
+      "confidence": 0.93,
+      "method": "context_ch13"
+    },
+    {
+      "mention": "寺里那个老执事",
+      "entity_id": "chengnan_temple_deacon",
+      "confidence": 0.9,
+      "method": "context_ch13"
+    },
+    {
+      "mention": "暖阁／偏间／东厢／西厢",
+      "entity_id": "zhang_yixuan_residence",
+      "confidence": 0.97,
+      "method": "context_location"
+    },
+    {
+      "mention": "军械总库／总库",
+      "entity_id": "junxie_zongku",
+      "confidence": 0.98,
+      "method": "alias_exact"
+    },
+    {
+      "mention": "中庆话",
+      "entity_id": "zhongqing",
+      "confidence": 0.9,
+      "method": "alias_partial"
+    },
+    {
+      "mention": "跟车的王家近卫军／府门口值夜的王家近卫军／值夜的兵／两个王家近卫军的兵／前院歇着的兵",
+      "entity_id": "zhang_yixuan_family_guard",
+      "confidence": 0.96,
+      "method": "alias_partial_context_ch13_14"
+    },
+    {
+      "mention": "殿下（值夜的王家近卫军在暖阁门外喊“殿下，灵武军来人了！”）",
+      "entity_id": "zhang_yixuan",
+      "confidence": 0.88,
+      "method": "context_household_address_princess"
+    }
   ],
   "warnings": [
-    "“周府的老家人”未与既有实体 zhoufu_guanjia（管家）合并：正文只称老家人、赶车送衣裳、称周君州“少爷”，身份是否即管家无据（置信度约0.4），按无名代称处理，不入库。",
-    "“车行伙计”“德裕掌柜”“票号管事”“酒铺伙计”“营门哨兵”“首相府书办”“卖炭汉子的婆娘”“马弁”按职位代称处理，未建实体。",
-    "“表兄”（粥棚）按第13章语境指张书淮，置信度0.85采用；仅被提及、未出场，不写 entity_delta。"
+    "“参谋本部的一位将军”（邱思甜转述其说停战草稿“作废了，正好”）疑为第13章的 general_staff_ops_general，但正文未点明，置信度约0.6，只在事件正文中记为转述，不写实体关联。",
+    "“灵武军马弁”“周府的老家人”“小丫头”“管事”“门房”“礼部那位侍郎”“城北车行伙计”按职位代称处理，未建实体；“老家人”沿第14章做法不与 zhoufu_guanjia 合并。",
+    "张艺宣对周君州的情意按约束不入事实，只记她的举动（糖芋苗、认手套、解围、叫“君州”后改口说粥、递军帽）。",
+    "失火起因未写、未记；周君瑶身世未点破，事件只记中庆话一问一答与她闪回的感官片段。",
+    "“殿下”一词本章两指：值夜王家近卫军喊的“殿下”指张艺宣（亲王府私兵称公主），张艺宣口中“离殿下远着呢”“替我给殿下道一声贺”指皇太子；已分开消歧，置信度0.88/0.93。",
+    "王家近卫军（张艺宣府上）只作为组织 zhang_yixuan_family_guard 记录出场与举动，个别兵卒未建实体。"
   ]
 }

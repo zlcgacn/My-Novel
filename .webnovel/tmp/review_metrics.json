@@ -1,12 +1,12 @@
 {
-  "chapter": 14,
-  "start_chapter": 14,
-  "end_chapter": 14,
-  "overall_score": 86.0,
+  "chapter": 15,
+  "start_chapter": 15,
+  "end_chapter": 15,
+  "overall_score": 96.0,
   "dimension_scores": {
-    "continuity": 92.0,
+    "continuity": 98.0,
     "setting": 100.0,
-    "character": 96.0,
+    "character": 100.0,
     "timeline": 100.0,
     "ai_flavor": 100.0,
     "logic": 98.0,
@@ -16,18 +16,17 @@
   "severity_counts": {
     "critical": 0,
     "high": 0,
-    "medium": 1,
-    "low": 4
+    "medium": 0,
+    "low": 2
   },
   "critical_issues": [],
-  "report_file": "审查报告/第14章审查报告.md",
-  "notes": "5个问题：0个阻断，0个高优 | issues=5 | blocking=0 | categories=character,continuity,logic",
-  "issues_count": 5,
+  "report_file": "审查报告/第15章审查报告.md",
+  "notes": "2个问题：0个阻断，0个高优（王家近卫军设定补改） | issues=2 | blocking=0 | categories=continuity,logic",
+  "issues_count": 2,
   "blocking_count": 0,
   "categories": [
-    "character",
     "continuity",
     "logic"
   ],
-  "timestamp": "2026-10-18T20:46:09"
+  "timestamp": "2026-10-19T22:11:20"
 }

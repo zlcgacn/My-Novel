@@ -1,54 +1,117 @@
 {
-  "chapter": 14,
+  "chapter": 15,
   "issues": [
     {
       "severity": "medium",
+      "category": "character",
+      "location": "第47、387、329段",
+      "description": "张艺宣知道了无从得知的清点、抄本、第三处问太子身边人。",
+      "evidence": "第13、14章",
+      "fix_hint": "改成她看得见的理由",
+      "blocking": false
+    },
+    {
+      "severity": "medium",
       "category": "continuity",
-      "location": "营门兄妹戏",
-      "description": "与第3、11章动作句子重复。",
-      "evidence": "第3、11章",
-      "fix_hint": "保留独有部分，换掉重复部分",
+      "location": "周君瑶视角称呼",
+      "description": "用了张艺宣的叫法“表兄”“思甜”。",
+      "evidence": "设定/人物.md",
+      "fix_hint": "改为周君瑶自己的叫法",
+      "blocking": false
+    },
+    {
+      "severity": "medium",
+      "category": "continuity",
+      "location": "敬酒对话",
+      "description": "照搬第13章承诺桥段。",
+      "evidence": "第13章粥棚",
+      "fix_hint": "换成席上独有的话",
+      "blocking": false
+    },
+    {
+      "severity": "medium",
+      "category": "continuity",
+      "location": "马弁“出营簿上写着将军在这里”",
+      "description": "出营簿没写去向。",
+      "evidence": "第14章",
+      "fix_hint": "改为副军长说的",
+      "blocking": false
+    },
+    {
+      "severity": "medium",
+      "category": "timeline",
+      "location": "卯正回营与天亮就走、卯初熬粥",
+      "description": "时辰矛盾。",
+      "evidence": "第14章",
+      "fix_hint": "改为寅时动身",
+      "blocking": false
+    },
+    {
+      "severity": "medium",
+      "category": "character",
+      "location": "第359、365段",
+      "description": "旁白点明情意并越出视角。",
+      "evidence": "写作标准感情戏第1条",
+      "fix_hint": "删结论句，改看得见的样子",
       "blocking": false
     },
     {
       "severity": "low",
       "category": "continuity",
-      "location": "车门一开、一把",
-      "description": "章内句式重复。",
-      "evidence": "本章319、343、345、355段",
+      "location": "周君瑶入座",
+      "description": "未引见，旁人无反应。",
+      "evidence": "第14章",
+      "fix_hint": "补引见",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "continuity",
+      "location": "纱布对比",
+      "description": "与当晚状况不符且重复。",
+      "evidence": "第14章",
+      "fix_hint": "删纱布",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "continuity",
+      "location": "熊掌、拉围巾、凉茶",
+      "description": "重复前文。",
+      "evidence": "第11–14章",
       "fix_hint": "换写法",
       "blocking": false
     },
     {
       "severity": "low",
       "category": "character",
-      "location": "“没有一回拦得住”",
-      "description": "与第3章他拦下过她相矛盾。",
-      "evidence": "第3章",
-      "fix_hint": "改为十回九回",
-      "blocking": false
-    },
-    {
-      "severity": "low",
-      "category": "character",
-      "location": "邓声宝“熊掌”与称呼",
-      "description": "未在场却说熊掌；称呼应为君瑶。",
-      "evidence": "第3章",
-      "fix_hint": "改称呼与台词",
+      "location": "王思涵两遍自责",
+      "description": "同一件事说两遍。",
+      "evidence": "写作标准",
+      "fix_hint": "并成一处",
       "blocking": false
     },
     {
       "severity": "low",
       "category": "logic",
-      "location": "戴手套捂手",
-      "description": "动作顺序不通。",
-      "evidence": "本章363段",
-      "fix_hint": "手套从口袋取出",
+      "location": "王思涵重问出营簿",
+      "description": "席上已听过。",
+      "evidence": "本章第79段",
+      "fix_hint": "换角度",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "timeline",
+      "location": "子时后“今天”、三更",
+      "description": "用词与时序不清。",
+      "evidence": "本章",
+      "fix_hint": "改用词",
       "blocking": false
     }
   ],
-  "issues_count": 5,
+  "issues_count": 12,
   "blocking_count": 0,
   "has_blocking": false,
-  "summary": "5个问题：0个阻断，0个高优"
+  "summary": "12个问题：0个阻断，0个高优"
 }

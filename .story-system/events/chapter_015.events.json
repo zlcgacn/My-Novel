@@ -1,0 +1,204 @@
+[
+  {
+    "event_id": "evt-ch15-001",
+    "chapter": 15,
+    "event_type": "promise_paid_off",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "张艺宣兑现小聚之约：康建五十年二月八日戌时起在府上后头暖阁摆一桌便饭（四样家常菜、一个汤、两样点心，不请乐班、不请外人），座次亲排；王思涵、邱思甜、张书淮戌正前后到，周君州亥初到并带来没下帖子的周君瑶；张艺宣起身敬邱思甜“敬你还坐在这张桌子边上”，邱思甜答“我今天这一天，就数这会儿最像个人”",
+      "closes_event_id": "evt-ch13-012"
+    }
+  },
+  {
+    "event_id": "evt-ch15-002",
+    "chapter": 15,
+    "event_type": "promise_paid_off",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "府里的车先接王思涵、邱思甜，第二辆接张书淮（跟车的王家近卫军带着张艺宣的夜行腰牌，进暖阁后双手交还给她）；子时散席后客人都留宿厢房：王思涵、邱思甜住东厢，张书淮住西厢，周君瑶住北边那间（挨着张艺宣自己的屋子）",
+      "closes_event_id": "evt-ch13-023"
+    }
+  },
+  {
+    "event_id": "evt-ch15-003",
+    "chapter": 15,
+    "event_type": "open_loop_closed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "帖子入夜才转到营里，周君州仍于亥初坐自家车赶到（出营簿登记“赴宴”），三人当席碰面：他的眼睛一直落在邱思甜身上，邱思甜对他客气而冷，张艺宣在旁添酒、替他解围",
+      "closes_event_id": "evt-ch13-013",
+      "resolution": "周君州赴宴；三人心事当席碰面，均未说破"
+    }
+  },
+  {
+    "event_id": "evt-ch15-004",
+    "chapter": 15,
+    "event_type": "open_loop_closed",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "亥末王思涵在暖阁偏间把亲笔抄的命案名单交给周君州（卖炭的、德裕银号伙计、城北车行伙计、柳条巷口茶馆跑堂，另起一行北边票号分号伙计“回了老家”无卷宗）；周君州手指停在“柳条巷口，茶馆跑堂，六日夜，醉后冻毙”一行，认出是替他递消息、头一个递出新年夜军中有人参与的人，滴酒不沾却被记醉死；车行那一桩王思涵仍对不上（只有骡车，兴许真是劫财）。周君州把名单与怀里的清点行文折在一处揣回",
+      "closes_event_id": "evt-ch14-013",
+      "resolution": "两条线在席上对上：王思涵的证人链与周君州的线人死于同一波"
+    }
+  },
+  {
+    "event_id": "evt-ch15-005",
+    "chapter": 15,
+    "event_type": "open_loop_created",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "名单对上后两人都说不出是谁干的，只知凡能把那几辆马车、那一大笔钱、那几支枪说清楚的人一个个都没了。周君州说明早辰时清点、底账一开就有话说；王思涵问“底账要是也没了呢”，他答羽林军看着、库门加封、账册不出库；她举卖炭汉子也叫他看好自己仍死在自家窑里，周君州只说“总库不是炭窑”，她答“但愿”。周君州已叫人私下去抄验状，灵武军不出面；京兆府复验要京兆尹重签报刑部，单凭几人前后脚死不会批",
+      "loop_type": "线索交汇",
+      "unanswered_question": "谁在一个个灭口？唯一还能开口的底账保不保得住？",
+      "urgency": 100,
+      "planted_chapter": 15,
+      "related_event_id": "evt-ch14-006"
+    }
+  },
+  {
+    "event_id": "evt-ch15-006",
+    "chapter": 15,
+    "event_type": "open_loop_created",
+    "subject": "junxie_zongku",
+    "payload": {
+      "content": "二月九日丑初，一名灵武军马弁奉副军长邓声宝之命牵马到张艺宣府上急拍府门，府门口值夜的王家近卫军提灯开门、在暖阁门外喊“殿下，灵武军来人了！”；马弁报参谋本部特令：军械总库失火，着灵武军即刻出营扑救，副军长已集合人马。院中北望，半边天暗红，红光下接连传来沉闷的爆响。军械总库正是周君州辰时要去用底账清点D67的地方",
+      "loop_type": "主线危机",
+      "unanswered_question": "军械总库的火能不能扑灭？库里D67出厂、配发底账还在不在？辰时清点还能不能进行？",
+      "urgency": 100,
+      "planted_chapter": 15,
+      "expected_payoff": "康建五十年二月九日",
+      "related_event_id": "evt-ch14-002"
+    }
+  },
+  {
+    "event_id": "evt-ch15-007",
+    "chapter": 15,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junyao",
+    "payload": {
+      "content": "席间邱思甜讲粥棚，脱口带出中庆腔“挤在最前头的，从来不是最饿的”；周君瑶筷子一停，闻见湿稻草混泥的甜腥气，记起有人攥着她的手腕在土路上走、路两边坐着不动的人，不知不觉用同一种腔调接了一句“最饿的，走不到粥棚跟前”。邱思甜换中庆话问“你是中庆人？”，她垂眼用官话答“小时候听过”，把手套放到膝上再不开口；周君州立刻给她添一碗热汤，转头问张书淮城南米价，把话岔开",
+      "loop_type": "身世暗线",
+      "unanswered_question": "周君瑶为什么会说中庆话？邱思甜会不会再追问？",
+      "urgency": 60,
+      "planted_chapter": 15
+    }
+  },
+  {
+    "event_id": "evt-ch15-008",
+    "chapter": 15,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junyao",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "初次交谈",
+      "content": "周君瑶头一回见醒着的邱思甜：盯着她右手中指上写字磨出的墨迹看；见她一把拉起要磕头的小丫头、笑说泼的是涵涵的衣裳，心想“这个外交部长，伸手伸得那么快”；两人以中庆话一问一答后，她的心防又合上",
+      "note": "周君瑶看出席间心事（邱思甜听张书淮说话时一直看他；哥哥看邱思甜；艺宣姐姐三回添酒他一回也没转脸），她看得见，不说"
+    }
+  },
+  {
+    "event_id": "evt-ch15-009",
+    "chapter": 15,
+    "event_type": "relationship_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "当席交锋",
+      "content": "邱思甜客气称“周将军”，转述参谋本部一位将军说停战草稿“作废了，正好”，问周将军想必也这么看；周君州过了一会儿答“我没这么看”，张艺宣替他说一句他整天在营里、参谋本部的事未必知道。敬酒时周君州向她举杯，她略一点头、没看他"
+    }
+  },
+  {
+    "event_id": "evt-ch15-010",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "field": "current_task",
+      "old": "宵禁前亲到王家送帖给王思涵，约车接王思涵、邱思甜，散席都住下",
+      "new": "受周君州托付照看周君瑶：天亮叫周府老家人送她回府、别叫她自己去学堂，夜里醒了去看一眼；九日东宫家宴宗室都在，她坐末席，代周君州向太子道贺",
+      "note": "本章举动：暗添一道桂花糖芋苗、嘱咐不说是她吩咐（周君州吃了两勺没问，她也没提，撤席时碗底剩一口她没叫倒）；认出周君瑶戴的皮手套是周君州的（左手腕口去年冬天缰绳磨破处的线是她缝的），什么也没说；席间替周君州解围；散席后陪坐暖阁，他打了一刻盹；叫了一声“君州”，最后只说“早上的粥，我叫厨下寅初就熬上，你走以前喝一碗”；他临走时追到前院递上落下的军帽"
+    }
+  },
+  {
+    "event_id": "evt-ch15-011",
+    "chapter": 15,
+    "event_type": "promise_created",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "content": "张艺宣应承周君州：照看周君瑶，天亮叫周府老家人送她回府、不叫她自己去学堂（这几天城里乱），她夜里醒了去看一眼；周君州临走回头看北边厢房，她答“我在”",
+      "to_entity": "zhou_junyao",
+      "urgency": 60,
+      "planted_chapter": 15,
+      "expected_payoff": "康建五十年二月九日早"
+    }
+  },
+  {
+    "event_id": "evt-ch15-012",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "current_task",
+      "old": "九日辰时亲带领用册抄本去军械总库对数；八日晚赴小聚",
+      "new": "丑初奉参谋本部特令，自张艺宣府上骑马北去，带灵武军扑救军械总库大火；怀里揣着王思涵的命案名单与清点行文",
+      "note": "出营簿照实写“赴宴”，王思涵问专案组翻到会怎么记，他答“照实记”“灵武军没有见不得人的”；原计划寅正前回营、赶卯正"
+    }
+  },
+  {
+    "event_id": "evt-ch15-013",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "dongong_banquet",
+      "old": null,
+      "new": "不去九日东宫家宴，托张艺宣代向太子道贺",
+      "note": "他说近卫军的人这几天还是少往东宫凑，圣上那里看着呢（指封枪后满城的传言）"
+    }
+  },
+  {
+    "event_id": "evt-ch15-014",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "junxie_zongku",
+    "payload": {
+      "field": "status",
+      "old": "羽林军看守，库门加封，账册不出库",
+      "new": "二月九日丑初失火；参谋本部特令灵武军出营扑救；北边半天暗红、闷响连连"
+    }
+  },
+  {
+    "event_id": "evt-ch15-015",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "chengnan_temple",
+    "payload": {
+      "field": "status",
+      "old": "收治神圣高地伤员，寺门外设棚施粥",
+      "new": "礼部批文已下（王思涵写信催礼部侍郎，一天即批），神圣高地伤员已搬进大殿；城南米价又涨两成，老执事九日去京兆府领第二批药"
+    }
+  },
+  {
+    "event_id": "evt-ch15-016",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "field": "night_pass",
+      "old": "夜行腰牌（念晚间广播所领）；今晚交跟车的王家近卫军带着去城南接张书淮",
+      "new": "夜行腰牌（念晚间广播所领）；接回张书淮后跟车的王家近卫军已双手交还她本人",
+      "note": "第13章交跟车兵带去城南接表兄的腰牌，第15章戌正后收回"
+    }
+  },
+  {
+    "event_id": "evt-ch15-017",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan_family_guard",
+    "payload": {
+      "field": "status",
+      "old": "替张艺宣赶车、跟车、护卫",
+      "new": "二月九日丑初府中值夜：开门引进灵武军马弁、举灯送周君州上马；失火闷响后前院歇着的兵都惊起，值夜的爬梯子北望",
+      "note": "称张艺宣为“殿下”"
+    }
+  }
+]
