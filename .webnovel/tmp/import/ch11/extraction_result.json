@@ -41,7 +41,7 @@
       "event_type": "world_rule_revealed",
       "subject": "junwu_benbu",
       "payload": {
-        "rule_content": "新式枪械D67由军务本部派人押送进营，双方当面点数、签收，一式两份，一份留营、一份带回军务本部；军务本部存有底账",
+        "rule_content": "新式枪械D67由军务部派人押送进营，双方当面点数、签收，一式两份，一份留营、一份带回军务部；军务部存有底账",
         "rule_category": "军制",
         "scope": "帝国陆军"
       }
@@ -338,7 +338,7 @@
       "action": "upsert",
       "entity_type": "组织",
       "payload": {
-        "name": "军务本部",
+        "name": "军务部",
         "note": "负责押送新式枪械进营并留存底账"
       }
     },
@@ -641,7 +641,7 @@
       "id": "junwu_benbu",
       "type": "组织",
       "mentions": [
-        "军务本部"
+        "军务部"
       ],
       "confidence": 0.9
     },

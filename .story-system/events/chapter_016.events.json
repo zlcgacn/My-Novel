@@ -1,0 +1,453 @@
+[
+  {
+    "event_id": "evt-ch16-001",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "junxie_zongku",
+    "payload": {
+      "field": "status",
+      "old": "二月九日丑初失火，灵武军奉令扑救",
+      "new": "烧毁：库内靠北墙弹药先零星爆响，后火烧进库肚子连环爆炸、库顶塌落；辰初火灭，只剩四面黑墙，底账烧尽；第三处拉绳钉桩挂牌封了废墟",
+      "note": "周君州到场时库门封条还在；开库令始终没到，火烧进总库北头时守库上尉自己撕了封条进库抢账；北间账房（D67底账）先烧着进不去，抢出的是南间弹药出入账七箱"
+    }
+  },
+  {
+    "event_id": "evt-ch16-002",
+    "chapter": 16,
+    "event_type": "open_loop_closed",
+    "subject": "junxie_zongku",
+    "payload": {
+      "content": "军械总库失火的结果：被服库先烧透，北风把火压过隔墙烧到总库，总库连环爆炸塌顶，辰初只剩四面黑墙",
+      "closes_event_id": "evt-ch15-006",
+      "resolution": "总库烧毁，底账烧尽；灵武军打火道护住西墙外民居"
+    }
+  },
+  {
+    "event_id": "evt-ch16-003",
+    "chapter": 16,
+    "event_type": "open_loop_closed",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "第15章王思涵问“底账要是也没了呢”，周君州答总库不是炭窑；本章D67出厂、配发底账在挨着隔墙的北间账房，随总库焚毁；库门封条守到火烧进北头才由守库上尉自己撕开，抢出的只是七箱南间弹药出入账。她心里那句话没有再说",
+      "closes_event_id": "evt-ch15-005",
+      "resolution": "D67底账焚毁，清点无物可点"
+    }
+  },
+  {
+    "event_id": "evt-ch16-004",
+    "chapter": 16,
+    "event_type": "world_rule_revealed",
+    "subject": "junwu_benbu",
+    "payload": {
+      "rule_content": "军务部大院南北两进：北为被服库（两层砖木房，堆军装棉被帐篷），南为军械总库（青砖到顶、铁皮包门），中隔一道墙；西墙根一溜马棚杂房，墙外紧挨民居。羽林军奉准只看守总库，被服库由军务部自己的人值夜",
+      "rule_category": "场所与看守分工",
+      "scope": "军务部大院"
+    }
+  },
+  {
+    "event_id": "evt-ch16-005",
+    "chapter": 16,
+    "event_type": "world_rule_revealed",
+    "subject": "forbidden_guards",
+    "payload": {
+      "rule_content": "火场号令三方各执一词：虎贲军统领称宵禁之下城里归虎贲军、手里是圣旨；守库羽林军上尉与神策军中尉称圣旨只叫虎贲军接管城门（及神圣高地），没说接火场；神策军中尉称救火、城防向来是内务本部的事；守库羽林军只认大元帅令。四方谁也压不住谁，水龙停在圈外",
+      "rule_category": "宵禁号令",
+      "scope": "京城宵禁期间"
+    }
+  },
+  {
+    "event_id": "evt-ch16-006",
+    "chapter": 16,
+    "event_type": "world_rule_revealed",
+    "subject": "third_bureau",
+    "payload": {
+      "rule_content": "军务部的兵归军政，首相府管不到（王思涵自知此话一字不错：她能叫京兆府开门、叫主簿记册、叫户部垫银子，却叫不住第三处）；第三处以“御前差事”带人，亲王身份也拦不住；第三处只对一个人回话",
+      "rule_category": "军政与民政分界",
+      "scope": "第三处办案"
+    }
+  },
+  {
+    "event_id": "evt-ch16-007",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "current_task",
+      "old": "奉参谋本部特令带灵武军扑救军械总库大火",
+      "new": "丑初二刻到场；守库羽林军上尉以大元帅令拦着不许入库（已派人请开库令，令没到），他不撕封条（“撕了封条，这把火就是咱们放的”）；见正北风把火往西南卷向民居，转身令邓声宝拆西墙根马棚杂房、工兵团拆墙外头一排房子打火道，丑正开拆，自己也抓挠钩拽檐檩；司官阻拦时才亮出参谋本部特令；望见上尉撕封条进库，手里挠钩停了一停，转身接着拽（“守库的人撕守库的封条，撕得，也担得”）；寅末把火关在墙里",
+      "note": "特令抄件够他在圈前争一夜，他没有拿出来争入库"
+    }
+  },
+  {
+    "event_id": "evt-ch16-008",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "injury",
+      "old": null,
+      "new": "右手掌心叫木刺划开一道口子，缠着撕下的衬里，渗血"
+    }
+  },
+  {
+    "event_id": "evt-ch16-009",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "deng_shengbao",
+    "payload": {
+      "field": "current_task",
+      "old": "丑初集合灵武军人马扑救军械总库，派马弁牵马去张艺宣府上接周君州",
+      "new": "营里交给曼桂槐，带两个营与工兵团空手（斧子、挠钩、绳子、水桶）到场；被周君州抬手止住顶撞羽林军；带人拆马棚杂房打火道；总库爆炸时把被碎砖砸倒的十八九岁羽林军兵拖到墙根"
+    }
+  },
+  {
+    "event_id": "evt-ch16-010",
+    "chapter": 16,
+    "event_type": "relationship_changed",
+    "subject": "deng_shengbao",
+    "payload": {
+      "to_entity": "shouku_yulin_captain",
+      "relationship_type": "火场相救",
+      "content": "邓声宝救出被砸伤的羽林军兵，守库上尉跑来看了一眼，抬头看邓声宝，没说谢，只点了点头，又回去把那一圈人重新站好"
+    }
+  },
+  {
+    "event_id": "evt-ch16-011",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "huben_commander",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日火场以宵禁圣旨要接管火场，被羽林军上尉、神策军中尉顶回；骑兵横在水龙前头，称内务本部的本部都塌了、城里的事轮不到它做主；辰初对张永怀说要向圣上奏明，随后带骑兵离开"
+    }
+  },
+  {
+    "event_id": "evt-ch16-012",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "shence_shuilongdui",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "推两架水龙到火场，被挡在羽林军圈外、虎贲军骑兵横在前头，皮带耷拉在地上一滴水没喷；领头中尉左臂缠黑纱，嗓子哑"
+    }
+  },
+  {
+    "event_id": "evt-ch16-013",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "junwu_zhisu_siguan",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "当夜值宿，拽统领马缰称库是军务部的；封条非军务部所贴、看守非其人，连圈都进不去；阻拦拆房，见参谋本部特令后退到一边"
+    }
+  },
+  {
+    "event_id": "evt-ch16-014",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "current_task",
+      "old": "名单已交周君州、与其线人之死对上；复验难批，底账存亡未卜",
+      "new": "丑时过半乘张艺宣府上的车（两个跟车兵）到军务部西墙外街口；令京兆府主簿挨家敲门、人先出来，老小病弱送东边那座庙，出一户记一户、天亮少了谁要知道是谁；吩咐一个跟车兵去帮张书淮救人"
+    }
+  },
+  {
+    "event_id": "evt-ch16-015",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan",
+    "payload": {
+      "field": "current_task",
+      "old": "照看周君瑶，天亮叫老家人送她回府；九日东宫家宴坐宗室末席",
+      "new": "府里惊起后拦不住王思涵，便套车、派两个跟车兵，当面交代“护着右丞相，人在哪里，你们在哪里”；看了张书淮一眼，叫人拿来他的棉袍；把邱思甜按在厢房，一把拉住要追哥哥的周君瑶"
+    }
+  },
+  {
+    "event_id": "evt-ch16-016",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "field": "attire",
+      "old": null,
+      "new": "在西墙外背出老太太等街坊；从被服库后墙外巷子背出值夜兵；棉袍裹在值夜兵身上一并被带走，只剩单褂，冻得嘴唇发白；张艺宣府上跟车兵要脱军大衣给他，他摆手没接，王思涵叫人从车里抱来一条毯子，他才披上；天亮时仍裹着车里的毯子",
+      "note": "合设定：先皇后殁后他再没穿过军装（state 中 backstory.mother 已记）；正文只写摆手没接，未着评语"
+    }
+  },
+  {
+    "event_id": "evt-ch16-017",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "beifuku_zhiye_bing",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "被张书淮从被服库后墙外巷子背出，腿、背、胳膊烧伤；对王思涵说“不是我们的炭盆”：今夜这一班本不是他们，傍晚才临时换来，炭盆有、还没来得及点，火就从库里头起来了；问到谁叫换的班，话没出口，第三处四人即到，以要犯带走"
+    }
+  },
+  {
+    "event_id": "evt-ch16-018",
+    "chapter": 16,
+    "event_type": "relationship_changed",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "to_entity": "beifuku_zhiye_bing",
+      "relationship_type": "救出与护送",
+      "content": "张书淮背出值夜兵；第三处要带人时站起自称“我是吴訥亲王”，要先送医馆、到医馆去问，被以“御前的差事，殿下也请回”回绝；他脱下棉袍裹住兵（连烧焦的胳膊），退开一步，看着连人带棉袍被抬走"
+    }
+  },
+  {
+    "event_id": "evt-ch16-019",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "beifuku_zhiye_bing",
+    "payload": {
+      "content": "被服库值夜兵被第三处以“要犯”带走：说了临时换班、炭盆未点，没说出谁叫换的班；从背出巷子到第三处四人站到王思涵身后不到一盏茶工夫（京兆府差役都还没点完这条街）；去向不明，名字未问",
+      "loop_type": "证人",
+      "unanswered_question": "值夜兵被带去哪里、会怎样；谁叫换的班",
+      "urgency": 90,
+      "planted_chapter": 16
+    }
+  },
+  {
+    "event_id": "evt-ch16-020",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "junxie_zongku",
+    "payload": {
+      "content": "火是谁放的：京兆府主簿转述水龙队的说法“十有八九是被服库值夜的炭盆”（王思涵想起卖炭汉子也是一个“炭”字结案）；值夜兵却说这一班临时换来、炭盆还没点，火从库里头起来。总库封条一直守到火烧进北头，火是从圈外的被服库烧过来的",
+      "loop_type": "主线悬案",
+      "unanswered_question": "被服库的火从何而起、谁放的",
+      "urgency": 90,
+      "planted_chapter": 16
+    }
+  },
+  {
+    "event_id": "evt-ch16-021",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "junwu_benbu",
+    "payload": {
+      "content": "寅末火道边周君州与王思涵对疑点，定下三件要查的事：军务部的排班册（值宿司官手里该有一本）；被服库钥匙当夜在谁手里、谁交的班、谁接的；第三处把值夜兵带到哪里去了（首相府、灵武军都问不着）",
+      "loop_type": "调查线",
+      "unanswered_question": "排班册、钥匙交接、值夜兵去向",
+      "urgency": 80,
+      "planted_chapter": 16
+    }
+  },
+  {
+    "event_id": "evt-ch16-022",
+    "chapter": 16,
+    "event_type": "promise_created",
+    "subject": "wang_sihan",
+    "payload": {
+      "content": "王思涵说排班册她去要：首相府要军务部的东西，要不来也要留一张回执，要不来十回就是十张回执",
+      "to_entity": "junwu_benbu",
+      "urgency": 70,
+      "planted_chapter": 16
+    }
+  },
+  {
+    "event_id": "evt-ch16-023",
+    "chapter": 16,
+    "event_type": "relationship_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "火道边对疑点（亦敌亦友）",
+      "content": "王思涵从拆开的豁口进来叫“姓周的”，他头一句问“君瑶呢”；两人对出被服库临时换班、炭盆未点、证人被带走；周君州说封条他到时还在，是守库上尉在火烧进北头时自己撕的，抢了四趟出七箱、是什么他不知道，他自己没进去；分工查三件事，她去要排班册；他叫她“大小姐”，让她天亮回首相府，自己“等着”"
+    }
+  },
+  {
+    "event_id": "evt-ch16-024",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "location.current",
+      "old": "南京，离开王府返营途中",
+      "new": "君来乡第五军营：丑正被通讯连长叫醒，在营门望见东北天边的火光，接过丑初截下的参谋本部给灵武军特令底稿（军械总库失火）揣进怀里；寅初在作战室听羽林军集团军群急令"
+    }
+  },
+  {
+    "event_id": "evt-ch16-025",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army",
+    "payload": {
+      "field": "alert_status",
+      "old": "停休假，营门岗哨加倍；进城命令已封存机要柜待口令",
+      "new": "寅初羽林军集团军群急令：各部即刻原地待命，枪弹上身，不得擅离；没说为什么、没说待到几时。军长令参谋长把机要柜钥匙带在身上、不许离身，参谋长挂在脖子上掖进衣领",
+      "note": "机要柜里锁着火漆封口、盖第五军印的信封：开拔顺序、行军路线、到位时刻；三山门一路是邱深澳亲手画的"
+    }
+  },
+  {
+    "event_id": "evt-ch16-026",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "原地待命，明早军需处的车出不了营：邱深澳那封伪装家书（恢复城南电报局联络）仍压在军需处上尉怀里，他说“那就压着”",
+      "loop_type": "自由派联络",
+      "unanswered_question": "暗信何时能送进城、城内联络何时接上",
+      "urgency": 60,
+      "planted_chapter": 16,
+      "related_event_id": "evt-ch14-018"
+    }
+  },
+  {
+    "event_id": "evt-ch16-027",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yonghuai",
+    "payload": {
+      "field": "location.current",
+      "old": "南京大明宫兴庆门城楼",
+      "new": "辰初骑马到军务部火场，在马上看那四面黑墙看了很久；守库上尉递上封条自认撕的，他看了一眼没有接，下马验七箱（南间历年弹药出入账），问北间、听说D67底账在北间账房没抢出，把账簿放回盖上盖；随后令副官把今夜在场各部的番号、带队军官、几时到场、几时奉的什么令一个不落记下；对虎贲军统领说“总库是我奏准、羽林军看守的。守住了门，没守住火，我自向圣上请罪”"
+    }
+  },
+  {
+    "event_id": "evt-ch16-028",
+    "chapter": 16,
+    "event_type": "relationship_changed",
+    "subject": "zhang_yonghuai",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "火场问话",
+      "content": "张永怀打量周君州、目光在他缠布条的右手上停了停，问“灵武军是头一个到的？”；周君州答“奉参谋本部特令，丑初出营。大元帅。”张永怀点头，什么也没说，转身"
+    }
+  },
+  {
+    "event_id": "evt-ch16-029",
+    "chapter": 16,
+    "event_type": "relationship_changed",
+    "subject": "zhang_shuhuai",
+    "payload": {
+      "to_entity": "zhang_yonghuai",
+      "relationship_type": "隔场一眼",
+      "content": "辰初张书淮在西墙豁口外车边，眼睛先往废墟前骑马来的张永怀身上落了一下，停了停，又移开；随后隔着空地与周君州互相点头，扶王思涵上车东去"
+    }
+  },
+  {
+    "event_id": "evt-ch16-030",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "lin_anhua",
+    "payload": {
+      "field": "location.current",
+      "old": "返回内务本部总部查看现场残骸",
+      "new": "辰时跟在第三处后头进军务部，拿着卷了边的本子；张永怀副官高声核念在场番号念到“灵武军”时，他落笔写下三个字；随后当面问周君州到场与拆房时辰、入没入库、谁能作证，记了一行即走"
+    }
+  },
+  {
+    "event_id": "evt-ch16-031",
+    "chapter": 16,
+    "event_type": "relationship_changed",
+    "subject": "lin_anhua",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "当面问询",
+      "content": "林安华称“将军大人”，问灵武军几时到（丑初二刻）、几时开始拆房（丑正）、入过库没有（没有）、谁能作证（周君州指守库羽林军上尉）；问得一句不多一句不少"
+    }
+  },
+  {
+    "event_id": "evt-ch16-032",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "lingwu_army",
+    "payload": {
+      "content": "灵武军被记为当夜在场：张永怀副官把在场各部番号、带队军官、到场时辰与奉令一个不落记下，张永怀亲问“灵武军是头一个到的？”；林安华在本子上写下“灵武军”三字并记下周君州的答话；受查的军长清点前一夜到了存证的库前",
+      "loop_type": "政治风险",
+      "unanswered_question": "灵武军“当夜在场”这一笔会被怎么用",
+      "urgency": 80,
+      "planted_chapter": 16
+    }
+  },
+  {
+    "event_id": "evt-ch16-033",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "man_guihuai",
+    "payload": {
+      "field": "current_task",
+      "old": "九日卯正把领用册抄本送到军部",
+      "new": "辰时把营里交给政委，骑马抱着领用册抄本到火场，说“抄本我带来了”；周君州看着抄本没有接，灰落在封皮上"
+    }
+  },
+  {
+    "event_id": "evt-ch16-034",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhuan_an_zu",
+    "payload": {
+      "field": "inventory_check",
+      "old": "九日辰时起会同军务部用底账在军械总库库内逐营清点D67",
+      "new": "底账随总库烧尽，辰时清点已无物可点（正文未写专案组另行宣布）"
+    }
+  },
+  {
+    "event_id": "evt-ch16-035",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "zhang_yixuan_family_guard",
+    "payload": {
+      "field": "status",
+      "old": "二月九日丑初府中值夜",
+      "new": "两个跟车兵奉张艺宣之命护王思涵到火场：一个寸步不离站在她身后；另一个经王思涵吩咐、迟疑后随张书淮钻巷救人，扛出一个孩子；跟车兵要把自己的军大衣脱给只穿单褂的张书淮，他摆手没接"
+    }
+  },
+  {
+    "event_id": "evt-ch16-036",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "shouku_yulin_captain",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "手下一半守圈、一半上房压火、传水桶；已派人请大元帅开库令，令始终没到；北墙根水桶泼不过来、火烧进总库北头时，自己把两道封条扯下攥在手里，开门带十来个蒙湿毡子的兵进库抢了四趟，抢出七箱（第三趟少一人、被架出来），第四趟抬箱出门时库里爆炸把他掀下台阶；一瘸一拐回去把圈重新站好；天亮向张永怀双手递上封条：“大元帅，封条是卑职撕的”",
+      "note": "北间账房挨着隔墙，他进去时北间已烧着，D67出厂、配发底账没抢出来"
+    }
+  },
+  {
+    "event_id": "evt-ch16-037",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "junxie_zongku",
+    "payload": {
+      "field": "ledgers",
+      "old": "存D67出厂、配发底账（清点用）",
+      "new": "D67出厂、配发底账在挨着隔墙的北间账房，焚毁；抢出七箱南间历年弹药出入账（箱角烧焦），摆在院中由羽林军两个兵守着；张永怀副官开箱验过，张永怀把账簿放回盖上",
+      "note": "清点行文写的是“调军务部所存D67出厂、配发底账”"
+    }
+  },
+  {
+    "event_id": "evt-ch16-038",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "zhang_yonghuai",
+    "payload": {
+      "content": "开库令始终没到：守库上尉早已派人去请大元帅开库令，周君州问“大元帅这会儿在哪儿”，答“派去的人还没回来”；直到火烧进北头也无人送令，上尉只得自己撕封条。张永怀天亮才到场",
+      "loop_type": "疑点",
+      "unanswered_question": "火起当夜张永怀在哪里、开库令为何始终没到",
+      "urgency": 70,
+      "planted_chapter": 16
+    }
+  },
+  {
+    "event_id": "evt-ch16-039",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "shouku_yulin_captain",
+    "payload": {
+      "content": "守库上尉撕封条进库抢账，天亮向张永怀交出封条自认，张永怀看了一眼没有接、什么也没说；张永怀对虎贲军统领只说“守住了门，没守住火，我自向圣上请罪”",
+      "loop_type": "人物处境",
+      "unanswered_question": "上尉擅撕封条会被如何处置；七箱南间弹药出入账会落到谁手里、派什么用场",
+      "urgency": 50,
+      "planted_chapter": 16
+    }
+  }
+]

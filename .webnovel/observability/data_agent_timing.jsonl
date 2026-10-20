@@ -435,3 +435,32 @@
 {"timestamp": "2026-10-19T23:19:32.819314", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-10-19T23:20:39.900171", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-10-19T23:21:09.284519", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:49:21.258964", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:49:21.714626", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:49:40.305650", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:49:40.770059", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:49:41.227189", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-19T23:49:41.678477", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:49:42.132074", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:52:17.514416", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:52:17.942361", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-19T23:52:18.382622", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-19T23:52:18.820442", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:52:19.251206", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:52:19.678862", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:52:20.103141", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:52:20.521344", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-19T23:52:20.947798", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:52:21.367913", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-19T23:57:16.194542", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T13:01:22.558807", "tool_name": "index_manager:unknown", "success": false, "elapsed_ms": 16, "error_code": "UNKNOWN_COMMAND", "error_message": "未指定有效命令"}
+{"timestamp": "2026-10-20T13:01:27.313325", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T13:01:28.172862", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-20T13:01:33.391952", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T13:01:39.686732", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-20T13:01:40.095299", "tool_name": "index_manager:register-alias", "success": false, "elapsed_ms": 9, "error_code": "ALIAS_EXISTS", "error_message": "别名已存在或注册失败: 军务部"}
+{"timestamp": "2026-10-20T13:01:40.513388", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T13:12:53.776232", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T13:12:54.196419", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-10-20T13:13:00.481869", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-20T13:13:00.901289", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 11}

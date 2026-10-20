@@ -1,155 +1,112 @@
 {
+  "chapter": 16,
   "pending": [],
-  "chapter": 15,
   "resolved": [
     {
-      "mention": "表兄／书淮",
-      "entity_id": "zhang_shuhuai",
+      "mention": "大元帅（守库上尉“大元帅有令”、周君州称呼）",
+      "entity_id": "zhang_yonghuai",
       "confidence": 0.97,
-      "method": "context_named_speaker"
-    },
-    {
-      "mention": "邱部长／外交部长",
-      "entity_id": "qiu_sitian",
-      "confidence": 0.98,
-      "method": "alias_context"
-    },
-    {
-      "mention": "思涵（张艺宣收花时所称）／涵涵（邱思甜所称）",
-      "entity_id": "wang_sihan",
-      "confidence": 0.98,
-      "method": "alias_context"
-    },
-    {
-      "mention": "大小姐（开席斗嘴、击鼓传花中周君州所称；“有件事要和大小姐对一对”）",
-      "entity_id": "wang_sihan",
-      "confidence": 0.92,
-      "method": "context_side_room_scene"
-    },
-    {
-      "mention": "小宣／艺宣姐姐／艺宣／表妹（张书淮所称）",
-      "entity_id": "zhang_yixuan",
-      "confidence": 0.98,
-      "method": "alias_context"
-    },
-    {
-      "mention": "周将军／将军／姓周的／哥哥／君州",
-      "entity_id": "zhou_junzhou",
-      "confidence": 0.98,
-      "method": "context_speaker"
-    },
-    {
-      "mention": "君瑶／那孩子（王思涵眼中）／鼓手（张艺宣所称）",
-      "entity_id": "zhou_junyao",
-      "confidence": 0.99,
-      "method": "alias_exact"
-    },
-    {
-      "mention": "副军长",
-      "entity_id": "deng_shengbao",
-      "confidence": 0.95,
-      "method": "title_unique_lingwu"
-    },
-    {
-      "mention": "殿下（离殿下远着呢／替我给殿下道一声贺）／东宫",
-      "entity_id": "crown_prince",
-      "confidence": 0.93,
-      "method": "context_birthday_banquet"
-    },
-    {
-      "mention": "圣上",
-      "entity_id": "emperor",
-      "confidence": 0.93,
       "method": "title_unique"
     },
     {
-      "mention": "柳条巷口，茶馆跑堂／替我递消息的",
-      "entity_id": "laozhaotou_xianren",
-      "confidence": 0.97,
-      "method": "context_ch14"
-    },
-    {
-      "mention": "卖炭的",
-      "entity_id": "maitan_hanzi",
-      "confidence": 0.95,
-      "method": "context_ch14"
-    },
-    {
-      "mention": "德裕银号伙计",
-      "entity_id": "deyu_tixian_huoji",
-      "confidence": 0.95,
-      "method": "context_ch14"
-    },
-    {
-      "mention": "北边票号分号管汇票的伙计",
-      "entity_id": "piaohao_huipiao_huoji",
-      "confidence": 0.95,
-      "method": "context_ch14"
-    },
-    {
-      "mention": "城南那座寺",
-      "entity_id": "chengnan_temple",
-      "confidence": 0.93,
-      "method": "context_ch13"
-    },
-    {
-      "mention": "寺里那个老执事",
-      "entity_id": "chengnan_temple_deacon",
-      "confidence": 0.9,
-      "method": "context_ch13"
-    },
-    {
-      "mention": "暖阁／偏间／东厢／西厢",
-      "entity_id": "zhang_yixuan_residence",
-      "confidence": 0.97,
-      "method": "context_location"
-    },
-    {
-      "mention": "军械总库／总库",
-      "entity_id": "junxie_zongku",
+      "mention": "姓周的（王思涵所称）",
+      "entity_id": "zhou_junzhou",
       "confidence": 0.98,
-      "method": "alias_exact"
+      "method": "established_address_terms"
     },
     {
-      "mention": "中庆话",
-      "entity_id": "zhongqing",
-      "confidence": 0.9,
-      "method": "alias_partial"
+      "mention": "大小姐（周君州所称）",
+      "entity_id": "wang_sihan",
+      "confidence": 0.98,
+      "method": "established_address_terms"
     },
     {
-      "mention": "跟车的王家近卫军／府门口值夜的王家近卫军／值夜的兵／两个王家近卫军的兵／前院歇着的兵",
-      "entity_id": "zhang_yixuan_family_guard",
-      "confidence": 0.96,
-      "method": "alias_partial_context_ch13_14"
-    },
-    {
-      "mention": "殿下（值夜的王家近卫军在暖阁门外喊“殿下，灵武军来人了！”）",
+      "mention": "你家殿下（王思涵对跟车兵所说）",
       "entity_id": "zhang_yixuan",
-      "confidence": 0.88,
-      "method": "context_household_address_princess"
+      "confidence": 0.95,
+      "method": "context_family_guard"
     },
     {
-      "mention": "户部（抚恤户部要是不认）",
-      "entity_id": "hubu",
-      "confidence": 0.95,
-      "method": "alias_exact"
+      "mention": "殿下（第三处领头人对张书淮）／我是吴訥亲王",
+      "entity_id": "zhang_shuhuai",
+      "confidence": 0.99,
+      "method": "self_identification"
     },
     {
-      "mention": "灵武大街",
-      "entity_id": "lingwu_avenue",
+      "mention": "军长（君来乡作战室）",
+      "entity_id": "fifth_army_commander",
       "confidence": 0.95,
-      "method": "alias_exact"
+      "method": "scene_location_fifth_army"
+    },
+    {
+      "mention": "参谋长（君来乡作战室）",
+      "entity_id": "fifth_army_chief_of_staff",
+      "confidence": 0.95,
+      "method": "scene_location_fifth_army"
+    },
+    {
+      "mention": "政委（曼桂槐把营里交给政委）",
+      "entity_id": "li_wenbin",
+      "confidence": 0.85,
+      "method": "role_unique_lingwu"
+    },
+    {
+      "mention": "虎贲军的统领",
+      "entity_id": "huben_commander",
+      "confidence": 0.95,
+      "method": "existing_entity_by_title"
+    },
+    {
+      "mention": "京兆府那个主簿",
+      "entity_id": "jingzhaofu_zhubu",
+      "confidence": 0.9,
+      "method": "existing_entity_prior_interaction_ch14"
+    },
+    {
+      "mention": "神策军中尉（水龙队领头）",
+      "entity_id": "shence_shuilongdui",
+      "confidence": 0.9,
+      "method": "new_entity_grouped_under_unit",
+      "note": "非第11章已死的 shence_lieutenant，折入水龙队实体，不单建人物"
+    },
+    {
+      "mention": "羽林军上尉（守库）",
+      "entity_id": "shouku_yulin_captain",
+      "confidence": 0.95,
+      "method": "new_entity_by_post"
+    },
+    {
+      "mention": "被服库值夜的兵",
+      "entity_id": "beifuku_zhiye_bing",
+      "confidence": 0.95,
+      "method": "new_entity_by_post"
+    },
+    {
+      "mention": "今夜值宿的司官",
+      "entity_id": "junwu_zhisu_siguan",
+      "confidence": 0.95,
+      "method": "new_entity_by_post"
+    },
+    {
+      "mention": "王爷（街坊们看见张书淮所喊）",
+      "entity_id": "zhang_shuhuai",
+      "confidence": 0.97,
+      "method": "explicit_subject"
+    },
+    {
+      "mention": "军务部（旧名军务本部）",
+      "entity_id": "junwu_benbu",
+      "confidence": 0.99,
+      "method": "renamed_canonical",
+      "note": "实体 id 保持 junwu_benbu，canonical_name 改为“军务部”"
     }
   ],
   "warnings": [
-    "“参谋本部的一位将军”（邱思甜转述其说停战草稿“作废了，正好”）疑为第13章的 general_staff_ops_general，但正文未点明，置信度约0.6，只在事件正文中记为转述，不写实体关联。",
-    "“灵武军马弁”“周府的老家人”“小丫头”“管事”“门房”“礼部那位侍郎”“城北车行伙计”按职位代称处理，未建实体；“老家人”沿第14章做法不与 zhoufu_guanjia 合并。",
-    "张艺宣对周君州的情意按约束不入事实，只记她的举动（糖芋苗、认手套、解围、叫“君州”后改口说粥、递军帽）。",
-    "失火起因未写、未记；周君瑶身世未点破，事件只记中庆话一问一答与她闪回的感官片段。",
-    "“殿下”一词本章两指：值夜王家近卫军喊的“殿下”指张艺宣（亲王府私兵称公主），张艺宣口中“离殿下远着呢”“替我给殿下道一声贺”指皇太子；已分开消歧，置信度0.88/0.93。",
-    "王家近卫军（张艺宣府上）只作为组织 zhang_yixuan_family_guard 记录出场与举动，个别兵卒未建实体。",
-    "新增段落中邱思甜与张书淮、张艺宣对周君州的情意均按约束不入事实，只记举动（推酥饼、回廊道谢叫“书淮”、他退步拱手；张艺宣听“怕君瑶哭”后给自己斟半杯酒；最后一回花落她手、张书淮要问，她说“这一回不算”，起身把腊梅插回瓶里，插得很快）。",
-    "“后天”拆线按本章时间（二月八日夜）换算为二月十日，置信度0.9。",
-    "击鼓传花最后一回周君瑶停鼓：正文写她说手酸了不敲了、转过身来才瞧见花在张艺宣手里、一脸不明所以，按巧合记，不记为有意替张艺宣解围；王思涵看出周君瑶自请敲鼓是躲人问话，按王思涵所见记入事件 note，不作周君瑶本人动机的事实。"
+    {
+      "mention": "第三处领头人（四个黑制服者领头、摘帽欠身）",
+      "entity_id": "third_bureau",
+      "confidence": 0.6,
+      "note": "是否即第11章 disanchu_lingtou_tanyuan（年纪不轻、少开口）正文未交代，不合并；仅记为第三处成员，不建实体"
+    }
   ]
 }
