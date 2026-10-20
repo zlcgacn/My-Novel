@@ -546,3 +546,99 @@
 {"timestamp": "2026-10-20T13:49:46.075119", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-10-20T13:50:30.017147", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-10-20T13:50:30.461727", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:18:44.815383", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:18:45.257190", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-10-20T14:18:57.132209", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:18:57.581798", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-10-20T14:18:58.007701", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-10-20T14:18:58.438448", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:18:58.880498", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T14:18:59.346586", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 15, "error_code": "NOT_FOUND", "error_message": "未找到别名: 城南寺"}
+{"timestamp": "2026-10-20T14:18:59.779953", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 15, "error_code": "NOT_FOUND", "error_message": "未找到别名: 粥棚"}
+{"timestamp": "2026-10-20T14:19:00.226129", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 王家近卫军"}
+{"timestamp": "2026-10-20T14:19:00.664851", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 第三处"}
+{"timestamp": "2026-10-20T14:19:01.147014", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:19:01.594347", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 19, "error_code": "NOT_FOUND", "error_message": "未找到别名: 皇家文理大学"}
+{"timestamp": "2026-10-20T14:19:02.016751", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 文理大学"}
+{"timestamp": "2026-10-20T14:19:02.468858", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 崔贤珠"}
+{"timestamp": "2026-10-20T14:19:02.908842", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 秦守义"}
+{"timestamp": "2026-10-20T14:19:03.330805", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 秦婉"}
+{"timestamp": "2026-10-20T14:19:03.767963", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 17, "error_code": "NOT_FOUND", "error_message": "未找到别名: 张承曜"}
+{"timestamp": "2026-10-20T14:19:04.200777", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 安平亲王"}
+{"timestamp": "2026-10-20T14:19:04.653765", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 谢苗诺夫斯基近卫军"}
+{"timestamp": "2026-10-20T14:19:05.074596", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 太子"}
+{"timestamp": "2026-10-20T14:19:05.519227", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:19:05.940754", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:19:06.372818", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:19:06.833018", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-10-20T14:19:07.262247", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 虎贲军"}
+{"timestamp": "2026-10-20T14:19:07.694617", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 13, "error_code": "NOT_FOUND", "error_message": "未找到别名: 东宫"}
+{"timestamp": "2026-10-20T14:19:08.118334", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 18, "error_code": "NOT_FOUND", "error_message": "未找到别名: 马弁"}
+{"timestamp": "2026-10-20T14:19:08.563586", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 18, "error_code": "NOT_FOUND", "error_message": "未找到别名: 灵武军马弁"}
+{"timestamp": "2026-10-20T14:19:09.008720", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-10-20T14:19:09.428780", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 17, "error_code": "NOT_FOUND", "error_message": "未找到别名: 近卫军"}
+{"timestamp": "2026-10-20T14:19:09.877268", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:19:10.306804", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 老家人"}
+{"timestamp": "2026-10-20T14:19:10.723783", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 周府老家人"}
+{"timestamp": "2026-10-20T14:19:11.139089", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 门房"}
+{"timestamp": "2026-10-20T14:19:11.586635", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 19, "error_code": "NOT_FOUND", "error_message": "未找到别名: 周府门房"}
+{"timestamp": "2026-10-20T14:19:12.036188", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 13, "error_code": "NOT_FOUND", "error_message": "未找到别名: 高丽"}
+{"timestamp": "2026-10-20T14:19:12.485620", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 20, "error_code": "NOT_FOUND", "error_message": "未找到别名: 大和"}
+{"timestamp": "2026-10-20T14:19:12.941919", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 15, "error_code": "NOT_FOUND", "error_message": "未找到别名: 黑脸膛汉子"}
+{"timestamp": "2026-10-20T14:19:13.376217", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 17, "error_code": "NOT_FOUND", "error_message": "未找到别名: 侍从"}
+{"timestamp": "2026-10-20T14:19:13.818515", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:19:14.258075", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-10-20T14:19:14.702731", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:19:15.146287", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:19:15.607022", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-20T14:19:16.082176", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 18, "error_code": "NOT_FOUND", "error_message": "未找到别名: 中庆"}
+{"timestamp": "2026-10-20T14:19:16.527322", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-10-20T14:19:16.963354", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 第三处探员"}
+{"timestamp": "2026-10-20T14:19:51.619025", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-10-20T14:19:58.279155", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-20T14:19:58.732908", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-10-20T14:19:59.204330", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-10-20T14:19:59.677093", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:20:00.155598", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-10-20T14:20:00.612468", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:20:01.071386", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-10-20T14:20:01.509887", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:01.944278", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T14:20:02.414259", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-10-20T14:20:02.898194", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:20:03.365484", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:03.821747", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-10-20T14:20:04.304813", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:20:04.789189", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-20T14:20:05.226879", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-10-20T14:20:05.675138", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-20T14:20:06.118208", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:06.551117", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-20T14:20:06.997228", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-10-20T14:20:07.456117", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:20:07.883481", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:20:08.322532", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:20:08.770856", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:20:22.587800", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:23.024851", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T14:20:23.454990", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-10-20T14:20:23.881198", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:24.304386", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:20:24.721595", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:20:25.154764", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-10-20T14:20:25.594448", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:26.021950", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:20:26.457803", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T14:20:26.910135", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-10-20T14:20:27.345204", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-10-20T14:20:27.785078", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-10-20T14:20:28.216344", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-10-20T14:20:28.634460", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:20:29.052245", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:20:29.480107", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-10-20T14:20:29.929468", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T14:26:17.856709", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-10-20T15:09:55.640025", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T15:09:56.040911", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T15:11:12.594398", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T15:11:13.022116", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 11}

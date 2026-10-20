@@ -1,15 +1,15 @@
 {
-  "chapter": 16,
-  "start_chapter": 16,
-  "end_chapter": 16,
-  "overall_score": 60.0,
+  "chapter": 17,
+  "start_chapter": 17,
+  "end_chapter": 17,
+  "overall_score": 72.0,
   "dimension_scores": {
-    "continuity": 80.0,
-    "setting": 98.0,
-    "character": 96.0,
-    "timeline": 96.0,
+    "continuity": 92.0,
+    "setting": 96.0,
+    "character": 98.0,
+    "timeline": 100.0,
     "ai_flavor": 100.0,
-    "logic": 90.0,
+    "logic": 86.0,
     "pacing": 100.0,
     "other": 100.0
   },
@@ -17,19 +17,18 @@
     "critical": 0,
     "high": 0,
     "medium": 3,
-    "low": 11
+    "low": 5
   },
   "critical_issues": [],
-  "report_file": "审查报告/第16章审查报告.md",
-  "notes": "14个问题：0个阻断，0个高优，3个中优，11个低优 | issues=14 | blocking=0 | categories=character,continuity,logic,setting,timeline",
-  "issues_count": 14,
+  "report_file": "审查报告/第17章审查报告.md",
+  "notes": "8个问题：0个阻断，0个高优（3个中，5个低）。两段基本达到“读者嘴替、兄妹只答半句”的意图；视角没有越界；邱思甜外交部长“这些年在朝里”与设定、第13章“她在外交部这些年”一致，没有冲突；没有撞前文已用过的意象。 | issues=8 | blocking=0 | categories=character,continuity,logic,setting",
+  "issues_count": 8,
   "blocking_count": 0,
   "categories": [
     "character",
     "continuity",
     "logic",
-    "setting",
-    "timeline"
+    "setting"
   ],
-  "timestamp": "2026-10-20T13:08:28"
+  "timestamp": "2026-10-20T15:09:41"
 }

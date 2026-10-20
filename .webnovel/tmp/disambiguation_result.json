@@ -1,112 +1,107 @@
 {
-  "chapter": 16,
+  "chapter": 17,
   "pending": [],
   "resolved": [
     {
-      "mention": "大元帅（守库上尉“大元帅有令”、周君州称呼）",
-      "entity_id": "zhang_yonghuai",
+      "mention": "元帅（马弁“元帅有令”）／周元帅（裴伯言所说）",
+      "entity_id": "zhou_shiheng",
+      "confidence": 0.85,
+      "method": "chapter_contract_cen",
+      "note": "合同 CEN 明写“周世衡召各军长议事”；中央近卫集团军群元帅"
+    },
+    {
+      "mention": "大哥（张书淮心里）／东宫",
+      "entity_id": "crown_prince",
+      "confidence": 0.95,
+      "method": "established_family_terms"
+    },
+    {
+      "mention": "那位殿下／安平王爷／安平亲王张承曜",
+      "entity_id": "zhang_chengyao",
       "confidence": 0.97,
-      "method": "title_unique"
+      "method": "explicit_name_new_entity"
     },
     {
-      "mention": "姓周的（王思涵所称）",
-      "entity_id": "zhou_junzhou",
-      "confidence": 0.98,
-      "method": "established_address_terms"
-    },
-    {
-      "mention": "大小姐（周君州所称）",
-      "entity_id": "wang_sihan",
-      "confidence": 0.98,
-      "method": "established_address_terms"
-    },
-    {
-      "mention": "你家殿下（王思涵对跟车兵所说）",
+      "mention": "殿下（跟车兵“殿下交代过”）",
       "entity_id": "zhang_yixuan",
       "confidence": 0.95,
       "method": "context_family_guard"
     },
     {
-      "mention": "殿下（第三处领头人对张书淮）／我是吴訥亲王",
+      "mention": "王爷（街坊、了尘、秦守义之妻所称）",
       "entity_id": "zhang_shuhuai",
-      "confidence": 0.99,
-      "method": "self_identification"
-    },
-    {
-      "mention": "军长（君来乡作战室）",
-      "entity_id": "fifth_army_commander",
-      "confidence": 0.95,
-      "method": "scene_location_fifth_army"
-    },
-    {
-      "mention": "参谋长（君来乡作战室）",
-      "entity_id": "fifth_army_chief_of_staff",
-      "confidence": 0.95,
-      "method": "scene_location_fifth_army"
-    },
-    {
-      "mention": "政委（曼桂槐把营里交给政委）",
-      "entity_id": "li_wenbin",
-      "confidence": 0.85,
-      "method": "role_unique_lingwu"
-    },
-    {
-      "mention": "虎贲军的统领",
-      "entity_id": "huben_commander",
-      "confidence": 0.95,
-      "method": "existing_entity_by_title"
-    },
-    {
-      "mention": "京兆府那个主簿",
-      "entity_id": "jingzhaofu_zhubu",
-      "confidence": 0.9,
-      "method": "existing_entity_prior_interaction_ch14"
-    },
-    {
-      "mention": "神策军中尉（水龙队领头）",
-      "entity_id": "shence_shuilongdui",
-      "confidence": 0.9,
-      "method": "new_entity_grouped_under_unit",
-      "note": "非第11章已死的 shence_lieutenant，折入水龙队实体，不单建人物"
-    },
-    {
-      "mention": "羽林军上尉（守库）",
-      "entity_id": "shouku_yulin_captain",
-      "confidence": 0.95,
-      "method": "new_entity_by_post"
-    },
-    {
-      "mention": "被服库值夜的兵",
-      "entity_id": "beifuku_zhiye_bing",
-      "confidence": 0.95,
-      "method": "new_entity_by_post"
-    },
-    {
-      "mention": "今夜值宿的司官",
-      "entity_id": "junwu_zhisu_siguan",
-      "confidence": 0.95,
-      "method": "new_entity_by_post"
-    },
-    {
-      "mention": "王爷（街坊们看见张书淮所喊）",
-      "entity_id": "zhang_shuhuai",
-      "confidence": 0.97,
+      "confidence": 0.98,
       "method": "explicit_subject"
     },
     {
-      "mention": "军务部（旧名军务本部）",
-      "entity_id": "junwu_benbu",
+      "mention": "裴伯言／裴教授／裴先生",
+      "entity_id": "wenli_professor",
       "confidence": 0.99,
-      "method": "renamed_canonical",
-      "note": "实体 id 保持 junwu_benbu，canonical_name 改为“军务部”"
+      "method": "existing_alias"
+    },
+    {
+      "mention": "了尘",
+      "entity_id": "chengnan_temple_deacon",
+      "confidence": 0.99,
+      "method": "existing_alias"
+    },
+    {
+      "mention": "侍从（粥棚送粥）",
+      "entity_id": "qinwangfu_attendant",
+      "confidence": 0.85,
+      "method": "existing_entity_by_role"
+    },
+    {
+      "mention": "帝国皇家文理大学／文理大学／学堂",
+      "entity_id": "imperial_wenli_university",
+      "confidence": 0.97,
+      "method": "existing_entity_variant_name",
+      "note": "已有实体 imperial_wenli_university，正式名已定为“帝国皇家文理大学”（简称文理大学），类型 组织；沿用此 id 与名"
+    },
+    {
+      "mention": "第三处的走廊／过道",
+      "entity_id": "disanchu_yamen",
+      "confidence": 0.85,
+      "method": "existing_entity_by_place"
+    },
+    {
+      "mention": "王家近卫军（跟车的两个兵）",
+      "entity_id": "zhang_yixuan_family_guard",
+      "confidence": 0.97,
+      "method": "existing_entity_by_title"
+    },
+    {
+      "mention": "曼参谋长",
+      "entity_id": "man_guihuai",
+      "confidence": 0.95,
+      "method": "title_unique_lingwu"
+    },
+    {
+      "mention": "领头的人（文理大学拿人）",
+      "entity_id": "disanchu_wenli_lingtou",
+      "confidence": 0.9,
+      "method": "new_entity_by_post",
+      "note": "不与第11章 disanchu_lingtou_tanyuan、第16章火场领头人合并"
     }
   ],
   "warnings": [
     {
-      "mention": "第三处领头人（四个黑制服者领头、摘帽欠身）",
+      "mention": "上了年纪的探员（过道里劝周君瑶回府）",
       "entity_id": "third_bureau",
       "confidence": 0.6,
-      "note": "是否即第11章 disanchu_lingtou_tanyuan（年纪不轻、少开口）正文未交代，不合并；仅记为第三处成员，不建实体"
+      "note": "是否即第11章 disanchu_lingtou_tanyuan（年纪不轻）正文未交代，不合并；仅记为第三处成员，不建实体"
+    },
+    {
+      "mention": "他们军长（谢苗诺夫斯基近卫军军长，仅被提及）",
+      "entity_id": "semenovsky_guards",
+      "confidence": 0.7,
+      "note": "设定/军制.md 军长为奥列格·罗曼诺夫，本章未点名，记入势力描述，不单建人物"
+    },
+    {
+      "mention": "灵武军马弁",
+      "entity_id": "lingwu_army",
+      "confidence": 0.7,
+      "note": "未点名，是否即第15章邓声宝派去张艺宣府上的马弁不明，折入灵武军，不建实体"
     }
   ]
 }
