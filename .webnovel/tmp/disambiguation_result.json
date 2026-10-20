@@ -1,107 +1,130 @@
 {
-  "chapter": 17,
+  "chapter": 18,
   "pending": [],
   "resolved": [
     {
-      "mention": "元帅（马弁“元帅有令”）／周元帅（裴伯言所说）",
+      "mention": "那边的军长／那家的军长（马弁、婶娘所说）",
+      "entity_id": "oleg_romanov",
+      "confidence": 0.95,
+      "method": "context_semenovsky",
+      "note": "马弁补的是第17章“谢苗诺夫斯基近卫军那边……”的话"
+    },
+    {
+      "mention": "奥列格·罗曼诺夫",
+      "entity_id": "oleg_romanov",
+      "confidence": 0.99,
+      "method": "explicit_name_new_entity",
+      "note": "设定/军制.md 谢苗诺夫斯基近卫军军长；新建实体，tier 定为重要"
+    },
+    {
+      "mention": "源爱莲娜",
+      "entity_id": "yuan_ailianna",
+      "confidence": 0.99,
+      "method": "explicit_name_new_entity",
+      "note": "设定/军制.md 近卫师团军长，中将；正文与实体均不写性别"
+    },
+    {
+      "mention": "威廉·汉诺威／汉诺威",
+      "entity_id": "first_guards_army_commander",
+      "confidence": 0.99,
+      "method": "existing_alias",
+      "note": "沿用已有 id first_guards_army_commander（id 名带 first_guards_army 是历史遗留，实为冷溪近卫军军长）；tier 装饰→次要"
+    },
+    {
+      "mention": "元帅／父亲／太傅",
       "entity_id": "zhou_shiheng",
-      "confidence": 0.85,
-      "method": "chapter_contract_cen",
-      "note": "合同 CEN 明写“周世衡召各军长议事”；中央近卫集团军群元帅"
-    },
-    {
-      "mention": "大哥（张书淮心里）／东宫",
-      "entity_id": "crown_prince",
-      "confidence": 0.95,
-      "method": "established_family_terms"
-    },
-    {
-      "mention": "那位殿下／安平王爷／安平亲王张承曜",
-      "entity_id": "zhang_chengyao",
-      "confidence": 0.97,
-      "method": "explicit_name_new_entity"
-    },
-    {
-      "mention": "殿下（跟车兵“殿下交代过”）",
-      "entity_id": "zhang_yixuan",
-      "confidence": 0.95,
-      "method": "context_family_guard"
-    },
-    {
-      "mention": "王爷（街坊、了尘、秦守义之妻所称）",
-      "entity_id": "zhang_shuhuai",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "method": "explicit_subject"
     },
     {
-      "mention": "裴伯言／裴教授／裴先生",
-      "entity_id": "wenli_professor",
-      "confidence": 0.99,
-      "method": "existing_alias"
-    },
-    {
-      "mention": "了尘",
-      "entity_id": "chengnan_temple_deacon",
-      "confidence": 0.99,
-      "method": "existing_alias"
-    },
-    {
-      "mention": "侍从（粥棚送粥）",
-      "entity_id": "qinwangfu_attendant",
-      "confidence": 0.85,
-      "method": "existing_entity_by_role"
-    },
-    {
-      "mention": "帝国皇家文理大学／文理大学／学堂",
-      "entity_id": "imperial_wenli_university",
+      "mention": "殿下（寿辰）／太子张允恭",
+      "entity_id": "crown_prince",
       "confidence": 0.97,
-      "method": "existing_entity_variant_name",
-      "note": "已有实体 imperial_wenli_university，正式名已定为“帝国皇家文理大学”（简称文理大学），类型 组织；沿用此 id 与名"
+      "method": "explicit_name"
     },
     {
-      "mention": "第三处的走廊／过道",
-      "entity_id": "disanchu_yamen",
-      "confidence": 0.85,
-      "method": "existing_entity_by_place"
+      "mention": "圣上",
+      "entity_id": "emperor",
+      "confidence": 0.95,
+      "method": "established_title"
     },
     {
-      "mention": "王家近卫军（跟车的两个兵）",
+      "mention": "恭肃亲王",
+      "entity_id": "gongsu_prince",
+      "confidence": 0.9,
+      "method": "setting_table",
+      "note": "设定/人物.md：张延钧，恭肃亲王，张艺宣之父；新建装饰实体"
+    },
+    {
+      "mention": "表兄张书淮",
+      "entity_id": "zhang_shuhuai",
+      "confidence": 0.99,
+      "method": "explicit_name"
+    },
+    {
+      "mention": "司官（自称昨夜在部里值宿）",
+      "entity_id": "junwu_zhisu_siguan",
+      "confidence": 0.9,
+      "method": "existing_entity_by_post"
+    },
+    {
+      "mention": "府里的兵（宫门外递话、送笺纸）",
       "entity_id": "zhang_yixuan_family_guard",
-      "confidence": 0.97,
+      "confidence": 0.9,
       "method": "existing_entity_by_title"
     },
     {
-      "mention": "曼参谋长",
-      "entity_id": "man_guihuai",
-      "confidence": 0.95,
-      "method": "title_unique_lingwu"
+      "mention": "中央近卫集团军群的司令部",
+      "entity_id": "central_guards_hq",
+      "confidence": 0.99,
+      "method": "new_entity_place"
     },
     {
-      "mention": "领头的人（文理大学拿人）",
-      "entity_id": "disanchu_wenli_lingtou",
+      "mention": "东宫",
+      "entity_id": "dong_gong",
+      "confidence": 0.99,
+      "method": "new_entity_place",
+      "note": "索引中无东宫实体，新建"
+    },
+    {
+      "mention": "那封信",
+      "entity_id": "weizhuang_jiashu",
       "confidence": 0.9,
-      "method": "new_entity_by_post",
-      "note": "不与第11章 disanchu_lingtou_tanyuan、第16章火场领头人合并"
+      "method": "new_entity_item",
+      "note": "第14章起的伪装家书，原只记在 protagonist_state.liaison_letter，本章建物品实体"
+    },
+    {
+      "mention": "口令／瓦尔基里行动",
+      "entity_id": "valkyrie_plan",
+      "confidence": 0.99,
+      "method": "existing_alias",
+      "note": "tier 装饰→重要"
     }
   ],
   "warnings": [
     {
-      "mention": "上了年纪的探员（过道里劝周君瑶回府）",
-      "entity_id": "third_bureau",
+      "mention": "城防司令官兼内务总监（电文署名）",
+      "entity_id": null,
       "confidence": 0.6,
-      "note": "是否即第11章 disanchu_lingtou_tanyuan（年纪不轻）正文未交代，不合并；仅记为第三处成员，不建实体"
+      "note": "设定/人物.md 内务总监为端木正（未出场，索引无实体）；本章禁区不点破发令人，故只记入 valkyrie_plan 与 interior_ministry，不建人物实体"
     },
     {
-      "mention": "他们军长（谢苗诺夫斯基近卫军军长，仅被提及）",
-      "entity_id": "semenovsky_guards",
-      "confidence": 0.7,
-      "note": "设定/军制.md 军长为奥列格·罗曼诺夫，本章未点名，记入势力描述，不单建人物"
+      "mention": "行军路线附页草图（铅笔线条很稳）",
+      "entity_id": "qiu_shenao",
+      "confidence": 0.75,
+      "note": "正文未明说是邱深澳所画；据 protagonist_state.duty（负责三山门一路行军计划）与合同代价“邱深澳画的路线要用上”记入其 duty"
     },
     {
       "mention": "灵武军马弁",
       "entity_id": "lingwu_army",
       "confidence": 0.7,
-      "note": "未点名，是否即第15章邓声宝派去张艺宣府上的马弁不明，折入灵武军，不建实体"
+      "note": "未点名，折入灵武军，不建实体"
+    },
+    {
+      "mention": "张艺宣的丫头、两个婶娘、内侍、礼官、首相府书办、报务员、传令兵",
+      "entity_id": null,
+      "confidence": 0.9,
+      "note": "无名功能人物，不建实体"
     }
   ]
 }

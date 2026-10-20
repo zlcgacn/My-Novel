@@ -1,34 +1,35 @@
 {
-  "chapter": 17,
-  "start_chapter": 17,
-  "end_chapter": 17,
-  "overall_score": 72.0,
+  "chapter": 18,
+  "start_chapter": 18,
+  "end_chapter": 18,
+  "overall_score": 30.0,
   "dimension_scores": {
-    "continuity": 92.0,
+    "continuity": 66.0,
     "setting": 96.0,
-    "character": 98.0,
-    "timeline": 100.0,
+    "character": 82.0,
+    "timeline": 92.0,
     "ai_flavor": 100.0,
-    "logic": 86.0,
+    "logic": 94.0,
     "pacing": 100.0,
     "other": 100.0
   },
   "severity_counts": {
     "critical": 0,
     "high": 0,
-    "medium": 3,
-    "low": 5
+    "medium": 6,
+    "low": 17
   },
   "critical_issues": [],
-  "report_file": "审查报告/第17章审查报告.md",
-  "notes": "8个问题：0个阻断，0个高优（3个中，5个低）。两段基本达到“读者嘴替、兄妹只答半句”的意图；视角没有越界；邱思甜外交部长“这些年在朝里”与设定、第13章“她在外交部这些年”一致，没有冲突；没有撞前文已用过的意象。 | issues=8 | blocking=0 | categories=character,continuity,logic,setting",
-  "issues_count": 8,
+  "report_file": "审查报告/第18章审查报告.md",
+  "notes": "23个问题：0个阻断，6个中优（第三处绳子误作昨天、王思涵认出没见过的司官、照搬第17章跪拜句、照搬第15章小军装回忆、灵武军兵应下王思涵抬走周君瑶、叙述中用昵称），17个低优 | issues=23 | blocking=0 | categories=character,continuity,logic,setting,timeline",
+  "issues_count": 23,
   "blocking_count": 0,
   "categories": [
     "character",
     "continuity",
     "logic",
-    "setting"
+    "setting",
+    "timeline"
   ],
-  "timestamp": "2026-10-20T15:09:41"
+  "timestamp": "2026-10-20T16:08:42"
 }
