@@ -1,35 +1,34 @@
 {
-  "chapter": 19,
-  "start_chapter": 19,
-  "end_chapter": 19,
-  "overall_score": 16.0,
+  "chapter": 20,
+  "start_chapter": 20,
+  "end_chapter": 20,
+  "overall_score": 38.0,
   "dimension_scores": {
-    "continuity": 70.0,
-    "setting": 96.0,
-    "character": 75.0,
-    "timeline": 83.0,
+    "continuity": 67.0,
+    "setting": 92.0,
+    "character": 94.0,
+    "timeline": 85.0,
     "ai_flavor": 100.0,
-    "logic": 92.0,
+    "logic": 100.0,
     "pacing": 100.0,
     "other": 100.0
   },
   "severity_counts": {
     "critical": 0,
     "high": 2,
-    "medium": 6,
-    "low": 9
+    "medium": 4,
+    "low": 4
   },
   "critical_issues": [],
-  "report_file": "审查报告/第19章审查报告.md",
-  "notes": "17个问题：0个阻断，2个高优（时辰矛盾、张书淮视角越界），6个中等，9个低优；大纲禁区全部守住 | issues=17 | blocking=0 | categories=character,continuity,logic,setting,timeline",
-  "issues_count": 17,
+  "report_file": "审查报告/第20章审查报告.md",
+  "notes": "10个问题：0个阻断，2个高优（第四场时辰与第二场先后冲突；两视角场上部队不一致），4个中等，4个低。禁区全部守住：张永怀不露面，口令出处和时辰未点破，周君州不推论时辰，不写殿内，全城无人开枪，未提无名高地。踏浪营、江伏波、旧式步枪均无残留；“空着手”只出现在启封前邓声宝的话里，合理。逻辑项均成立：近卫军的 D67 有第8章、第18章依据（“我那几个师的枪，也还封着”），启封与圣旨的冲突已由“他们也启了封，跟他一样”交代；周君州违父令有“眼下只剩这一条路”撑着；源爱莲娜放行有“要一句话”的问答；上将不报名合乎身份。 | issues=10 | blocking=0 | categories=character,continuity,setting,timeline",
+  "issues_count": 10,
   "blocking_count": 0,
   "categories": [
     "character",
     "continuity",
-    "logic",
     "setting",
     "timeline"
   ],
-  "timestamp": "2026-10-20T18:28:24"
+  "timestamp": "2026-10-21T19:13:57"
 }

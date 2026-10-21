@@ -1,142 +1,202 @@
 {
-  "chapter": 19,
+  "chapter": 20,
   "pending": [],
   "resolved": [
     {
-      "mention": "那人（羽林军上校，提黑皮公文包）／那个上校",
-      "entity_id": "yulin_colonel_gongwenbao",
+      "mention": "中央预备役集团军副司令／预备役的副司令／那位副司令",
+      "entity_id": "reserve_general",
       "confidence": 0.95,
       "method": "new_entity_unnamed",
-      "note": "正文未点名；设定/人物.md 有张永怀心腹韦廷甫（家宴带炸药进殿，未出场），但本章禁区不点名、不写炸药，按调用方要求不合并，另建代称实体，tier 次要"
+      "note": "正文不报名，代称新建，tier 次要；未与任何已有人物合并"
     },
     {
-      "mention": "须发花白的老亲王（皇帝的堂兄，宗室里年纪最长的一个）／老王爷",
-      "entity_id": "zongshi_lao_qinwang",
-      "confidence": 0.95,
-      "method": "new_entity_unnamed",
-      "note": "正文未点名，代称建装饰实体"
-    },
-    {
-      "mention": "父亲恭肃亲王张延钧",
-      "entity_id": "gongsu_prince",
+      "mention": "中央预备役集团军／预备役",
+      "entity_id": "central_reserve_group_army",
       "confidence": 0.99,
       "method": "existing_alias",
-      "note": "沿用 gongsu_prince；本章首次在场有动作，tier 装饰→次要"
+      "note": "沿用 central_reserve_group_army，装饰→次要"
     },
     {
-      "mention": "虎贲军统领宇文策",
-      "entity_id": "huben_commander",
+      "mention": "行军日志",
+      "entity_id": "luhengzhi_xingjun_rizhi",
+      "confidence": 0.95,
+      "method": "new_entity_item"
+    },
+    {
+      "mention": "兴庆门",
+      "entity_id": "xingqing_gate",
       "confidence": 0.99,
       "method": "existing_alias",
-      "note": "tier 装饰→次要"
+      "note": "沿用 xingqing_gate，装饰→次要"
     },
     {
-      "mention": "侍从武官长",
-      "entity_id": "chief_aide_de_camp",
-      "confidence": 0.95,
+      "mention": "康建广场",
+      "entity_id": "kangjian_guangchang",
+      "confidence": 0.99,
+      "method": "existing_alias",
+      "note": "沿用 kangjian_guangchang，装饰→次要"
+    },
+    {
+      "mention": "汉诺威／威廉·汉诺威",
+      "entity_id": "first_guards_army_commander",
+      "confidence": 0.99,
+      "method": "existing_alias",
+      "note": "索引 id 为 first_guards_army_commander（名威廉·汉诺威，冷溪近卫军军长），沿用原 id 与原名"
+    },
+    {
+      "mention": "霍长庚／霍军长／鬓角花白的将官",
+      "entity_id": "fifth_army_commander",
+      "confidence": 0.99,
       "method": "existing_alias"
     },
     {
-      "mention": "周府的管家",
-      "entity_id": "zhoufu_guanjia",
-      "confidence": 0.95,
+      "mention": "卢衡之",
+      "entity_id": "fifth_army_chief_of_staff",
+      "confidence": 0.99,
       "method": "existing_alias"
     },
     {
-      "mention": "有人说过一句“替我给殿下道一声贺”／那人／说这句话的人",
-      "entity_id": "zhou_junzhou",
-      "confidence": 0.95,
-      "method": "callback_ch15",
-      "note": "第15章第459、463行周君州原话"
+      "mention": "源爱莲娜",
+      "entity_id": "yuan_ailianna",
+      "confidence": 0.99,
+      "method": "existing_alias"
     },
     {
-      "mention": "哥哥那只皮手套／少爷",
-      "entity_id": "zhou_junzhou",
+      "mention": "冯德茂（京兆府主簿）",
+      "entity_id": "jingzhaofu_zhubu",
+      "confidence": 0.99,
+      "method": "existing_alias"
+    },
+    {
+      "mention": "王委员／王思涵的父亲／穿文官袍子的老人",
+      "entity_id": "wang_zhengyan",
       "confidence": 0.97,
-      "method": "context"
+      "method": "explicit_name"
     },
     {
-      "mention": "老爷（还在司令部）",
-      "entity_id": "zhou_shiheng",
-      "confidence": 0.95,
-      "method": "context_zhou_mansion"
-    },
-    {
-      "mention": "城南寺里从仲卿县来的妇人",
-      "entity_id": "qin_shouyi_wife",
-      "confidence": 0.95,
-      "method": "context_ch17"
-    },
-    {
-      "mention": "大哥／殿下／寿星／朕的儿子",
-      "entity_id": "crown_prince",
+      "mention": "秦守义／他的连长",
+      "entity_id": "qin_shouyi",
       "confidence": 0.99,
       "method": "explicit_name"
     },
     {
-      "mention": "承曜",
+      "mention": "他的女儿／那个姑娘",
+      "entity_id": "qin_wan",
+      "confidence": 0.9,
+      "method": "context_ch17_19"
+    },
+    {
+      "mention": "安平亲王",
       "entity_id": "zhang_chengyao",
       "confidence": 0.99,
-      "method": "explicit_name",
-      "note": "皇帝当殿以名相呼"
+      "method": "explicit_title"
     },
     {
-      "mention": "二哥",
-      "entity_id": "zhang_yonghuai",
+      "mention": "虎贲军",
+      "entity_id": "forbidden_guards",
       "confidence": 0.97,
       "method": "context",
-      "note": "张书淮视角称张永怀"
+      "note": "索引无“虎贲军”别名，沿用禁卫军（虎贲、龙武、木兰）实体，payload 补别名"
     },
     {
-      "mention": "宫城／皇城（近卫军开往之处）",
-      "entity_id": "gongcheng",
+      "mention": "第五军／第一师／先头营／第三团",
+      "entity_id": "fifth_army",
+      "confidence": 0.97,
+      "method": "context",
+      "note": "师、团、营不单建实体，并入羽林军第五军"
+    },
+    {
+      "mention": "羽林军集团军群／集团军群",
+      "entity_id": "yulin_army",
+      "confidence": 0.95,
+      "method": "context"
+    },
+    {
+      "mention": "第三处（会同参谋本部贴的封条）",
+      "entity_id": "third_bureau",
+      "confidence": 0.97,
+      "method": "existing_alias"
+    },
+    {
+      "mention": "司令部",
+      "entity_id": "central_guards_hq",
+      "confidence": 0.9,
+      "method": "context"
+    },
+    {
+      "mention": "第五军那个左臂吊在胸前的少校",
+      "entity_id": "qiu_shenao",
+      "confidence": 0.95,
+      "method": "context_scene2",
+      "note": "第125行邱深澳左臂吊在胸前随军部；周君州视角未点名，只想起金志文报过的名字"
+    },
+    {
+      "mention": "小姐（回府了）",
+      "entity_id": "zhou_junyao",
+      "confidence": 0.95,
+      "method": "context_ch19"
+    },
+    {
+      "mention": "恭肃亲王府的车",
+      "entity_id": "gongsu_prince",
       "confidence": 0.85,
-      "method": "new_entity_place",
-      "note": "索引无宫城实体，新建；设定集/世界观.md 宫城、皇城并列，正文近卫军“往皇城那边去”、宇文策报“把宫城围住了”，统归宫城；未与 daming_palace（大明宫，未出场）合并"
+      "method": "existing_name"
     },
     {
-      "mention": "灵武郡",
-      "entity_id": "lingwu_jun",
-      "confidence": 0.95,
-      "method": "new_entity_place"
-    },
-    {
-      "mention": "黑皮的公文包",
-      "entity_id": "heipi_gongwenbao",
-      "confidence": 0.95,
-      "method": "new_entity_item"
+      "mention": "那封写给城里亲戚的信",
+      "entity_id": "weizhuang_jiashu",
+      "confidence": 0.97,
+      "method": "context_ch18"
     }
   ],
   "warnings": [
     {
-      "mention": "上了年纪的探员（上午劝过她回去的那一个）",
-      "entity_id": "third_bureau",
+      "mention": "通讯连长（说局里的人都在）",
+      "entity_id": "signal_company_commander",
       "confidence": 0.75,
-      "note": "第17章第365行出现过的无名探员，非 disanchu_wenli_lingtou（文理大学拿人领头）；折入御前第三处，不建实体"
+      "note": "经霍长庚转述的第五军通讯连长，按索引即苏铁生；正文未点名，采用并记 warning"
     },
     {
-      "mention": "从侧门进来耳语的羽林军",
-      "entity_id": "yulin_army",
-      "confidence": 0.8,
-      "note": "无名，折入羽林军，不建实体"
-    },
-    {
-      "mention": "自家的王家近卫军（都在宫门外）",
-      "entity_id": null,
+      "mention": "中央预备役集团军副司令（军衔）",
+      "entity_id": "reserve_general",
       "confidence": 0.7,
-      "note": "泛指各宗室的私兵，不专指 zhang_yixuan_family_guard，记入宫城/东宫规矩，不写该实体 delta"
+      "note": "设定/军制.md：中央预备役集团军主官为中将，副司令为中央防务区司令；正文写“集团军的副司令”，按正文记，待作者定"
     },
     {
-      "mention": "礼官、内侍、丫头、老家人、殿门口流血的军士、年轻皇子们",
+      "mention": "宫城西南街口的铺面",
+      "entity_id": "gongcheng",
+      "confidence": 0.8,
+      "note": "第五军待命处，不建地点实体，记入第五军 night_march；上一版新建的 gongcheng_xinan_dajie 本版不写 delta"
+    },
+    {
+      "mention": "领用册（营里原册）",
+      "entity_id": null,
+      "confidence": 0.8,
+      "note": "D67领用册原册，未单建物品实体，启封记录写入 man_guihuai、zhou_junzhou、lingwu_army 状态"
+    },
+    {
+      "mention": "司令部的参谋、府里的兵、先头营营长、虎贲军守门军官、谢苗诺夫斯基营长、门洞领头军士、京兆府差役、属官、书办、旗手、电话兵、第五军参谋",
       "entity_id": null,
       "confidence": 0.9,
       "note": "无名功能人物，不建实体"
     },
     {
-      "mention": "仲卿县、西域、先帝、先皇后",
+      "mention": "首相（告病在家）／几位丞相",
       "entity_id": null,
       "confidence": 0.8,
-      "note": "仅被提及的背景名词，只写入相关实体 desc，不建实体"
+      "note": "索引无首相实体，仅被提及，记入首相府 status，不建实体"
+    },
+    {
+      "mention": "各府的王家近卫军",
+      "entity_id": null,
+      "confidence": 0.7,
+      "note": "泛指各亲王府私兵，不专指 zhang_yixuan_family_guard，不写该实体 delta"
+    },
+    {
+      "mention": "外交部长邱思甜所接“另一家使馆”等",
+      "entity_id": null,
+      "confidence": 0.8,
+      "note": "未点名的各国使馆，不建实体"
     }
   ]
 }

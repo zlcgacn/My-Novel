@@ -1,0 +1,921 @@
+[
+  {
+    "event_id": "evt-ch20-001",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "to_entity": "zhou_junyao",
+      "relationship_type": "兄妹（挂念）",
+      "content": "府里的兵进门先报“小姐回府了”，周君州站起来头一句问“吃了东西没有？”，再问人在哪里，才坐回去听第三处的经过；听说她一路掀帘看了一眼就放下、一句话没说，他没作声，令兵回去守府门“今夜谁来也别开，等我的话”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-002",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "belongings",
+      "old": "怀里揣着命案名单、清点行文与参谋本部特令抄件；右手套着周君瑶给套上的一只皮手套（另一只留在她左手）",
+      "new": "清点行文下午回营后从怀里掏出，压在军部桌角没再收回；右手仍套着那只皮手套；进兴庆门前把缰绳和腰间佩剑交给邓声宝，徒手入宫"
+    }
+  },
+  {
+    "event_id": "evt-ch20-003",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_shiheng",
+    "payload": {
+      "field": "orders",
+      "old": "二月九日议事：第一近卫集团军各军一律不许出营，一个兵都不许；今晚各军军长在营里守着，有事派人到司令部报",
+      "new": "宫城被围后经司令部参谋传令：灵武军即刻出营到兴庆门外随元帅调和（冷溪近卫军接同一道令）；周君州请命进宫向圣上解释近卫军没反，他看了儿子一会儿：“我去说。你守住这里。”",
+      "content": "司令部参谋推门报：谢苗诺夫斯基近卫军的罗曼诺夫带兵闯了东宫，近卫师团围在宫墙外；元帅令灵武军即刻出营到兴庆门外随元帅调和；元帅和王委员还在司令部等几位军长回话，随后就到"
+    }
+  },
+  {
+    "event_id": "evt-ch20-004",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "deng_shengbao",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "副手进言被采纳",
+      "content": "邓声宝：“将军，咱们的枪还封着……咱们两个营空着手往中间一站，真打起来，就是两边的靶子。”周君州扣大衣的手停了一下，知道封条一撕就是抗旨，仍下令：“开库。启封，取枪，子弹发足。”“枪口一律朝下。没有我的令，谁也不许上刺刀，谁也不许把子弹压进膛里。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-005",
+    "chapter": 20,
+    "event_type": "world_rule_broken",
+    "subject": "lingwu_army",
+    "payload": {
+      "rule_content": "近卫军D67奉圣旨封存，库门封条由第三处会同参谋本部贴上，清点作废后另行查办，无旨不得启封",
+      "broken_by": "zhou_junzhou",
+      "content": "灵武军奉军长令撕封开库取D67、子弹发足；兴庆门外所见谢苗诺夫斯基近卫军、近卫师团手里也是启了封的D67（“圣旨封的枪，他们也启了封，跟他一样”）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-006",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "lingwu_army",
+    "payload": {
+      "field": "d67_status",
+      "old": "奉旨封存，不许动",
+      "new": "九日亥初前奉军长周君州令开库启封（抗旨启封），取出D67、子弹发足；启封时辰、下令人、取枪支数由曼桂槐记入营里领用册原册，写周君州的名字"
+    }
+  },
+  {
+    "event_id": "evt-ch20-007",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "lingwu_army",
+    "payload": {
+      "field": "armory_status",
+      "old": "枪柜上锁贴封条，封存待清查",
+      "new": "库门封条（第三处会同参谋本部所贴）已撕，枪已取出"
+    }
+  },
+  {
+    "event_id": "evt-ch20-008",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "third_bureau",
+    "payload": {
+      "field": "d67_seal",
+      "old": null,
+      "new": "灵武军库门D67封条系第三处会同参谋本部所贴；清点作废后“另行查办”，至九日无人说过启封；当夜被灵武军撕开启封"
+    }
+  },
+  {
+    "event_id": "evt-ch20-009",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "d67_unsealing",
+      "old": null,
+      "new": "九日亥初前在灵武军营下令“开库。启封，取枪，子弹发足”，撕了第三处会同参谋本部所贴的库门封条（D67圣旨封存、清点作废后另行查办，无人说过启封）——自知这就是抗旨，受查的灵武军再添一条“抗旨启封，带枪进城”；令曼桂槐在营里原册（按例不出营）上记明几时启封、谁下的令、取了多少支，“令是我下的，写我的名字”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-010",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "man_guihuai",
+    "payload": {
+      "field": "current_task",
+      "old": "辰时抱领用册抄本到火场，周君州没有接；营里交到了政委",
+      "new": "启封时拿着营里的D67领用册原册（按例从不出营）说“启封要记一笔”，奉周君州令在空白页一笔一笔记下几时启封、谁下的令、取了多少支，令出周君州、写他的名字；亥初灵武军两营出营时站营门口，领用册夹在胳膊底下，营里交到她手上（留营）",
+      "content": "“将军。启封要记一笔。”“记。几时启的封，谁下的令，取了多少支，一支一支记清楚。令是我下的，写我的名字。”曼桂槐看了他一会儿，在营里原册的空白页一笔一笔地写"
+    }
+  },
+  {
+    "event_id": "evt-ch20-011",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "灵武军抗旨启封：D67是圣旨封存、第三处会同参谋本部贴的封条，清点作废后另行查办，无人说过启封；九日夜周君州下令撕封开库取枪、子弹发足，带枪进城调和；曼桂槐在营里领用册原册（按例不出营）的空白页记明几时启封、谁下的令、取了多少支，写的是周君州的名字。受查的灵武军今夜再添一条罪名：抗旨启封，带枪进城",
+      "loop_type": "主线危机",
+      "unanswered_question": "事后谁来追究抗旨启封；领用册原册上这一笔会被谁拿去、怎么用；近卫军各部同样启封又怎么算",
+      "urgency": 90,
+      "planted_chapter": 20
+    }
+  },
+  {
+    "event_id": "evt-ch20-012",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "jin_zhiwen",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "下属报信",
+      "content": "金志文从参谋本部来电：“本部方才接到三山门的电话，羽林军第五军拿着瓦尔基里的口令，进城了。城门已经交给了羽林军。”周君州：“羽林军？这么快？”金志文压低声音念口令原文“京城近卫军叛乱，着即发动瓦尔基里行动”；周君州只说“我知道了。你在本部守着，有消息再打来”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-013",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "jin_zhiwen",
+    "payload": {
+      "field": "location.current",
+      "old": "灵武大街临时医疗点",
+      "new": "参谋本部（周君州令他守着，有消息再打来）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-014",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "jin_zhiwen",
+    "payload": {
+      "field": "current_task",
+      "old": "追查新年夜爆炸中参与的军中之人",
+      "new": "在参谋本部打电话报周君州：本部方才接到三山门电话，羽林军第五军拿着瓦尔基里口令进了城，城门已交给羽林军；三山门在电话里念了口令原文“京城近卫军叛乱，着即发动瓦尔基里行动”；仍追查新年夜爆炸中参与的军中之人"
+    }
+  },
+  {
+    "event_id": "evt-ch20-015",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "imperial_appeal",
+      "old": null,
+      "new": "金志文报羽林军第五军持瓦尔基里口令进了城、城门已交羽林军，口令原文“京城近卫军叛乱”，他脱口“这么快？”；他认定罗曼诺夫带兵闯东宫是为了他的连长和那个姑娘去要人，是抗命犯上而不是叛乱，可圣上已认定近卫军反了；要赶在羽林军枪口对准宫城以前见到圣上说清近卫军没有反。请命进宫被父亲挡下；羽林军进广场后对霍长庚说“口令写错了”，最终以“要一句话：圣上亲口说，近卫军没有反”带两位将领进宫。他不知瓦尔基里细节，未对时辰",
+      "content": "叛乱。罗曼诺夫是为了他的连长和那个姑娘去要人，是抗命犯上，可那不是叛乱；口令写的是叛乱，羽林军奉此进城——圣上已经认定近卫军反了。得赶在羽林军的枪口对准宫城以前，见到圣上，把话说清楚"
+    }
+  },
+  {
+    "event_id": "evt-ch20-016",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "content": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役副司令徒手入宫，要圣上亲口一句“近卫军没有反”",
+      "loop_type": "主线危机",
+      "unanswered_question": "圣上肯不肯说近卫军没有反；周君州违父令带外军将领入宫的后果",
+      "urgency": 95,
+      "planted_chapter": 20
+    }
+  },
+  {
+    "event_id": "evt-ch20-017",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "lingwu_army",
+    "payload": {
+      "field": "deployment",
+      "old": null,
+      "new": "亥初两个营出营：背着刚从库里取出的D67（枪身还沾着封条纸屑），枪口一律朝下、刺刀插在鞘里、子弹不压膛；旗手扛军旗走在最前，周君州骑马随旗后、走得比平日快；亥正到兴庆门外，穿过谢苗诺夫斯基近卫军阵的口子，在近卫军与宫墙之间的空地上背靠背排两排（前排面朝近卫军，后排面朝宫墙），军旗插在当中；羽林军进广场后仍守住人墙不动；邓声宝守前排正中；曼桂槐留营"
+    }
+  },
+  {
+    "event_id": "evt-ch20-018",
+    "chapter": 20,
+    "event_type": "world_rule_revealed",
+    "subject": "lingwu_army",
+    "payload": {
+      "rule_content": "灵武军军旗：旗上一只双头鹰，鹰胸前护着一面刻“止”字的盾，身后竖一柄戈；出营时旗手扛旗走在队伍最前头",
+      "rule_category": "军旗徽记",
+      "scope": "灵武军"
+    }
+  },
+  {
+    "event_id": "evt-ch20-019",
+    "chapter": 20,
+    "event_type": "world_rule_revealed",
+    "subject": "valkyrie_plan",
+    "payload": {
+      "rule_content": "瓦尔基里口令是最高指令：口令一到，城门交给羽林军，预案上写好、各门守军早接了交代，见令即开，守军背枪列队退让，由羽林军武力接管城门城楼，不需守军同意或报备；宵禁之下平日城门奉旨归虎贲军",
+      "rule_category": "城防预案",
+      "scope": "京城各城门"
+    }
+  },
+  {
+    "event_id": "evt-ch20-020",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "forbidden_guards",
+    "payload": {
+      "field": "status",
+      "old": "九日夜虎贲军一排在横街北口持枪上刺刀堵住街口，与近卫军对峙未开枪；东宫殿门外与近卫军扭打，刺刀对人、手指搭在扳机护圈外，没人扣扳机，被挡在殿门外推不进来",
+      "new": "戌正三山门：先头营营长喊出口令，城楼上虎贲军军官静了一下即喊“开门！”，门洞里的兵把枪背到身后列队退到一边，一盏茶工夫把城门城楼交给羽林军（瓦尔基里预案上写好、各门守军早接了交代）；三山门随即打电话报参谋本部；兴庆门城头、垛口站满虎贲军，枪口朝下对着广场；全夜未开枪"
+    }
+  },
+  {
+    "event_id": "evt-ch20-021",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "sanshan_men",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日戌正第五军第一师先头营到门外喊出瓦尔基里口令，守门虎贲军照预案当即开门、列队退到一边，一盏茶工夫城门城楼换成羽林军；第一师随后留一个团守门；城门里门房有一部电话"
+    }
+  },
+  {
+    "event_id": "evt-ch20-022",
+    "chapter": 20,
+    "event_type": "artifact_obtained",
+    "subject": "fifth_army_chief_of_staff",
+    "payload": {
+      "artifact_id": "luhengzhi_xingjun_rizhi",
+      "name": "卢衡之的行军日志",
+      "owner": "fifth_army_chief_of_staff",
+      "content": "卢衡之随身行军日志，城门口借电灯以铅笔记“戌正，第一师先头营接管三山门”，又在空白页记下羽林军第二集团军令；亥初在宫城西南街口记下时辰。邱深澳在旁看见头一行"
+    }
+  },
+  {
+    "event_id": "evt-ch20-023",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army_chief_of_staff",
+    "payload": {
+      "field": "marching_log",
+      "old": null,
+      "new": "城门口借电灯在行军日志记：“戌正，第一师先头营接管三山门。”又记羽林军第二集团军令（第五军第一师留两个团守三山门、光淮门，主力随军部即赴宫城西南听候调遣）；亥初到西南街口记下时辰；亥正二刻接集团军群进广场平叛令"
+    }
+  },
+  {
+    "event_id": "evt-ch20-024",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "chengnan_dianbaoju",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜由第五军第三团接管；通讯连长电话报“局里的人都在，一个没走”；城里谣传“城南电报局叫兵占了”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-025",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "liaison_letter",
+      "old": "军需车整日出不了营，申末从吕福来手里收回伪装家书，夹进随身作战手册；经城南电报局恢复联络一事暂搁",
+      "new": "作战手册夹在大衣里头，手册里仍夹着那封写给城里亲戚的信（未送出）；城南电报局已由第三团接管，通讯连长报“局里的人都在，一个没走”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-026",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "yulin_army",
+    "payload": {
+      "field": "night_orders",
+      "old": null,
+      "new": "第五军进城后电话令：“第五军第一师，留两个团守三山门、光淮门，主力随军部，即赴宫城西南，听候调遣。”亥正二刻再令：“第一师即刻进康建广场，会同中央预备役集团军，平叛。”原野灰军服、黑灰大檐帽；大元帅本章未露面"
+    }
+  },
+  {
+    "event_id": "evt-ch20-027",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "guanghuai_men",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜第五军第一师分出一个团往光淮门去守"
+    }
+  },
+  {
+    "event_id": "evt-ch20-028",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "central_reserve_group_army",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜一支队伍从皇城东边那条大街开到康建广场东南角停住，起先没往前压；亥正二刻后随第一师往前压几十步，与羽林军连成一片，把近卫军夹在中间，未开枪"
+    }
+  },
+  {
+    "event_id": "evt-ch20-029",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army",
+    "payload": {
+      "field": "night_march",
+      "old": null,
+      "new": "戌正第一师先头营到三山门外，营长喊出口令“京城近卫军叛乱，着即发动瓦尔基里行动！羽林军第五军，奉令接管三山门！”，虎贲军当即开门，一盏茶工夫接管城门城楼；第一师主力入城；第三团接管城南电报局；奉羽林军第二集团军令第一师留一团守三山门、一团往光淮门，主力随军部往宫城西南；亥初到宫城西南街口（离兴庆门两条街）停下待命，铺面里接电话；亥正二刻集团军群令“第一师即刻进康建广场，会同中央预备役集团军，平叛”，霍长庚令“谁也不许先开枪”，第一师在广场南头展开，与预备役连成一片，和转过身的近卫军隔着一百来步对峙，未开枪；第五军其余各部还在城外官道上跟进"
+    }
+  },
+  {
+    "event_id": "evt-ch20-030",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "current_task",
+      "old": "随第五军军部开拔进城（瓦尔基里口令已发动）",
+      "new": "随军部跟第一师进城：戌正在三山门看先头营喊令、虎贲军当即开门，一盏茶交出城门（他作战室里写的“控制”两字落地这样快）；亥初到宫城西南街口待命，望见广场上的近卫军、预备役开到东南角、一支队伍穿阵到宫墙下、又一支往东；亥正二刻随第一师进康建广场“平叛”，近卫军后排转身对峙，没有一个人开枪",
+      "content": "邱深澳看着城楼上的虎贲军一个一个走下来、羽林军一个一个走上去；口令写的是近卫军叛乱，一路上第一师谁也没见着一个叛军，到了西南街口叛军就在两条街外；进广场后他看着那一排转过来的刺刀：近卫军夹在中间，前头宫墙和虎贲军，后头羽林军和预备役，没有一个人开枪"
+    }
+  },
+  {
+    "event_id": "evt-ch20-031",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "qiu_shenao",
+    "payload": {
+      "field": "location.current",
+      "old": "骑马随第五军军部出君来乡营门（左臂吊着，单手攥缰绳），沿官道往东北；前面第一师先头营的一串马灯已过第一座石桥",
+      "new": "康建广场南头羽林军阵前，第五军军部人堆里骑马（左臂吊在胸前），隔着一百来步望着转过身来的近卫军刺刀；看着周君州出阵与霍长庚、预备役副司令说话"
+    }
+  },
+  {
+    "event_id": "evt-ch20-032",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "location.current",
+      "old": "第三处衙门前院（申末后接走邱思甜，扶她往外走）",
+      "new": "首相府签押房桌后（带邱思甜回府未坐稳即出门到首相府；手杖靠椅子扶手，桌上摊京城坊图，书办用红笔圈出有兵走过的街）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-033",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "wang_zhengyan",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "傍晚出门留话：去司令部见周元帅，散席以后一同入宫请旨；宫城被围后与周世衡在司令部等几位军长回话；亥正后随周世衡（带几个参谋）骑马到兴庆门外，跟在周世衡身后走进兴庆门门洞（入宫调和），子初未出",
+      "content": "王思涵知父亲傍晚留话“去司令部见周元帅，散席以后一同入宫请旨”，宫城被围后父亲那边一点消息也没有"
+    }
+  },
+  {
+    "event_id": "evt-ch20-034",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "prime_minister_office",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜电话从亥初起没停过；首相告病在家，几位丞相住得远进不来，右丞相王思涵坐签押房主事；书办在京城坊图上红笔圈出有兵走过的街；各国使馆电话由外交部转来，邱思甜代接"
+    }
+  },
+  {
+    "event_id": "evt-ch20-035",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "jingzhaofu_zhubu",
+    "payload": {
+      "field": "current_task",
+      "old": null,
+      "new": "亥初一刻一路跑到首相府（袍子下摆沾泥）报城里各处有兵、谣言四起（宫里打起来了、圣上被近卫军扣在东宫、城南电报局叫兵占了），答不出哪条是真；领王思涵手书回去，派全府差役挨街传话"
+    }
+  },
+  {
+    "event_id": "evt-ch20-036",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "current_task",
+      "old": "排班册已于二月九日卯末被第三处调走，钥匙交接亦记在册上、无从查；已取得军务部值宿司官具名、盖值宿房戳记的回执（头一张），书办夹进公文夹；被带走的值夜兵去向仍未追",
+      "new": "首相告病在家、几位丞相住得远进不来，今夜首相府由她拿主意：令京兆府差役全派出去挨街挨巷传话关门闭户、不许上街看热闹或聚说（碰上兵亮夜行腰牌称首相府的令，传完就走）；谣言不辩不驳，只说“有司在办，各家关好门”；等父亲王政炎的消息，至子初前一无所闻"
+    }
+  },
+  {
+    "event_id": "evt-ch20-037",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "jingzhaofu",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜差役全派出去，挨街挨巷隔着门板传首相府的令：关门闭户、不许上街看热闹、不许聚说；带夜行腰牌，碰兵亮牌传完就走；一名差役亥初二刻从西南几坊跑回首相府报羽林军一个师自三山门进城"
+    }
+  },
+  {
+    "event_id": "evt-ch20-038",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "location.current",
+      "old": "申末后被王思涵从第三处拉起带走（自巳初坐到入夜前，未吃东西）",
+      "new": "首相府签押房（随王思涵来，额上纱布未拆，脸白无血色）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-039",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "field": "current_task",
+      "old": "停战草稿作废，停战须从头再谈；手中只有凭记性默写的条款本子与登记簿上一行“请调未准”",
+      "new": "亥时起以外交部长身份代接各国使馆电话（头一家海外共和国使馆，先打外交部无人能答、转到首相府），一家一家照同一番话应付：京城治安有司正在处置，请闭门勿出、人员一概不上街，明日一早外交部自有照会；接完第四通扶桌站了一会儿才坐下。王思涵知她怕外国人看错局势、前线和约再谈不成；停战须从头再谈"
+    }
+  },
+  {
+    "event_id": "evt-ch20-040",
+    "chapter": 20,
+    "event_type": "promise_created",
+    "subject": "qiu_sitian",
+    "payload": {
+      "content": "邱思甜以外交部长身份在电话里对海外共和国等各国使馆许诺：“明日一早，外交部自有照会送到。”问到的某一点“现在不能答复，明日照会里会说明”",
+      "promise_type": "公务承诺",
+      "expected_payoff": "二月十日一早外交部向各使馆送照会"
+    }
+  },
+  {
+    "event_id": "evt-ch20-041",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "qiu_sitian",
+    "payload": {
+      "to_entity": "overseas_republic",
+      "relationship_type": "外交应对",
+      "content": "海外共和国使馆先打外交部无人答得上，转到首相府；邱思甜接过属官手里的听筒：“我是外交部长邱思甜……请贵馆闭门勿出，馆中人员一概不要上街。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-042",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "to_entity": "qiu_sitian",
+      "relationship_type": "闺蜜（心疼与倚重）",
+      "content": "王思涵坐在桌后看她额缠纱布、脸白无血色、一天没吃饭仍稳稳应付外国人，知她心里搁着前线和约；第四通电话后叫人倒热茶推到她手边"
+    }
+  },
+  {
+    "event_id": "evt-ch20-043",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "wang_sihan",
+    "payload": {
+      "field": "valkyrie_record",
+      "old": null,
+      "new": "亥初二刻京兆府差役报羽林军一个师自三山门进城往东北开，满屋属官松了口气（“是来平乱的”“这下宫里有救了”），她撑杖站起问“谁下的令？”，无人答得上；令书办记下：“亥初二刻，京兆府差役报：羽林军一部，自三山门入城，往东北去。”",
+      "content": "邱思甜也没松那口气，先问差役“哪一部？”，差役只认得原野灰军服、黑灰大檐帽"
+    }
+  },
+  {
+    "event_id": "evt-ch20-044",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "semenovsky_guards",
+    "payload": {
+      "field": "status",
+      "old": "违周世衡不出营之令：九日夜大队上刺刀开往皇城，与近卫师团一起把宫城围住；横街北口与虎贲军隔十几步对峙，未开枪；军长带兵闯进东宫正殿，堵住正门与东西两道侧门；秦守义一连仍未放",
+      "new": "亥正兴庆门外康建广场，大队面朝宫墙，手里是启了封的D67、上着刺刀；一小队把着兴庆门门洞，先认出周世衡让开，子初又依源爱莲娜的话让霍长庚、预备役副司令与周君州进去；一个营长见灵武军枪口朝下穿阵，笑没了，让出口子；羽林军与预备役开进广场后后排转身，刺刀对着南头，前后都是枪，未开枪；军长罗曼诺夫仍一个人在殿里；秦守义一连仍未放"
+    }
+  },
+  {
+    "event_id": "evt-ch20-045",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "jinwei_shituan",
+    "payload": {
+      "field": "status",
+      "old": "九日夜随谢苗诺夫斯基近卫军开往皇城，大队参与包围宫城（虎贲军统领所报）",
+      "new": "亥正排在谢苗诺夫斯基近卫军东边面朝宫墙，手持启了封的D67、上着刺刀；羽林军进广场后后排转身对峙；军长源爱莲娜在阵前"
+    }
+  },
+  {
+    "event_id": "evt-ch20-046",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "lingwu_army",
+    "payload": {
+      "to_entity": "semenovsky_guards",
+      "relationship_type": "持枪不举，站到阵前隔开",
+      "content": "谢苗诺夫斯基一个营长笑迎“灵武军也来了！”，见灵武军枪背在肩、枪口朝下、刺刀在鞘，不看城头、不在他阵前停，一排排穿过去，笑没了；周君州说“借个道”，阵裂开口子，灵武军在近卫军与宫墙之间背靠背排成两排"
+    }
+  },
+  {
+    "event_id": "evt-ch20-047",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "lengxi_guards",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜接同一道调和令到兴庆门外，兵背着枪、枪口朝下、刺刀没上，接着灵武军往东头一排一排站过去，筑成人墙"
+    }
+  },
+  {
+    "event_id": "evt-ch20-048",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "first_guards_army_commander",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "同令调和",
+      "content": "汉诺威骑马到周君州跟前：“接到同一道令。周将军，我的人站哪里？”周君州：“东头。接着灵武军往东排。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-049",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "yuan_ailianna",
+    "payload": {
+      "to_entity": "zhou_shiheng",
+      "relationship_type": "问话放行",
+      "content": "源爱莲娜：“罗曼诺夫一个人进去了。近卫军不能叫他一个人站在殿里。”“元帅进去，是替圣上劝罗曼诺夫，还是替近卫军劝圣上？”周世衡沉默一会儿：“两头都劝。”她侧身让开"
+    }
+  },
+  {
+    "event_id": "evt-ch20-050",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "zhou_shiheng",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "父子（请命被挡）",
+      "content": "周世衡走过儿子跟前停一步；周君州压低声音：“羽林军进了城，口令上写的是近卫军叛乱。我要进去见圣上，当面说清楚，近卫军没有反。”周世衡看了他一会儿：“我去说。你守住这里。”周君州停了停才答“……是，元帅”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-051",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_shiheng",
+    "payload": {
+      "field": "pledge",
+      "old": "今晚东宫家宴散席以后，以太傅身份亲自入宫，向圣上请旨放谢苗诺夫斯基近卫军那一连",
+      "new": "家宴未散已被闯殿、宫城被围；他改以调和入宫，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并揽下替近卫军向圣上分说之事（“我去说”）；结果未知"
+    }
+  },
+  {
+    "event_id": "evt-ch20-052",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_shiheng",
+    "payload": {
+      "field": "location.current",
+      "old": "二月九日戌正仍在司令部，未回周府（周府门房所说）；未到东宫家宴",
+      "new": "亥初前与王政炎在司令部等几位军长回话；亥正后带几个参谋、偕王政炎骑马到兴庆门外，经源爱莲娜问话后走进兴庆门门洞（门洞口谢苗诺夫斯基一小队认出集团军群元帅，迟疑后让开），入宫调和，子初未出"
+    }
+  },
+  {
+    "event_id": "evt-ch20-053",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "wang_zhengyan",
+    "payload": {
+      "to_entity": "zhou_shiheng",
+      "relationship_type": "同为太傅，偕行入宫",
+      "content": "王政炎（穿文官袍子的老人）随周世衡到兴庆门外，跟在他身后走进门洞"
+    }
+  },
+  {
+    "event_id": "evt-ch20-054",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "zhou_shiheng",
+    "payload": {
+      "content": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初未出",
+      "loop_type": "主线危机",
+      "unanswered_question": "周世衡、王政炎劝下了没有；殿内僵局怎么收场",
+      "urgency": 90,
+      "planted_chapter": 20,
+      "related_event_id": "evt-ch19-051",
+      "promise_ref": "evt-ch18-005"
+    }
+  },
+  {
+    "event_id": "evt-ch20-055",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "kangjian_guangchang",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜：北头宫墙城头虎贲军；宫墙下灵武军、冷溪近卫军背枪枪口朝下排成人墙；其外谢苗诺夫斯基近卫军与近卫师团持启封D67上刺刀；东南角中央预备役集团军；亥正二刻后羽林军第五军第一师在南头展开，近卫军后排转身，前后都是枪，两边隔一百来步未开枪；西边墙根停着一溜各亲王府的车（恭肃亲王府的车也在）",
+      "content": "身后广场南头起了声响：原野灰人墙从西南街口涌进来一排接一排展开，东南角预备役跟着压过来连成一片；近卫军后排转身，跟他们脸对着脸，中间只隔一片空地"
+    }
+  },
+  {
+    "event_id": "evt-ch20-056",
+    "chapter": 20,
+    "event_type": "open_loop_closed",
+    "subject": "gongcheng",
+    "payload": {
+      "content": "第19章宫城被围，宫城外还有谁会来；围宫的近卫军会不会撞上进城的羽林军",
+      "closes_event_id": "evt-ch19-052",
+      "resolution": "灵武军、冷溪近卫军带枪而枪口朝下，隔在近卫军与宫墙之间；周世衡偕王政炎入宫调和；第五军第一师与中央预备役集团军一个团开进康建广场，把近卫军夹在中间，正面对峙，全城无人开枪。将领入宫核实另开新伏笔"
+    }
+  },
+  {
+    "event_id": "evt-ch20-057",
+    "chapter": 20,
+    "event_type": "open_loop_closed",
+    "subject": "fifth_army",
+    "payload": {
+      "content": "第18章第五军即刻开拔进城（第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线）",
+      "closes_event_id": "evt-ch18-064",
+      "resolution": "戌正先头营在三山门喊出口令，虎贲军见令即开，一盏茶接管城门城楼；第一师留一团守三山门、一团守光淮门；第三团接管城南电报局（局里人都在）；主力亥初到宫城西南待命，亥正二刻奉令进康建广场会同中央预备役集团军平叛，与近卫军对峙未开枪"
+    }
+  },
+  {
+    "event_id": "evt-ch20-058",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "deng_shengbao",
+    "payload": {
+      "field": "location.current",
+      "old": "军务部火场",
+      "new": "兴庆门前，灵武军人墙前排最中间；子初攥着周君州交来的佩剑和缰绳守在宫门外"
+    }
+  },
+  {
+    "event_id": "evt-ch20-059",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "to_entity": "fifth_army_commander",
+      "relationship_type": "两军之间当面分辩",
+      "content": "周君州一人骑马出近卫军阵站到两军空地当中，汉诺威随后到。霍长庚：“第五军奉瓦尔基里的口令进城平叛。你们灵武军，站在叛军的阵里。”周君州：“近卫军没有反。”讲秦守义女儿叫安平亲王抢进府、秦守义带兵要人被虎贲军押了一天一夜、罗曼诺夫层层要人被挡，今夜带兵进东宫是跟圣上要人，“不是造反”；“他是抗命，是犯上……可他要的是放人，不是圣上的位子。元帅已经进宫去了”；“口令写错了。”霍长庚：“口令错没错，不是周将军说了算，也不是我说了算。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-060",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "reserve_general",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "不信近卫军的话",
+      "content": "副司令只报了职衔没有报名字。“带兵闯东宫，围宫城。周将军管这个叫要人？”“你是近卫军的公爵……近卫军的人来跟我们说，近卫军没有反。换了你站在我这个位置上，你信不信？”周君州没有答"
+    }
+  },
+  {
+    "event_id": "evt-ch20-061",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "reserve_general",
+    "payload": {
+      "to_entity": "first_guards_army_commander",
+      "relationship_type": "顶回作证",
+      "content": "汉诺威作证：“下午在司令部，我当着罗曼诺夫的面劝他忍一夜。他没有听。可他要的是什么，我听得清清楚楚。”副司令：“汉诺威将军也是近卫军。”汉诺威闭上了嘴"
+    }
+  },
+  {
+    "event_id": "evt-ch20-062",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "first_guards_army_commander",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "兴庆门外康建广场：带冷溪近卫军到场，问周君州“我的人站哪里”后令兵站东头；周世衡入宫后留在宫门前；羽林军进广场后拨马随周君州出阵到两军之间，作证罗曼诺夫要的是什么（“下午在司令部，我当着罗曼诺夫的面劝他忍一夜……他要的是什么，我听得清清楚楚”），被副司令一句“汉诺威将军也是近卫军”顶回，闭了嘴"
+    }
+  },
+  {
+    "event_id": "evt-ch20-063",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "reserve_general",
+    "payload": {
+      "field": "stance",
+      "old": null,
+      "new": "对周君州：“带兵闯东宫，围宫城。周将军管这个叫要人？”“你是近卫军的公爵，你身后站着的，是近卫军的兵。近卫军的人来跟我们说，近卫军没有反。换了你站在我这个位置上，你信不信？”顶回汉诺威“汉诺威将军也是近卫军”；附议霍长庚要当面听圣上亲口说：“我也是这个意思。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-064",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "qin_shouyi",
+    "payload": {
+      "field": "status",
+      "old": "九日戌正仍与全连关在虎贲军手里（罗曼诺夫殿上说“关到现在”）；罗曼诺夫当殿要求放人",
+      "new": "九日夜仍被虎贲军押着（周君州在康建广场对霍长庚、预备役副司令说“押了一天一夜”），他的事成了周君州替近卫军分辩的理由"
+    }
+  },
+  {
+    "event_id": "evt-ch20-065",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "to_entity": "qiu_shenao",
+      "relationship_type": "留意（未相认）",
+      "content": "“第五军，少校，吊着左臂。”周君州想起金志文报过的名字（新年夜在程明广场受伤、档案像被人动过），看那少校一眼记住了脸，把眼睛收回；邱深澳在霍长庚身后军部人堆里骑马看着这边。两人未说话，未点破无名高地旧事"
+    }
+  },
+  {
+    "event_id": "evt-ch20-066",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "qiu_shenao_sighting",
+      "old": null,
+      "new": "康建广场两军之间的空地上，霍长庚身后第五军军部人堆里一个骑马、左臂吊在胸前的少校看着这边；他想起金志文报过的名字（第五军少校、新年夜在程明广场受伤、档案像被人动过），看了一眼记住了那张脸，把眼睛收回（未点破无名高地旧事）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-067",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "qiu_shenao",
+    "payload": {
+      "content": "康建广场两军之间，周君州在霍长庚身后的第五军军部人堆里看见一个骑马、左臂吊在胸前的少校看着这边，想起金志文报过的邱深澳（第五军少校参谋、新年夜程明广场受伤、档案像被人动过），记住了那张脸；邱深澳也看着出阵分辩的灵武军军长。两人未交一语",
+      "loop_type": "人物线",
+      "unanswered_question": "周君州会不会去查、去见这个少校；两人何时正面相对，无名高地旧事会不会被点破",
+      "urgency": 70,
+      "planted_chapter": 20
+    }
+  },
+  {
+    "event_id": "evt-ch20-068",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army_commander",
+    "payload": {
+      "field": "night_orders",
+      "old": null,
+      "new": "三山门开后一挥手令第一师主力进城；接集团军群令后说“照办”；亥初在宫城西南街口铺面待命；亥正二刻奉令进广场平叛，令“进。谁也不许先开枪”；出阵对周君州说“你们灵武军，站在叛军的阵里”“口令错没错，不是周将军说了算，也不是我说了算”“周将军说的，我没法信，也没法不信……要叫我不平，除非我当面见着圣上，听圣上亲口说一句：近卫军没有反”；应下周君州“那就进去，当面问圣上”",
+      "content": "“我不信。也不是不信。周将军说的，我没法信，也没法不信。”“羽林军照口令办事……要叫我不平，除非我当面见着圣上，听圣上亲口说一句：近卫军没有反。”副司令点头：“我也是这个意思。”周君州：“那就进去。当面问圣上。……霍军长和那位副司令进去，不带兵，不带枪。灵武军和冷溪近卫军守在外头，谁也不动。”霍长庚：“好。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-069",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "yuan_ailianna",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "兴庆门前近卫师团阵前：迎周世衡，说“罗曼诺夫一个人进去了。近卫军不能叫他一个人站在殿里”，问元帅替哪边劝，得“两头都劝”后让开；羽林军进广场时一动不动看着南边，没随周君州出阵；周君州回来请放行，她问“罗曼诺夫在殿里，是要人。羽林军的军长进去，是要什么？”，得答“要一句话”后令门洞的谢苗诺夫斯基兵让开"
+    }
+  },
+  {
+    "event_id": "evt-ch20-070",
+    "chapter": 20,
+    "event_type": "relationship_changed",
+    "subject": "yuan_ailianna",
+    "payload": {
+      "to_entity": "zhou_junzhou",
+      "relationship_type": "问话放行",
+      "content": "源爱莲娜：“羽林军要进宫？”周君州：“两个军长，不带兵，不带枪，进去当面见圣上。我陪他们进去。”她看了好一阵：“罗曼诺夫在殿里，是要人。羽林军的军长进去，是要什么？”“要一句话。圣上亲口说，近卫军没有反。”她转身令门洞口谢苗诺夫斯基的兵让开，领头军士犹豫后让开"
+    }
+  },
+  {
+    "event_id": "evt-ch20-071",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "deng_shengbao",
+    "payload": {
+      "field": "current_task",
+      "old": "带两个营与工兵团拆马棚杂房和墙外头一排房子打火道，寅末把火关在墙里",
+      "new": "提醒“咱们的枪还封着”，两个营空手往中间一站“真打起来，就是两边的靶子”；奉令开库启封、取枪、子弹发足，传令枪口一律朝下、不许上刺刀压弹；羽林军开进广场时急问“他们这是……”，得令“守住人墙，谁也不许动”；周君州进宫前把剑交给他：“守住这里。我不出来，谁也不许动。”"
+    }
+  },
+  {
+    "event_id": "evt-ch20-072",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "current_task",
+      "old": "奉周世衡令：第一近卫集团军各军一律不许出营，今晚在营里守着、哪里也别去，有事派人到司令部报；父亲令宵禁以前叫人把周君瑶从第三处接回来",
+      "new": "奉周世衡令带灵武军两个营出营到兴庆门外随元帅调和：令开库启封取D67、子弹发足，枪口一律朝下，无他的令不许上刺刀、不许压弹；灵武军背靠背两排站在近卫军与宫墙之间；请命进宫被父亲挡回（“我去说，你守住这里”）；羽林军与预备役开进广场后，他出阵（汉诺威随同）向霍长庚和预备役副司令解释罗曼诺夫是为连长要人、不是叛乱，对方不信，要当面听圣上亲口说；他提议“那就进去，当面问圣上”，请源爱莲娜放行，解剑交邓声宝（“我不出来，谁也不许动”），子初陪两人走进兴庆门"
+    }
+  },
+  {
+    "event_id": "evt-ch20-073",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "fifth_army_commander",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "子初解下佩刀交参谋，随周君州走进兴庆门门洞（入宫当面见圣上）；此前在康建广场南头羽林军阵前"
+    }
+  },
+  {
+    "event_id": "evt-ch20-074",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "reserve_general",
+    "payload": {
+      "field": "location.current",
+      "old": null,
+      "new": "子初解下佩刀交参谋，随霍长庚、周君州走进兴庆门门洞（入宫当面见圣上）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-075",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "zhou_junzhou",
+    "payload": {
+      "field": "location.current",
+      "old": "中央近卫集团军群司令部议事后被周世衡单独留下，随即奉“各回各营”之令离开（今晚各军军长在营里守着）",
+      "new": "子初，徒手陪霍长庚与中央预备役集团军副司令走进兴庆门门洞（入宫当面见圣上）；此前在灵武军营军部，亥初出营，亥正带灵武军到兴庆门外康建广场"
+    }
+  },
+  {
+    "event_id": "evt-ch20-076",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "xingqing_gate",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "宫城南面城门，城楼电灯成排亮着，檐下挂着为太子生辰新换的红灯笼；九日夜门洞口由谢苗诺夫斯基一小队把着；周世衡、王政炎先由此入宫，子初霍长庚、预备役副司令、周君州三人解下兵器从门洞走进去（城楼上有人报“子初”）"
+    }
+  },
+  {
+    "event_id": "evt-ch20-077",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "fifth_army_commander",
+    "payload": {
+      "content": "子初，霍长庚与中央预备役集团军副司令解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
+      "loop_type": "主线危机",
+      "unanswered_question": "圣上见了将领们会怎么说；圣上若不说那句话，门外的羽林军是否平叛开火；三人能否出来",
+      "urgency": 100,
+      "planted_chapter": 20,
+      "related_event_id": "evt-ch19-051"
+    }
+  },
+  {
+    "event_id": "evt-ch20-078",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "valkyrie_plan",
+    "payload": {
+      "content": "（读者向，不记在周君州名下）瓦尔基里口令的几个时辰对不齐：酉初一刻口令已发到第五军（第18章，内务本部呼号、署城防司令官兼内务总监），那时东宫家宴尚未开席；罗曼诺夫戌初三刻后才闯殿（第19章）；戌正第五军先头营已在三山门喊令接管（卢衡之日志“戌正，第一师先头营接管三山门”）；王思涵问“谁下的令”无人能答，令书办记下“亥初二刻羽林军自三山门入城”；口令写着“叛乱”，周君州说“口令写错了”",
+      "loop_type": "主线危机",
+      "unanswered_question": "口令为什么早于出事、为什么写着叛乱；口令是谁发的",
+      "urgency": 95,
+      "planted_chapter": 20,
+      "related_event_id": "evt-ch18-057"
+    }
+  },
+  {
+    "event_id": "evt-ch20-079",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "yulin_army",
+    "payload": {
+      "content": "张永怀戌初三刻后以“羽林军有急报”离开东宫家宴（第19章），此后整夜未露面：羽林军集团军群两道电话令（赴宫城西南待命、亥正二刻进康建广场会同预备役平叛）照常发来，大元帅本人在哪里无人提起",
+      "loop_type": "主线危机",
+      "unanswered_question": "张永怀今夜在哪里；集团军群的令是谁在发",
+      "urgency": 80,
+      "planted_chapter": 20,
+      "related_event_id": "evt-ch19-029"
+    }
+  },
+  {
+    "event_id": "evt-ch20-080",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "gongcheng",
+    "payload": {
+      "field": "status",
+      "old": null,
+      "new": "九日夜仍被谢苗诺夫斯基近卫军、近卫师团围着，城头虎贲军枪口朝下；灵武军、冷溪近卫军枪口朝下隔在近卫军与宫墙之间；羽林军第五军第一师与中央预备役集团军一个团开进康建广场把近卫军夹在中间；周世衡、王政炎入宫调和，子初霍长庚、预备役副司令、周君州入宫求圣上一句话；全城无人开枪"
+    }
+  },
+  {
+    "event_id": "evt-ch20-081",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "valkyrie_plan",
+    "payload": {
+      "field": "status",
+      "old": "二月九日酉初一刻口令到第五军：“京城近卫军叛乱。着即发动瓦尔基里行动。城防司令官兼内务总监。”内务本部呼号、加急、印信电码对上；第五军已拆封开拔，此时京城无火光、无响动",
+      "new": "戌正第五军先头营在三山门下喊出口令，虎贲军照预案见令即开，一盏茶交出城门城楼；三山门电话报参谋本部并念原文；第三团接管城南电报局；亥初第一师主力到宫城西南待命，亥正二刻集团军群令进康建广场会同中央预备役集团军平叛，与近卫军对峙未开枪；首相府里无人答得上“谁下的令”；周君州说“口令写错了”，霍长庚与预备役副司令要当面听圣上亲口说近卫军没有反"
+    }
+  }
+]
