@@ -1,130 +1,142 @@
 {
-  "chapter": 18,
+  "chapter": 19,
   "pending": [],
   "resolved": [
     {
-      "mention": "那边的军长／那家的军长（马弁、婶娘所说）",
-      "entity_id": "oleg_romanov",
+      "mention": "那人（羽林军上校，提黑皮公文包）／那个上校",
+      "entity_id": "yulin_colonel_gongwenbao",
       "confidence": 0.95,
-      "method": "context_semenovsky",
-      "note": "马弁补的是第17章“谢苗诺夫斯基近卫军那边……”的话"
+      "method": "new_entity_unnamed",
+      "note": "正文未点名；设定/人物.md 有张永怀心腹韦廷甫（家宴带炸药进殿，未出场），但本章禁区不点名、不写炸药，按调用方要求不合并，另建代称实体，tier 次要"
     },
     {
-      "mention": "奥列格·罗曼诺夫",
-      "entity_id": "oleg_romanov",
-      "confidence": 0.99,
-      "method": "explicit_name_new_entity",
-      "note": "设定/军制.md 谢苗诺夫斯基近卫军军长；新建实体，tier 定为重要"
+      "mention": "须发花白的老亲王（皇帝的堂兄，宗室里年纪最长的一个）／老王爷",
+      "entity_id": "zongshi_lao_qinwang",
+      "confidence": 0.95,
+      "method": "new_entity_unnamed",
+      "note": "正文未点名，代称建装饰实体"
     },
     {
-      "mention": "源爱莲娜",
-      "entity_id": "yuan_ailianna",
-      "confidence": 0.99,
-      "method": "explicit_name_new_entity",
-      "note": "设定/军制.md 近卫师团军长，中将；正文与实体均不写性别"
-    },
-    {
-      "mention": "威廉·汉诺威／汉诺威",
-      "entity_id": "first_guards_army_commander",
+      "mention": "父亲恭肃亲王张延钧",
+      "entity_id": "gongsu_prince",
       "confidence": 0.99,
       "method": "existing_alias",
-      "note": "沿用已有 id first_guards_army_commander（id 名带 first_guards_army 是历史遗留，实为冷溪近卫军军长）；tier 装饰→次要"
+      "note": "沿用 gongsu_prince；本章首次在场有动作，tier 装饰→次要"
     },
     {
-      "mention": "元帅／父亲／太傅",
-      "entity_id": "zhou_shiheng",
+      "mention": "虎贲军统领宇文策",
+      "entity_id": "huben_commander",
       "confidence": 0.99,
-      "method": "explicit_subject"
+      "method": "existing_alias",
+      "note": "tier 装饰→次要"
     },
     {
-      "mention": "殿下（寿辰）／太子张允恭",
-      "entity_id": "crown_prince",
-      "confidence": 0.97,
-      "method": "explicit_name"
-    },
-    {
-      "mention": "圣上",
-      "entity_id": "emperor",
+      "mention": "侍从武官长",
+      "entity_id": "chief_aide_de_camp",
       "confidence": 0.95,
-      "method": "established_title"
+      "method": "existing_alias"
     },
     {
-      "mention": "恭肃亲王",
-      "entity_id": "gongsu_prince",
-      "confidence": 0.9,
-      "method": "setting_table",
-      "note": "设定/人物.md：张延钧，恭肃亲王，张艺宣之父；新建装饰实体"
+      "mention": "周府的管家",
+      "entity_id": "zhoufu_guanjia",
+      "confidence": 0.95,
+      "method": "existing_alias"
     },
     {
-      "mention": "表兄张书淮",
-      "entity_id": "zhang_shuhuai",
+      "mention": "有人说过一句“替我给殿下道一声贺”／那人／说这句话的人",
+      "entity_id": "zhou_junzhou",
+      "confidence": 0.95,
+      "method": "callback_ch15",
+      "note": "第15章第459、463行周君州原话"
+    },
+    {
+      "mention": "哥哥那只皮手套／少爷",
+      "entity_id": "zhou_junzhou",
+      "confidence": 0.97,
+      "method": "context"
+    },
+    {
+      "mention": "老爷（还在司令部）",
+      "entity_id": "zhou_shiheng",
+      "confidence": 0.95,
+      "method": "context_zhou_mansion"
+    },
+    {
+      "mention": "城南寺里从仲卿县来的妇人",
+      "entity_id": "qin_shouyi_wife",
+      "confidence": 0.95,
+      "method": "context_ch17"
+    },
+    {
+      "mention": "大哥／殿下／寿星／朕的儿子",
+      "entity_id": "crown_prince",
       "confidence": 0.99,
       "method": "explicit_name"
     },
     {
-      "mention": "司官（自称昨夜在部里值宿）",
-      "entity_id": "junwu_zhisu_siguan",
-      "confidence": 0.9,
-      "method": "existing_entity_by_post"
-    },
-    {
-      "mention": "府里的兵（宫门外递话、送笺纸）",
-      "entity_id": "zhang_yixuan_family_guard",
-      "confidence": 0.9,
-      "method": "existing_entity_by_title"
-    },
-    {
-      "mention": "中央近卫集团军群的司令部",
-      "entity_id": "central_guards_hq",
+      "mention": "承曜",
+      "entity_id": "zhang_chengyao",
       "confidence": 0.99,
+      "method": "explicit_name",
+      "note": "皇帝当殿以名相呼"
+    },
+    {
+      "mention": "二哥",
+      "entity_id": "zhang_yonghuai",
+      "confidence": 0.97,
+      "method": "context",
+      "note": "张书淮视角称张永怀"
+    },
+    {
+      "mention": "宫城／皇城（近卫军开往之处）",
+      "entity_id": "gongcheng",
+      "confidence": 0.85,
+      "method": "new_entity_place",
+      "note": "索引无宫城实体，新建；设定集/世界观.md 宫城、皇城并列，正文近卫军“往皇城那边去”、宇文策报“把宫城围住了”，统归宫城；未与 daming_palace（大明宫，未出场）合并"
+    },
+    {
+      "mention": "灵武郡",
+      "entity_id": "lingwu_jun",
+      "confidence": 0.95,
       "method": "new_entity_place"
     },
     {
-      "mention": "东宫",
-      "entity_id": "dong_gong",
-      "confidence": 0.99,
-      "method": "new_entity_place",
-      "note": "索引中无东宫实体，新建"
-    },
-    {
-      "mention": "那封信",
-      "entity_id": "weizhuang_jiashu",
-      "confidence": 0.9,
-      "method": "new_entity_item",
-      "note": "第14章起的伪装家书，原只记在 protagonist_state.liaison_letter，本章建物品实体"
-    },
-    {
-      "mention": "口令／瓦尔基里行动",
-      "entity_id": "valkyrie_plan",
-      "confidence": 0.99,
-      "method": "existing_alias",
-      "note": "tier 装饰→重要"
+      "mention": "黑皮的公文包",
+      "entity_id": "heipi_gongwenbao",
+      "confidence": 0.95,
+      "method": "new_entity_item"
     }
   ],
   "warnings": [
     {
-      "mention": "城防司令官兼内务总监（电文署名）",
-      "entity_id": null,
-      "confidence": 0.6,
-      "note": "设定/人物.md 内务总监为端木正（未出场，索引无实体）；本章禁区不点破发令人，故只记入 valkyrie_plan 与 interior_ministry，不建人物实体"
-    },
-    {
-      "mention": "行军路线附页草图（铅笔线条很稳）",
-      "entity_id": "qiu_shenao",
+      "mention": "上了年纪的探员（上午劝过她回去的那一个）",
+      "entity_id": "third_bureau",
       "confidence": 0.75,
-      "note": "正文未明说是邱深澳所画；据 protagonist_state.duty（负责三山门一路行军计划）与合同代价“邱深澳画的路线要用上”记入其 duty"
+      "note": "第17章第365行出现过的无名探员，非 disanchu_wenli_lingtou（文理大学拿人领头）；折入御前第三处，不建实体"
     },
     {
-      "mention": "灵武军马弁",
-      "entity_id": "lingwu_army",
+      "mention": "从侧门进来耳语的羽林军",
+      "entity_id": "yulin_army",
+      "confidence": 0.8,
+      "note": "无名，折入羽林军，不建实体"
+    },
+    {
+      "mention": "自家的王家近卫军（都在宫门外）",
+      "entity_id": null,
       "confidence": 0.7,
-      "note": "未点名，折入灵武军，不建实体"
+      "note": "泛指各宗室的私兵，不专指 zhang_yixuan_family_guard，记入宫城/东宫规矩，不写该实体 delta"
     },
     {
-      "mention": "张艺宣的丫头、两个婶娘、内侍、礼官、首相府书办、报务员、传令兵",
+      "mention": "礼官、内侍、丫头、老家人、殿门口流血的军士、年轻皇子们",
       "entity_id": null,
       "confidence": 0.9,
       "note": "无名功能人物，不建实体"
+    },
+    {
+      "mention": "仲卿县、西域、先帝、先皇后",
+      "entity_id": null,
+      "confidence": 0.8,
+      "note": "仅被提及的背景名词，只写入相关实体 desc，不建实体"
     }
   ]
 }

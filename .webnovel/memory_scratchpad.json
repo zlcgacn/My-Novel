@@ -1,301 +1,6 @@
 {
   "character_state": [
     {
-      "id": "mem-character_state-a362a26bc4eff622",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_shenao",
-      "field": "position",
-      "value": "羽林军第五军参谋，少校",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:qiu_shenao:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-7a6bb9683ee16898",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "colleague_fifth_army",
-      "field": "position",
-      "value": "羽林军第五军参谋，上尉",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:colleague_fifth_army:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-cadd83b6ca0fdb8a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liaison_officer",
-      "field": "position",
-      "value": "参谋本部联络官，中校，帝国山地伯爵",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:liaison_officer:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-532360fa0d88e720",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "position",
-      "value": "近卫灵武军军长，中将，帝国公爵",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:zhou_junzhou:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-20a5576a81b6277b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "honors",
-      "value": "白武一级军功勋章",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:zhou_junzhou:honors:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-fff59d33e4009887",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "position",
-      "value": "帝国中央社广播站主播；亲王之女（公主）",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:zhang_yixuan:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-3e82aa9d13b23772",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yonghuai",
-      "field": "position",
-      "value": "羽林军大元帅、参谋本部副参谋总长、镇秦王",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:zhang_yonghuai:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-9791838fc475301f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yonghuai",
-      "field": "injury",
-      "value": "左半边脸有早年战场旧伤，容貌被毁",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:zhang_yonghuai:injury:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-5141af3a6f3d598d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "reputation",
-      "value": "西市百姓称其“平民亲王”；新年夜凭此名号劝散云中市街口人潮",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:zhang_shuhuai:reputation:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-0687208b8f8650ec",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "position",
-      "value": "尚书省右仆射（右丞相），帝国伯爵",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:wang_sihan:position:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-7ca71c7a7c99dc67",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "honors",
-      "value": "二级帝国政府官员荣誉十字奖章",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "state_change:wang_sihan:honors:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-002439dd50044654",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "minister_of_rites",
-      "field": "first_seen",
-      "value": "礼部尚书",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:minister_of_rites:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-80ec837a4078a025",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shence_shangwei",
-      "field": "first_seen",
-      "value": "神策军上尉",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:shence_shangwei:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-ac4a62a132133a21",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shence_shaowei",
-      "field": "first_seen",
-      "value": "神策军少尉",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:shence_shaowei:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-82b68e1a6c7f8796",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "huainan_diguo",
-      "field": "first_seen",
-      "value": "淮南帝国",
-      "payload": {
-        "tier": "装饰",
-        "type": "势力"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:huainan_diguo:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-15a41b2ae0840ee2",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "jun_fang",
-      "field": "first_seen",
-      "value": "军方",
-      "payload": {
-        "tier": "装饰",
-        "type": "势力"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:jun_fang:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
-      "id": "mem-character_state-30e88967556186e9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "kangjian_guangchang",
-      "field": "first_seen",
-      "value": "康建广场",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "entity_new:kangjian_guangchang:1"
-      ],
-      "updated_at": "2026-10-18T11:05:05"
-    },
-    {
       "id": "mem-character_state-924102e99bec435b",
       "layer": "semantic",
       "category": "character_state",
@@ -1412,24 +1117,6 @@
       "updated_at": "2026-10-18T11:05:23"
     },
     {
-      "id": "mem-character_state-9d237726e6649eae",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chief_aide_de_camp",
-      "field": "first_seen",
-      "value": "侍从武官长",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 9,
-      "evidence": [
-        "entity_new:chief_aide_de_camp:9"
-      ],
-      "updated_at": "2026-10-18T11:05:23"
-    },
-    {
       "id": "mem-character_state-52d2dd1dffc4f576",
       "layer": "semantic",
       "category": "character_state",
@@ -2011,24 +1698,6 @@
       "source_chapter": 11,
       "evidence": [
         "entity_new:jingweiying_shangshi:11"
-      ],
-      "updated_at": "2026-10-18T20:45:47"
-    },
-    {
-      "id": "mem-character_state-b0eaee663e94687b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhoufu_guanjia",
-      "field": "first_seen",
-      "value": "管家",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 11,
-      "evidence": [
-        "entity_new:zhoufu_guanjia:11"
       ],
       "updated_at": "2026-10-18T20:45:47"
     },
@@ -2832,24 +2501,6 @@
       "updated_at": "2026-10-19T22:16:43"
     },
     {
-      "id": "mem-character_state-5cfbf2e20c5ff950",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lingwu_barracks",
-      "field": "first_seen",
-      "value": "灵武军营",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 13,
-      "evidence": [
-        "entity_new:lingwu_barracks:13"
-      ],
-      "updated_at": "2026-10-19T22:16:43"
-    },
-    {
       "id": "mem-character_state-8a69d780a9c21747",
       "layer": "semantic",
       "category": "character_state",
@@ -3407,23 +3058,6 @@
       "updated_at": "2026-10-20T13:12:50"
     },
     {
-      "id": "mem-character_state-830f0e196996ec89",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yonghuai",
-      "field": "location.current",
-      "value": "军务部火场（二月九日辰初到）",
-      "payload": {
-        "old_value": "南京大明宫兴庆门城楼"
-      },
-      "status": "active",
-      "source_chapter": 16,
-      "evidence": [
-        "state_change:zhang_yonghuai:location.current:16"
-      ],
-      "updated_at": "2026-10-20T13:12:50"
-    },
-    {
       "id": "mem-character_state-bd6dc2224acce263",
       "layer": "semantic",
       "category": "character_state",
@@ -3526,24 +3160,6 @@
       "updated_at": "2026-10-20T13:12:50"
     },
     {
-      "id": "mem-character_state-4e5fc467f361e02e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yonghuai",
-      "field": "first_seen",
-      "value": "张永怀",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 16,
-      "evidence": [
-        "entity_new:zhang_yonghuai:16"
-      ],
-      "updated_at": "2026-10-20T13:12:51"
-    },
-    {
       "id": "mem-character_state-6f575ef0bdd63ebc",
       "layer": "semantic",
       "category": "character_state",
@@ -3576,24 +3192,6 @@
       "source_chapter": 16,
       "evidence": [
         "entity_new:lin_anhua:16"
-      ],
-      "updated_at": "2026-10-20T13:12:51"
-    },
-    {
-      "id": "mem-character_state-c9ce339890dbfdfa",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "huben_commander",
-      "field": "first_seen",
-      "value": "虎贲军统领",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 16,
-      "evidence": [
-        "entity_new:huben_commander:16"
       ],
       "updated_at": "2026-10-20T13:12:51"
     },
@@ -3652,24 +3250,6 @@
       "updated_at": "2026-10-20T13:12:51"
     },
     {
-      "id": "mem-character_state-1866340d15699004",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "yulin_army",
-      "field": "first_seen",
-      "value": "羽林军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 16,
-      "evidence": [
-        "entity_new:yulin_army:16"
-      ],
-      "updated_at": "2026-10-20T13:12:51"
-    },
-    {
       "id": "mem-character_state-09fe75121397fd82",
       "layer": "semantic",
       "category": "character_state",
@@ -3723,23 +3303,6 @@
       "updated_at": "2026-10-20T15:11:09"
     },
     {
-      "id": "mem-character_state-d5f8fba9bb9fb493",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junyao",
-      "field": "third_bureau",
-      "value": "自请“要带，连我一起带”，上了第三处的车；第三处不扣也不放学生，只叫她在过道稍候；她说“他们出来，我就回”；周君州留两个灵武军兵在过道口",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "state_change:zhou_junyao:third_bureau:17"
-      ],
-      "updated_at": "2026-10-20T15:11:09"
-    },
-    {
       "id": "mem-character_state-16bdba60e6ac40de",
       "layer": "semantic",
       "category": "character_state",
@@ -3753,40 +3316,6 @@
       "source_chapter": 17,
       "evidence": [
         "state_change:qiu_sitian:view_of_zhou_siblings:17"
-      ],
-      "updated_at": "2026-10-20T15:11:09"
-    },
-    {
-      "id": "mem-character_state-6916171895f6865b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "location.current",
-      "value": "东宫（二月九日辰时穿礼服进东宫，太子生辰，午前到夜里）",
-      "payload": {
-        "old_value": "离开城南粥棚回府张罗当晚小聚，宵禁前先去王家当面交帖、商量接人"
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "state_change:zhang_yixuan:location.current:17"
-      ],
-      "updated_at": "2026-10-20T15:11:09"
-    },
-    {
-      "id": "mem-character_state-59dbb48ccb9bd925",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "next_engagement",
-      "value": "二月九日晚东宫家宴（太子生辰，宗室都在，安平亲王亦在）；已对秦守义之妻说“我见得着他”",
-      "payload": {
-        "old_value": "当晚张艺宣府上暖阁小聚，收锅后张艺宣府里的车（跟车的王家近卫军带她的腰牌）来城南接；散席留宿厢房"
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "state_change:zhang_shuhuai:next_engagement:17"
       ],
       "updated_at": "2026-10-20T15:11:09"
     },
@@ -3872,23 +3401,6 @@
       "source_chapter": 17,
       "evidence": [
         "state_change:imperial_wenli_university:status:17"
-      ],
-      "updated_at": "2026-10-20T15:11:09"
-    },
-    {
-      "id": "mem-character_state-59e0a60c065a1e1d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "cui_xianzhu",
-      "field": "location.current",
-      "value": "周府（门房领进去换干衣、喝热的）",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "state_change:cui_xianzhu:location.current:17"
       ],
       "updated_at": "2026-10-20T15:11:09"
     },
@@ -3982,24 +3494,6 @@
       "updated_at": "2026-10-20T15:11:10"
     },
     {
-      "id": "mem-character_state-467bb7cbb7da5894",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chengnan_temple",
-      "field": "first_seen",
-      "value": "城南寺（收治神圣高地伤员的寺庙）",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "entity_new:chengnan_temple:17"
-      ],
-      "updated_at": "2026-10-20T15:11:10"
-    },
-    {
       "id": "mem-character_state-f7fd0c93785ee93a",
       "layer": "semantic",
       "category": "character_state",
@@ -4032,42 +3526,6 @@
       "source_chapter": 17,
       "evidence": [
         "entity_new:zhuan_an_zu:17"
-      ],
-      "updated_at": "2026-10-20T15:11:10"
-    },
-    {
-      "id": "mem-character_state-fa47b1cf925ae647",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "cui_xianzhu",
-      "field": "first_seen",
-      "value": "崔贤珠",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "entity_new:cui_xianzhu:17"
-      ],
-      "updated_at": "2026-10-20T15:11:10"
-    },
-    {
-      "id": "mem-character_state-61df322d5a25b5f7",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_shouyi_wife",
-      "field": "first_seen",
-      "value": "秦守义之妻",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "entity_new:qin_shouyi_wife:17"
       ],
       "updated_at": "2026-10-20T15:11:10"
     },
@@ -4158,23 +3616,6 @@
       "updated_at": "2026-10-20T17:48:26"
     },
     {
-      "id": "mem-character_state-8f3d39ef16de3045",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junyao",
-      "field": "location.current",
-      "value": "第三处衙门过道长凳（申末天已暗仍坐着不走；邱思甜被王思涵接走，两个灵武军兵守在过道口，门洞底下的电灯亮了、两个探员站在灯底下）",
-      "payload": {
-        "old_value": "第三处衙门过道长凳（巳初随被带走的学生到此，午正后仍坐着不走）"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:zhou_junyao:location.current:18"
-      ],
-      "updated_at": "2026-10-20T17:48:26"
-    },
-    {
       "id": "mem-character_state-943eca2590cc1b33",
       "layer": "semantic",
       "category": "character_state",
@@ -4226,23 +3667,6 @@
       "updated_at": "2026-10-20T17:48:26"
     },
     {
-      "id": "mem-character_state-10f9b67f194f93b8",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "current_task",
-      "value": "在东宫西配殿按品级坐门边候礼，从午前候到入夜；得知周君瑶、邱思甜在第三处，自认两人都从她手里出去了，但不离宫（宗室女中途离宫落话柄），向内侍要笺纸写“思甜在那边坐了一日，劳你去接。宣。”托府里的兵亲手送首相府交王思涵；排在最后进殿",
-      "payload": {
-        "old_value": "进东宫随太子生辰礼仪与家宴；临行把一食盒粥交周君瑶带给周君州，令两个王家近卫军随周府的车先送周君瑶回府、再送邱思甜回王家"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:zhang_yixuan:current_task:18"
-      ],
-      "updated_at": "2026-10-20T17:48:26"
-    },
-    {
       "id": "mem-character_state-90a2587d62b8eb74",
       "layer": "semantic",
       "category": "character_state",
@@ -4256,23 +3680,6 @@
       "source_chapter": 18,
       "evidence": [
         "state_change:zhang_yixuan:family.father:18"
-      ],
-      "updated_at": "2026-10-20T17:48:26"
-    },
-    {
-      "id": "mem-character_state-f27085cf7dc3ce87",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "location.current",
-      "value": "东宫回廊（入夜前进东宫行礼，一夜没睡、眼底青黑）",
-      "payload": {
-        "old_value": "城南寺前粥棚（巳时掌外头那口锅）"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:zhang_shuhuai:location.current:18"
       ],
       "updated_at": "2026-10-20T17:48:26"
     },
@@ -4464,40 +3871,6 @@
       "updated_at": "2026-10-20T17:48:26"
     },
     {
-      "id": "mem-character_state-1c53ec698acc9ab0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_chengyao",
-      "field": "location.current",
-      "value": "东宫回廊（簇新礼服军装、银扣子，与一群年轻宗室说笑如常；未看见张书淮）",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:zhang_chengyao:location.current:18"
-      ],
-      "updated_at": "2026-10-20T17:48:26"
-    },
-    {
-      "id": "mem-character_state-f570a92e7f403143",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "oleg_romanov",
-      "field": "status",
-      "value": "从八日夜起在宫门外站了一宿，天亮又去虎贲军营房，四回要人四回被挡；议事时当众顶回周世衡“元帅的令，末将听见了”，行礼退席，去向未交代",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:oleg_romanov:status:18"
-      ],
-      "updated_at": "2026-10-20T17:48:26"
-    },
-    {
       "id": "mem-character_state-b4f7e4f3dd93c78c",
       "layer": "semantic",
       "category": "character_state",
@@ -4511,57 +3884,6 @@
       "source_chapter": 18,
       "evidence": [
         "state_change:first_guards_army_commander:stance:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-7704420471f5a1a6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "semenovsky_guards",
-      "field": "status",
-      "value": "一个连仍关在虎贲军营房，军长要了四回被挡四回；军长在议事时当众顶回周世衡、退席；元帅许诺家宴散席后入宫请旨放人",
-      "payload": {
-        "old_value": "一个连被虎贲军押起；军长从八日夜起去宫门、虎贲军层层要人，处处挡回"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:semenovsky_guards:status:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-502a3e0ce8367a40",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_shouyi",
-      "field": "status",
-      "value": "八日天黑叫虎贲军押走，关在虎贲军营房里；罗曼诺夫去要四回被挡，死活不知",
-      "payload": {
-        "old_value": "带本连兵去安平王府要女儿，宵禁中被虎贲军以擅离防区、冲撞皇族截住，一连人押起，下落不明"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:qin_shouyi:status:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-ba8752138942c1e7",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_wan",
-      "field": "status",
-      "value": "二月九日入夜前仍在安平亲王府上",
-      "payload": {
-        "old_value": "二月八日一早在城里姨家门口被拖上车（说是安平王府上的），被强占为妾"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "state_change:qin_wan:status:18"
       ],
       "updated_at": "2026-10-20T17:48:27"
     },
@@ -4754,168 +4076,6 @@
       "updated_at": "2026-10-20T17:48:27"
     },
     {
-      "id": "mem-character_state-3ce66e4eca4003f7",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "first_seen",
-      "value": "周君州",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhou_junzhou:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-60135152a7bf0eb5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "first_seen",
-      "value": "张艺宣",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhang_yixuan:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-362c39767e614b4b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "first_seen",
-      "value": "邱思甜",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:qiu_sitian:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-c81e0e4664da6ff8",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "first_seen",
-      "value": "王思涵",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:wang_sihan:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-910ef26f829d54c6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junyao",
-      "field": "first_seen",
-      "value": "周君瑶",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhou_junyao:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-a3da9d94634ff4ff",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "first_seen",
-      "value": "张书淮",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhang_shuhuai:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-9ba6d660276042f3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "crown_prince",
-      "field": "first_seen",
-      "value": "张允恭",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:crown_prince:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-e0d26e44c2b8540d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "emperor",
-      "field": "first_seen",
-      "value": "皇帝（康建皇帝）",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:emperor:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-e7e130a66d19b267",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_shiheng",
-      "field": "first_seen",
-      "value": "周世衡",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhou_shiheng:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
       "id": "mem-character_state-405f4cc2477de999",
       "layer": "semantic",
       "category": "character_state",
@@ -4970,42 +4130,6 @@
       "updated_at": "2026-10-20T17:48:27"
     },
     {
-      "id": "mem-character_state-999caa88c2084f72",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_chengyao",
-      "field": "first_seen",
-      "value": "张承曜",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhang_chengyao:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-c4c028ee51bf0b29",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "oleg_romanov",
-      "field": "first_seen",
-      "value": "奥列格·罗曼诺夫",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:oleg_romanov:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
       "id": "mem-character_state-738dd51a747017c3",
       "layer": "semantic",
       "category": "character_state",
@@ -5038,24 +4162,6 @@
       "source_chapter": 18,
       "evidence": [
         "entity_new:first_guards_army_commander:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-08bd3c74478f6a32",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "gongsu_prince",
-      "field": "first_seen",
-      "value": "张延钧",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:gongsu_prince:18"
       ],
       "updated_at": "2026-10-20T17:48:27"
     },
@@ -5114,42 +4220,6 @@
       "updated_at": "2026-10-20T17:48:27"
     },
     {
-      "id": "mem-character_state-0742e4deab75341f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_shouyi",
-      "field": "first_seen",
-      "value": "秦守义",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:qin_shouyi:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-e065fdc5a0ffe42e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_wan",
-      "field": "first_seen",
-      "value": "秦婉",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:qin_wan:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
       "id": "mem-character_state-bebcf046441db671",
       "layer": "semantic",
       "category": "character_state",
@@ -5168,24 +4238,6 @@
       "updated_at": "2026-10-20T17:48:27"
     },
     {
-      "id": "mem-character_state-ee22ca5363b1726d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "dong_gong",
-      "field": "first_seen",
-      "value": "东宫",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:dong_gong:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
       "id": "mem-character_state-cd793f282940c17c",
       "layer": "semantic",
       "category": "character_state",
@@ -5200,42 +4252,6 @@
       "source_chapter": 18,
       "evidence": [
         "entity_new:junlai_xiang:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-1a39ee93fd1ae6fd",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "disanchu_yamen",
-      "field": "first_seen",
-      "value": "第三处衙门",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:disanchu_yamen:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-706f33aff44d4307",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_mansion",
-      "field": "first_seen",
-      "value": "周府",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:zhou_mansion:18"
       ],
       "updated_at": "2026-10-20T17:48:27"
     },
@@ -5348,24 +4364,6 @@
       "updated_at": "2026-10-20T17:48:27"
     },
     {
-      "id": "mem-character_state-008056c98edecd28",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "semenovsky_guards",
-      "field": "first_seen",
-      "value": "谢苗诺夫斯基近卫军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:semenovsky_guards:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
       "id": "mem-character_state-f2149a2f4913cec1",
       "layer": "semantic",
       "category": "character_state",
@@ -5384,24 +4382,6 @@
       "updated_at": "2026-10-20T17:48:27"
     },
     {
-      "id": "mem-character_state-1f1e6e8a229fe8f0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "jinwei_shituan",
-      "field": "first_seen",
-      "value": "近卫师团",
-      "payload": {
-        "tier": "装饰",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:jinwei_shituan:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
       "id": "mem-character_state-c838d99c5ce84a8c",
       "layer": "semantic",
       "category": "character_state",
@@ -5416,78 +4396,6 @@
       "source_chapter": 18,
       "evidence": [
         "entity_new:central_guards_army_group:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-b22b01be53fc4ef0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "first_guards_army",
-      "field": "first_seen",
-      "value": "第一近卫集团军",
-      "payload": {
-        "tier": "装饰",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:first_guards_army:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-f6f96eb8cf45fe2d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lingwu_army",
-      "field": "first_seen",
-      "value": "灵武军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:lingwu_army:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-e31afa15c6ce6fbf",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "third_bureau",
-      "field": "first_seen",
-      "value": "御前第三处",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:third_bureau:18"
-      ],
-      "updated_at": "2026-10-20T17:48:27"
-    },
-    {
-      "id": "mem-character_state-e0d695b91bf6f5d9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "forbidden_guards",
-      "field": "first_seen",
-      "value": "禁卫军（虎贲、龙武、木兰）",
-      "payload": {
-        "tier": "装饰",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "entity_new:forbidden_guards:18"
       ],
       "updated_at": "2026-10-20T17:48:27"
     },
@@ -5636,114 +4544,1133 @@
       "updated_at": "2026-10-20T17:48:28"
     },
     {
-      "id": "mem-character_state-fef37ec74c6bac3e",
+      "id": "mem-character_state-48c0a1ed60dc47ac",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "location.current",
+      "value": "东宫正殿西列靠门一桌（挨着父亲恭肃亲王）；罗曼诺夫闯殿后被父亲攥住手腕拽到身后，挤在殿里不得离开",
+      "payload": {
+        "old_value": "东宫（二月九日辰时穿礼服进东宫，太子生辰，午前到夜里）"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhang_yixuan:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-d366712c82f6e2c0",
       "layer": "semantic",
       "category": "character_state",
       "subject": "zhang_yixuan",
       "field": "current_task",
-      "value": "进东宫随太子生辰礼仪与家宴；临行把一食盒粥交周君瑶带给周君州，令两个王家近卫军随周府的车先送周君瑶回府、再送邱思甜回王家",
+      "value": "戌初家宴随父亲向太子敬酒，把周君州托她代道的贺咽了回去；宫门里递不进话，不知王思涵接到邱思甜没有、周君瑶还在不在第三处；留意张永怀身后殿柱旁提黑皮公文包的羽林军上校，殿外刚喊起来、满殿人扭头看正门时，她看见那上校提着包从东侧门出去（正门撞开前），闯殿僵持中才回想起来",
       "payload": {
-        "old_value": "府里惊起后拦不住王思涵，便套车、派两个跟车兵，当面交代“护着右丞相，人在哪里，你们在哪里”；看了张书淮一眼，叫人拿来他的棉袍；把邱思甜按在厢房，一把拉住要追哥哥的周君瑶"
+        "old_value": "在东宫西配殿按品级坐门边候礼，从午前候到入夜；得知周君瑶、邱思甜在第三处，自认两人都从她手里出去了，但不离宫（宗室女中途离宫落话柄），向内侍要笺纸写“思甜在那边坐了一日，劳你去接。宣。”托府里的兵亲手送首相府交王思涵；排在最后进殿"
       },
-      "status": "outdated",
-      "source_chapter": 17,
+      "status": "active",
+      "source_chapter": 19,
       "evidence": [
-        "state_change:zhang_yixuan:current_task:17"
+        "state_change:zhang_yixuan:current_task:19"
       ],
-      "updated_at": "2026-10-20T16:18:32"
+      "updated_at": "2026-10-20T19:08:21"
     },
     {
-      "id": "mem-character_state-94582598aeb3e79f",
+      "id": "mem-character_state-2a41d1ae75585825",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "dongong_banquet",
+      "value": "未到九日东宫家宴（在营里）；托张艺宣代道的贺，她在太子席前咽了回去，没说出口；他第15章那句“近卫军的人，这几天还是少往东宫凑”，当夜近卫军闯了东宫",
+      "payload": {
+        "old_value": "不去九日东宫家宴，托张艺宣代向太子道贺"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhou_junzhou:dongong_banquet:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-73d7361e76a7b5ec",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junyao",
+      "field": "location.current",
+      "value": "周府前厅（戌正前后由管家和两个灵武军兵送回，与崔贤珠并排坐着，两碗汤没动）",
+      "payload": {
+        "old_value": "第三处衙门过道长凳（申末天已暗仍坐着不走；邱思甜被王思涵接走，两个灵武军兵守在过道口，门洞底下的电灯亮了、两个探员站在灯底下）"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhou_junyao:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-dd2671c28e314f21",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junyao",
+      "field": "third_bureau",
+      "value": "从巳初坐到戌初，门开出来的是上午劝过她的老探员：学生已从后门押走、不在这里，押到哪里“在下不能说”；她一眼没离开那扇门，人却从看不见的另一头被带走——白坐了一天",
+      "payload": {
+        "old_value": "自请“要带，连我一起带”，上了第三处的车；第三处不扣也不放学生，只叫她在过道稍候；她说“他们出来，我就回”；周君州留两个灵武军兵在过道口"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhou_junyao:third_bureau:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-930b5452f6ccd2af",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cui_xianzhu",
+      "field": "location.current",
+      "value": "周府前厅（穿周府丫头的衣裳，袖子挽了两道，等到戌正；得知学生从后门押走，与周君瑶并排坐着）",
+      "payload": {
+        "old_value": "周府（门房领进去换干衣、喝热的）"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:cui_xianzhu:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-b6dc47347f071ba1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_shiheng",
+      "field": "location.current",
+      "value": "二月九日戌正仍在司令部，未回周府（周府门房所说）；未到东宫家宴",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhou_shiheng:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-1818920cbfea01a1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "third_bureau",
+      "field": "students_status",
+      "value": "文理大学被带走的学生九日戌初前已从第三处衙门后门押走，不在衙门里；押往何处探员不肯说",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:third_bureau:students_status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-ac2f7ec1803a064e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "location.current",
+      "value": "东宫正殿东列自己座位旁（求情被奚落后坐回，酒一口没动；罗曼诺夫闯殿后不往墙根去，扶着桌沿看着殿中）",
+      "payload": {
+        "old_value": "东宫回廊（入夜前进东宫行礼，一夜没睡、眼底青黑）"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhang_shuhuai:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-03d8a3537c2175bc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "next_engagement",
+      "value": "已过：戌初三刻端着酒走到西列，当面请安平亲王放秦婉回去，被奚落“吴訥王也管起闲事来了？粥棚里的事还管不过来？”，一桌人笑；他没再说话，点了一下头走回座位",
+      "payload": {
+        "old_value": "二月九日晚东宫家宴（太子生辰，宗室都在，安平亲王亦在）；已对秦守义之妻说“我见得着他”"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhang_shuhuai:next_engagement:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-5d76d58abc684b2a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yonghuai",
+      "field": "location.current",
+      "value": "戌初三刻后，一名羽林军军服的人从侧门进殿耳语，他以“羽林军有急报”向皇帝告退、向太子欠身，从东宫正殿侧门离开，去向不明；身后提公文包的上校没跟走",
+      "payload": {
+        "old_value": "军务部火场（二月九日辰初到）"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhang_yonghuai:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-c59dd59fa9e50357",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_chengyao",
+      "field": "location.current",
+      "value": "东宫正殿西列最前一桌后站着（戴绿玉扳指；奚落张书淮；罗曼诺夫闯殿后拍桌喊“造反”、叫虎贲军，没人进得来；被皇帝问话后承认、奉命“坐回去”却站着不坐；宇文策报宫城被围后两手撑桌、脸上的红褪尽）",
+      "payload": {
+        "old_value": "东宫回廊（簇新礼服军装、银扣子，与一群年轻宗室说笑如常；未看见张书淮）"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhang_chengyao:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-65c0bdaf4a6e40e5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "oleg_romanov",
+      "field": "status",
+      "value": "九日戌初三刻后带兵撞开东宫正殿门，二三十兵堵正门、另两小队堵东西两道侧门；独自走到殿中向皇帝请两件事：放秦守义一连并送秦婉回家，依法办安平亲王；“陛下不答应，臣今夜就不走”。太子令退兵他不退；皇帝令“先撤兵，朕自会叫人去查”，他答今夜撤兵明天就再没人查；皇帝再令“撤兵”，他深深一躬、一步不挪；宫城被围后皇帝说“那就等着”，殿内僵持",
+      "payload": {
+        "old_value": "从八日夜起在宫门外站了一宿，天亮又去虎贲军营房，四回要人四回被挡；议事时当众顶回周世衡“元帅的令，末将听见了”，行礼退席，去向未交代"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:oleg_romanov:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-7331513defd62997",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "semenovsky_guards",
+      "field": "status",
+      "value": "违周世衡不出营之令：九日夜大队上刺刀开往皇城，与近卫师团一起把宫城围住；横街北口与虎贲军隔十几步对峙，未开枪；军长带兵闯进东宫正殿，堵住正门与东西两道侧门；秦守义一连仍未放",
+      "payload": {
+        "old_value": "一个连仍关在虎贲军营房，军长要了四回被挡四回；军长在议事时当众顶回周世衡、退席；元帅许诺家宴散席后入宫请旨放人"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:semenovsky_guards:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-3a41a3d60e43e72c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jinwei_shituan",
+      "field": "status",
+      "value": "九日夜随谢苗诺夫斯基近卫军开往皇城，大队参与包围宫城（虎贲军统领所报）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:jinwei_shituan:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-ae339a7f4afea1db",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "first_guards_army",
+      "field": "status",
+      "value": "九日夜所辖谢苗诺夫斯基近卫军、近卫师团违周世衡“一律不许出营”之令出营围宫城；太子在殿上以集团军司令身份令罗曼诺夫退兵，未被听从",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:first_guards_army:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-0255489cd0466cdb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "forbidden_guards",
+      "field": "status",
+      "value": "九日夜虎贲军一排在横街北口持枪上刺刀堵住街口，与近卫军对峙未开枪；东宫殿门外与近卫军扭打，刺刀对人、手指搭在扳机护圈外，没人扣扳机，被挡在殿门外推不进来",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:forbidden_guards:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-826c126a990b3c05",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "huben_commander",
+      "field": "status",
+      "value": "九日戌正后到东宫正殿东侧门外，由守门的近卫军解下佩刀（只剩空刀鞘）才放进殿（大氅扣子扯掉两颗、额角青一块），单膝跪奏：谢苗诺夫斯基近卫军、近卫师团的大队把宫城围住了",
+      "payload": {
+        "old_value": "九日火场以宵禁圣旨要接管火场，被羽林军上尉、神策军中尉顶回；骑兵横在水龙前头，称内务本部的本部都塌了、城里的事轮不到它做主；辰初对张永怀说要向圣上奏明，随后带骑兵离开"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:huben_commander:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-3af780a2bbb3a9f5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_shouyi",
+      "field": "status",
+      "value": "九日戌正仍与全连关在虎贲军手里（罗曼诺夫殿上说“关到现在”）；罗曼诺夫当殿要求放人",
+      "payload": {
+        "old_value": "八日天黑叫虎贲军押走，关在虎贲军营房里；罗曼诺夫去要四回被挡，死活不知"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:qin_shouyi:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-1204a0ba5243c412",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_shouyi",
+      "field": "backstory.grandfather",
+      "value": "祖父跟着先帝打过西域，死在灵武郡城外（罗曼诺夫殿上所说）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:qin_shouyi:backstory.grandfather:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-0e96d023263b75d4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_wan",
+      "field": "status",
+      "value": "九日戌正仍未出安平亲王府（罗曼诺夫殿上说“到这会儿没有出来”）；张书淮、罗曼诺夫先后当着宗室要求放她回家；安平亲王当殿向皇帝承认把她带回府，称“是抬举她”",
+      "payload": {
+        "old_value": "二月九日入夜前仍在安平亲王府上"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:qin_wan:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-69694ef28f071bf0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "crown_prince",
+      "field": "status",
+      "value": "九日家宴受贺；罗曼诺夫闯殿后走下席来，以“你是第一近卫集团军的人，是我的部下”令其退兵、许明早亲向父皇请旨，罗曼诺夫不退；皇帝开口令撤兵后，他站在父皇与自己的部下中间，回头看上首、又看罗曼诺夫，嘴唇动了动什么也没说出——哪一边也压不住",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:crown_prince:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-77c13d61d02577e3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "emperor",
+      "field": "status",
+      "value": "九日东宫家宴：罗曼诺夫带兵闯殿请命，他先不语，后把开宴时的酒杯放回桌上，坐着不起身开口：“今天是太子的寿辰……朕不在刀枪底下说话。你先撤兵……这件事，朕自会叫人去查。”问安平亲王“有没有这回事”，听其承认后只说“坐回去”；再令“撤兵”，罗曼诺夫不动；宇文策报宫城被围，他不看宇文策，看着罗曼诺夫说“那就等着”",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:emperor:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-eebbe889868401c1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "emperor",
+      "field": "stance",
+      "value": "不在刀枪底下让步：近卫军撤兵之前不谈放人与办安平亲王（只许“自会叫人去查”）；宫城被围仍不松口，“那就等着”",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:emperor:stance:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-fe158aac3ef18205",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_chengyao",
+      "field": "case_admission",
+      "value": "九日戌正后被皇帝当殿问“有没有这回事”，承认看秦婉“生得齐整，带回府里，是抬举她。一个连长的闺女……”；皇帝只说“坐回去”，未当场处置；他退回桌后站着不坐",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:zhang_chengyao:case_admission:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-fe0bffed819f44ec",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "dong_gong",
+      "field": "status",
+      "value": "九日戌初三刻后正殿正门被谢苗诺夫斯基近卫军二三十兵堵住，东西两道侧门各由四五兵把守（刺刀上着、背门面殿）；宗室出不去，虎贲军进不来，宇文策卸刀后才从东侧门放进",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:dong_gong:status:19"
+      ],
+      "updated_at": "2026-10-20T19:08:21"
+    },
+    {
+      "id": "mem-character_state-1a38331fe78b82b0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_colonel_gongwenbao",
+      "field": "location.current",
+      "value": "九日戌初三刻后，殿外刚喊起来、满殿人扭头看正门时，沿墙根不慌不忙从东宫正殿东侧门出去（那时侧门还没人守，只有一个端酒壶的内侍愣愣让路），黑皮公文包提着走；他走后不到半盏茶正门才被撞开，近卫军随后才堵上侧门；去向不明",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "state_change:yulin_colonel_gongwenbao:location.current:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-079bd162455c86d5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "first_seen",
+      "value": "张艺宣",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhang_yixuan:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-84425fd65d1716c5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junyao",
+      "field": "first_seen",
+      "value": "周君瑶",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhou_junyao:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-2a66321c68357b8c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "first_seen",
+      "value": "张书淮",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhang_shuhuai:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-d2b4771cddfba9ea",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yonghuai",
+      "field": "first_seen",
+      "value": "张永怀",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhang_yonghuai:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-fb5ee50dfbf8a30f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "first_seen",
+      "value": "周君州",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhou_junzhou:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-a90c8fdc22a94dce",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "first_seen",
+      "value": "邱思甜",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:qiu_sitian:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-655e2e0c09ef2ecf",
       "layer": "semantic",
       "category": "character_state",
       "subject": "wang_sihan",
-      "field": "location.current",
-      "value": "首相府（据跟车兵所报，火灭后回了首相府）",
+      "field": "first_seen",
+      "value": "王思涵",
       "payload": {
-        "old_value": "二月九日辰初乘张艺宣府上的车离开军务部火场东去（周君州叫她天亮回首相府）"
+        "tier": "核心",
+        "type": "角色"
       },
-      "status": "outdated",
-      "source_chapter": 17,
+      "status": "active",
+      "source_chapter": 19,
       "evidence": [
-        "state_change:wang_sihan:location.current:17"
+        "entity_new:wang_sihan:19"
       ],
-      "updated_at": "2026-10-20T16:18:32"
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-3b2d2604bea574f9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "crown_prince",
+      "field": "first_seen",
+      "value": "张允恭",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:crown_prince:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-fc96460306aa4251",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "emperor",
+      "field": "first_seen",
+      "value": "皇帝（康建皇帝）",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:emperor:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-e4033e88c778755b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_chengyao",
+      "field": "first_seen",
+      "value": "张承曜",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhang_chengyao:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-ad8d63ca96f00832",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "oleg_romanov",
+      "field": "first_seen",
+      "value": "奥列格·罗曼诺夫",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:oleg_romanov:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-17d73a8e5a2c633a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_shiheng",
+      "field": "first_seen",
+      "value": "周世衡",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhou_shiheng:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-d9cca8ef681f2d82",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gongsu_prince",
+      "field": "first_seen",
+      "value": "张延钧",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:gongsu_prince:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-218f2cfabffd8c92",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "huben_commander",
+      "field": "first_seen",
+      "value": "宇文策",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:huben_commander:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-7adc0a334b4676cf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chief_aide_de_camp",
+      "field": "first_seen",
+      "value": "侍从武官长",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:chief_aide_de_camp:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-5b16f98154e435b9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cui_xianzhu",
+      "field": "first_seen",
+      "value": "崔贤珠",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:cui_xianzhu:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-8984cecd1bd55bbb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhoufu_guanjia",
+      "field": "first_seen",
+      "value": "管家",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhoufu_guanjia:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-cbed1d1114ac7e7c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_shouyi",
+      "field": "first_seen",
+      "value": "秦守义",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:qin_shouyi:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-2cd12058958948d0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_wan",
+      "field": "first_seen",
+      "value": "秦婉",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:qin_wan:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-b97ee15a42e3b3a1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_shouyi_wife",
+      "field": "first_seen",
+      "value": "秦守义之妻",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:qin_shouyi_wife:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-085c56f066b9c84c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_colonel_gongwenbao",
+      "field": "first_seen",
+      "value": "提公文包的羽林军上校",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:yulin_colonel_gongwenbao:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-ffc87e25b08d685a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zongshi_lao_qinwang",
+      "field": "first_seen",
+      "value": "宗室年纪最长的老亲王",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zongshi_lao_qinwang:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-c5f3b2a1416af81d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "semenovsky_guards",
+      "field": "first_seen",
+      "value": "谢苗诺夫斯基近卫军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:semenovsky_guards:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-4853960e6cbe572f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jinwei_shituan",
+      "field": "first_seen",
+      "value": "近卫师团",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:jinwei_shituan:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-6152884c99dc4329",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "first_guards_army",
+      "field": "first_seen",
+      "value": "第一近卫集团军",
+      "payload": {
+        "tier": "装饰",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:first_guards_army:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-1d57063f535d35c2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "forbidden_guards",
+      "field": "first_seen",
+      "value": "禁卫军（虎贲、龙武、木兰）",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:forbidden_guards:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-93be686926a9f219",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_army",
+      "field": "first_seen",
+      "value": "羽林军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:yulin_army:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-6908096d6f3195c6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "third_bureau",
+      "field": "first_seen",
+      "value": "御前第三处",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:third_bureau:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-05d2421bdca23db8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lingwu_army",
+      "field": "first_seen",
+      "value": "灵武军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:lingwu_army:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-bbbd2349e4b6e007",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "dong_gong",
+      "field": "first_seen",
+      "value": "东宫",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:dong_gong:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-4fce49210c39b450",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gongcheng",
+      "field": "first_seen",
+      "value": "宫城",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:gongcheng:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-97a9d7d6e0694cd1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "disanchu_yamen",
+      "field": "first_seen",
+      "value": "第三处衙门",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:disanchu_yamen:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-255c826630111fe4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_mansion",
+      "field": "first_seen",
+      "value": "周府",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:zhou_mansion:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-2bad55740dd15fa1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chengnan_temple",
+      "field": "first_seen",
+      "value": "城南寺（收治神圣高地伤员的寺庙）",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:chengnan_temple:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-ebbf4519e49acd63",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lingwu_barracks",
+      "field": "first_seen",
+      "value": "灵武军营",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:lingwu_barracks:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-e88e69a3893f7247",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lingwu_jun",
+      "field": "first_seen",
+      "value": "灵武郡",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:lingwu_jun:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-character_state-33ff99a605a8c59f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "heipi_gongwenbao",
+      "field": "first_seen",
+      "value": "黑皮公文包",
+      "payload": {
+        "tier": "次要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "entity_new:heipi_gongwenbao:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
     }
   ],
   "story_facts": [],
   "world_rules": [
-    {
-      "id": "mem-world_rule-8a394f0ff9eb10ec",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "历法节庆",
-      "field": "world_rule_revealed",
-      "value": "淮南帝国以皇帝年号纪年，康建五十年立国满一百五十四年；康建五十年二月四日为新年头一天，按老规矩日落时分放烟火；本年二月逢皇帝登基五十周年大庆与皇太子生辰。",
-      "payload": {
-        "scope": "全国",
-        "rule_text": "淮南帝国以皇帝年号纪年，康建五十年立国满一百五十四年；康建五十年二月四日为新年头一天，按老规矩日落时分放烟火；本年二月逢皇帝登基五十周年大庆与皇太子生辰。"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:world_rule:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
-    {
-      "id": "mem-world_rule-df9557a8814f3f1a",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "宗教",
-      "field": "world_rule_revealed",
-      "value": "帝国国教新年伊始有明灯游行传统，信众手持明灯照亮长安大街、为帝国与自身祈福；京城百人中少说八十人信奉国教。皇帝是无神论者、不信国教，但仍需搞好与国教太师的关系。",
-      "payload": {
-        "scope": "京城",
-        "rule_text": "帝国国教新年伊始有明灯游行传统，信众手持明灯照亮长安大街、为帝国与自身祈福；京城百人中少说八十人信奉国教。皇帝是无神论者、不信国教，但仍需搞好与国教太师的关系。"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:world_rule:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
-    {
-      "id": "mem-world_rule-5973ce7b77fe360c",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "军制服饰",
-      "field": "world_rule_revealed",
-      "value": "灵武军将官礼服为红黑两色，黑色高立领配大红矢车菊领章；军徽为金色双头鹰，胸前护刻古篆“止”字的盾牌，身后竖长戈，“止”“戈”合而为“武”。",
-      "payload": {
-        "scope": "灵武军",
-        "rule_text": "灵武军将官礼服为红黑两色，黑色高立领配大红矢车菊领章；军徽为金色双头鹰，胸前护刻古篆“止”字的盾牌，身后竖长戈，“止”“戈”合而为“武”。"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:world_rule:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
-    {
-      "id": "mem-world_rule-32bafd221a310072",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "礼制服饰",
-      "field": "world_rule_revealed",
-      "value": "爵位与身份以胸针标识：带皇帝冠冕的灰色刀剑十字胸针为公爵标识；带皇后冠冕的红琉璃花胸针标明亲王之女身份。羽林军军官着原野灰立领野战服、金色仲卿花刺绣、双头鹰黑灰色大檐帽。",
-      "payload": {
-        "scope": "全国",
-        "rule_text": "爵位与身份以胸针标识：带皇帝冠冕的灰色刀剑十字胸针为公爵标识；带皇后冠冕的红琉璃花胸针标明亲王之女身份。羽林军军官着原野灰立领野战服、金色仲卿花刺绣、双头鹰黑灰色大檐帽。"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:world_rule:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
     {
       "id": "mem-world_rule-0d69f89b00b63e12",
       "layer": "semantic",
@@ -6465,24 +6392,6 @@
       "updated_at": "2026-10-20T17:48:28"
     },
     {
-      "id": "mem-world_rule-822b15024afa0510",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "宫廷礼制",
-      "field": "world_rule_revealed",
-      "value": "太子生辰东宫礼仪：宗室男子一拨一拨进正殿行礼，礼官在殿门口高声唱名号；女眷在西配殿按品级从上首排到门边，等男子行完才轮到。宗室的女儿中途离宫要落话柄，何况在殿下寿辰上为第三处离宫。东宫的纸出去要经好几道人的手",
-      "payload": {
-        "scope": "东宫",
-        "rule_text": "太子生辰东宫礼仪：宗室男子一拨一拨进正殿行礼，礼官在殿门口高声唱名号；女眷在西配殿按品级从上首排到门边，等男子行完才轮到。宗室的女儿中途离宫要落话柄，何况在殿下寿辰上为第三处离宫。东宫的纸出去要经好几道人的手"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "memory_facts:world_rule:18"
-      ],
-      "updated_at": "2026-10-20T17:48:28"
-    },
-    {
       "id": "mem-world_rule-fe2372cb5b789cff",
       "layer": "semantic",
       "category": "world_rule",
@@ -6553,90 +6462,64 @@
         "memory_facts:world_rule:18"
       ],
       "updated_at": "2026-10-20T17:48:28"
+    },
+    {
+      "id": "mem-world_rule-67c41434cb53b18d",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "宫廷礼制",
+      "field": "world_rule_revealed",
+      "value": "东宫家宴规矩：正殿东西两列长桌，皇子坐最前，宗室按品级往下排、一桌四五人，越往下离御座越远、离殿门越近；皇帝先举杯，太子受贺，宗室按品级一拨一拨上前敬酒说吉祥话；统兵宗室身后可站一两个随员，空手垂眼，进殿前佩刀一律留在外头；宗室自家的王家近卫军都在宫门外，殿里没有一个宗室身边有自己的兵；皇帝起身以前满殿无人敢离席",
+      "payload": {
+        "scope": "东宫正殿",
+        "rule_text": "东宫家宴规矩：正殿东西两列长桌，皇子坐最前，宗室按品级往下排、一桌四五人，越往下离御座越远、离殿门越近；皇帝先举杯，太子受贺，宗室按品级一拨一拨上前敬酒说吉祥话；统兵宗室身后可站一两个随员，空手垂眼，进殿前佩刀一律留在外头；宗室自家的王家近卫军都在宫门外，殿里没有一个宗室身边有自己的兵；皇帝起身以前满殿无人敢离席"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:world_rule:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-world_rule-4073f6519aaf48fd",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "衙门规矩",
+      "field": "world_rule_revealed",
+      "value": "第三处押人走后门：学生是从衙门另一头押走的，守在正门过道里的人看不见；押往何处，探员只答“这个，在下不能说”",
+      "payload": {
+        "scope": "御前第三处",
+        "rule_text": "第三处押人走后门：学生是从衙门另一头押走的，守在正门过道里的人看不见；押往何处，探员只答“这个，在下不能说”"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:world_rule:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-world_rule-391bdc4db52ea9d7",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "宫城格局",
+      "field": "world_rule_revealed",
+      "value": "东宫正殿东西两道侧门通东宫后头的夹道，平日只走内侍；开宴后张永怀、传话的羽林军、提公文包的上校都在侧门无人把守时由此进出；近卫军闯殿后分两小队堵住东西两道侧门，侧门已归近卫军控制，连虎贲军统领宇文策也须由守门近卫军卸下佩刀才放进来",
+      "payload": {
+        "scope": "东宫正殿",
+        "rule_text": "东宫正殿东西两道侧门通东宫后头的夹道，平日只走内侍；开宴后张永怀、传话的羽林军、提公文包的上校都在侧门无人把守时由此进出；近卫军闯殿后分两小队堵住东西两道侧门，侧门已归近卫军控制，连虎贲军统领宇文策也须由守门近卫军卸下佩刀才放进来"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:world_rule:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
     }
   ],
   "timeline": [],
   "open_loops": [
-    {
-      "id": "mem-open_loop-d05ee7ac3c96ebe6",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "张永怀在兴庆门城楼上盯着观礼台上的周君州，右手死死握住佩剑，低声念出其名字，指节发白；正文未交代缘由。",
-      "field": "status",
-      "value": "张永怀在兴庆门城楼上盯着观礼台上的周君州，右手死死握住佩剑，低声念出其名字，指节发白；正文未交代缘由。",
-      "payload": {
-        "urgency": 60.0,
-        "planted_chapter": 1,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:open_loop:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
-    {
-      "id": "mem-open_loop-09c68178d896753d",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "张艺宣看了周君州一眼，似乎还想说些什么，最后把话咽了回去。",
-      "field": "status",
-      "value": "张艺宣看了周君州一眼，似乎还想说些什么，最后把话咽了回去。",
-      "payload": {
-        "urgency": 20.0,
-        "planted_chapter": 1,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:open_loop:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
-    {
-      "id": "mem-open_loop-79ad8debe7d0bf68",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "庆典上是否悬挂国教明灯悬而未决：王思涵主张悬挂，礼部尚书以皇帝是无神论者为由反对；王思涵称待与首相商议后再定，并思考如何劝首相支持自己。",
-      "field": "status",
-      "value": "庆典上是否悬挂国教明灯悬而未决：王思涵主张悬挂，礼部尚书以皇帝是无神论者为由反对；王思涵称待与首相商议后再定，并思考如何劝首相支持自己。",
-      "payload": {
-        "urgency": 60.0,
-        "planted_chapter": 1,
-        "expected_payoff": "庆典筹备",
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:open_loop:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
-    {
-      "id": "mem-open_loop-e35d91808beebe25",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "听到王思涵是外交部部长的亲戚时，邱深澳脱口说出“外交部部长的亲戚，我怎么没……”，被同僚追问是否认识外交部部长，随即改口“没什么，怎么可能”。",
-      "field": "status",
-      "value": "听到王思涵是外交部部长的亲戚时，邱深澳脱口说出“外交部部长的亲戚，我怎么没……”，被同僚追问是否认识外交部部长，随即改口“没什么，怎么可能”。",
-      "payload": {
-        "urgency": 40.0,
-        "planted_chapter": 1,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:open_loop:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
     {
       "id": "mem-open_loop-01cf3f087a15be54",
       "layer": "semantic",
@@ -6666,26 +6549,6 @@
       "value": "皇太子副官代表皇太子与邱思甜议定停战条款并在手写协议草稿上签字：前线军队三月二号彻底脱离接触，五号前全部返回国境线；两国交界处分别留出五十公里和一百二十公里非军事区；东秦支付战争期间全部开支，并把火落城产出的百分之七十移交帝国。外交部将据此同东秦王国商谈和平协议。",
       "payload": {
         "urgency": 60.0,
-        "planted_chapter": 2,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 2,
-      "evidence": [
-        "memory_facts:open_loop:2"
-      ],
-      "updated_at": "2026-10-18T11:05:08"
-    },
-    {
-      "id": "mem-open_loop-60153a0ce65e3151",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "副官出楼时称本该停在广场的马车不见了（邱思甜来时广场上只有一辆通讯处马车），到广场时马车却赫然停着；副官被联络官叫住、刚从车上下来，马车即剧烈爆炸。",
-      "field": "status",
-      "value": "副官出楼时称本该停在广场的马车不见了（邱思甜来时广场上只有一辆通讯处马车），到广场时马车却赫然停着；副官被联络官叫住、刚从车上下来，马车即剧烈爆炸。",
-      "payload": {
-        "urgency": 100.0,
         "planted_chapter": 2,
         "expected_payoff": null,
         "status": "active"
@@ -8516,27 +8379,149 @@
         "memory_facts:open_loop:18"
       ],
       "updated_at": "2026-10-20T17:48:28"
+    },
+    {
+      "id": "mem-open_loop-596ed7e8698c1258",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "家宴上张永怀身后殿柱旁站着一个羽林军上校（个子不高、脸很平常、站得笔直），满殿随员只有他手里拿着东西——一只看着不轻的黑皮公文包，一直没换手、没放到脚边；张永怀借急报离席他不跟走，留在原地；罗曼诺夫闯殿的乱中，他逆着人流不慌不忙沿墙根走到侧门，从吓白了脸的内侍身边出去，包仍在手，门留一道缝，没人拦。只有张艺宣一路看在眼里",
+      "field": "status",
+      "value": "家宴上张永怀身后殿柱旁站着一个羽林军上校（个子不高、脸很平常、站得笔直），满殿随员只有他手里拿着东西——一只看着不轻的黑皮公文包，一直没换手、没放到脚边；张永怀借急报离席他不跟走，留在原地；罗曼诺夫闯殿的乱中，他逆着人流不慌不忙沿墙根走到侧门，从吓白了脸的内侍身边出去，包仍在手，门留一道缝，没人拦。只有张艺宣一路看在眼里",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 19,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T18:36:31"
+    },
+    {
+      "id": "mem-open_loop-c6ba43bccf5b707a",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听，皇帝端着凉了的酒杯一言不发；殿门被近卫军堵着，宫城被谢苗诺夫斯基近卫军、近卫师团围住，宗室挤在殿里出不去",
+      "field": "status",
+      "value": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听，皇帝端着凉了的酒杯一言不发；殿门被近卫军堵着，宫城被谢苗诺夫斯基近卫军、近卫师团围住，宗室挤在殿里出不去",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 19,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T18:36:31"
+    },
+    {
+      "id": "mem-open_loop-fa0f51b1299b5524",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "家宴上张永怀身后殿柱旁站着一个羽林军上校（个子不高、脸很平常、站得笔直），满殿随员只有他手里拿着东西——一只看着不轻的黑皮公文包，一直没换手、没放到脚边；张永怀借急报离席他不跟走，留在原地；殿外刚喊起来、满殿人扭头看正门时，他不看正门，沿墙根不慌不忙从东侧门出去（侧门还没人守，端酒壶的内侍给他让路），包提着走；不到半盏茶正门才被撞开，近卫军随后才堵上侧门——他赶在殿被封住之前离开。只有张艺宣看见，闯殿僵持中才回想起来",
+      "field": "status",
+      "value": "家宴上张永怀身后殿柱旁站着一个羽林军上校（个子不高、脸很平常、站得笔直），满殿随员只有他手里拿着东西——一只看着不轻的黑皮公文包，一直没换手、没放到脚边；张永怀借急报离席他不跟走，留在原地；殿外刚喊起来、满殿人扭头看正门时，他不看正门，沿墙根不慌不忙从东侧门出去（侧门还没人守，端酒壶的内侍给他让路），包提着走；不到半盏茶正门才被撞开，近卫军随后才堵上侧门——他赶在殿被封住之前离开。只有张艺宣看见，闯殿僵持中才回想起来",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 19,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-open_loop-4f4798983a641d44",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "文理大学被带走的大和、高丽等留校学生（承第17、18章）：九日戌初前被第三处从后门押走，押往何处探员不肯说；令出圣上亲旨，名单谁报上去的仍不知；崔贤珠在周府等来的只有“从后门押走了，我没看见”",
+      "field": "status",
+      "value": "文理大学被带走的大和、高丽等留校学生（承第17、18章）：九日戌初前被第三处从后门押走，押往何处探员不肯说；令出圣上亲旨，名单谁报上去的仍不知；崔贤珠在周府等来的只有“从后门押走了，我没看见”",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 17,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-open_loop-af73376789f3bef8",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "戌初三刻后张永怀以“羽林军有急报”离开家宴，从侧门出去，此后没再回殿；他前脚走，近卫军后脚闯殿；身后提公文包的上校留在殿柱旁没跟走",
+      "field": "status",
+      "value": "戌初三刻后张永怀以“羽林军有急报”离开家宴，从侧门出去，此后没再回殿；他前脚走，近卫军后脚闯殿；身后提公文包的上校留在殿柱旁没跟走",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 19,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-open_loop-44f9080dbb1fb2f9",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听；皇帝开口“朕不在刀枪底下说话”，只许撤兵后“自会叫人去查”，两次令撤兵他都不动；安平亲王当殿承认把秦婉带回府，皇帝只说“坐回去”；宇文策报宫城被围，皇帝说“那就等着”。正门与两道侧门都被近卫军堵着，宗室挤在殿里出不去",
+      "field": "status",
+      "value": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听；皇帝开口“朕不在刀枪底下说话”，只许撤兵后“自会叫人去查”，两次令撤兵他都不动；安平亲王当殿承认把秦婉带回府，皇帝只说“坐回去”；宇文策报宫城被围，皇帝说“那就等着”。正门与两道侧门都被近卫军堵着，宗室挤在殿里出不去",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 19,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
+    },
+    {
+      "id": "mem-open_loop-73525a12f8de5bc8",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "谢苗诺夫斯基近卫军、近卫师团大队围住宫城，与虎贲军对峙未开枪；周世衡还在司令部、周君州在营里，散席后入宫请旨的许诺已赶不上；而第五军等羽林军部队（第18章瓦尔基里口令）正开往城门与宫城西南一线",
+      "field": "status",
+      "value": "谢苗诺夫斯基近卫军、近卫师团大队围住宫城，与虎贲军对峙未开枪；周世衡还在司令部、周君州在营里，散席后入宫请旨的许诺已赶不上；而第五军等羽林军部队（第18章瓦尔基里口令）正开往城门与宫城西南一线",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 19,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:open_loop:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
     }
   ],
   "reader_promises": [
-    {
-      "id": "mem-reader_promise-1698a56c2edb6b84",
-      "layer": "semantic",
-      "category": "reader_promise",
-      "subject": "张艺宣说庆典当天由她在广播中播报，灵武军方阵通过康建广场时要好好介绍一番。",
-      "field": "promise",
-      "value": "张艺宣说庆典当天由她在广播中播报，灵武军方阵通过康建广场时要好好介绍一番。",
-      "payload": {
-        "promise_type": "promise_created",
-        "target": "zhang_yixuan"
-      },
-      "status": "active",
-      "source_chapter": 1,
-      "evidence": [
-        "memory_facts:reader_promise:1"
-      ],
-      "updated_at": "2026-10-18T11:05:06"
-    },
     {
       "id": "mem-reader_promise-35da36245fc6db8b",
       "layer": "semantic",
@@ -9058,12 +9043,30 @@
         "memory_facts:reader_promise:18"
       ],
       "updated_at": "2026-10-20T17:48:28"
+    },
+    {
+      "id": "mem-reader_promise-93d53a07298fa116",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "第17章张书淮对秦守义之妻说“今晚宫里有家宴……他也在。我见得着他。”",
+      "field": "promise",
+      "value": "第17章张书淮对秦守义之妻说“今晚宫里有家宴……他也在。我见得着他。”",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "zhang_shuhuai"
+      },
+      "status": "active",
+      "source_chapter": 19,
+      "evidence": [
+        "memory_facts:reader_promise:19"
+      ],
+      "updated_at": "2026-10-20T19:08:22"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-20T17:48:28",
+    "last_updated": "2026-10-20T19:08:22",
     "total_items": 500
   }
 }

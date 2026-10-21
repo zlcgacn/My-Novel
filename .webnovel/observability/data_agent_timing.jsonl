@@ -793,3 +793,53 @@
 {"timestamp": "2026-10-20T16:18:37.093391", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-10-20T17:42:56.265018", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-10-20T17:48:31.630234", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:07.542062", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:07.956635", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 恭肃亲王"}
+{"timestamp": "2026-10-20T18:29:08.372725", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:08.786418", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:09.209364", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:09.635846", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:10.044916", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:10.465171", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-20T18:29:10.883646", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-20T18:29:11.298203", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:11.715469", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 虎贲军"}
+{"timestamp": "2026-10-20T18:29:12.150502", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:12.575358", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:12.998064", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:13.460661", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:13.898053", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 罗曼诺夫"}
+{"timestamp": "2026-10-20T18:29:14.321862", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 第三处"}
+{"timestamp": "2026-10-20T18:29:14.751269", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:15.184099", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 周府管家"}
+{"timestamp": "2026-10-20T18:29:15.613180", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:16.064051", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 宫城"}
+{"timestamp": "2026-10-20T18:29:16.487475", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 皇城"}
+{"timestamp": "2026-10-20T18:29:16.898448", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 韦廷甫"}
+{"timestamp": "2026-10-20T18:29:17.314725", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:17.738922", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 王家近卫军"}
+{"timestamp": "2026-10-20T18:29:18.147022", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 礼官"}
+{"timestamp": "2026-10-20T18:29:18.559924", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 仲卿县"}
+{"timestamp": "2026-10-20T18:29:19.002375", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 灵武郡"}
+{"timestamp": "2026-10-20T18:29:19.423756", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 城南寺"}
+{"timestamp": "2026-10-20T18:29:19.837673", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 先帝"}
+{"timestamp": "2026-10-20T18:29:20.250989", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 先皇后"}
+{"timestamp": "2026-10-20T18:29:20.664630", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 吴訥亲王"}
+{"timestamp": "2026-10-20T18:29:21.102302", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 安平亲王"}
+{"timestamp": "2026-10-20T18:29:21.513300", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 太子"}
+{"timestamp": "2026-10-20T18:29:21.939133", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:22.357479", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 恭肃亲王府"}
+{"timestamp": "2026-10-20T18:29:22.767070", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:23.174444", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:23.590358", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:24.014125", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:24.448729", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 西域"}
+{"timestamp": "2026-10-20T18:29:24.858517", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 老探员"}
+{"timestamp": "2026-10-20T18:29:25.286062", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 探员"}
+{"timestamp": "2026-10-20T18:29:46.885337", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T18:29:47.307375", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:47.728941", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-10-20T18:29:48.162382", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:29:48.580273", "tool_name": "index_manager:get-entities-by-type", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-10-20T18:36:33.394506", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-10-20T19:08:25.273421", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
