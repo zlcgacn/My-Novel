@@ -1,126 +1,6 @@
 {
   "character_state": [
     {
-      "id": "mem-character_state-9547e91e6aa9f602",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_shenao",
-      "field": "injury",
-      "value": "头缠绷带；左臂伤口崩开，需卫生队重新包扎",
-      "payload": {
-        "old_value": "参谋本部广场爆炸中受伤"
-      },
-      "status": "active",
-      "source_chapter": 5,
-      "evidence": [
-        "state_change:qiu_shenao:injury:5"
-      ],
-      "updated_at": "2026-10-18T11:05:15"
-    },
-    {
-      "id": "mem-character_state-27618c90a03b2421",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "colleague_fifth_army",
-      "field": "location.current",
-      "value": "君来乡（第五军驻地）",
-      "payload": {
-        "old_value": "南京"
-      },
-      "status": "active",
-      "source_chapter": 5,
-      "evidence": [
-        "state_change:colleague_fifth_army:location.current:5"
-      ],
-      "updated_at": "2026-10-18T11:05:15"
-    },
-    {
-      "id": "mem-character_state-2876a5232962d83f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "injury",
-      "value": "内禁医院爆炸中受皮肉伤",
-      "payload": {
-        "old_value": "无"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "state_change:zhang_yixuan:injury:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-character_state-403f2451c1de1f8f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "injury",
-      "value": "内禁医院爆炸中受皮肉伤",
-      "payload": {
-        "old_value": "无"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "state_change:wang_sihan:injury:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-character_state-9152f098269a7066",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "interior_ministry",
-      "field": "headquarters.status",
-      "value": "本部大楼被炸断，仅余不到五分之一",
-      "payload": {
-        "old_value": "完好"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "state_change:interior_ministry:headquarters.status:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-character_state-ace765af3d26a1d3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shence_army",
-      "field": "status",
-      "value": "遭袭溃散，残余警卫在医院门前被压制",
-      "payload": {
-        "old_value": "驻守神圣高地"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "state_change:shence_army:status:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-character_state-b2af45e67b3642d4",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "imperial_heights",
-      "field": "first_seen",
-      "value": "皇权高地",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "entity_new:imperial_heights:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
       "id": "mem-character_state-21fe0877b8f060ad",
       "layer": "semantic",
       "category": "character_state",
@@ -767,23 +647,6 @@
         "entity_new:wangfu:13"
       ],
       "updated_at": "2026-10-18T18:35:17"
-    },
-    {
-      "id": "mem-character_state-fe120ffe75547d9a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lingwu_army",
-      "field": "investigation_status",
-      "value": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组",
-      "payload": {
-        "old_value": "D67已封存待查"
-      },
-      "status": "active",
-      "source_chapter": 11,
-      "evidence": [
-        "state_change:lingwu_army:investigation_status:11"
-      ],
-      "updated_at": "2026-10-18T20:45:47"
     },
     {
       "id": "mem-character_state-6c9c7aa7562c2efd",
@@ -2004,23 +1867,6 @@
       "updated_at": "2026-10-19T23:21:06"
     },
     {
-      "id": "mem-character_state-1eca62d83723ad95",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "current_task",
-      "value": "城南寺外粥棚，打算搭到没人来领",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 15,
-      "evidence": [
-        "state_change:zhang_shuhuai:current_task:15"
-      ],
-      "updated_at": "2026-10-19T23:21:06"
-    },
-    {
       "id": "mem-character_state-87ab5ad9bc38433a",
       "layer": "semantic",
       "category": "character_state",
@@ -3013,40 +2859,6 @@
       "updated_at": "2026-10-20T17:48:28"
     },
     {
-      "id": "mem-character_state-48c0a1ed60dc47ac",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "location.current",
-      "value": "东宫正殿西列靠门一桌（挨着父亲恭肃亲王）；罗曼诺夫闯殿后被父亲攥住手腕拽到身后，挤在殿里不得离开",
-      "payload": {
-        "old_value": "东宫（二月九日辰时穿礼服进东宫，太子生辰，午前到夜里）"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:zhang_yixuan:location.current:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
-      "id": "mem-character_state-d366712c82f6e2c0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "current_task",
-      "value": "戌初家宴随父亲向太子敬酒，把周君州托她代道的贺咽了回去；宫门里递不进话，不知王思涵接到邱思甜没有、周君瑶还在不在第三处；留意张永怀身后殿柱旁提黑皮公文包的羽林军上校，殿外刚喊起来、满殿人扭头看正门时，她看见那上校提着包从东侧门出去（正门撞开前），闯殿僵持中才回想起来",
-      "payload": {
-        "old_value": "在东宫西配殿按品级坐门边候礼，从午前候到入夜；得知周君瑶、邱思甜在第三处，自认两人都从她手里出去了，但不离宫（宗室女中途离宫落话柄），向内侍要笺纸写“思甜在那边坐了一日，劳你去接。宣。”托府里的兵亲手送首相府交王思涵；排在最后进殿"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:zhang_yixuan:current_task:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
       "id": "mem-character_state-2a41d1ae75585825",
       "layer": "semantic",
       "category": "character_state",
@@ -3132,23 +2944,6 @@
       "updated_at": "2026-10-20T19:08:21"
     },
     {
-      "id": "mem-character_state-ac2f7ec1803a064e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "location.current",
-      "value": "东宫正殿东列自己座位旁（求情被奚落后坐回，酒一口没动；罗曼诺夫闯殿后不往墙根去，扶着桌沿看着殿中）",
-      "payload": {
-        "old_value": "东宫回廊（入夜前进东宫行礼，一夜没睡、眼底青黑）"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:zhang_shuhuai:location.current:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
       "id": "mem-character_state-03d8a3537c2175bc",
       "layer": "semantic",
       "category": "character_state",
@@ -3183,23 +2978,6 @@
       "updated_at": "2026-10-20T19:08:21"
     },
     {
-      "id": "mem-character_state-65c0bdaf4a6e40e5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "oleg_romanov",
-      "field": "status",
-      "value": "九日戌初三刻后带兵撞开东宫正殿门，二三十兵堵正门、另两小队堵东西两道侧门；独自走到殿中向皇帝请两件事：放秦守义一连并送秦婉回家，依法办安平亲王；“陛下不答应，臣今夜就不走”。太子令退兵他不退；皇帝令“先撤兵，朕自会叫人去查”，他答今夜撤兵明天就再没人查；皇帝再令“撤兵”，他深深一躬、一步不挪；宫城被围后皇帝说“那就等着”，殿内僵持",
-      "payload": {
-        "old_value": "从八日夜起在宫门外站了一宿，天亮又去虎贲军营房，四回要人四回被挡；议事时当众顶回周世衡“元帅的令，末将听见了”，行礼退席，去向未交代"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:oleg_romanov:status:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
       "id": "mem-character_state-ae339a7f4afea1db",
       "layer": "semantic",
       "category": "character_state",
@@ -3213,23 +2991,6 @@
       "source_chapter": 19,
       "evidence": [
         "state_change:first_guards_army:status:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
-      "id": "mem-character_state-826c126a990b3c05",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "huben_commander",
-      "field": "status",
-      "value": "九日戌正后到东宫正殿东侧门外，由守门的近卫军解下佩刀（只剩空刀鞘）才放进殿（大氅扣子扯掉两颗、额角青一块），单膝跪奏：谢苗诺夫斯基近卫军、近卫师团的大队把宫城围住了",
-      "payload": {
-        "old_value": "九日火场以宵禁圣旨要接管火场，被羽林军上尉、神策军中尉顶回；骑兵横在水龙前头，称内务本部的本部都塌了、城里的事轮不到它做主；辰初对张永怀说要向圣上奏明，随后带骑兵离开"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:huben_commander:status:19"
       ],
       "updated_at": "2026-10-20T19:08:21"
     },
@@ -3268,23 +3029,6 @@
       "updated_at": "2026-10-20T19:08:21"
     },
     {
-      "id": "mem-character_state-69694ef28f071bf0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "crown_prince",
-      "field": "status",
-      "value": "九日家宴受贺；罗曼诺夫闯殿后走下席来，以“你是第一近卫集团军的人，是我的部下”令其退兵、许明早亲向父皇请旨，罗曼诺夫不退；皇帝开口令撤兵后，他站在父皇与自己的部下中间，回头看上首、又看罗曼诺夫，嘴唇动了动什么也没说出——哪一边也压不住",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:crown_prince:status:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
       "id": "mem-character_state-77c13d61d02577e3",
       "layer": "semantic",
       "category": "character_state",
@@ -3298,23 +3042,6 @@
       "source_chapter": 19,
       "evidence": [
         "state_change:emperor:status:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
-      "id": "mem-character_state-eebbe889868401c1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "emperor",
-      "field": "stance",
-      "value": "不在刀枪底下让步：近卫军撤兵之前不谈放人与办安平亲王（只许“自会叫人去查”）；宫城被围仍不松口，“那就等着”",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:emperor:stance:19"
       ],
       "updated_at": "2026-10-20T19:08:21"
     },
@@ -3334,112 +3061,6 @@
         "state_change:zhang_chengyao:case_admission:19"
       ],
       "updated_at": "2026-10-20T19:08:21"
-    },
-    {
-      "id": "mem-character_state-fe0bffed819f44ec",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "dong_gong",
-      "field": "status",
-      "value": "九日戌初三刻后正殿正门被谢苗诺夫斯基近卫军二三十兵堵住，东西两道侧门各由四五兵把守（刺刀上着、背门面殿）；宗室出不去，虎贲军进不来，宇文策卸刀后才从东侧门放进",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:dong_gong:status:19"
-      ],
-      "updated_at": "2026-10-20T19:08:21"
-    },
-    {
-      "id": "mem-character_state-1a38331fe78b82b0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "yulin_colonel_gongwenbao",
-      "field": "location.current",
-      "value": "九日戌初三刻后，殿外刚喊起来、满殿人扭头看正门时，沿墙根不慌不忙从东宫正殿东侧门出去（那时侧门还没人守，只有一个端酒壶的内侍愣愣让路），黑皮公文包提着走；他走后不到半盏茶正门才被撞开，近卫军随后才堵上侧门；去向不明",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "state_change:yulin_colonel_gongwenbao:location.current:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-character_state-079bd162455c86d5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yixuan",
-      "field": "first_seen",
-      "value": "张艺宣",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:zhang_yixuan:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-character_state-2a66321c68357b8c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_shuhuai",
-      "field": "first_seen",
-      "value": "张书淮",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:zhang_shuhuai:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-character_state-218f2cfabffd8c92",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "huben_commander",
-      "field": "first_seen",
-      "value": "宇文策",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:huben_commander:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-character_state-7adc0a334b4676cf",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chief_aide_de_camp",
-      "field": "first_seen",
-      "value": "侍从武官长",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:chief_aide_de_camp:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
     },
     {
       "id": "mem-character_state-5b16f98154e435b9",
@@ -3474,42 +3095,6 @@
       "source_chapter": 19,
       "evidence": [
         "entity_new:qin_shouyi_wife:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-character_state-085c56f066b9c84c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "yulin_colonel_gongwenbao",
-      "field": "first_seen",
-      "value": "提公文包的羽林军上校",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:yulin_colonel_gongwenbao:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-character_state-ffc87e25b08d685a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zongshi_lao_qinwang",
-      "field": "first_seen",
-      "value": "宗室年纪最长的老亲王",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:zongshi_lao_qinwang:19"
       ],
       "updated_at": "2026-10-20T19:08:22"
     },
@@ -3586,24 +3171,6 @@
       "updated_at": "2026-10-20T19:08:22"
     },
     {
-      "id": "mem-character_state-33ff99a605a8c59f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "heipi_gongwenbao",
-      "field": "first_seen",
-      "value": "黑皮公文包",
-      "payload": {
-        "tier": "次要",
-        "type": "物品"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "entity_new:heipi_gongwenbao:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
       "id": "mem-character_state-3fc1f130fd88f5f0",
       "layer": "semantic",
       "category": "character_state",
@@ -3637,23 +3204,6 @@
         "entity_new:junlai_xiang:20"
       ],
       "updated_at": "2026-10-21T15:21:56"
-    },
-    {
-      "id": "mem-character_state-e0e0dcc493225a93",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yonghuai",
-      "field": "location.current",
-      "value": "宫城西南大街羽林军一头街口的一间铺面（门板卸下，电灯亮着，牵出一根电话线搭在墙上）坐镇羽林军：大氅披肩、底下露出礼服金色饰带，副官伏在桌角拿册子记写",
-      "payload": {
-        "old_value": "戌初三刻后，一名羽林军军服的人从侧门进殿耳语，他以“羽林军有急报”向皇帝告退、向太子欠身，从东宫正殿侧门离开，去向不明；身后提公文包的上校没跟走"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhang_yonghuai:location.current:20"
-      ],
-      "updated_at": "2026-10-21T15:52:46"
     },
     {
       "id": "mem-character_state-15b8c98e7e0cff19",
@@ -3720,24 +3270,6 @@
       "source_chapter": 20,
       "evidence": [
         "state_change:jiang_fubo:stance:20"
-      ],
-      "updated_at": "2026-10-21T15:52:47"
-    },
-    {
-      "id": "mem-character_state-9dc70f7a8f85f9fa",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_yonghuai",
-      "field": "first_seen",
-      "value": "张永怀",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:zhang_yonghuai:20"
       ],
       "updated_at": "2026-10-21T15:52:47"
     },
@@ -3850,40 +3382,6 @@
       "updated_at": "2026-10-21T15:52:48"
     },
     {
-      "id": "mem-character_state-dd69431215d61b7b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "location.current",
-      "value": "子初，徒手陪霍长庚与中央预备役集团军副司令走进兴庆门门洞（入宫当面见圣上）；此前在灵武军营军部，亥初出营，亥正带灵武军到兴庆门外康建广场",
-      "payload": {
-        "old_value": "中央近卫集团军群司令部议事后被周世衡单独留下，随即奉“各回各营”之令离开（今晚各军军长在营里守着）"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhou_junzhou:location.current:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
-      "id": "mem-character_state-2f3872e8f5bfb2e0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "current_task",
-      "value": "奉周世衡令带灵武军两个营出营到兴庆门外随元帅调和：令开库启封取D67、子弹发足，枪口一律朝下，无他的令不许上刺刀、不许压弹；灵武军背靠背两排站在近卫军与宫墙之间；请命进宫被父亲挡回（“我去说，你守住这里”）；羽林军与预备役开进广场后，他出阵（汉诺威随同）向霍长庚和预备役副司令解释罗曼诺夫是为连长要人、不是叛乱，对方不信，要当面听圣上亲口说；他提议“那就进去，当面问圣上”，请源爱莲娜放行，解剑交邓声宝（“我不出来，谁也不许动”），子初陪两人走进兴庆门",
-      "payload": {
-        "old_value": "奉周世衡令：第一近卫集团军各军一律不许出营，今晚在营里守着、哪里也别去，有事派人到司令部报；父亲令宵禁以前叫人把周君瑶从第三处接回来"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhou_junzhou:current_task:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
       "id": "mem-character_state-b0454f407800e421",
       "layer": "semantic",
       "category": "character_state",
@@ -3901,40 +3399,6 @@
       "updated_at": "2026-10-21T20:37:57"
     },
     {
-      "id": "mem-character_state-61d84fa9d3509df0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "imperial_appeal",
-      "value": "金志文报羽林军第五军持瓦尔基里口令进了城、城门已交羽林军，口令原文“京城近卫军叛乱”，他脱口“这么快？”；他认定罗曼诺夫带兵闯东宫是为了他的连长和那个姑娘去要人，是抗命犯上而不是叛乱，可圣上已认定近卫军反了；要赶在羽林军枪口对准宫城以前见到圣上说清近卫军没有反。请命进宫被父亲挡下；羽林军进广场后对霍长庚说“口令写错了”，最终以“要一句话：圣上亲口说，近卫军没有反”带两位将领进宫。他不知瓦尔基里细节，未对时辰",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhou_junzhou:imperial_appeal:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
-      "id": "mem-character_state-4adb1b119fb3cbca",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "d67_unsealing",
-      "value": "九日亥初前在灵武军营下令“开库。启封，取枪，子弹发足”，撕了第三处会同参谋本部所贴的库门封条（D67圣旨封存、清点作废后另行查办，无人说过启封）——自知这就是抗旨，受查的灵武军再添一条“抗旨启封，带枪进城”；令曼桂槐在营里原册（按例不出营）上记明几时启封、谁下的令、取了多少支，“令是我下的，写我的名字”",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhou_junzhou:d67_unsealing:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
       "id": "mem-character_state-0592f7730c64bafe",
       "layer": "semantic",
       "category": "character_state",
@@ -3948,40 +3412,6 @@
       "source_chapter": 20,
       "evidence": [
         "state_change:zhou_junzhou:qiu_shenao_sighting:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
-      "id": "mem-character_state-9906dc205cdec5a1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_shenao",
-      "field": "location.current",
-      "value": "康建广场南头羽林军阵前，第五军军部人堆里骑马（左臂吊在胸前），隔着一百来步望着转过身来的近卫军刺刀；看着周君州出阵与霍长庚、预备役副司令说话",
-      "payload": {
-        "old_value": "骑马随第五军军部出君来乡营门（左臂吊着，单手攥缰绳），沿官道往东北；前面第一师先头营的一串马灯已过第一座石桥"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:qiu_shenao:location.current:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
-      "id": "mem-character_state-014ff00626ad8714",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_shenao",
-      "field": "current_task",
-      "value": "随军部跟第一师进城：戌正在三山门看先头营喊令、虎贲军当即开门，一盏茶交出城门（他作战室里写的“控制”两字落地这样快）；亥初到宫城西南街口待命，望见广场上的近卫军、预备役开到东南角、一支队伍穿阵到宫墙下、又一支往东；亥正二刻随第一师进康建广场“平叛”，近卫军后排转身对峙，没有一个人开枪",
-      "payload": {
-        "old_value": "随第五军军部开拔进城（瓦尔基里口令已发动）"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:qiu_shenao:current_task:20"
       ],
       "updated_at": "2026-10-21T20:37:57"
     },
@@ -4020,57 +3450,6 @@
       "updated_at": "2026-10-21T20:37:57"
     },
     {
-      "id": "mem-character_state-1803b855976918c3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "current_task",
-      "value": "首相告病在家、几位丞相住得远进不来，今夜首相府由她拿主意：令京兆府差役全派出去挨街挨巷传话关门闭户、不许上街看热闹或聚说（碰上兵亮夜行腰牌称首相府的令，传完就走）；谣言不辩不驳，只说“有司在办，各家关好门”；等父亲王政炎的消息，至子初前一无所闻",
-      "payload": {
-        "old_value": "排班册已于二月九日卯末被第三处调走，钥匙交接亦记在册上、无从查；已取得军务部值宿司官具名、盖值宿房戳记的回执（头一张），书办夹进公文夹；被带走的值夜兵去向仍未追"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:wang_sihan:current_task:20"
-      ],
-      "updated_at": "2026-10-21T20:37:57"
-    },
-    {
-      "id": "mem-character_state-aad1fd2cb7bd6a00",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "valkyrie_record",
-      "value": "亥初二刻京兆府差役报羽林军一个师自三山门进城往东北开，满屋属官松了口气（“是来平乱的”“这下宫里有救了”），她撑杖站起问“谁下的令？”，无人答得上；令书办记下：“亥初二刻，京兆府差役报：羽林军一部，自三山门入城，往东北去。”",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:wang_sihan:valkyrie_record:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-3013125c71f57ea7",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_zhengyan",
-      "field": "location.current",
-      "value": "傍晚出门留话：去司令部见周元帅，散席以后一同入宫请旨；宫城被围后与周世衡在司令部等几位军长回话；亥正后随周世衡（带几个参谋）骑马到兴庆门外，跟在周世衡身后走进兴庆门门洞（入宫调和），子初未出",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:wang_zhengyan:location.current:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-e47a7b538198e696",
       "layer": "semantic",
       "category": "character_state",
@@ -4088,23 +3467,6 @@
       "updated_at": "2026-10-21T20:37:58"
     },
     {
-      "id": "mem-character_state-2acea4bebb61c2ab",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "current_task",
-      "value": "亥时起以外交部长身份代接各国使馆电话（头一家海外共和国使馆，先打外交部无人能答、转到首相府），一家一家照同一番话应付：京城治安有司正在处置，请闭门勿出、人员一概不上街，明日一早外交部自有照会；接完第四通扶桌站了一会儿才坐下。王思涵知她怕外国人看错局势、前线和约再谈不成；停战须从头再谈",
-      "payload": {
-        "old_value": "停战草稿作废，停战须从头再谈；手中只有凭记性默写的条款本子与登记簿上一行“请调未准”"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:qiu_sitian:current_task:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-4a6664884aaaf452",
       "layer": "semantic",
       "category": "character_state",
@@ -4118,40 +3480,6 @@
       "source_chapter": 20,
       "evidence": [
         "state_change:zhou_shiheng:location.current:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-9fa2396bcb767b2e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_shiheng",
-      "field": "orders",
-      "value": "宫城被围后经司令部参谋传令：灵武军即刻出营到兴庆门外随元帅调和（冷溪近卫军接同一道令）；周君州请命进宫向圣上解释近卫军没反，他看了儿子一会儿：“我去说。你守住这里。”",
-      "payload": {
-        "old_value": "二月九日议事：第一近卫集团军各军一律不许出营，一个兵都不许；今晚各军军长在营里守着，有事派人到司令部报"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhou_shiheng:orders:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-b74c9272db1747b5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_shiheng",
-      "field": "pledge",
-      "value": "家宴未散已被闯殿、宫城被围；他改以调和入宫，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并揽下替近卫军向圣上分说之事（“我去说”）；结果未知",
-      "payload": {
-        "old_value": "今晚东宫家宴散席以后，以太傅身份亲自入宫，向圣上请旨放谢苗诺夫斯基近卫军那一连"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:zhou_shiheng:pledge:20"
       ],
       "updated_at": "2026-10-21T20:37:58"
     },
@@ -4275,40 +3603,6 @@
       "updated_at": "2026-10-21T20:37:58"
     },
     {
-      "id": "mem-character_state-e27c7ec894b1926e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lingwu_army",
-      "field": "deployment",
-      "value": "亥初两个营出营：背着刚从库里取出的D67（枪身还沾着封条纸屑），枪口一律朝下、刺刀插在鞘里、子弹不压膛；旗手扛军旗走在最前，周君州骑马随旗后、走得比平日快；亥正到兴庆门外，穿过谢苗诺夫斯基近卫军阵的口子，在近卫军与宫墙之间的空地上背靠背排两排（前排面朝近卫军，后排面朝宫墙），军旗插在当中；羽林军进广场后仍守住人墙不动；邓声宝守前排正中；曼桂槐留营",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:lingwu_army:deployment:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-719bfae45bf39e35",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lengxi_guards",
-      "field": "status",
-      "value": "九日夜接同一道调和令到兴庆门外，兵背着枪、枪口朝下、刺刀没上，接着灵武军往东头一排一排站过去，筑成人墙",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:lengxi_guards:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-3e9137d09746471c",
       "layer": "semantic",
       "category": "character_state",
@@ -4343,176 +3637,6 @@
       "updated_at": "2026-10-21T20:37:58"
     },
     {
-      "id": "mem-character_state-45e453b8b89100d4",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "semenovsky_guards",
-      "field": "status",
-      "value": "亥正兴庆门外康建广场，大队面朝宫墙，手里是启了封的D67、上着刺刀；一小队把着兴庆门门洞，先认出周世衡让开，子初又依源爱莲娜的话让霍长庚、预备役副司令与周君州进去；一个营长见灵武军枪口朝下穿阵，笑没了，让出口子；羽林军与预备役开进广场后后排转身，刺刀对着南头，前后都是枪，未开枪；军长罗曼诺夫仍一个人在殿里；秦守义一连仍未放",
-      "payload": {
-        "old_value": "违周世衡不出营之令：九日夜大队上刺刀开往皇城，与近卫师团一起把宫城围住；横街北口与虎贲军隔十几步对峙，未开枪；军长带兵闯进东宫正殿，堵住正门与东西两道侧门；秦守义一连仍未放"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:semenovsky_guards:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-1fe038bf509df163",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "jinwei_shituan",
-      "field": "status",
-      "value": "亥正排在谢苗诺夫斯基近卫军东边面朝宫墙，手持启了封的D67、上着刺刀；羽林军进广场后后排转身对峙；军长源爱莲娜在阵前",
-      "payload": {
-        "old_value": "九日夜随谢苗诺夫斯基近卫军开往皇城，大队参与包围宫城（虎贲军统领所报）"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:jinwei_shituan:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-9a27725523d6e64a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "forbidden_guards",
-      "field": "status",
-      "value": "戌正三山门：先头营营长喊出口令，城楼上虎贲军军官静了一下即喊“开门！”，门洞里的兵把枪背到身后列队退到一边，一盏茶工夫把城门城楼交给羽林军（瓦尔基里预案上写好、各门守军早接了交代）；三山门随即打电话报参谋本部；兴庆门城头、垛口站满虎贲军，枪口朝下对着广场；全夜未开枪",
-      "payload": {
-        "old_value": "九日夜虎贲军一排在横街北口持枪上刺刀堵住街口，与近卫军对峙未开枪；东宫殿门外与近卫军扭打，刺刀对人、手指搭在扳机护圈外，没人扣扳机，被挡在殿门外推不进来"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:forbidden_guards:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-13d3efdbcac1bad5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army",
-      "field": "night_march",
-      "value": "戌正第一师先头营到三山门外，营长喊出口令“京城近卫军叛乱，着即发动瓦尔基里行动！羽林军第五军，奉令接管三山门！”，虎贲军当即开门，一盏茶工夫接管城门城楼；第一师主力入城；第三团接管城南电报局；奉羽林军第二集团军令第一师留一团守三山门、一团往光淮门，主力随军部往宫城西南；亥初到宫城西南街口（离兴庆门两条街）停下待命，铺面里接电话；亥正二刻集团军群令“第一师即刻进康建广场，会同中央预备役集团军，平叛”，霍长庚令“谁也不许先开枪”，第一师在广场南头展开，与预备役连成一片，和转过身的近卫军隔着一百来步对峙，未开枪；第五军其余各部还在城外官道上跟进",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:fifth_army:night_march:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-da352e3c464087af",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army_commander",
-      "field": "location.current",
-      "value": "子初解下佩刀交参谋，随周君州走进兴庆门门洞（入宫当面见圣上）；此前在康建广场南头羽林军阵前",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:fifth_army_commander:location.current:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-a0b2f938f0e088ad",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army_commander",
-      "field": "night_orders",
-      "value": "三山门开后一挥手令第一师主力进城；接集团军群令后说“照办”；亥初在宫城西南街口铺面待命；亥正二刻奉令进广场平叛，令“进。谁也不许先开枪”；出阵对周君州说“你们灵武军，站在叛军的阵里”“口令错没错，不是周将军说了算，也不是我说了算”“周将军说的，我没法信，也没法不信……要叫我不平，除非我当面见着圣上，听圣上亲口说一句：近卫军没有反”；应下周君州“那就进去，当面问圣上”",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:fifth_army_commander:night_orders:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-7517f6316d162499",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army_chief_of_staff",
-      "field": "marching_log",
-      "value": "城门口借电灯在行军日志记：“戌正，第一师先头营接管三山门。”又记羽林军第二集团军令（第五军第一师留两个团守三山门、光淮门，主力随军部即赴宫城西南听候调遣）；亥初到西南街口记下时辰；亥正二刻接集团军群进广场平叛令",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:fifth_army_chief_of_staff:marching_log:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-b6f3a41793f8bfa1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "yulin_army",
-      "field": "night_orders",
-      "value": "第五军进城后电话令：“第五军第一师，留两个团守三山门、光淮门，主力随军部，即赴宫城西南，听候调遣。”亥正二刻再令：“第一师即刻进康建广场，会同中央预备役集团军，平叛。”原野灰军服、黑灰大檐帽；大元帅本章未露面",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:yulin_army:night_orders:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-7b46392c34ead6cb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "central_reserve_group_army",
-      "field": "status",
-      "value": "九日夜一支队伍从皇城东边那条大街开到康建广场东南角停住，起先没往前压；亥正二刻后随第一师往前压几十步，与羽林军连成一片，把近卫军夹在中间，未开枪",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:central_reserve_group_army:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-3637727f8c92f4be",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "reserve_general",
-      "field": "location.current",
-      "value": "子初解下佩刀交参谋，随霍长庚、周君州走进兴庆门门洞（入宫当面见圣上）",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:reserve_general:location.current:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-465baf1c8f9123ef",
       "layer": "semantic",
       "category": "character_state",
@@ -4530,40 +3654,6 @@
       "updated_at": "2026-10-21T20:37:58"
     },
     {
-      "id": "mem-character_state-f70981609845b5f3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "prime_minister_office",
-      "field": "status",
-      "value": "九日夜电话从亥初起没停过；首相告病在家，几位丞相住得远进不来，右丞相王思涵坐签押房主事；书办在京城坊图上红笔圈出有兵走过的街；各国使馆电话由外交部转来，邱思甜代接",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:prime_minister_office:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-bd0bffb259980478",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "jingzhaofu_zhubu",
-      "field": "current_task",
-      "value": "亥初一刻一路跑到首相府（袍子下摆沾泥）报城里各处有兵、谣言四起（宫里打起来了、圣上被近卫军扣在东宫、城南电报局叫兵占了），答不出哪条是真；领王思涵手书回去，派全府差役挨街传话",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:jingzhaofu_zhubu:current_task:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-6d83569676c39182",
       "layer": "semantic",
       "category": "character_state",
@@ -4577,40 +3667,6 @@
       "source_chapter": 20,
       "evidence": [
         "state_change:jingzhaofu:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-ff2d9feabe7b43d1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_shouyi",
-      "field": "status",
-      "value": "九日夜仍被虎贲军押着（周君州在康建广场对霍长庚、预备役副司令说“押了一天一夜”），他的事成了周君州替近卫军分辩的理由",
-      "payload": {
-        "old_value": "九日戌正仍与全连关在虎贲军手里（罗曼诺夫殿上说“关到现在”）；罗曼诺夫当殿要求放人"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:qin_shouyi:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-044ed743c869cccc",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "sanshan_men",
-      "field": "status",
-      "value": "九日戌正第五军第一师先头营到门外喊出瓦尔基里口令，守门虎贲军照预案当即开门、列队退到一边，一盏茶工夫城门城楼换成羽林军；第一师随后留一个团守门；城门里门房有一部电话",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:sanshan_men:status:20"
       ],
       "updated_at": "2026-10-21T20:37:58"
     },
@@ -4649,23 +3705,6 @@
       "updated_at": "2026-10-21T20:37:58"
     },
     {
-      "id": "mem-character_state-9ba8e9eb93dbca91",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "kangjian_guangchang",
-      "field": "status",
-      "value": "九日夜：北头宫墙城头虎贲军；宫墙下灵武军、冷溪近卫军背枪枪口朝下排成人墙；其外谢苗诺夫斯基近卫军与近卫师团持启封D67上刺刀；东南角中央预备役集团军；亥正二刻后羽林军第五军第一师在南头展开，近卫军后排转身，前后都是枪，两边隔一百来步未开枪；西边墙根停着一溜各亲王府的车（恭肃亲王府的车也在）",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:kangjian_guangchang:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-2f1ceeaff8b10706",
       "layer": "semantic",
       "category": "character_state",
@@ -4679,40 +3718,6 @@
       "source_chapter": 20,
       "evidence": [
         "state_change:xingqing_gate:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-8d8c731ca02cdae8",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "gongcheng",
-      "field": "status",
-      "value": "九日夜仍被谢苗诺夫斯基近卫军、近卫师团围着，城头虎贲军枪口朝下；灵武军、冷溪近卫军枪口朝下隔在近卫军与宫墙之间；羽林军第五军第一师与中央预备役集团军一个团开进康建广场把近卫军夹在中间；周世衡、王政炎入宫调和，子初霍长庚、预备役副司令、周君州入宫求圣上一句话；全城无人开枪",
-      "payload": {
-        "old_value": null
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:gongcheng:status:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-00a3d4a2fab8cff4",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "valkyrie_plan",
-      "field": "status",
-      "value": "戌正第五军先头营在三山门下喊出口令，虎贲军照预案见令即开，一盏茶交出城门城楼；三山门电话报参谋本部并念原文；第三团接管城南电报局；亥初第一师主力到宫城西南待命，亥正二刻集团军群令进康建广场会同中央预备役集团军平叛，与近卫军对峙未开枪；首相府里无人答得上“谁下的令”；周君州说“口令写错了”，霍长庚与预备役副司令要当面听圣上亲口说近卫军没有反",
-      "payload": {
-        "old_value": "二月九日酉初一刻口令到第五军：“京城近卫军叛乱。着即发动瓦尔基里行动。城防司令官兼内务总监。”内务本部呼号、加急、印信电码对上；第五军已拆封开拔，此时京城无火光、无响动"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "state_change:valkyrie_plan:status:20"
       ],
       "updated_at": "2026-10-21T20:37:58"
     },
@@ -4734,78 +3739,6 @@
       "updated_at": "2026-10-21T20:37:58"
     },
     {
-      "id": "mem-character_state-2249a6608b978533",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_shenao",
-      "field": "first_seen",
-      "value": "邱深澳",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:qiu_shenao:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-ca3cc1cdd1597322",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_junzhou",
-      "field": "first_seen",
-      "value": "周君州",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:zhou_junzhou:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-f8eb9ae795420500",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_sihan",
-      "field": "first_seen",
-      "value": "王思涵",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:wang_sihan:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-1217d35db6436334",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qiu_sitian",
-      "field": "first_seen",
-      "value": "邱思甜",
-      "payload": {
-        "tier": "核心",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:qiu_sitian:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
       "id": "mem-character_state-5015283b34a34746",
       "layer": "semantic",
       "category": "character_state",
@@ -4820,114 +3753,6 @@
       "source_chapter": 20,
       "evidence": [
         "entity_new:zhou_junyao:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-077218e0ef9d4a56",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhou_shiheng",
-      "field": "first_seen",
-      "value": "周世衡",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:zhou_shiheng:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-260a5ec3d7193861",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "wang_zhengyan",
-      "field": "first_seen",
-      "value": "王政炎",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:wang_zhengyan:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-479ec6e44380e098",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "emperor",
-      "field": "first_seen",
-      "value": "皇帝（康建皇帝）",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:emperor:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-28b26be5f04b9ee2",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "crown_prince",
-      "field": "first_seen",
-      "value": "张允恭",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:crown_prince:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-d2865f09c8dff6e1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "oleg_romanov",
-      "field": "first_seen",
-      "value": "奥列格·罗曼诺夫",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:oleg_romanov:20"
-      ],
-      "updated_at": "2026-10-21T20:37:58"
-    },
-    {
-      "id": "mem-character_state-89321a8a10bb7615",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhang_chengyao",
-      "field": "first_seen",
-      "value": "张承曜",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:zhang_chengyao:20"
       ],
       "updated_at": "2026-10-21T20:37:58"
     },
@@ -4986,24 +3811,6 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-character_state-4b40f7b1ffd48d1b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army_commander",
-      "field": "first_seen",
-      "value": "霍长庚",
-      "payload": {
-        "tier": "重要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:fifth_army_commander:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
       "id": "mem-character_state-4eaee6f244e6078a",
       "layer": "semantic",
       "category": "character_state",
@@ -5018,42 +3825,6 @@
       "source_chapter": 20,
       "evidence": [
         "entity_new:signal_company_commander:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-a65fa7d7ab076d97",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "valkyrie_plan",
-      "field": "first_seen",
-      "value": "京畿瓦尔基里行动",
-      "payload": {
-        "tier": "重要",
-        "type": "物品"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:valkyrie_plan:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-e3814188fedf47d5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army_chief_of_staff",
-      "field": "first_seen",
-      "value": "卢衡之",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:fifth_army_chief_of_staff:20"
       ],
       "updated_at": "2026-10-21T20:37:59"
     },
@@ -5076,96 +3847,6 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-character_state-fb9bd212af43d983",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "yuan_ailianna",
-      "field": "first_seen",
-      "value": "源爱莲娜",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:yuan_ailianna:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-4d7242575ed16b09",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "jingzhaofu_zhubu",
-      "field": "first_seen",
-      "value": "冯德茂",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:jingzhaofu_zhubu:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-826853c5ef947c63",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "gongsu_prince",
-      "field": "first_seen",
-      "value": "张延钧",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:gongsu_prince:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-604b5a1052b39240",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_shouyi",
-      "field": "first_seen",
-      "value": "秦守义",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:qin_shouyi:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-05a9c957cb28971b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "qin_wan",
-      "field": "first_seen",
-      "value": "秦婉",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:qin_wan:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
       "id": "mem-character_state-68248230e72ceae4",
       "layer": "semantic",
       "category": "character_state",
@@ -5184,168 +3865,6 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-character_state-84e920b29851f39c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "reserve_general",
-      "field": "first_seen",
-      "value": "中央预备役集团军副司令",
-      "payload": {
-        "tier": "次要",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:reserve_general:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-e67e4751a018d640",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lingwu_army",
-      "field": "first_seen",
-      "value": "灵武军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:lingwu_army:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-e380571ccf01de05",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "lengxi_guards",
-      "field": "first_seen",
-      "value": "冷溪近卫军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:lengxi_guards:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-27df3fc669722fd5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "semenovsky_guards",
-      "field": "first_seen",
-      "value": "谢苗诺夫斯基近卫军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:semenovsky_guards:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-024a5869e1027c77",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "jinwei_shituan",
-      "field": "first_seen",
-      "value": "近卫师团",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:jinwei_shituan:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-f0de7f7da2d56b4b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "forbidden_guards",
-      "field": "first_seen",
-      "value": "禁卫军（虎贲、龙武、木兰）",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:forbidden_guards:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-436731d2e455a9d4",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "fifth_army",
-      "field": "first_seen",
-      "value": "羽林军第五军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:fifth_army:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-9bb169f47525537d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "yulin_army",
-      "field": "first_seen",
-      "value": "羽林军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:yulin_army:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-c14d05d87481512a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "central_reserve_group_army",
-      "field": "first_seen",
-      "value": "中央预备役集团军",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:central_reserve_group_army:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
       "id": "mem-character_state-afe5996dd194fb03",
       "layer": "semantic",
       "category": "character_state",
@@ -5360,24 +3879,6 @@
       "source_chapter": 20,
       "evidence": [
         "entity_new:third_bureau:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-a33b17d8e260a9b0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "prime_minister_office",
-      "field": "first_seen",
-      "value": "首相府",
-      "payload": {
-        "tier": "次要",
-        "type": "组织"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:prime_minister_office:20"
       ],
       "updated_at": "2026-10-21T20:37:59"
     },
@@ -5468,78 +3969,6 @@
       "source_chapter": 20,
       "evidence": [
         "entity_new:xingqing_gate:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-c6fa082ea3a235c5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "kangjian_guangchang",
-      "field": "first_seen",
-      "value": "康建广场",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:kangjian_guangchang:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-80b1fd15f8c84f0e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "gongcheng",
-      "field": "first_seen",
-      "value": "宫城",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:gongcheng:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-8d79247064701e6c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "dong_gong",
-      "field": "first_seen",
-      "value": "东宫",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:dong_gong:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-character_state-3184004b9214d344",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "sanshan_men",
-      "field": "first_seen",
-      "value": "三山门",
-      "payload": {
-        "tier": "次要",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "entity_new:sanshan_men:20"
       ],
       "updated_at": "2026-10-21T20:37:59"
     },
@@ -5706,7 +4135,1247 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-character_state-e3fd080a5e445a7f",
+      "id": "mem-character_state-a4d87a97fbd7b158",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "location.current",
+      "value": "子初由虎贲军中尉领路，经兴庆门到东宫正殿（门口谢苗诺夫斯基军士听他说“源将军放进来的”才让道），领两人走过罗曼诺夫身边，在御前十几步站定；旨下后奉父令送霍长庚、预备役副司令出宫，回兴庆门外灵武军阵中；寅正二刻前后近卫军撤离康建广场，宫墙下那道人墙（双头鹰旗）在谢苗诺夫斯基近卫军、近卫师团之后动身，往东头撤走，冷溪近卫军跟在后头",
+      "payload": {
+        "old_value": "子初，徒手陪霍长庚与中央预备役集团军副司令走进兴庆门门洞（入宫当面见圣上）；此前在灵武军营军部，亥初出营，亥正带灵武军到兴庆门外康建广场"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhou_junzhou:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-50589d39660cfd8c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "current_task",
+      "value": "违了父亲“守住这里”的令，领霍长庚、预备役副司令进殿见驾；父亲在台阶下看了他一眼、看了他身后两人，什么也没说。皇帝没有一开口就表态：先问口令原文、进城看见什么、开过枪没有，再问“朕若说，这就是叛呢？”；父亲跪谏、王政炎跟着跪下后，皇帝问他“你的灵武军在哪里？”，他答在宫墙底下、近卫军和宫墙中间，枪背在肩上、枪口朝下，是奉元帅的令去调和的；皇帝说“灵武军还在受查。枪，谁准你启的封？”，他背上出了汗，答“臣自己。抗旨的是臣，臣认”，陛下要说外头是叛，灵武军也站在那个阵里，请连他一并处置，又说他在广场上站了一个时辰，这一个时辰里近卫军没有一个人往宫墙上举过枪；他站着没有低头，皇帝看着他，这才说“没有叛”。旨下后父亲称他“周将军”，令他送两位将军出宫、回兵那里：“近卫军一兵不撤，灵武军就一兵不许动。”他应“是，元帅”；出殿前回头看罗曼诺夫仍站在过道当中一步不挪，不知他还在等什么（下午在司令部罗曼诺夫说的只有那个连长、那个姑娘）",
+      "payload": {
+        "old_value": "奉周世衡令带灵武军两个营出营到兴庆门外随元帅调和；出阵向霍长庚和预备役副司令分辩近卫军没有反，对方要当面听圣上亲口说；解剑交邓声宝，子初陪两人走进兴庆门"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhou_junzhou:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-156322ef3fcb8e39",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "imperial_appeal",
+      "value": "已了，但付了代价：皇帝先问“朕若说，这就是叛呢？”，经周世衡跪谏、皇帝当殿点出灵武军抗旨启封、他当殿认罪请一并处置并陈说一个时辰里近卫军没人往宫墙上举过枪之后，皇帝才当着霍长庚、预备役副司令亲口说“没有叛。罗曼诺夫是来跟朕要人的……这是犯上，朕自会处置，不是叛乱”，并亲书盖印手谕令羽林军、预备役退出康建广场、交还城门、各回驻地；他只陈说所见，未对口令时辰、未作推论",
+      "payload": {
+        "old_value": "要赶在羽林军枪口对准宫城以前见到圣上说清近卫军没有反；以“要一句话：圣上亲口说，近卫军没有反”带两位将领进宫"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhou_junzhou:imperial_appeal:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-8bc16d483fe73dd3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_shenao",
+      "field": "location.current",
+      "value": "丑初三刻随第一师退出康建广场回宫城西南街口铺面待命；寅正二刻站在铺子门口往北看近卫军撤出广场；卯初接集团军令随第一师离街口往西南；卯正在三山门看交接；天色发青随第一师出三山门，往城外驻地走",
+      "payload": {
+        "old_value": "康建广场南头羽林军阵前，第五军军部人堆里骑马（左臂吊在胸前），隔着一百来步望着转过身来的近卫军刺刀；看着周君州出阵与霍长庚、预备役副司令说话"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:qiu_shenao:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-75751b05357ff49f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_shenao",
+      "field": "current_task",
+      "value": "随第一师撤回：寅正二刻在铺子门口看谢苗诺夫斯基近卫军、近卫师团、宫墙下人墙（双头鹰旗）、冷溪近卫军依次从广场东头撤走，广场一点一点空了；卯初卢衡之接电话“第一师回驻地”，霍长庚说“走”，第一师沿来路往西南，天还黑着；卯正在三山门城门口电灯下站在卢衡之身边，看虎贲军上尉与守门团长对令、卢衡之签交接文书，看卢衡之在行军日志写“卯正，交还三山门”，又看他翻回这一夜头一页——最上头一行铅笔字写得比后头都整齐：“酉初一刻，口令到。”他看着那一行字（只写看见）；卢衡之在底下画了一道杠；出城时从提浆糊桶刷墙的京兆府差役身后过去，告示还卷着，看不见写的什么",
+      "payload": {
+        "old_value": "随军部跟第一师进城；戌正在三山门看先头营喊令接管城门；亥正二刻随第一师进康建广场“平叛”，与近卫军对峙，没有一个人开枪"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:qiu_shenao:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-a864c4b1ce0974ae",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "current_task",
+      "value": "丑正听冯德茂报羽林军退出广场、城门还在羽林军手里，令书办记下；冯德茂报谣言压不住（羽林军进城是来抄近卫军的家、几坊近卫军眷属收拾箱笼），令天亮之前拟安民告示、天一亮就贴；寅初二刻父亲的长随带话出宫（近卫军没有反是圣上亲口说的、手谕撤兵、放人送回姑娘、安平亲王依军律天亮前行刑）；冯德茂稿子头一行写“昨夜京城近卫军作乱，羽林军奉令入城平叛，现已平定”，她划去改写“昨夜各军调动，现已奉旨各回驻地。城中无事，宵禁照旧，各安生业”，说“圣上说了没有叛，就没有叛”；寅正从窗前听见皇城方向一排枪声",
+      "payload": {
+        "old_value": "首相告病在家，今夜首相府由她拿主意：令京兆府差役挨街传话关门闭户；谣言不辩不驳；等父亲王政炎的消息，至子初前一无所闻"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:wang_sihan:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-6058bf20740c126a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "valkyrie_record",
+      "value": "叫书办拿来当夜记录，从亥初二刻那一行起记满两页（羽林军一部自三山门入城；京兆府差役报某坊有兵；羽林军退出广场；东宫来人传话），从头翻到尾合上，令“这一本不要归到府里的案卷里去，锁进我的柜子”",
+      "payload": {
+        "old_value": "亥初二刻问“谁下的令？”无人答得上；令书办记下：“亥初二刻，京兆府差役报：羽林军一部，自三山门入城，往东北去。”"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:wang_sihan:valkyrie_record:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-07450642bccefd5b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "current_task",
+      "value": "丑正至寅正仍守在首相府电话跟前接一家又一家使馆（额上纱布边上一圈淡黄）；听长随说安平亲王天亮前行刑，把听筒从耳边拿开放下，当着满屋属官问长随“书淮在不在殿里？”，得答“宗室都在殿里……谁也不许走”，没再问，拿起听筒：“对不住，方才府里有事。贵馆问的那一件，外交部会有答复。”寅正枪声传来，握听筒的手停在耳边，好一阵才答“……是。请贵馆放心。”天亮后那一纸照会还得她自己写",
+      "payload": {
+        "old_value": "亥时起以外交部长身份代接各国使馆电话，一家一家照同一番话应付，许明日一早外交部自有照会"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:qiu_sitian:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-cca706863d379b60",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "location.current",
+      "value": "东宫正殿西列靠门恭肃亲王府人堆里，父亲的手自闯殿起一直扣着她手腕没松（掌心凉，太子请旨时在抖，后来又凉又湿）；奉旨宗室谁也不许走，寅正随宗室在殿门里看着殿前行刑；卯初侍从武官长传“宗室各回府”",
+      "payload": {
+        "old_value": "东宫正殿西列靠门一桌（挨着父亲恭肃亲王）；罗曼诺夫闯殿后被父亲攥住手腕拽到身后，挤在殿里不得离开"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_yixuan:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-5eab322bbc9ab23a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "current_task",
+      "value": "看见周君州进殿时目光在西列靠门停了一下，落在她父亲身上又移开，出殿前回头看的是罗曼诺夫；她垂眼看砖缝；罗曼诺夫说“还有第二件”后，太子跪请依军律处置安平亲王，老亲王推翻茶盏带宗室群起反对，有人扯她父亲袖子叫他说话，父亲不答、扣着她手腕的手在抖；她往东列看表兄张书淮——他还站在自己桌旁，没有跟着嚷，看着跪在地上的太子；皇帝喝“够了”压下宗室，她数不清过了多久，只看见皇帝的指头停了，说“准”",
+      "payload": {
+        "old_value": "留意张永怀身后殿柱旁提黑皮公文包的羽林军上校，看见那上校提着包从东侧门出去，闯殿僵持中才回想起来"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_yixuan:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-3e2e1f6820f7c1c0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "location.current",
+      "value": "太子请旨时仍在东列自己桌旁，安平亲王被拖出时往前走了一步又停住；寅正殿前行刑时站在面朝殿门的宗室人堆后头、离殿门远，一步一步往前挪（年轻皇子让了让）；卯初仍在殿里，随后宗室奉命各回府",
+      "payload": {
+        "old_value": "东宫正殿东列自己座位旁（扶着桌沿看着殿中）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_shuhuai:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-98a5f747aca15211",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "current_task",
+      "value": "宗室群起反对太子时他没有跟着嚷，站在自己桌旁看着跪地的太子；寅正看着安平亲王在广庭西头墙下被摘肩章、排枪打倒在霜地上；回头看见皇帝坐着脸朝殿门一声没出，太子也朝着殿门；转回头看墙下，想起几个时辰前自己端着酒替那姑娘开口，安平亲王笑他“吴訥王也管起闲事来了，粥棚里的事还管不过来”，一桌人都笑——他求的是那个姑娘，他没求过这个；卯初看着张永怀进殿跪称护驾、退到东列桌边，看那个上校又站回殿柱旁两手空着，又看张永怀：这是他的二哥，同一个母后生的",
+      "payload": {
+        "old_value": "已过：戌初三刻当面请安平亲王放秦婉回去，被奚落“吴訥王也管起闲事来了？”"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_shuhuai:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-11ae61a919379d0d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yonghuai",
+      "field": "location.current",
+      "value": "十日卯初从东宫大门外进来，换了羽林军野战军服（元帅肩章，大衣带着寒气，非开宴时的元帅礼服），从广庭霜地上那道拖痕旁走过不低头，进殿跪在御前；起身后退到东列靠上那张桌子（开宴后空着、酒杯还满着）跟前站住",
+      "payload": {
+        "old_value": "九日戌初三刻后借“羽林军有急报”离开东宫家宴，此后整夜未露面"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_yonghuai:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-4999f70c09624cd9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yonghuai",
+      "field": "current_task",
+      "value": "跪奏：“父皇，儿臣事先得了风声，说京城近卫军要作乱。儿臣怕迟了误事，没来得及请旨，先发动了预案，调羽林军进城护驾。儿臣来迟了，请父皇治罪。”皇帝说“起来吧”，他叩头起身，两手垂在身侧看着上首（正文不写其心思）",
+      "payload": {
+        "old_value": "去向不明（集团军群的电话令照常发来，大元帅本人在哪里无人提起）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_yonghuai:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-e1e4bdf6788f1f72",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "emperor",
+      "field": "stance",
+      "value": "子初后在东宫正殿：霍长庚报“奉瓦尔基里口令进城平叛”，说到“瓦尔基里”时他右手指头在扶手上抬了一抬又落回；他没有马上表态，先问口令原文（“京城近卫军叛乱，着即发动瓦尔基里行动”）、进城看见什么、开过枪没有（“没有”），再看着罗曼诺夫问“朕若说，这就是叛呢？”——霍长庚答“那臣就出去平叛”，副司令答“预备役听陛下的”；他对罗曼诺夫说“朕说过两回撤兵。这是第三回”，罗曼诺夫不动、说外头不止谢苗诺夫斯基一个，他斥“你这是在要挟朕”；周世衡跪谏，他不看他：“周世衡，罗曼诺夫是你的兵。”又问周君州灵武军在哪里，点出“灵武军还在受查。枪，谁准你启的封？”；周君州认罪后他看着他，右手在扶手上压了一下又松开：“没有叛。罗曼诺夫是来跟朕要人的……这是犯上，朕自会处置，不是叛乱。”令羽林军、预备役退出康建广场、城门交还虎贲军、各回驻地；应霍长庚之请“取纸笔”，亲手一笔一画写手谕、盖印；令宇文策“秦守义那一连，放了。那姑娘，从承曜府上送回去”。罗曼诺夫说“还有第二件”他不答；太子跪请依军律处置安平亲王，老亲王带宗室群起反对，他手掌拍在扶手上喝“够了”，对老亲王说“朕的家法里，也没有拖人家闺女进府这一条”；看太子、看安平亲王、又看回太子，指头一下一下压着扶手雕花，良久停住：“准。”“宗室谁也不许走，都在这里，看着。”行刑“天亮以前”；寅正行刑时坐在御座上脸朝殿门，未起身、一声没出；卯初张永怀跪称抢先发动预案护驾，他看着说“起来吧”；随后一夜头一回离开御座，挡开侍从武官长的搀扶，自己走下台阶，不看殿里任何人，从御座后头的门出去",
+      "payload": {
+        "old_value": "不在刀枪底下让步：近卫军撤兵之前不谈放人与办安平亲王（只许“自会叫人去查”）；宫城被围仍不松口，“那就等着”"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:emperor:stance:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-aff815c78f38504e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "crown_prince",
+      "field": "status",
+      "value": "十日子初站在御座身侧半阶台阶上；皇帝问“朕若说，这就是叛呢？”时往前迈了半步，皇帝没有看他，他又站住，一只手攥着礼服下摆。周君州等出殿后，罗曼诺夫说“还有第二件”、殿里僵住时，他从御座身侧走下，不走向罗曼诺夫也不走向安平亲王，撩起礼服下摆跪在御前：“父皇，儿臣请旨……安平亲王身上挂着近卫军的军衔。军律有一条：凡强占现役军人家眷者，处死……请父皇依军律处置。”安平亲王扑上来抓他袖子喊“大哥，我是你弟弟”，他不转头、也不抽回袖子；老亲王拄拐指着他斥“几时轮到拿军律来杀”，宗室群起嚷，一个年轻皇子骂他“拿弟弟的人头，去换近卫军的心”，他不起身也不回头，不提高嗓门：“安平穿的是近卫军的衣裳，领的是近卫军的饷……儿臣请的是军律，不是家法。”皇帝准后起身退回御座身侧；寅正行刑时脸朝殿门；卯初低头看着跪在地上的二弟张永怀",
+      "payload": {
+        "old_value": "罗曼诺夫闯殿后令其退兵不成，站在父皇与自己的部下中间——哪一边也压不住"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:crown_prince:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-dc5e000aec8ec4ab",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_shiheng",
+      "field": "orders",
+      "value": "东宫正殿上与王政炎一左一右立在上首台阶底下；违令进殿的儿子带着羽林军、预备役将军进来，他目光在儿子脸上停了一下、又落到两人身上，什么也没说；皇帝问“朕若说，这就是叛呢？”时他抬起了头；罗曼诺夫第三回不撤、皇帝斥要挟后，他往前一步单膝跪下谏：宫城外头谢苗诺夫斯基近卫军、近卫师团、冷溪近卫军、灵武军，京城的近卫军四个军全在康建广场，羽林军、预备役站在他们背后，“陛下这一道旨下去，就是羽林军打近卫军。京城今夜要流血，前线的仗还在打着”；皇帝说“罗曼诺夫是你的兵”，他答“是臣的兵。臣管教无方，臣请罪。可他不是叛”；旨下后起身，转身令“周将军，送两位将军出宫。回你的兵那里去，近卫军一兵不撤，灵武军就一兵不许动”；太子跪请时与王政炎对看了一眼；卯初张永怀跪称事先得了风声说京城近卫军要作乱，他抬起头看着张永怀的后背",
+      "payload": {
+        "old_value": "周君州请命进宫向圣上解释近卫军没反，他看了儿子一会儿：“我去说。你守住这里。”"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhou_shiheng:orders:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-bbd292fdd04ab023",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_shiheng",
+      "field": "pledge",
+      "value": "已了：殿上跪谏这道平叛的旨下去就是羽林军打近卫军，替罗曼诺夫请罪而称“他不是叛”；皇帝随后亲口说没有叛、放了秦守义一连、送回秦婉，近卫军各军寅正二刻前后撤离广场；放人的旨由皇帝亲口下，他未单独开口请旨放人",
+      "payload": {
+        "old_value": "改以调和入宫，答源爱莲娜“两头都劝”，并揽下替近卫军向圣上分说之事（“我去说”）；结果未知"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhou_shiheng:pledge:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-f1966320636a2ce4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_zhengyan",
+      "field": "location.current",
+      "value": "东宫正殿上首台阶底下，立在周世衡身边；周世衡跪谏时在他身后也跪了下去，一句话没说，旨下后随之起身；太子跪请时与周世衡对看了一眼；托宫里一个虎贲军的兵从兴庆门门洞把话递给候在门外的长随，寅初二刻带到首相府；卯初张永怀跪称护驾时两只手拢在袖子里，一动不动",
+      "payload": {
+        "old_value": "随周世衡走进兴庆门门洞（入宫调和），子初未出"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:wang_zhengyan:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-cc789e2028b6d2bb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_chengyao",
+      "field": "status",
+      "value": "已死亡：十日寅正在东宫正殿前广庭依军律（凡强占现役军人家眷者处死）被虎贲军八人排枪枪决。经过：霍长庚答“那臣就出去平叛”时，他撑在桌面上的两只手抬了起来、直起了身子；皇帝令放人送回秦婉时他张了张嘴；罗曼诺夫说“还有第二件”，他从桌后绕出尖声问“一个连长的闺女，你要拿本王去抵？”；太子跪请依军律处置，他扑上去抓太子袖子喊“大哥，我是你弟弟”，被侍从武官长掰开；皇帝说“准”后脸上没了血色，被虎贲军架着拖出殿门，一路喊“父皇！儿臣知错了！”；行刑时穿着那身簇新的礼服军装，由两个虎贲军架在广庭西头墙下，侍从武官长念旨引军律，虎贲军军官摘下他两边肩章，他没挣，望着殿里喊了一声“父皇——”，排枪响后往前一栽倒在霜地上；卯初遗体被虎贲军抬走，霜地上留下一道拖痕",
+      "payload": {
+        "old_value": "在世；安平亲王，皇帝之子，挂近卫军军衔；九日家宴当殿承认把秦婉带回府“是抬举她”，奉命“坐回去”"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhang_chengyao:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-f2eb29f9ce19f6d7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "oleg_romanov",
+      "field": "status",
+      "value": "全身而退、未受处分：霍长庚答“那臣就出去平叛”后，皇帝令他第三回撤兵，他不动，说“陛下要下平叛的旨，臣的兵也不会先开枪。可宫城外头站着的，不止臣一个谢苗诺夫斯基”，皇帝斥“你这是在要挟朕”，他答“臣不敢。臣说的是外头的实情”；皇帝下旨放人、送回秦婉后他仍站在过道当中背对殿门不挪步，嗓子哑着开口“陛下，还有第二件”；太子跪请依军律处置安平亲王、皇帝准；虎贲军进殿拿人前，门口近卫军军士回头看他，他点一下头才放行；寅初宇文策复旨后，他右手按左胸向上首弯腰“谢陛下”；寅正立在台阶底下看着墙下行刑，礼毕转身向殿里行军礼，带着广庭两边和两道侧门撤来的兵一队接一队出了东宫大门——没有人拦他，殿里也没有一个人开口说起处分的事",
+      "payload": {
+        "old_value": "九日夜闯东宫正殿请命：放秦守义一连并送秦婉回家，依法办安平亲王；“陛下不答应，臣今夜就不走”；皇帝说“那就等着”，殿内僵持"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:oleg_romanov:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-b97fc6291d828172",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army_commander",
+      "field": "location.current",
+      "value": "丑初一刻由周君州送出宫，走回宫城西南羽林军阵前，随第一师退回西南街口铺面；卯初接集团军令率第一师离街口往西南；卯正回到三山门，随后出城回驻地",
+      "payload": {
+        "old_value": "子初解下佩刀交参谋，随周君州走进兴庆门门洞（入宫当面见圣上）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:fifth_army_commander:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-6f816aaceb82497e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army_commander",
+      "field": "night_orders",
+      "value": "殿上并拢脚跟行军礼报“羽林军第五军军长霍长庚，奉瓦尔基里口令，进城平叛”；皇帝问口令原文，他答“京城近卫军叛乱，着即发动瓦尔基里行动”，问进城所见，答城门见令就开、街上没人、近卫军围着宫城枪上刺刀，问开过枪没有，答“没有”；皇帝问“朕若说，这就是叛呢？”，他不回头看罗曼诺夫，答得干脆：“那臣就出去平叛。”听皇帝说没有叛后“臣领旨”，又请：“臣是凭电报上的一道口令进的城，集团军也是凭这道口令给臣下的令……集团军不能凭臣一张嘴撤兵。请陛下赐一道手谕。”皇帝亲书盖印的手谕他低头看一遍，折两折放进胸前口袋扣上扣子，出殿时抬手按了按口袋；丑初一刻回阵前掏出手谕交卢衡之；卯初接集团军令后说“走”",
+      "payload": {
+        "old_value": "要叫我不平，除非我当面见着圣上，听圣上亲口说一句：近卫军没有反"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:fifth_army_commander:night_orders:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-15462c0e412e6d0d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "reserve_general",
+      "field": "location.current",
+      "value": "在东宫正殿随霍长庚行礼，报了职衔和名字（正文未录），声音很沉；皇帝问“朕若说，这就是叛呢？”，他答“预备役听陛下的”；侧脸看了一遍手谕，目光在朱印上停了停，冲霍长庚点头；随后由周君州送出宫；东南角预备役那个团在丑初三刻前后从东边那条大街退走",
+      "payload": {
+        "old_value": "子初解下佩刀交参谋，随霍长庚、周君州走进兴庆门门洞（入宫当面见圣上）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:reserve_general:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:56"
+    },
+    {
+      "id": "mem-character_state-901705e44f55c2b1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "huben_commander",
+      "field": "status",
+      "value": "十日子初仍单膝跪在御前；奉旨“秦守义那一连，放了；那姑娘，从承曜府上送回去”，领旨大步出殿；寅初回殿复旨：秦守义一连已放出、交到他们营长手里，秦婉由他派人从安平亲王府接出、送到她姨家门口看着进了门；寅正站在殿前广庭当中监刑，行刑后到墙下俯身察看，冲侍从武官长点头",
+      "payload": {
+        "old_value": "九日戌正后卸刀入殿，单膝跪奏宫城被围"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:huben_commander:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-9bf3797827f9ea0c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chief_aide_de_camp",
+      "field": "status",
+      "value": "十日奉旨叫内侍搬小几、铺纸、捧印匣，把皇帝手谕双手捧下台阶交霍长庚；把扑上去的安平亲王从太子袖子上掰开拉到一旁；躬身问“几时行刑？”得“天亮以前”，到殿门口传话放进一队虎贲军；寅正在台阶上展纸念圣旨（引一条军律）；卯初皇帝挡开他的搀扶自后门出殿，他转身对满殿说“宗室各回府”",
+      "payload": {
+        "old_value": "九日东宫家宴站在御座侧后，罗曼诺夫闯殿时挡到御座前，手按刀柄没有拔"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:chief_aide_de_camp:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-ddc58eeed8e101ed",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gongsu_prince",
+      "field": "status",
+      "value": "十日在东宫正殿西列靠门恭肃亲王府人堆最前头，一直扣着女儿张艺宣的手腕，掌心是凉的；太子跪请依军律处置安平亲王、宗室群起反对时，有人一把扯住他袖子“延钧，你说句话！”，他不答，扣着女儿腕子的手在抖；后来那只手又凉又湿",
+      "payload": {
+        "old_value": "九日东宫家宴闯殿时把女儿拽到身后"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:gongsu_prince:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-56a94fb73ffbc5a9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_shouyi",
+      "field": "status",
+      "value": "十日奉旨放出：寅初前宇文策复旨，秦守义那一连已经放出来，交到了他们营长手里",
+      "payload": {
+        "old_value": "九日夜仍被虎贲军押着（押了一天一夜）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:qin_shouyi:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-5e0fd5ac12abe926",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_wan",
+      "field": "location.current",
+      "value": "她姨家：十日寅初前虎贲军统领宇文策奉旨派人从安平亲王府接出，送到她姨家门口，看着进了门",
+      "payload": {
+        "old_value": "安平亲王府（九日夜仍未出府）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:qin_wan:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-a7949b397b2f0f53",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_colonel_gongwenbao",
+      "field": "location.current",
+      "value": "十日卯初跟在张永怀身后进东宫正殿，又站到开宴时张永怀身后那根殿柱旁，垂着眼，站得笔直，两只手是空的（公文包不在手上）",
+      "payload": {
+        "old_value": "九日戌初三刻后沿墙根从东宫正殿东侧门出去，黑皮公文包提着走；去向不明"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:yulin_colonel_gongwenbao:location.current:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-04acb7669fde1740",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "heipi_gongwenbao",
+      "field": "holder",
+      "value": "下落不明：十日卯初那个上校随张永怀回殿时两手空着，包在哪里正文未交代",
+      "payload": {
+        "old_value": "yulin_colonel_gongwenbao（九日戌初三刻后随上校从东宫正殿东侧门带出）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:heipi_gongwenbao:holder:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-f1d5e73982a00841",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army_chief_of_staff",
+      "field": "marching_log",
+      "value": "丑初一刻接霍长庚交来的手谕，摇通第二集团军电话一字一字念过去；丑初三刻接第二集团军令（第一师即刻退出康建广场回宫城西南待命，城门待虎贲军接防后交还）；卯初接令“第一师回驻地。三山门、光淮门，虎贲军的人已经在路上了”；卯正在三山门交接文书上签名，在行军日志写“卯正，交还三山门”，往前一页页对过这一夜记下的令，翻到这一夜头一页——最上头一行写得比后头都整齐：“酉初一刻，口令到。”在那一行底下画了一道杠，合上日志揣回怀里，上马",
+      "payload": {
+        "old_value": "城门口借电灯在行军日志记：“戌正，第一师先头营接管三山门。”又记羽林军第二集团军令；亥初到西南街口记下时辰；亥正二刻接集团军群进广场平叛令"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:fifth_army_chief_of_staff:marching_log:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-a9779c018263b7ce",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "luhengzhi_xingjun_rizhi",
+      "field": "first_entry",
+      "value": "这一夜头一页最上头一行是“酉初一刻，口令到。”（铅笔字，写得比后头都整齐些；卯正卢衡之在底下画了一道杠）；“戌正，第一师先头营接管三山门”是其后的记录，不是头一行；末一条为“卯正，交还三山门”",
+      "payload": {
+        "old_value": "（第20章入账误记）“戌正，第一师先头营接管三山门”为日志头一行"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:luhengzhi_xingjun_rizhi:first_entry:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-a9ddfb19eacde25b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "valkyrie_plan",
+      "field": "status",
+      "value": "撤回：皇帝先问“朕若说，这就是叛呢？”（霍长庚答“那臣就出去平叛”，预备役副司令答“预备役听陛下的”），后当着两人亲口说“没有叛”，亲书盖印手谕令羽林军、预备役退出康建广场、城门交还虎贲军、各回驻地；丑初一刻卢衡之把手谕电话念给第二集团军，丑初三刻第一师退出广场、预备役那个团从东边大街退走；卯初令第一师回驻地；卯正三山门交还虎贲军；全夜未开一枪",
+      "payload": {
+        "old_value": "亥正二刻第一师会同中央预备役集团军进康建广场平叛，与近卫军对峙；子初霍长庚与预备役副司令入宫当面核实"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:valkyrie_plan:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-ed4603918a467d17",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army",
+      "field": "night_march",
+      "value": "丑初三刻奉第二集团军令第一师退出康建广场，回宫城西南街口待命（城门待虎贲军接防后交还）；寅正二刻前后近卫军撤空广场；卯初奉令收队，第一师沿来路往西南回，天还黑着；卯正军部到三山门，守门团长与虎贲军上尉对令，卢衡之签交接文书，城楼、门洞换成虎贲军；天色发青时第一师出三山门回城外驻地",
+      "payload": {
+        "old_value": "亥正二刻奉令进康建广场会同中央预备役集团军平叛，与近卫军对峙未开枪"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:fifth_army:night_march:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-17de061fb17a3cb6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_army",
+      "field": "night_orders",
+      "value": "第二集团军接卢衡之电话念来的皇帝手谕后，丑初三刻令第一师即刻退出康建广场回宫城西南待命、城门待虎贲军接防后交还；卯初令第一师回驻地；卯初大元帅张永怀换野战军服进东宫，跪称自己事先得了风声、先发动了预案调羽林军进城护驾",
+      "payload": {
+        "old_value": "亥正二刻令第一师进康建广场会同中央预备役集团军平叛；大元帅本人当夜未露面"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:yulin_army:night_orders:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-5a016f1cef412810",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "central_reserve_group_army",
+      "field": "status",
+      "value": "奉皇帝手谕撤回：东南角那个团在第一师退出广场前后从东边那条大街退走；副司令入殿见驾后出宫",
+      "payload": {
+        "old_value": "亥正二刻后随第一师往前压，与羽林军连成一片，把近卫军夹在中间，未开枪"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:central_reserve_group_army:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-c1fd9263701bf15e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "forbidden_guards",
+      "field": "status",
+      "value": "十日：一名虎贲军中尉领周君州三人从兴庆门到东宫，宫道电灯杆下每根站一个兵；统领宇文策奉旨放出秦守义一连、送秦婉到她姨家；一队八九人进殿架走安平亲王；寅正八人在殿前广庭东头墙根排枪行刑；卯正一名上尉带一个连持统领的令到三山门，与守门团长对令后接回城门城楼；光淮门也已派人在路上",
+      "payload": {
+        "old_value": "戌正三山门照瓦尔基里预案见令即开，一盏茶交出城门城楼；全夜未开枪"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:forbidden_guards:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-e6014bfa55ea8ef8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "semenovsky_guards",
+      "field": "status",
+      "value": "十日东宫正殿门口仍由二三十兵把着，罗曼诺夫点头才放虎贲军进殿；秦守义一连奉旨放出交营长；寅正后广庭两边和两道侧门的兵随罗曼诺夫一队接一队出东宫大门，无人拦；寅正二刻前后大队头一个从康建广场东头的大街撤出",
+      "payload": {
+        "old_value": "亥正大队在兴庆门外面朝宫墙，持启封D67；一小队把守兴庆门门洞；军长罗曼诺夫仍一个人在殿里；秦守义一连仍未放"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:semenovsky_guards:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-2d4caed778e4c7a0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jinwei_shituan",
+      "field": "status",
+      "value": "寅正二刻前后跟在谢苗诺夫斯基近卫军后头，从康建广场东头的大街撤出",
+      "payload": {
+        "old_value": "亥正排在谢苗诺夫斯基近卫军东边面朝宫墙，持启封D67；羽林军进广场后后排转身对峙"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:jinwei_shituan:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-43c60e1e5db2d65b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lingwu_army",
+      "field": "deployment",
+      "value": "子初后奉元帅令“近卫军一兵不撤，灵武军就一兵不许动”守在宫墙下（周君州殿上自陈：在宫墙底下、近卫军和宫墙中间，枪背在肩上、枪口朝下）；寅正二刻前后近卫军撤时，宫墙底下那道人墙在谢苗诺夫斯基、近卫师团之后动身，旗上的双头鹰往东头去了，冷溪近卫军跟在后头；启了封的D67随队撤回",
+      "payload": {
+        "old_value": "亥正在兴庆门外近卫军与宫墙之间背靠背排两排调和；羽林军进广场后仍守住人墙不动"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:lingwu_army:deployment:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-00759485f9020c21",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lengxi_guards",
+      "field": "status",
+      "value": "寅正二刻前后跟在宫墙下那道人墙（灵武军）后头，从康建广场往东撤走",
+      "payload": {
+        "old_value": "九日夜到兴庆门外，背枪、枪口朝下，接着灵武军往东排成人墙"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:lengxi_guards:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-5836b92888310636",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "prime_minister_office",
+      "field": "status",
+      "value": "十日丑正至寅正：京兆府报羽林军退出广场；寅初二刻王政炎的长随带回宫里的话；拟定天亮张贴的安民告示（王思涵改稿）；当夜记录册不归府里案卷、锁进王思涵的柜子；寅正签押房里众人听见皇城方向一排枪声",
+      "payload": {
+        "old_value": "九日夜右丞相王思涵坐签押房主事；各国使馆电话由外交部转来，邱思甜代接"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:prime_minister_office:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-b226e954eb1fff49",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jingzhaofu_zhubu",
+      "field": "current_task",
+      "value": "丑正第三回跑进首相府签押房（袍子下摆的泥干了又溅上新的）报羽林军退到西南街口、三山门要等虎贲军来接，又报谣言压不住（说羽林军进城是来抄近卫军的家，几坊近卫军眷属在收拾箱笼）；奉命在签押房角落拟安民告示，头一行写“昨夜京城近卫军作乱，羽林军奉令入城平叛，现已平定”，被王思涵划去改写；问“近卫军围宫城的事……”，被一句“圣上说了没有叛，就没有叛”顶回，捧改稿出去誊",
+      "payload": {
+        "old_value": "亥初一刻跑到首相府报谣言四起；领王思涵手书派差役挨街传话"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:jingzhaofu_zhubu:current_task:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-f14308586f305a52",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "anmin_gaoshi",
+      "field": "status",
+      "value": "王思涵令冯德茂天亮之前拟、天一亮就贴；原稿“昨夜京城近卫军作乱，羽林军奉令入城平叛，现已平定，各安生业……”被她划去，改定为“昨夜各军调动，现已奉旨各回驻地。城中无事，宵禁照旧，各安生业。”冯德茂捧去誊写；天色发青时三山门洞边一个京兆府差役正提浆糊桶刷墙，胳膊下夹着卷着的告示（未展开，邱深澳看不见写的什么）",
+      "payload": {
+        "old_value": "（新出现）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:anmin_gaoshi:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-3e4ea2c7245815a0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shouxiangfu_jiluce",
+      "field": "holder",
+      "value": "锁在王思涵自己的柜子里（她令不归首相府案卷）；内容为二月九日亥初二刻起至十日寅初二刻的记录，记满两页",
+      "payload": {
+        "old_value": "（新出现）首相府书办"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:shouxiangfu_jiluce:holder:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-22c457b1a8a1adfb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "huangdi_shouyu_chebing",
+      "field": "holder",
+      "value": "子初后皇帝在东宫正殿亲笔写、盖印，侍从武官长双手捧交霍长庚；霍长庚折两折扣进胸前口袋；丑初一刻交卢衡之，由他电话念给羽林军第二集团军；此后在谁手里正文未交代",
+      "payload": {
+        "old_value": "（新出现）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:huangdi_shouyu_chebing:holder:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-d70f1c3d1d2ab9ea",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "sanshan_men",
+      "field": "status",
+      "value": "十日卯正交还虎贲军：虎贲军上尉带一个连持统领的令到门洞，守门团长掏出集团军的令，两人在电灯下一张张对完；卢衡之签交接文书，城楼羽林军从马道撤下，虎贲军从另一边上去，门洞换岗互相敬礼；随后城门口电灯熄灭",
+      "payload": {
+        "old_value": "九日戌正第五军先头营喊令，虎贲军照预案开门，城门城楼换成羽林军；第一师留一个团守门"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:sanshan_men:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-01ae952c3d72cc8c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "kangjian_guangchang",
+      "field": "status",
+      "value": "丑初三刻羽林军第一师退出广场、预备役那个团从东边大街退走；寅正二刻前后近卫军依次从东头大街撤离（谢苗诺夫斯基、近卫师团、宫墙下双头鹰旗人墙、冷溪近卫军），广场一点一点空了",
+      "payload": {
+        "old_value": "九日夜近卫军与羽林军、预备役前后对峙，两边未开枪"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:kangjian_guangchang:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-75f89edf234e5ed7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gongcheng",
+      "field": "status",
+      "value": "解围：皇帝下旨后羽林军、预备役撤出，寅正二刻前后近卫军各部撤离；寅正皇城方向传出一排枪声（东宫殿前行刑）；三山门卯正交还虎贲军",
+      "payload": {
+        "old_value": "九日夜仍被谢苗诺夫斯基近卫军、近卫师团围着；羽林军与预备役在广场上把近卫军夹住；全城无人开枪"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:gongcheng:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-c6c89bcab73a1369",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "dong_gong",
+      "field": "status",
+      "value": "十日：正殿暖得发闷，宗室挤在两厢墙根，奉旨谁也不许走；寅正殿门大开，殿前广庭电灯下青石地落霜，安平亲王在西头墙下被排枪枪决；罗曼诺夫的兵随后撤出东宫大门；卯初殿外还黑着、广庭电灯还亮着，虎贲军抬走遗体，张永怀从大门进殿；皇帝从御座后门离殿，侍从武官长传“宗室各回府”",
+      "payload": {
+        "old_value": "九日戌初三刻后正殿正门与两道侧门被近卫军堵住；宗室出不去"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:dong_gong:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-5834a9dba24947fe",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "d67_unsealing",
+      "value": "已被皇帝当殿点出：十日子初后皇帝问他“你的灵武军在哪里？”，又说“灵武军还在受查。枪，谁准你启的封？”；他答“臣自己。抗旨的是臣，臣认”，请陛下要说外头是叛就连他一并处置；皇帝随即说“没有叛”，对启封一事未置可否、未下处分（九日亥初前他下令撕封开库取枪、子弹发足，曼桂槐在营里领用册原册上记的是他的名字）",
+      "payload": {
+        "old_value": "九日亥初前在灵武军营下令“开库。启封，取枪，子弹发足”，撕了第三处会同参谋本部所贴的库门封条（D67圣旨封存、清点作废后另行查办，无人说过启封）——自知这就是抗旨，受查的灵武军再添一条“抗旨启封，带枪进城”；令曼桂槐在营里原册（按例不出营）上记明几时启封、谁下的令、取了多少支，“令是我下的，写我的名字”"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zhou_junzhou:d67_unsealing:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-586008584b196c6a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lingwu_army",
+      "field": "investigation_status",
+      "value": "D67封存中、仍在受查；九日夜抗旨启封一事十日子初后已被皇帝当殿点出（“灵武军还在受查。枪，谁准你启的封？”），军长周君州当殿认罪请一并处置，皇帝未置可否、未下处分；领用册原册仍记周君州的名字",
+      "payload": {
+        "old_value": "D67封存中；专案组已到营问询，领用册与库房档册抄本交专案组"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:lingwu_army:investigation_status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-1caa2bd1aa6d0235",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yuan_ailianna",
+      "field": "gender",
+      "value": "女",
+      "payload": {
+        "old_value": "（未定）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:yuan_ailianna:gender:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-cd37c43e1377fae5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yuan_ailianna",
+      "field": "origin",
+      "value": "大和省",
+      "payload": {
+        "old_value": "（未定）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:yuan_ailianna:origin:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-474f8017a87a1a80",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zongshi_lao_qinwang",
+      "field": "status",
+      "value": "十日在东宫正殿：太子跪请依军律处置安平亲王后，一把推开内侍递来的茶盏（茶泼了一地），拄拐站起，拐杖头直指跪地的太子，嗓子都劈了：“安平是你父皇的儿子，是你的弟弟！一个亲王，抵一个连长的闺女——自太祖立国，几时有过这样的事？宗室犯了错，自有家法议处，削爵也使得，圈禁也使得，几时轮到拿军律来杀！”宗室随之群起嚷；太子说请的是军律不是家法，他转向上首“好一个军律！圣上！”；皇帝拍扶手喝“够了”，对他说“方才罗曼诺夫问你，祖宗家法里是怎么写的。朕的家法里，也没有拖人家闺女进府这一条”；他嘴动了动，四下看一圈无人出声，叫人扶着坐回椅子",
+      "payload": {
+        "old_value": "（无）"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "state_change:zongshi_lao_qinwang:status:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-6ade4522f8d59bbd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_shenao",
+      "field": "first_seen",
+      "value": "邱深澳",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:qiu_shenao:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-08e6af83796bc34f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_junzhou",
+      "field": "first_seen",
+      "value": "周君州",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zhou_junzhou:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-4bdb3847097dbfcb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yixuan",
+      "field": "first_seen",
+      "value": "张艺宣",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zhang_yixuan:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-db5f418625557cf5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qiu_sitian",
+      "field": "first_seen",
+      "value": "邱思甜",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:qiu_sitian:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-c8618f70c85bfe7a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_sihan",
+      "field": "first_seen",
+      "value": "王思涵",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:wang_sihan:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-1dc3e3fb93210c3b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_shuhuai",
+      "field": "first_seen",
+      "value": "张书淮",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zhang_shuhuai:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-414b30bf0a8dc8bc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_yonghuai",
+      "field": "first_seen",
+      "value": "张永怀",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zhang_yonghuai:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-aabb0e3760657be9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "crown_prince",
+      "field": "first_seen",
+      "value": "张允恭",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:crown_prince:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-c2b76c232b366c97",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "emperor",
+      "field": "first_seen",
+      "value": "皇帝（康建皇帝）",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:emperor:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-f7fd43768418b34e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhou_shiheng",
+      "field": "first_seen",
+      "value": "周世衡",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zhou_shiheng:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-f8d69912790f4a64",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wang_zhengyan",
+      "field": "first_seen",
+      "value": "王政炎",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:wang_zhengyan:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-da1fd75bee04bd1c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhang_chengyao",
+      "field": "first_seen",
+      "value": "张承曜",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zhang_chengyao:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-9ca642643761805b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "oleg_romanov",
+      "field": "first_seen",
+      "value": "奥列格·罗曼诺夫",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:oleg_romanov:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-54f03d16983c09be",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army_commander",
+      "field": "first_seen",
+      "value": "霍长庚",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:fifth_army_commander:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-d56433fc4830c2be",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "valkyrie_plan",
+      "field": "first_seen",
+      "value": "京畿瓦尔基里行动",
+      "payload": {
+        "tier": "重要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:valkyrie_plan:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-5046c32023d16d04",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army_chief_of_staff",
+      "field": "first_seen",
+      "value": "卢衡之",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:fifth_army_chief_of_staff:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-6f3b0aee0baab05e",
       "layer": "semantic",
       "category": "character_state",
       "subject": "luhengzhi_xingjun_rizhi",
@@ -5717,33 +5386,501 @@
         "type": "物品"
       },
       "status": "active",
-      "source_chapter": 20,
+      "source_chapter": 21,
       "evidence": [
-        "entity_new:luhengzhi_xingjun_rizhi:20"
+        "entity_new:luhengzhi_xingjun_rizhi:21"
       ],
-      "updated_at": "2026-10-21T20:37:59"
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-f7fc115c2fade604",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "reserve_general",
+      "field": "first_seen",
+      "value": "中央预备役集团军副司令",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:reserve_general:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-ea16678f2bef2562",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "huben_commander",
+      "field": "first_seen",
+      "value": "宇文策",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:huben_commander:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-0fafc9b36043b963",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chief_aide_de_camp",
+      "field": "first_seen",
+      "value": "侍从武官长",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:chief_aide_de_camp:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-a5eeb205186289d1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gongsu_prince",
+      "field": "first_seen",
+      "value": "张延钧",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:gongsu_prince:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-e0b34a2db8a7a0e7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_shouyi",
+      "field": "first_seen",
+      "value": "秦守义",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:qin_shouyi:21"
+      ],
+      "updated_at": "2026-10-21T22:24:57"
+    },
+    {
+      "id": "mem-character_state-cf648b24f85ce99c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qin_wan",
+      "field": "first_seen",
+      "value": "秦婉",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:qin_wan:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-ec3f217062cca9be",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_colonel_gongwenbao",
+      "field": "first_seen",
+      "value": "提公文包的羽林军上校",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:yulin_colonel_gongwenbao:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-210d9742b26aded6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "heipi_gongwenbao",
+      "field": "first_seen",
+      "value": "黑皮公文包",
+      "payload": {
+        "tier": "次要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:heipi_gongwenbao:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-3b4c586a1c5c7df9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jingzhaofu_zhubu",
+      "field": "first_seen",
+      "value": "冯德茂",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:jingzhaofu_zhubu:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-d8185471c4f170c4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "huangdi_shouyu_chebing",
+      "field": "first_seen",
+      "value": "皇帝撤兵手谕",
+      "payload": {
+        "tier": "次要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:huangdi_shouyu_chebing:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-89e144a43125d95b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shouxiangfu_jiluce",
+      "field": "first_seen",
+      "value": "首相府当夜记录册",
+      "payload": {
+        "tier": "次要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:shouxiangfu_jiluce:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-eb241c219a554de5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "anmin_gaoshi",
+      "field": "first_seen",
+      "value": "安民告示",
+      "payload": {
+        "tier": "次要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:anmin_gaoshi:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-ed49b40f85e11fcf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fifth_army",
+      "field": "first_seen",
+      "value": "羽林军第五军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:fifth_army:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-340849de11a0836e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yulin_army",
+      "field": "first_seen",
+      "value": "羽林军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:yulin_army:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-e64fdaf378ea3092",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "central_reserve_group_army",
+      "field": "first_seen",
+      "value": "中央预备役集团军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:central_reserve_group_army:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-316efbd1cef2c857",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "forbidden_guards",
+      "field": "first_seen",
+      "value": "禁卫军（虎贲、龙武、木兰）",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:forbidden_guards:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-ace85fa5b4a35094",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "semenovsky_guards",
+      "field": "first_seen",
+      "value": "谢苗诺夫斯基近卫军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:semenovsky_guards:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-b77a1d091031dac2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jinwei_shituan",
+      "field": "first_seen",
+      "value": "近卫师团",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:jinwei_shituan:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-07b5faaa40f313d9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lingwu_army",
+      "field": "first_seen",
+      "value": "灵武军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:lingwu_army:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-1d5445287befbbed",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lengxi_guards",
+      "field": "first_seen",
+      "value": "冷溪近卫军",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:lengxi_guards:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-22125ea414ed0a7d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "prime_minister_office",
+      "field": "first_seen",
+      "value": "首相府",
+      "payload": {
+        "tier": "次要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:prime_minister_office:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-3d8ae9d5fbe91569",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "sanshan_men",
+      "field": "first_seen",
+      "value": "三山门",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:sanshan_men:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-5f15c7d4a059b331",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "kangjian_guangchang",
+      "field": "first_seen",
+      "value": "康建广场",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:kangjian_guangchang:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-ab71e7d2e40f6129",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gongcheng",
+      "field": "first_seen",
+      "value": "宫城",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:gongcheng:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-f2960a19454de759",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "dong_gong",
+      "field": "first_seen",
+      "value": "东宫",
+      "payload": {
+        "tier": "次要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:dong_gong:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-f69f9d9d3443140c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "yuan_ailianna",
+      "field": "first_seen",
+      "value": "源爱莲娜",
+      "payload": {
+        "tier": "次要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:yuan_ailianna:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-character_state-efb7dd8ea02392a6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zongshi_lao_qinwang",
+      "field": "first_seen",
+      "value": "宗室年纪最长的老亲王",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "entity_new:zongshi_lao_qinwang:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
     }
   ],
   "story_facts": [],
   "world_rules": [
-    {
-      "id": "mem-world_rule-a0dd6c3b128965e5",
-      "layer": "semantic",
-      "category": "world_rule",
-      "subject": "地理",
-      "field": "world_rule_revealed",
-      "value": "神圣高地是南京建城时唯二未被完全铲平的区域（另一处为大明宫所在的皇权高地）；内务本部位于神圣高地，西北2公里为大明宫，正对面为内禁医院，四周为历史悠久的商业街，是皇城内最繁荣的地区。",
-      "payload": {
-        "scope": "南京",
-        "rule_text": "神圣高地是南京建城时唯二未被完全铲平的区域（另一处为大明宫所在的皇权高地）；内务本部位于神圣高地，西北2公里为大明宫，正对面为内禁医院，四周为历史悠久的商业街，是皇城内最繁荣的地区。"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "memory_facts:world_rule:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
     {
       "id": "mem-world_rule-34fa0b1712d3ab03",
       "layer": "semantic",
@@ -6501,126 +6638,44 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-world_rule-f61822018688b481",
+      "id": "mem-world_rule-38f823a98796db8b",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "军律",
+      "field": "world_rule_revealed",
+      "value": "军律：凡强占现役军人家眷者，处死；宗室身上挂着近卫军军衔、穿近卫军衣裳领近卫军饷，穿着这身衣裳时就归军律管（太子：请的是军律，不是家法）。宗室犯错向来另有家法议处（削爵、圈禁），老亲王称亲王抵连长之女、拿军律杀宗室自太祖立国未有；本次由皇帝准依军律。依军律处决宗室的做法：侍从武官长念圣旨（引所用军律条文），虎贲军军官当场摘去受刑者两边肩章，再由虎贲军一排枪执行",
+      "payload": {
+        "scope": "现役军人及挂军衔的宗室",
+        "rule_text": "军律：凡强占现役军人家眷者，处死；宗室身上挂着近卫军军衔、穿近卫军衣裳领近卫军饷，穿着这身衣裳时就归军律管（太子：请的是军律，不是家法）。宗室犯错向来另有家法议处（削爵、圈禁），老亲王称亲王抵连长之女、拿军律杀宗室自太祖立国未有；本次由皇帝准依军律。依军律处决宗室的做法：侍从武官长念圣旨（引所用军律条文），虎贲军军官当场摘去受刑者两边肩章，再由虎贲军一排枪执行"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:world_rule:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-world_rule-6551cb744bf198b5",
       "layer": "semantic",
       "category": "world_rule",
       "subject": "城防预案",
       "field": "world_rule_revealed",
-      "value": "瓦尔基里口令是最高指令：口令一到，城门交给羽林军，预案上写好、各门守军早接了交代，见令即开，守军背枪列队退让，由羽林军武力接管城门城楼，不需守军同意或报备；宵禁之下平日城门奉旨归虎贲军",
+      "value": "瓦尔基里口令发动后，进城部队凭电报口令进城、集团军凭口令下令；要撤兵，集团军不能凭将领口头转述，须有圣上亲笔并盖印的手谕；城门交还时，虎贲军持统领的令、守门部队持集团军的令当面逐张对证，再由羽林军一方在交接文书上签名，然后城楼门洞换岗",
       "payload": {
-        "scope": "京城各城门",
-        "rule_text": "瓦尔基里口令是最高指令：口令一到，城门交给羽林军，预案上写好、各门守军早接了交代，见令即开，守军背枪列队退让，由羽林军武力接管城门城楼，不需守军同意或报备；宵禁之下平日城门奉旨归虎贲军"
+        "scope": "瓦尔基里行动与京城各城门",
+        "rule_text": "瓦尔基里口令发动后，进城部队凭电报口令进城、集团军凭口令下令；要撤兵，集团军不能凭将领口头转述，须有圣上亲笔并盖印的手谕；城门交还时，虎贲军持统领的令、守门部队持集团军的令当面逐张对证，再由羽林军一方在交接文书上签名，然后城楼门洞换岗"
       },
       "status": "active",
-      "source_chapter": 20,
+      "source_chapter": 21,
       "evidence": [
-        "memory_facts:world_rule:20"
+        "memory_facts:world_rule:21"
       ],
-      "updated_at": "2026-10-21T20:37:59"
+      "updated_at": "2026-10-21T22:24:58"
     }
   ],
   "timeline": [],
   "open_loops": [
-    {
-      "id": "mem-open_loop-a40bfeff815398ee",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神圣高地爆炸后，一群统一穿黑色上衣、头戴黑色面具、手持全新半自动步枪的武装人员从商会马车中下来见人就杀，身份不明。",
-      "field": "status",
-      "value": "神圣高地爆炸后，一群统一穿黑色上衣、头戴黑色面具、手持全新半自动步枪的武装人员从商会马车中下来见人就杀，身份不明。",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 6,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "memory_facts:open_loop:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-open_loop-701c559f1a302d46",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "黑衣人手持的是试验性D67半自动步枪，连灵武军也只有部分单位装备；邱思甜追问这些人是怎么拿到的，邓声宝称要活着离开才能知道。",
-      "field": "status",
-      "value": "黑衣人手持的是试验性D67半自动步枪，连灵武军也只有部分单位装备；邱思甜追问这些人是怎么拿到的，邓声宝称要活着离开才能知道。",
-      "payload": {
-        "urgency": 60.0,
-        "planted_chapter": 6,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "memory_facts:open_loop:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-open_loop-deea944ce28efb0d",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周君州、邓声宝持C93半自动手枪出医院，去支援在医院大门前被五六个黑衣人压制的神策军残余警卫；邱思甜、张艺宣、王思涵留在医院内躲避。",
-      "field": "status",
-      "value": "周君州、邓声宝持C93半自动手枪出医院，去支援在医院大门前被五六个黑衣人压制的神策军残余警卫；邱思甜、张艺宣、王思涵留在医院内躲避。",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 6,
-        "expected_payoff": "下一章",
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 6,
-      "evidence": [
-        "memory_facts:open_loop:6"
-      ],
-      "updated_at": "2026-10-18T11:05:17"
-    },
-    {
-      "id": "mem-open_loop-2cffb2224a333966",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "袭击内务本部的黑衣人来历不明：如何把炸药运进要紧的军事机关、如何拿到新锐的D67式步枪；中尉只说他们训练有素、见人就杀、背景不简单。",
-      "field": "status",
-      "value": "袭击内务本部的黑衣人来历不明：如何把炸药运进要紧的军事机关、如何拿到新锐的D67式步枪；中尉只说他们训练有素、见人就杀、背景不简单。",
-      "payload": {
-        "urgency": 85.0,
-        "planted_chapter": 7,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 7,
-      "evidence": [
-        "memory_facts:open_loop:7"
-      ],
-      "updated_at": "2026-10-18T11:05:19"
-    },
-    {
-      "id": "mem-open_loop-cc70b81f8159adb2",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "出现一名少见的死亡骑兵军官：灰色面具带银色骷髅标志、胸甲有数枚军功勋章与军衔图案、尖顶钢盔有金色死亡骷髅和长明灯标识、腰挎百合花丝线马刀；周邓都看不出其军衔，未能与之交流。",
-      "field": "status",
-      "value": "出现一名少见的死亡骑兵军官：灰色面具带银色骷髅标志、胸甲有数枚军功勋章与军衔图案、尖顶钢盔有金色死亡骷髅和长明灯标识、腰挎百合花丝线马刀；周邓都看不出其军衔，未能与之交流。",
-      "payload": {
-        "urgency": 40.0,
-        "planted_chapter": 7,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 7,
-      "evidence": [
-        "memory_facts:open_loop:7"
-      ],
-      "updated_at": "2026-10-18T11:05:19"
-    },
     {
       "id": "mem-open_loop-3417d14bcbdeef1f",
       "layer": "semantic",
@@ -7702,26 +7757,6 @@
       "updated_at": "2026-10-20T15:11:10"
     },
     {
-      "id": "mem-open_loop-0c4ab95fa4f48110",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "皇子案在城里传开：安平亲王张承曜强占谢苗诺夫斯基近卫军连长秦守义之女秦婉为妾；秦守义带一连兵去要人，被虎贲军以擅离防区、冲撞皇族押起；军长层层要人处处碰回，事情僵住",
-      "field": "status",
-      "value": "皇子案在城里传开：安平亲王张承曜强占谢苗诺夫斯基近卫军连长秦守义之女秦婉为妾；秦守义带一连兵去要人，被虎贲军以擅离防区、冲撞皇族押起；军长层层要人处处碰回，事情僵住",
-      "payload": {
-        "urgency": 90.0,
-        "planted_chapter": 17,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 17,
-      "evidence": [
-        "memory_facts:open_loop:17"
-      ],
-      "updated_at": "2026-10-20T15:11:10"
-    },
-    {
       "id": "mem-open_loop-3c5ba51a72d75e31",
       "layer": "semantic",
       "category": "open_loop",
@@ -7800,46 +7835,6 @@
         "memory_facts:open_loop:17"
       ],
       "updated_at": "2026-10-20T15:11:10"
-    },
-    {
-      "id": "mem-open_loop-0790245d3dfeef41",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "第五军开拔进城：第一师先头营已出营上官道往东北、过了第一座石桥；第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线听候调遣；而城里的近卫军奉令一个兵都不出营",
-      "field": "status",
-      "value": "第五军开拔进城：第一师先头营已出营上官道往东北、过了第一座石桥；第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线听候调遣；而城里的近卫军奉令一个兵都不出营",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 18,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "memory_facts:open_loop:18"
-      ],
-      "updated_at": "2026-10-20T16:18:34"
-    },
-    {
-      "id": "mem-open_loop-68a14dc723694ca0",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "第五军即刻开拔进城：第一师先头营坐十二辆卡车出营，车灯一串已过第一座石桥，大队急行军跟进，军部（邱深澳在车上）一刻之内随第一师动身；第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线听候调遣；而城里的近卫军奉令一个兵都不出营",
-      "field": "status",
-      "value": "第五军即刻开拔进城：第一师先头营坐十二辆卡车出营，车灯一串已过第一座石桥，大队急行军跟进，军部（邱深澳在车上）一刻之内随第一师动身；第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线听候调遣；而城里的近卫军奉令一个兵都不出营",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 18,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "memory_facts:open_loop:18"
-      ],
-      "updated_at": "2026-10-20T17:42:53"
     },
     {
       "id": "mem-open_loop-a81639b80695a370",
@@ -7962,26 +7957,6 @@
       "updated_at": "2026-10-20T17:48:28"
     },
     {
-      "id": "mem-open_loop-34859d7594fa82ad",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "第五军即刻开拔进城：第一师先头营急行军出营、挑起马灯，一串马灯已过第一座石桥，大队一营接一营跟进，军部（邱深澳骑马随行）一刻之内随第一师动身；第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线听候调遣；而城里的近卫军奉令一个兵都不出营",
-      "field": "status",
-      "value": "第五军即刻开拔进城：第一师先头营急行军出营、挑起马灯，一串马灯已过第一座石桥，大队一营接一营跟进，军部（邱深澳骑马随行）一刻之内随第一师动身；第一师取三山门、光淮门，第三团接管城南电报局，其余到宫城西南一线听候调遣；而城里的近卫军奉令一个兵都不出营",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 18,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 18,
-      "evidence": [
-        "memory_facts:open_loop:18"
-      ],
-      "updated_at": "2026-10-20T17:48:28"
-    },
-    {
       "id": "mem-open_loop-8b3f864fc2a49aca",
       "layer": "semantic",
       "category": "open_loop",
@@ -8008,26 +7983,6 @@
       "subject": "家宴上张永怀身后殿柱旁站着一个羽林军上校（个子不高、脸很平常、站得笔直），满殿随员只有他手里拿着东西——一只看着不轻的黑皮公文包，一直没换手、没放到脚边；张永怀借急报离席他不跟走，留在原地；罗曼诺夫闯殿的乱中，他逆着人流不慌不忙沿墙根走到侧门，从吓白了脸的内侍身边出去，包仍在手，门留一道缝，没人拦。只有张艺宣一路看在眼里",
       "field": "status",
       "value": "家宴上张永怀身后殿柱旁站着一个羽林军上校（个子不高、脸很平常、站得笔直），满殿随员只有他手里拿着东西——一只看着不轻的黑皮公文包，一直没换手、没放到脚边；张永怀借急报离席他不跟走，留在原地；罗曼诺夫闯殿的乱中，他逆着人流不慌不忙沿墙根走到侧门，从吓白了脸的内侍身边出去，包仍在手，门留一道缝，没人拦。只有张艺宣一路看在眼里",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 19,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "memory_facts:open_loop:19"
-      ],
-      "updated_at": "2026-10-20T18:36:31"
-    },
-    {
-      "id": "mem-open_loop-c6ba43bccf5b707a",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听，皇帝端着凉了的酒杯一言不发；殿门被近卫军堵着，宫城被谢苗诺夫斯基近卫军、近卫师团围住，宗室挤在殿里出不去",
-      "field": "status",
-      "value": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听，皇帝端着凉了的酒杯一言不发；殿门被近卫军堵着，宫城被谢苗诺夫斯基近卫军、近卫师团围住，宗室挤在殿里出不去",
       "payload": {
         "urgency": 100.0,
         "planted_chapter": 19,
@@ -8082,92 +8037,12 @@
       "updated_at": "2026-10-20T19:08:22"
     },
     {
-      "id": "mem-open_loop-af73376789f3bef8",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "戌初三刻后张永怀以“羽林军有急报”离开家宴，从侧门出去，此后没再回殿；他前脚走，近卫军后脚闯殿；身后提公文包的上校留在殿柱旁没跟走",
-      "field": "status",
-      "value": "戌初三刻后张永怀以“羽林军有急报”离开家宴，从侧门出去，此后没再回殿；他前脚走，近卫军后脚闯殿；身后提公文包的上校留在殿柱旁没跟走",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 19,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "memory_facts:open_loop:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-open_loop-44f9080dbb1fb2f9",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听；皇帝开口“朕不在刀枪底下说话”，只许撤兵后“自会叫人去查”，两次令撤兵他都不动；安平亲王当殿承认把秦婉带回府，皇帝只说“坐回去”；宇文策报宫城被围，皇帝说“那就等着”。正门与两道侧门都被近卫军堵着，宗室挤在殿里出不去",
-      "field": "status",
-      "value": "罗曼诺夫当殿要皇帝放秦守义一连、送回秦婉、依法办安平亲王，不达不走；太子的令他不听；皇帝开口“朕不在刀枪底下说话”，只许撤兵后“自会叫人去查”，两次令撤兵他都不动；安平亲王当殿承认把秦婉带回府，皇帝只说“坐回去”；宇文策报宫城被围，皇帝说“那就等着”。正门与两道侧门都被近卫军堵着，宗室挤在殿里出不去",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 19,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "memory_facts:open_loop:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
-      "id": "mem-open_loop-73525a12f8de5bc8",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "谢苗诺夫斯基近卫军、近卫师团大队围住宫城，与虎贲军对峙未开枪；周世衡还在司令部、周君州在营里，散席后入宫请旨的许诺已赶不上；而第五军等羽林军部队（第18章瓦尔基里口令）正开往城门与宫城西南一线",
-      "field": "status",
-      "value": "谢苗诺夫斯基近卫军、近卫师团大队围住宫城，与虎贲军对峙未开枪；周世衡还在司令部、周君州在营里，散席后入宫请旨的许诺已赶不上；而第五军等羽林军部队（第18章瓦尔基里口令）正开往城门与宫城西南一线",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 19,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 19,
-      "evidence": [
-        "memory_facts:open_loop:19"
-      ],
-      "updated_at": "2026-10-20T19:08:22"
-    },
-    {
       "id": "mem-open_loop-f9f9e217b6adc327",
       "layer": "semantic",
       "category": "open_loop",
       "subject": "宫城西南大街上，江伏波的踏浪营（陆战队归参谋本部，未奉任何令）一层层人墙堵满整条街，枪口朝天，拦住持瓦尔基里口令的羽林军第五军第一师；霍长庚令原地待命，大元帅张永怀在街口坐镇却不肯硬压；周君州在两边来回传话，“羽林军不往前，踏浪营就不动”；子初仍对峙，一枪未响",
       "field": "status",
       "value": "宫城西南大街上，江伏波的踏浪营（陆战队归参谋本部，未奉任何令）一层层人墙堵满整条街，枪口朝天，拦住持瓦尔基里口令的羽林军第五军第一师；霍长庚令原地待命，大元帅张永怀在街口坐镇却不肯硬压；周君州在两边来回传话，“羽林军不往前，踏浪营就不动”；子初仍对峙，一枪未响",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T15:21:57"
-    },
-    {
-      "id": "mem-open_loop-119e3031855d0f3b",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），临行只令周君州“守住这里”；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
-      "field": "status",
-      "value": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），临行只令周君州“守住这里”；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
       "payload": {
         "urgency": 95.0,
         "planted_chapter": 20,
@@ -8222,26 +8097,6 @@
       "updated_at": "2026-10-21T15:52:48"
     },
     {
-      "id": "mem-open_loop-d6c1d6508abf253e",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命进宫，被“我去说，你守住这里”挡下；又对张永怀说“近卫军没有反”，得“反没反，等父皇说”。子初他站在空街上想：圣上还在东宫，口令写的是叛乱，父亲进去说的话圣上听不听，他不知道",
-      "field": "status",
-      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命进宫，被“我去说，你守住这里”挡下；又对张永怀说“近卫军没有反”，得“反没反，等父皇说”。子初他站在空街上想：圣上还在东宫，口令写的是叛乱，父亲进去说的话圣上听不听，他不知道",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T15:52:48"
-    },
-    {
       "id": "mem-open_loop-4c3b301264d65ad3",
       "layer": "semantic",
       "category": "open_loop",
@@ -8282,26 +8137,6 @@
       "updated_at": "2026-10-21T15:52:48"
     },
     {
-      "id": "mem-open_loop-5dddf4ca3331b66e",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州要当面向圣上说清“近卫军没有反”的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
-      "field": "status",
-      "value": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州要当面向圣上说清“近卫军没有反”的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T15:52:48"
-    },
-    {
       "id": "mem-open_loop-6176a8b0cdb3775b",
       "layer": "semantic",
       "category": "open_loop",
@@ -8322,132 +8157,12 @@
       "updated_at": "2026-10-21T15:52:48"
     },
     {
-      "id": "mem-open_loop-b283fb1d8e6a26bb",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役上将徒手入宫，要圣上亲口一句“近卫军没有反”",
-      "field": "status",
-      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役上将徒手入宫，要圣上亲口一句“近卫军没有反”",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T19:20:56"
-    },
-    {
-      "id": "mem-open_loop-da3a83dec2b5ec37",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "子初，霍长庚与中央预备役集团军上将解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
-      "field": "status",
-      "value": "子初，霍长庚与中央预备役集团军上将解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T19:20:56"
-    },
-    {
-      "id": "mem-open_loop-b355e34b7adbf2d1",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役团长徒手入宫，要圣上亲口一句“近卫军没有反”",
-      "field": "status",
-      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役团长徒手入宫，要圣上亲口一句“近卫军没有反”",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T20:25:15"
-    },
-    {
-      "id": "mem-open_loop-d27624ab8c9b61b1",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "子初，霍长庚与中央预备役集团军团长解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
-      "field": "status",
-      "value": "子初，霍长庚与中央预备役集团军团长解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T20:25:15"
-    },
-    {
       "id": "mem-open_loop-4de2794ac5c4d622",
       "layer": "semantic",
       "category": "open_loop",
       "subject": "灵武军抗旨启封：D67是圣旨封存、第三处会同参谋本部贴的封条，清点作废后另行查办，无人说过启封；九日夜周君州下令撕封开库取枪、子弹发足，带枪进城调和；曼桂槐在营里领用册原册（按例不出营）的空白页记明几时启封、谁下的令、取了多少支，写的是周君州的名字。受查的灵武军今夜再添一条罪名：抗旨启封，带枪进城",
       "field": "status",
       "value": "灵武军抗旨启封：D67是圣旨封存、第三处会同参谋本部贴的封条，清点作废后另行查办，无人说过启封；九日夜周君州下令撕封开库取枪、子弹发足，带枪进城调和；曼桂槐在营里领用册原册（按例不出营）的空白页记明几时启封、谁下的令、取了多少支，写的是周君州的名字。受查的灵武军今夜再添一条罪名：抗旨启封，带枪进城",
-      "payload": {
-        "urgency": 90.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-open_loop-baf604429e343e35",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役副司令徒手入宫，要圣上亲口一句“近卫军没有反”",
-      "field": "status",
-      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役副司令徒手入宫，要圣上亲口一句“近卫军没有反”",
-      "payload": {
-        "urgency": 95.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
-      "id": "mem-open_loop-f5091165ba489487",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初未出",
-      "field": "status",
-      "value": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初未出",
       "payload": {
         "urgency": 90.0,
         "planted_chapter": 20,
@@ -8482,26 +8197,6 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-open_loop-da09209a38f95d71",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "子初，霍长庚与中央预备役集团军副司令解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
-      "field": "status",
-      "value": "子初，霍长庚与中央预备役集团军副司令解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
-      "payload": {
-        "urgency": 100.0,
-        "planted_chapter": 20,
-        "expected_payoff": null,
-        "status": "active"
-      },
-      "status": "active",
-      "source_chapter": 20,
-      "evidence": [
-        "memory_facts:open_loop:20"
-      ],
-      "updated_at": "2026-10-21T20:37:59"
-    },
-    {
       "id": "mem-open_loop-57dd29b2141ebd61",
       "layer": "semantic",
       "category": "open_loop",
@@ -8522,45 +8217,307 @@
       "updated_at": "2026-10-21T20:37:59"
     },
     {
-      "id": "mem-open_loop-2d0e9266a9808f47",
+      "id": "mem-open_loop-0fa8ce14078c6628",
       "layer": "semantic",
       "category": "open_loop",
-      "subject": "张永怀戌初三刻后以“羽林军有急报”离开东宫家宴（第19章），此后整夜未露面：羽林军集团军群两道电话令（赴宫城西南待命、亥正二刻进康建广场会同预备役平叛）照常发来，大元帅本人在哪里无人提起",
+      "subject": "（读者向）口令时辰早于闯殿：十日卯正在三山门，卢衡之翻回行军日志这一夜头一页，最上头一行铅笔字写得比后头都整齐——“酉初一刻，口令到。”他在那一行底下画了一道杠；邱深澳在旁看见。那时东宫家宴尚未开席，罗曼诺夫戌初三刻后才闯殿；殿上霍长庚说到“瓦尔基里”时皇帝右手指头在扶手上抬了一抬；皇帝亲口说“没有叛”，张永怀卯初却称“事先得了风声，说京城近卫军要作乱……先发动了预案”",
       "field": "status",
-      "value": "张永怀戌初三刻后以“羽林军有急报”离开东宫家宴（第19章），此后整夜未露面：羽林军集团军群两道电话令（赴宫城西南待命、亥正二刻进康建广场会同预备役平叛）照常发来，大元帅本人在哪里无人提起",
+      "value": "（读者向）口令时辰早于闯殿：十日卯正在三山门，卢衡之翻回行军日志这一夜头一页，最上头一行铅笔字写得比后头都整齐——“酉初一刻，口令到。”他在那一行底下画了一道杠；邱深澳在旁看见。那时东宫家宴尚未开席，罗曼诺夫戌初三刻后才闯殿；殿上霍长庚说到“瓦尔基里”时皇帝右手指头在扶手上抬了一抬；皇帝亲口说“没有叛”，张永怀卯初却称“事先得了风声，说京城近卫军要作乱……先发动了预案”",
       "payload": {
-        "urgency": 80.0,
-        "planted_chapter": 20,
+        "urgency": 95.0,
+        "planted_chapter": 21,
         "expected_payoff": null,
         "status": "active"
       },
       "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-e998d48894f8c276",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "张永怀护驾的说法：卯初他换羽林军野战军服进东宫正殿，跪称“儿臣事先得了风声，说京城近卫军要作乱。儿臣怕迟了误事，没来得及请旨，先发动了预案，调羽林军进城护驾”，请治罪；皇帝刚亲口说过没有叛，却只说“起来吧”；周世衡抬头看着他的后背，王政炎两手拢在袖里不动，太子低头看着他",
+      "field": "status",
+      "value": "张永怀护驾的说法：卯初他换羽林军野战军服进东宫正殿，跪称“儿臣事先得了风声，说京城近卫军要作乱。儿臣怕迟了误事，没来得及请旨，先发动了预案，调羽林军进城护驾”，请治罪；皇帝刚亲口说过没有叛，却只说“起来吧”；周世衡抬头看着他的后背，王政炎两手拢在袖里不动，太子低头看着他",
+      "payload": {
+        "urgency": 90.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-c87801cc14817b95",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "公文包下落：九日家宴上一直提着黑皮公文包、闯殿前从东侧门提包离开的那个羽林军上校，十日卯初跟在张永怀身后回到东宫正殿，又站到那根殿柱旁，垂着眼，站得笔直——两只手是空的",
+      "field": "status",
+      "value": "公文包下落：九日家宴上一直提着黑皮公文包、闯殿前从东侧门提包离开的那个羽林军上校，十日卯初跟在张永怀身后回到东宫正殿，又站到那根殿柱旁，垂着眼，站得笔直——两只手是空的",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-1932e7f18298e706",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "王思涵锁存的记录册：首相府书办当夜的记录，从“亥初二刻，京兆府差役报：羽林军一部，自三山门入城，往东北去”起，记满两页（京兆府差役报某坊有兵、羽林军退出广场、东宫来人传话）；王思涵从头翻到尾合上，令“这一本不要归到府里的案卷里去，锁进我的柜子”",
+      "field": "status",
+      "value": "王思涵锁存的记录册：首相府书办当夜的记录，从“亥初二刻，京兆府差役报：羽林军一部，自三山门入城，往东北去”起，记满两页（京兆府差役报某坊有兵、羽林军退出广场、东宫来人传话）；王思涵从头翻到尾合上，令“这一本不要归到府里的案卷里去，锁进我的柜子”",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-36119a292b9b3f11",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "皇帝咽下的这口气：当着宗室准了依军律处死自己的儿子安平亲王，宗室都被留下看着；罗曼诺夫带兵闯殿围宫，皇帝说过“这是犯上，朕自会处置”，他却谢恩行礼、带兵出东宫，殿里没有一个人提起处分；张永怀跪称抢先发动预案，他只说“起来吧”；随后一夜头一回离开御座，挡开侍从武官长的搀扶，不看殿里任何人，从御座后门出去",
+      "field": "status",
+      "value": "皇帝咽下的这口气：当着宗室准了依军律处死自己的儿子安平亲王，宗室都被留下看着；罗曼诺夫带兵闯殿围宫，皇帝说过“这是犯上，朕自会处置”，他却谢恩行礼、带兵出东宫，殿里没有一个人提起处分；张永怀跪称抢先发动预案，他只说“起来吧”；随后一夜头一回离开御座，挡开侍从武官长的搀扶，不看殿里任何人，从御座后门出去",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-c2e0c058fbb07ff1",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "灵武军抗旨启封已被皇帝当殿点出（延续第20章）：十日子初后皇帝问周君州“你的灵武军在哪里？”，又说“灵武军还在受查。枪，谁准你启的封？”；周君州答“臣自己。抗旨的是臣，臣认”，请陛下连他一并处置；皇帝随即说了“没有叛”，对启封却未置可否、未下处分；周世衡旨下后只令“近卫军一兵不撤，灵武军就一兵不许动”；启了封的D67随灵武军撤回，领用册原册上仍写着周君州的名字",
+      "field": "status",
+      "value": "灵武军抗旨启封已被皇帝当殿点出（延续第20章）：十日子初后皇帝问周君州“你的灵武军在哪里？”，又说“灵武军还在受查。枪，谁准你启的封？”；周君州答“臣自己。抗旨的是臣，臣认”，请陛下连他一并处置；皇帝随即说了“没有叛”，对启封却未置可否、未下处分；周世衡旨下后只令“近卫军一兵不撤，灵武军就一兵不许动”；启了封的D67随灵武军撤回，领用册原册上仍写着周君州的名字",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-d1962b9a4059ce7c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "宗室与太子的裂缝：太子当殿请依军律处死安平亲王，老亲王推翻茶盏、拄拐指着太子，说一个亲王抵一个连长的闺女自太祖立国未有、宗室犯错自有家法议处（削爵、圈禁），几时轮到拿军律来杀；宗室跟着嚷“近卫军带兵闯宫，罪还没议，倒先杀起皇子来了”，西列一个年轻皇子骂“大哥要拿弟弟的人头，去换近卫军的心”；太子不起身，只说“儿臣请的是军律，不是家法”；皇帝喝“够了”压下，准了之后令宗室谁也不许走、都看着行刑",
+      "field": "status",
+      "value": "宗室与太子的裂缝：太子当殿请依军律处死安平亲王，老亲王推翻茶盏、拄拐指着太子，说一个亲王抵一个连长的闺女自太祖立国未有、宗室犯错自有家法议处（削爵、圈禁），几时轮到拿军律来杀；宗室跟着嚷“近卫军带兵闯宫，罪还没议，倒先杀起皇子来了”，西列一个年轻皇子骂“大哥要拿弟弟的人头，去换近卫军的心”；太子不起身，只说“儿臣请的是军律，不是家法”；皇帝喝“够了”压下，准了之后令宗室谁也不许走、都看着行刑",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-ca768776f07ac789",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "灵武军抗旨启封（延续第20章）：启了封的D67随灵武军在卯初撤回驻地；这一夜皇帝当殿说了没有叛，周世衡只令“近卫军一兵不撤，灵武军就一兵不许动”，殿上没有一个人提起启封的事；领用册原册上仍写着周君州的名字",
+      "field": "status",
+      "value": "灵武军抗旨启封（延续第20章）：启了封的D67随灵武军在卯初撤回驻地；这一夜皇帝当殿说了没有叛，周世衡只令“近卫军一兵不撤，灵武军就一兵不许动”，殿上没有一个人提起启封的事；领用册原册上仍写着周君州的名字",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 21,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:open_loop:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
+    },
+    {
+      "id": "mem-open_loop-119e3031855d0f3b",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），临行只令周君州“守住这里”；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
+      "field": "status",
+      "value": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），临行只令周君州“守住这里”；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
       "source_chapter": 20,
       "evidence": [
         "memory_facts:open_loop:20"
       ],
-      "updated_at": "2026-10-21T20:37:59"
+      "updated_at": "2026-10-21T21:35:56"
+    },
+    {
+      "id": "mem-open_loop-d6c1d6508abf253e",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命进宫，被“我去说，你守住这里”挡下；又对张永怀说“近卫军没有反”，得“反没反，等父皇说”。子初他站在空街上想：圣上还在东宫，口令写的是叛乱，父亲进去说的话圣上听不听，他不知道",
+      "field": "status",
+      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命进宫，被“我去说，你守住这里”挡下；又对张永怀说“近卫军没有反”，得“反没反，等父皇说”。子初他站在空街上想：圣上还在东宫，口令写的是叛乱，父亲进去说的话圣上听不听，他不知道",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 20,
+      "evidence": [
+        "memory_facts:open_loop:20"
+      ],
+      "updated_at": "2026-10-21T21:35:56"
+    },
+    {
+      "id": "mem-open_loop-5dddf4ca3331b66e",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州要当面向圣上说清“近卫军没有反”的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
+      "field": "status",
+      "value": "周世衡偕王政炎走进兴庆门入宫调和，答源爱莲娜“两头都劝”（替圣上劝罗曼诺夫，也替近卫军劝圣上），并把周君州要当面向圣上说清“近卫军没有反”的请命揽到自己身上（“我去说，你守住这里”）；罗曼诺夫仍一个人在殿里，皇帝说过“那就等着”；子初宫里尚无消息出来",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 20,
+      "evidence": [
+        "memory_facts:open_loop:20"
+      ],
+      "updated_at": "2026-10-21T21:35:56"
+    },
+    {
+      "id": "mem-open_loop-b283fb1d8e6a26bb",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役上将徒手入宫，要圣上亲口一句“近卫军没有反”",
+      "field": "status",
+      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役上将徒手入宫，要圣上亲口一句“近卫军没有反”",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 20,
+      "evidence": [
+        "memory_facts:open_loop:20"
+      ],
+      "updated_at": "2026-10-21T21:35:56"
+    },
+    {
+      "id": "mem-open_loop-da3a83dec2b5ec37",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "子初，霍长庚与中央预备役集团军上将解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
+      "field": "status",
+      "value": "子初，霍长庚与中央预备役集团军上将解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 20,
+      "evidence": [
+        "memory_facts:open_loop:20"
+      ],
+      "updated_at": "2026-10-21T21:35:56"
+    },
+    {
+      "id": "mem-open_loop-b355e34b7adbf2d1",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役团长徒手入宫，要圣上亲口一句“近卫军没有反”",
+      "field": "status",
+      "value": "周君州急着向圣上解释近卫军没有反：听说羽林军持“京城近卫军叛乱”口令进城，他认定圣上已把罗曼诺夫为部下要人的抗命当成叛乱，要赶在羽林军枪口对准宫城前见到圣上说清；兴庆门前向父亲请命被“我去说，你守住这里”挡下；羽林军开进广场后，他违了父亲“守住这里”的话，带霍长庚与预备役团长徒手入宫，要圣上亲口一句“近卫军没有反”",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 20,
+      "evidence": [
+        "memory_facts:open_loop:20"
+      ],
+      "updated_at": "2026-10-21T21:35:56"
+    },
+    {
+      "id": "mem-open_loop-d27624ab8c9b61b1",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "子初，霍长庚与中央预备役集团军团长解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
+      "field": "status",
+      "value": "子初，霍长庚与中央预备役集团军团长解刀交参谋、周君州解剑交邓声宝，三人徒手走进兴庆门，要当面听圣上亲口说一句“近卫军没有反”——霍长庚说除此之外羽林军照口令平叛；门外羽林军、预备役与近卫军前后对峙，灵武军、冷溪近卫军守着人墙，周君州留话“我不出来，谁也不许动”；周世衡、王政炎与罗曼诺夫都还在宫里",
+      "payload": {
+        "urgency": 100.0,
+        "planted_chapter": 20,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 20,
+      "evidence": [
+        "memory_facts:open_loop:20"
+      ],
+      "updated_at": "2026-10-21T21:35:56"
     }
   ],
   "reader_promises": [
-    {
-      "id": "mem-reader_promise-2a2e75b8087606a9",
-      "layer": "semantic",
-      "category": "reader_promise",
-      "subject": "周君州命一名幸存神策军士兵收集阵亡同志的身份牌送回原单位，并带其余人护送医院幸存者离开。",
-      "field": "promise",
-      "value": "周君州命一名幸存神策军士兵收集阵亡同志的身份牌送回原单位，并带其余人护送医院幸存者离开。",
-      "payload": {
-        "promise_type": "promise_created",
-        "target": "zhou_junzhou"
-      },
-      "status": "active",
-      "source_chapter": 7,
-      "evidence": [
-        "memory_facts:reader_promise:7"
-      ],
-      "updated_at": "2026-10-18T11:05:19"
-    },
     {
       "id": "mem-reader_promise-3122766798d5c86e",
       "layer": "semantic",
@@ -9046,12 +9003,30 @@
         "memory_facts:reader_promise:20"
       ],
       "updated_at": "2026-10-21T20:37:59"
+    },
+    {
+      "id": "mem-reader_promise-cb8a8cbe92410933",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "第18章周世衡许诺：散席以后以太傅身份亲自入宫，向圣上请旨放秦守义一连",
+      "field": "promise",
+      "value": "第18章周世衡许诺：散席以后以太傅身份亲自入宫，向圣上请旨放秦守义一连",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "zhou_shiheng"
+      },
+      "status": "active",
+      "source_chapter": 21,
+      "evidence": [
+        "memory_facts:reader_promise:21"
+      ],
+      "updated_at": "2026-10-21T22:24:58"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-10-21T20:37:59",
+    "last_updated": "2026-10-21T22:24:58",
     "total_items": 500
   }
 }

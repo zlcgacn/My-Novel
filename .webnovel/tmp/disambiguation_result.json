@@ -1,202 +1,219 @@
 {
-  "chapter": 20,
+  "chapter": 21,
   "pending": [],
   "resolved": [
     {
-      "mention": "中央预备役集团军副司令／预备役的副司令／那位副司令",
+      "mention": "宇文策／虎贲军统领",
+      "entity_id": "huben_commander",
+      "confidence": 0.99,
+      "method": "existing_alias"
+    },
+    {
+      "mention": "侍从武官长",
+      "entity_id": "chief_aide_de_camp",
+      "confidence": 0.99,
+      "method": "existing_alias",
+      "note": "沿用索引等级 装饰"
+    },
+    {
+      "mention": "安平亲王／承曜／安平／安平亲王张承曜",
+      "entity_id": "zhang_chengyao",
+      "confidence": 0.99,
+      "method": "explicit_name"
+    },
+    {
+      "mention": "太子张允恭／大哥",
+      "entity_id": "crown_prince",
+      "confidence": 0.99,
+      "method": "explicit_name"
+    },
+    {
+      "mention": "表兄（张艺宣视角）／书淮",
+      "entity_id": "zhang_shuhuai",
+      "confidence": 0.95,
+      "method": "context_ch19",
+      "note": "张艺宣称张书淮表兄；宗室群起嚷时“表兄……没有跟着嚷，看着跪在地上的太子”"
+    },
+    {
+      "mention": "亲王本人（恭肃亲王府人堆最前头）／父亲（张艺宣视角）／延钧",
+      "entity_id": "gongsu_prince",
+      "confidence": 0.95,
+      "method": "context+explicit_name",
+      "note": "“延钧，你说句话！”与张艺宣视角“父亲没有答”相接，即恭肃亲王张延钧"
+    },
+    {
+      "mention": "老亲王",
+      "entity_id": "zongshi_lao_qinwang",
+      "confidence": 0.9,
+      "method": "existing_alias",
+      "note": "第19章斥罗曼诺夫“祖宗家法”、被反问“家法里是怎么写的”者；本章皇帝“方才罗曼诺夫问你，祖宗家法里是怎么写的”相印证；沿用索引等级 装饰，本章写 delta"
+    },
+    {
+      "mention": "父亲（王思涵视角）／老爷",
+      "entity_id": "wang_zhengyan",
+      "confidence": 0.97,
+      "method": "context"
+    },
+    {
+      "mention": "源将军",
+      "entity_id": "yuan_ailianna",
+      "confidence": 0.95,
+      "method": "context_ch20",
+      "note": "仅被提及；按作者2026-10-21所定（设定/人物.md）补写 女、大和省人，沿用等级 次要"
+    },
+    {
+      "mention": "预备役的副司令／副司令",
       "entity_id": "reserve_general",
       "confidence": 0.95,
-      "method": "new_entity_unnamed",
-      "note": "正文不报名，代称新建，tier 次要；未与任何已有人物合并"
+      "method": "existing_entity",
+      "note": "殿上报了职衔和名字，但正文未录姓名，仍用代称"
     },
     {
-      "mention": "中央预备役集团军／预备役",
-      "entity_id": "central_reserve_group_army",
+      "mention": "羽林军的上校（开宴时二哥身后殿柱旁那个人）",
+      "entity_id": "yulin_colonel_gongwenbao",
+      "confidence": 0.97,
+      "method": "context_ch19"
+    },
+    {
+      "mention": "二哥／二弟",
+      "entity_id": "zhang_yonghuai",
       "confidence": 0.99,
-      "method": "existing_alias",
-      "note": "沿用 central_reserve_group_army，装饰→次要"
+      "method": "context"
     },
     {
-      "mention": "行军日志",
-      "entity_id": "luhengzhi_xingjun_rizhi",
-      "confidence": 0.95,
-      "method": "new_entity_item"
-    },
-    {
-      "mention": "兴庆门",
-      "entity_id": "xingqing_gate",
-      "confidence": 0.99,
-      "method": "existing_alias",
-      "note": "沿用 xingqing_gate，装饰→次要"
-    },
-    {
-      "mention": "康建广场",
-      "entity_id": "kangjian_guangchang",
-      "confidence": 0.99,
-      "method": "existing_alias",
-      "note": "沿用 kangjian_guangchang，装饰→次要"
-    },
-    {
-      "mention": "汉诺威／威廉·汉诺威",
-      "entity_id": "first_guards_army_commander",
-      "confidence": 0.99,
-      "method": "existing_alias",
-      "note": "索引 id 为 first_guards_army_commander（名威廉·汉诺威，冷溪近卫军军长），沿用原 id 与原名"
-    },
-    {
-      "mention": "霍长庚／霍军长／鬓角花白的将官",
-      "entity_id": "fifth_army_commander",
+      "mention": "卢衡之／行军日志",
+      "entity_id": "fifth_army_chief_of_staff / luhengzhi_xingjun_rizhi",
       "confidence": 0.99,
       "method": "existing_alias"
     },
     {
-      "mention": "卢衡之",
-      "entity_id": "fifth_army_chief_of_staff",
-      "confidence": 0.99,
-      "method": "existing_alias"
-    },
-    {
-      "mention": "源爱莲娜",
-      "entity_id": "yuan_ailianna",
-      "confidence": 0.99,
-      "method": "existing_alias"
-    },
-    {
-      "mention": "冯德茂（京兆府主簿）",
+      "mention": "冯德茂",
       "entity_id": "jingzhaofu_zhubu",
       "confidence": 0.99,
       "method": "existing_alias"
-    },
-    {
-      "mention": "王委员／王思涵的父亲／穿文官袍子的老人",
-      "entity_id": "wang_zhengyan",
-      "confidence": 0.97,
-      "method": "explicit_name"
-    },
-    {
-      "mention": "秦守义／他的连长",
-      "entity_id": "qin_shouyi",
-      "confidence": 0.99,
-      "method": "explicit_name"
-    },
-    {
-      "mention": "他的女儿／那个姑娘",
-      "entity_id": "qin_wan",
-      "confidence": 0.9,
-      "method": "context_ch17_19"
-    },
-    {
-      "mention": "安平亲王",
-      "entity_id": "zhang_chengyao",
-      "confidence": 0.99,
-      "method": "explicit_title"
     },
     {
       "mention": "虎贲军",
       "entity_id": "forbidden_guards",
       "confidence": 0.97,
       "method": "context",
-      "note": "索引无“虎贲军”别名，沿用禁卫军（虎贲、龙武、木兰）实体，payload 补别名"
+      "note": "沿用第20章映射"
     },
     {
-      "mention": "第五军／第一师／先头营／第三团",
+      "mention": "第一师",
       "entity_id": "fifth_army",
       "confidence": 0.97,
       "method": "context",
-      "note": "师、团、营不单建实体，并入羽林军第五军"
+      "note": "师团营不单建实体"
     },
     {
-      "mention": "羽林军集团军群／集团军群",
+      "mention": "第二集团军／集团军",
       "entity_id": "yulin_army",
+      "confidence": 0.9,
+      "method": "context",
+      "note": "羽林军第二集团军，并入 yulin_army"
+    },
+    {
+      "mention": "预备役那个团（东南角）",
+      "entity_id": "central_reserve_group_army",
       "confidence": 0.95,
       "method": "context"
     },
     {
-      "mention": "第三处（会同参谋本部贴的封条）",
-      "entity_id": "third_bureau",
-      "confidence": 0.97,
-      "method": "existing_alias"
+      "mention": "京城的近卫军，四个军（周世衡跪谏）",
+      "entity_id": "semenovsky_guards / jinwei_shituan / lengxi_guards / lingwu_army",
+      "confidence": 0.99,
+      "method": "explicit_name",
+      "note": "正文逐一点名"
     },
     {
-      "mention": "司令部",
-      "entity_id": "central_guards_hq",
+      "mention": "手谕",
+      "entity_id": "huangdi_shouyu_chebing",
+      "confidence": 0.99,
+      "method": "existing_entity",
+      "note": "第一版入账已建，次要"
+    },
+    {
+      "mention": "今夜的记录／这一本",
+      "entity_id": "shouxiangfu_jiluce",
+      "confidence": 0.97,
+      "method": "existing_entity",
+      "note": "第一版入账已建，次要；即第20章书办所记"
+    },
+    {
+      "mention": "安民告示",
+      "entity_id": "anmin_gaoshi",
+      "confidence": 0.97,
+      "method": "existing_entity",
+      "note": "第一版入账已建，次要"
+    },
+    {
+      "mention": "签押房",
+      "entity_id": "prime_minister_office",
+      "confidence": 0.95,
+      "method": "context"
+    },
+    {
+      "mention": "皇城（枪声方向）",
+      "entity_id": "gongcheng",
       "confidence": 0.9,
       "method": "context"
-    },
-    {
-      "mention": "第五军那个左臂吊在胸前的少校",
-      "entity_id": "qiu_shenao",
-      "confidence": 0.95,
-      "method": "context_scene2",
-      "note": "第125行邱深澳左臂吊在胸前随军部；周君州视角未点名，只想起金志文报过的名字"
-    },
-    {
-      "mention": "小姐（回府了）",
-      "entity_id": "zhou_junyao",
-      "confidence": 0.95,
-      "method": "context_ch19"
-    },
-    {
-      "mention": "恭肃亲王府的车",
-      "entity_id": "gongsu_prince",
-      "confidence": 0.85,
-      "method": "existing_name"
-    },
-    {
-      "mention": "那封写给城里亲戚的信",
-      "entity_id": "weizhuang_jiashu",
-      "confidence": 0.97,
-      "method": "context_ch18"
     }
   ],
   "warnings": [
     {
-      "mention": "通讯连长（说局里的人都在）",
-      "entity_id": "signal_company_commander",
-      "confidence": 0.75,
-      "note": "经霍长庚转述的第五军通讯连长，按索引即苏铁生；正文未点名，采用并记 warning"
+      "mention": "宫墙底下那道人墙，旗上那只双头鹰",
+      "entity_id": "lingwu_army",
+      "confidence": 0.8,
+      "note": "正文未点名；第20章灵武军军旗为双头鹰、人墙由灵武军与冷溪近卫军组成，冷溪近卫军“跟在后头”，周君州殿上亦自陈灵武军在宫墙底下，判为灵武军"
     },
     {
-      "mention": "中央预备役集团军副司令（军衔）",
-      "entity_id": "reserve_general",
+      "mention": "城门洞边京兆府差役胳膊下卷着的告示",
+      "entity_id": "anmin_gaoshi",
+      "confidence": 0.6,
+      "note": "告示未展开，正文不确认即首相府改定的安民告示；只在 anmin_gaoshi.status 记“未展开”，不作为张贴事实"
+    },
+    {
+      "mention": "手谕交卢衡之以后的去向",
+      "entity_id": "huangdi_shouyu_chebing",
       "confidence": 0.7,
-      "note": "设定/军制.md：中央预备役集团军主官为中将，副司令为中央防务区司令；正文写“集团军的副司令”，按正文记，待作者定"
+      "note": "正文只写霍长庚丑初一刻交给卢衡之念电话，此后在谁手里未交代，holder 记“未交代”"
     },
     {
-      "mention": "宫城西南街口的铺面",
-      "entity_id": "gongcheng",
-      "confidence": 0.8,
-      "note": "第五军待命处，不建地点实体，记入第五军 night_march；上一版新建的 gongcheng_xinan_dajie 本版不写 delta"
-    },
-    {
-      "mention": "领用册（营里原册）",
+      "mention": "西列一个年轻的皇子（骂太子“拿弟弟的人头，去换近卫军的心”）／东列一个年轻的皇子（问能否回府）／行刑时给张书淮让路的年轻皇子",
       "entity_id": null,
-      "confidence": 0.8,
-      "note": "D67领用册原册，未单建物品实体，启封记录写入 man_guihuai、zhou_junzhou、lingwu_army 状态"
+      "confidence": 0.5,
+      "note": "正文未点名，不能确定是不是同一人、是哪位皇子；不建实体、不并入已有皇子，仅记入新伏笔“宗室与太子的裂缝”。若作者日后点名，再补实体"
     },
     {
-      "mention": "司令部的参谋、府里的兵、先头营营长、虎贲军守门军官、谢苗诺夫斯基营长、门洞领头军士、京兆府差役、属官、书办、旗手、电话兵、第五军参谋",
+      "mention": "父亲身边的长随（王政炎的）",
+      "entity_id": null,
+      "confidence": 0.9,
+      "note": "功能人物，不建实体；话由宫里虎贲军的兵从兴庆门门洞递出"
+    },
+    {
+      "mention": "虎贲军中尉（领路）、门口军士、内侍、书办、虎贲军上尉、守城门的团长、虎贲军军官（摘肩章）、京兆府差役、老汉",
       "entity_id": null,
       "confidence": 0.9,
       "note": "无名功能人物，不建实体"
     },
     {
-      "mention": "首相（告病在家）／几位丞相",
+      "mention": "秦婉的姨家／秦守义的营长",
       "entity_id": null,
-      "confidence": 0.8,
-      "note": "索引无首相实体，仅被提及，记入首相府 status，不建实体"
+      "confidence": 0.9,
+      "note": "仅被提及，不建实体"
     },
     {
-      "mention": "各府的王家近卫军",
+      "mention": "安平亲王府（承曜府上）",
       "entity_id": null,
-      "confidence": 0.7,
-      "note": "泛指各亲王府私兵，不专指 zhang_yixuan_family_guard，不写该实体 delta"
+      "confidence": 0.85,
+      "note": "索引无此地点，仅被提及，不建实体"
     },
     {
-      "mention": "外交部长邱思甜所接“另一家使馆”等",
-      "entity_id": null,
+      "mention": "宫城西南街口的铺子",
+      "entity_id": "gongcheng",
       "confidence": 0.8,
-      "note": "未点名的各国使馆，不建实体"
+      "note": "沿用第20章处理：第五军待命处不单建地点；索引中旧版 gongcheng_xinan_dajie 本章不写 delta"
     }
   ]
 }
