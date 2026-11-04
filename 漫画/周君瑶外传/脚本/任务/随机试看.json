@@ -1,0 +1,21 @@
+{
+  "out_dir": "../../图/随机试看",
+  "defaults": {
+    "batch": 1
+  },
+  "jobs": [
+    {
+      "name": "随机",
+      "seed": 53479,
+      "lora": "zhou_junyao_e6.safetensors",
+      "lora_strength": 0.8,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), long hair, straight hair, (hair over ears:1.3), (sidelocks:1.2), hair framing face, flat color, (no shading:1.2), flat lighting, matte, (dark green dress:1.3), (long dress:1.4), (ankle-length skirt:1.3), long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing in courtyard, holding book, three quarter view, stone wall, trees, overcast, expressionless",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush, (green tint:1.2), color cast, (ears visible through hair:1.3), (ears:1.3), visible ears, hair behind ear, hair tucked behind ears, short hair, bob cut, (hands on own ears:1.4), (covering ears:1.4), hand on head, hand in hair, hands up, olive, olive green, khaki, light green dress, grey dress, (blue dress:1.2), (grey-blue dress:1.2), navy, (knee-length:1.3), (bare legs:1.2), thighs",
+      "face_fix": true,
+      "face_denoise": 0.5,
+      "face_prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), long hair, blunt bangs, (hair over ears:1.3), (sidelocks:1.2), hair framing face, face, small face, (dark brown eyes:1.3), (black pupils:1.2), (large eyes:1.1), (almond eyes:1.2), (jitome:0.5), upper eyelid slightly covering top of iris, (thick black upper eyeliner:1.2), eyelashes at outer corner, (pink lower eyelid:1.3), (reddish lower lash line:1.3), faint pink under eyes, expressionless",
+      "face_negative": "bad quality, worst quality, worst detail, censor, lowres, bad anatomy, bad hands, extra fingers, missing fingers, (text:1.3), (chinese text:1.3), (japanese text:1.3), english text, letters, character name, labels, annotations, color palette, color swatch, speech bubble, logo, watermark, signature, artist name, nsfw, cleavage, large breasts, mature female, serafuku, sailor collar, kimono, school uniform, smartphone, modern clothes, zipper, sneakers, track jacket, puffer jacket, leather jacket, hoodie, cargo pants, jeans, patch, badge, shiny skin, shiny hair, glossy, oily skin, specular highlights, hair highlights, 3d, realistic, photorealistic, semi-realistic, airbrush, glowing, bloom, depth of field, lens flare, sparkle, green hair, dark green hair, aqua hair, (wide-eyed:1.3), (round eyes:1.2), staring, glaring, (dark circles:1.3), (eye bags:1.2), black lower eyelashes, dark lower lash line, heavy makeup, shiny skin, glossy, (ears visible through hair:1.3), (ears:1.3), visible ears, hair behind ear, hair tucked behind ears, short hair, bob cut, (hands on own ears:1.4), (covering ears:1.4), hand on head, hand in hair, hands up",
+      "pose": "../../图/骨架/稳定性/full_3q_left.png"
+    }
+  ]
+}
