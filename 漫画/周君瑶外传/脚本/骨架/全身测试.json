@@ -1,0 +1,6 @@
+{
+  "out_dir": "../../图/骨架/测试",
+  "frames": [
+    {"name": "hold_hat", "figures": [{"who": "周君瑶", "pose": "stand_hold_front", "x": 416, "y": 110, "head": 165}]}
+  ]
+}

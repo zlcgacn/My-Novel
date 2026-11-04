@@ -1,0 +1,28 @@
+{
+  "out_dir": "../../图/设定/候选",
+  "defaults": {"batch": 4},
+  "jobs": [
+    {
+      "name": "zhou_sheet",
+      "seed": 1001,
+      "width": 1216, "height": 832,
+      "prompt": "character sheet, reference sheet, multiple views, front view, side view, back view, full body, standing, simple background, white background, 1girl, solo, child, petite, black hair, long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long dress, long sleeves, white collar, high collar, black footwear, cross-laced footwear, ankle boots"
+    },
+    {
+      "name": "zhou_portrait",
+      "seed": 1101,
+      "prompt": "portrait, upper body, looking at viewer, simple background, white background, 1girl, solo, child, petite, black hair, long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long sleeves, white collar, high collar"
+    },
+    {
+      "name": "chizuru_sheet",
+      "seed": 2001,
+      "width": 1216, "height": 832,
+      "prompt": "character sheet, reference sheet, multiple views, front view, side view, back view, full body, standing, simple background, white background, 1girl, solo, child, petite, short stature, black hair, braided bun, single hair bun, hair pulled back, black eyes, straight eyebrows, expressionless, closed mouth, blue dress, dark blue dress, long dress, long sleeves, plain clothes, shoulder bag, brown footwear"
+    },
+    {
+      "name": "chizuru_portrait",
+      "seed": 2101,
+      "prompt": "portrait, upper body, looking at viewer, simple background, white background, 1girl, solo, child, petite, black hair, braided bun, single hair bun, hair pulled back, black eyes, straight eyebrows, expressionless, closed mouth, blue dress, dark blue dress, long sleeves, plain clothes"
+    }
+  ]
+}

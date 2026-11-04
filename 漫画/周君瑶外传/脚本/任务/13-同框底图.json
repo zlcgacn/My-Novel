@@ -1,0 +1,15 @@
+{
+  "out_dir": "../../图/设定/LoRA测试",
+  "defaults": {
+    "batch": 4,
+    "width": 1216,
+    "height": 832
+  },
+  "jobs": [
+    {
+      "name": "duo_base",
+      "seed": 9501,
+      "prompt": "2girls, children, classroom, sitting at desks, side by side, wooden desks, window, from front, upper body, left girl has (black hair:1.2), long hair, straight hair, blunt bangs, expressionless, 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, right girl has black hair, braided bun, hair bun, round eyes, straight eyebrows, writing, looking down, dark green dress, long dress, long sleeves, high collar, white collar, dull gold trim, dark green capelet, red neck ribbon, faded clothes, old clothes, worn clothes"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "out_dir": "../../图/设定/LoRA测试",
+  "defaults": {
+    "batch": 2
+  },
+  "jobs": [
+    {
+      "name": "uni2_e8_06",
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, standing, cowboy shot, looking to the side, expressionless, classroom, wooden desks, window",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.6
+    },
+    {
+      "name": "uni2_e8_08",
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, standing, cowboy shot, looking to the side, expressionless, classroom, wooden desks, window",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8
+    },
+    {
+      "name": "uni2_e8_10",
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, standing, cowboy shot, looking to the side, expressionless, classroom, wooden desks, window",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 1.0
+    },
+    {
+      "name": "uni2_e6_08",
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, standing, cowboy shot, looking to the side, expressionless, classroom, wooden desks, window",
+      "lora": "zhou_junyao-000006.safetensors",
+      "lora_strength": 0.8
+    },
+    {
+      "name": "duo_e8_06",
+      "seed": 9401,
+      "prompt": "2girls, children, classroom, sitting at desks, side by side, wooden desks, window, from front, upper body, left girl is zhoujunyao, (black hair:1.2), expressionless, 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, right girl has black hair, braided bun, hair bun, round eyes, straight eyebrows, writing, looking down, dark green dress, long dress, long sleeves, high collar, white collar, dull gold trim, dark green capelet, red neck ribbon, faded clothes, old clothes, worn clothes",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.6,
+      "width": 1216,
+      "height": 832
+    },
+    {
+      "name": "duo_e8_08",
+      "seed": 9401,
+      "prompt": "2girls, children, classroom, sitting at desks, side by side, wooden desks, window, from front, upper body, left girl is zhoujunyao, (black hair:1.2), expressionless, 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, right girl has black hair, braided bun, hair bun, round eyes, straight eyebrows, writing, looking down, dark green dress, long dress, long sleeves, high collar, white collar, dull gold trim, dark green capelet, red neck ribbon, faded clothes, old clothes, worn clothes",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "width": 1216,
+      "height": 832
+    },
+    {
+      "name": "duo_e8_10",
+      "seed": 9401,
+      "prompt": "2girls, children, classroom, sitting at desks, side by side, wooden desks, window, from front, upper body, left girl is zhoujunyao, (black hair:1.2), expressionless, 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, right girl has black hair, braided bun, hair bun, round eyes, straight eyebrows, writing, looking down, dark green dress, long dress, long sleeves, high collar, white collar, dull gold trim, dark green capelet, red neck ribbon, faded clothes, old clothes, worn clothes",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 1.0,
+      "width": 1216,
+      "height": 832
+    },
+    {
+      "name": "duo_e6_08",
+      "seed": 9401,
+      "prompt": "2girls, children, classroom, sitting at desks, side by side, wooden desks, window, from front, upper body, left girl is zhoujunyao, (black hair:1.2), expressionless, 1900s, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots, right girl has black hair, braided bun, hair bun, round eyes, straight eyebrows, writing, looking down, dark green dress, long dress, long sleeves, high collar, white collar, dull gold trim, dark green capelet, red neck ribbon, faded clothes, old clothes, worn clothes",
+      "lora": "zhou_junyao-000006.safetensors",
+      "lora_strength": 0.8,
+      "width": 1216,
+      "height": 832
+    }
+  ]
+}

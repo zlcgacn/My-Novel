@@ -1,0 +1,20 @@
+{
+  "out": "../../图/设定/LoRA测试/对比卡-LoRA.png",
+  "title": "周君瑶 LoRA",
+  "subtitle": "zhou_junyao · 第 8 轮 · 强度 0.8",
+  "img_h": 900,
+  "images": [
+    {"path": "../../图/设定/定稿/便服/V1_zhou_s1101_2.png", "caption": "标准脸"},
+    {"path": "../../图/设定/LoRA测试/uni_none_s9001_2.png", "caption": "不挂 LoRA"},
+    {"path": "../../图/设定/LoRA测试/uni_e8_s9001_2.png", "caption": "挂 LoRA · 校服"},
+    {"path": "../../图/设定/LoRA测试/home_e8_s9101_1.png", "caption": "挂 LoRA · 在家笑"},
+    {"path": "../../图/设定/LoRA测试/kneel_e8_s9201_2.png", "caption": "挂 LoRA · 跪"},
+    {"path": "../../图/设定/LoRA测试/duo_base_s9501_1.png", "caption": "同框底图（不挂）"},
+    {"path": "../../图/设定/LoRA测试/duo_fix_070_s9601_1.png", "caption": "只给她换脸后"}
+  ],
+  "notes": [
+    "同一个种子：不挂 LoRA 时眼睛变圆变大、头发变短；挂上后，半垂的细眼、齐刘海、黑长直都稳住了。",
+    "两人同框先出不挂 LoRA 的构图，再圈住她的头单独重画，旁边的人不受影响。",
+    "还要改的：便服写 dark green（否则出浅绿）；全身图要写鞋（否则会画成光脚）；教室桌椅偏现代，进分镜时在场景词里压。"
+  ]
+}

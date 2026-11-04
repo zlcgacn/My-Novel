@@ -1,0 +1,10 @@
+{
+  "out_dir": "../../图/骨架/验证",
+  "frames": [
+    {"name": "por",   "figures": [{"who": "周君瑶", "pose": "stand_front", "x": 416, "y": 110, "head": 165}]},
+    {"name": "bed",   "figures": [{"who": "周君瑶", "pose": "sit_front", "x": 430, "y": 150, "head": 165}]},
+    {"name": "write", "figures": [{"who": "周君瑶", "pose": "sit_desk_right", "x": 330, "y": 200, "head": 165}]},
+    {"name": "yard",  "figures": [{"who": "周君瑶", "pose": "kneel_right", "x": 360, "y": 380, "head": 150}]},
+    {"name": "win",   "figures": [{"who": "周君瑶", "pose": "stand_look_side", "x": 416, "y": 110, "head": 165}]}
+  ]
+}

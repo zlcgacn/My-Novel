@@ -1,0 +1,68 @@
+{
+  "out_dir": "../../图/训练素材/候选",
+  "defaults": {
+    "batch": 4
+  },
+  "jobs": [
+    {
+      "name": "h_front",
+      "seed": 8000,
+      "prompt": "portrait, upper body, looking at viewer, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long sleeves, white collar, high collar"
+    },
+    {
+      "name": "h_3q",
+      "seed": 8010,
+      "prompt": "upper body, looking to the side, three-quarter view, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long sleeves, white collar, high collar"
+    },
+    {
+      "name": "h_profile",
+      "seed": 8020,
+      "prompt": "upper body, from side, profile, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long sleeves, white collar, high collar"
+    },
+    {
+      "name": "h_smile",
+      "seed": 8030,
+      "prompt": "upper body, smile, looking at viewer, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, smile, open mouth, green dress, long sleeves, white collar, high collar"
+    },
+    {
+      "name": "h_letter",
+      "seed": 8040,
+      "prompt": "sitting, desk, writing, holding pen, desk lamp, indoors, night, upper body, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long sleeves, white collar, high collar"
+    },
+    {
+      "name": "h_full",
+      "seed": 8050,
+      "prompt": "full body, standing, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, green dress, long sleeves, white collar, high collar, long dress, black footwear, ankle boots"
+    },
+    {
+      "name": "u_front",
+      "seed": 8060,
+      "prompt": "portrait, upper body, looking at viewer, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, 1900s, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon"
+    },
+    {
+      "name": "u_side",
+      "seed": 8070,
+      "prompt": "upper body, from side, looking away, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, 1900s, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon"
+    },
+    {
+      "name": "u_class",
+      "seed": 8080,
+      "prompt": "cowboy shot, standing, classroom, window, indoors, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, 1900s, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon"
+    },
+    {
+      "name": "u_full",
+      "seed": 8090,
+      "prompt": "full body, standing, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, 1900s, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, long dress, black footwear, ankle boots"
+    },
+    {
+      "name": "u_close",
+      "seed": 8100,
+      "prompt": "close-up, face, looking at viewer, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, 1900s, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon"
+    },
+    {
+      "name": "u_down",
+      "seed": 8110,
+      "prompt": "upper body, looking down, simple background, white background, 1girl, solo, child, petite, (black hair:1.2), long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, closed mouth, 1900s, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon"
+    }
+  ]
+}

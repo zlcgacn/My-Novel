@@ -1,0 +1,26 @@
+{
+  "out_dir": "../../图/校服",
+  "defaults": {"batch": 4},
+  "jobs": [
+    {
+      "name": "G1_capelet", "seed": 1001,
+      "prompt": "full body, standing, front view, simple background, white background, 1girl, solo, child, petite, black hair, long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, 1900s, edwardian, aristocratic, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots"
+    },
+    {
+      "name": "G2_jacket", "seed": 1001,
+      "prompt": "full body, standing, front view, simple background, white background, 1girl, solo, child, petite, black hair, long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, 1900s, edwardian, aristocratic, white blouse, high collar, frills, red neck ribbon, dark green cropped jacket, double-breasted, gold buttons, gold piping, dark green skirt, long skirt, pleated skirt, black footwear, ankle boots"
+    },
+    {
+      "name": "G3_mandarin", "seed": 1001,
+      "prompt": "full body, standing, front view, simple background, white background, 1girl, solo, child, petite, black hair, long hair, straight hair, blunt bangs, brown eyes, narrow eyes, expressionless, 1900s, aristocratic, dark green dress, long dress, long sleeves, mandarin collar, white collar, gold frog buttons, gold trim, gold piping, cuffs, black belt, black footwear, ankle boots"
+    },
+    {
+      "name": "B1_tunic", "seed": 3001,
+      "prompt": "full body, standing, front view, simple background, white background, 1boy, solo, child, slim, long neck, black hair, slicked back hair, side part, narrow eyes, smirk, 1900s, edwardian, aristocratic, dark green jacket, military-style jacket, stand collar, gold buttons, gold trim, gold piping, dark green trousers, white gloves, shiny shoes"
+    },
+    {
+      "name": "B2_shorts", "seed": 3001,
+      "prompt": "full body, standing, front view, simple background, white background, 1boy, solo, child, slim, long neck, black hair, slicked back hair, side part, narrow eyes, smirk, 1900s, edwardian, aristocratic, dark green jacket, double-breasted, stand collar, gold buttons, gold piping, white shirt, dark green shorts, kneehighs, shiny shoes, loafers"
+    }
+  ]
+}

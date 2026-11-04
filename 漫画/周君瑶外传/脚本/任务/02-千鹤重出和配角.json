@@ -1,0 +1,53 @@
+{
+  "out_dir": "../../图/设定/候选",
+  "defaults": {"batch": 4},
+  "jobs": [
+    {
+      "name": "chizuru_sheet_v2",
+      "seed": 2201,
+      "width": 1216, "height": 832,
+      "negative_extra": "embroidery, leather bag",
+      "prompt": "character sheet, multiple views, front view, side view, back view, full body, standing, simple background, white background, 1girl, solo, child, petite, short stature, black hair, braided bun, single hair bun, hair pulled back, black eyes, straight eyebrows, expressionless, closed mouth, blue dress, dark blue dress, long dress, long sleeves, plain clothes, cloth bag, shoulder bag, brown footwear"
+    },
+    {
+      "name": "goose",
+      "seed": 3001,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, child, slim, long neck, black hair, slicked back hair, side part, narrow eyes, smirk, black jacket, white shirt, collared shirt, bowtie, shorts, kneehighs, shiny shoes, loafers"
+    },
+    {
+      "name": "roundface",
+      "seed": 3101,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, child, chubby, round face, buzz cut, black hair, small eyes, grin, black jacket, tight clothes, white shirt, shorts, kneehighs"
+    },
+    {
+      "name": "deskmate",
+      "seed": 3201,
+      "prompt": "full body, standing, simple background, white background, 1girl, solo, child, black hair, twin braids, round eyes, plaid dress, long dress, long sleeves"
+    },
+    {
+      "name": "teacher",
+      "seed": 3301,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, adult, mature male, tall, thin, long face, frown, short hair, messy hair, black coat, long coat, worn clothes, frayed sleeves, white shirt, black necktie, holding chalk"
+    },
+    {
+      "name": "principal",
+      "seed": 3401,
+      "prompt": "upper body, simple background, white background, 1boy, solo, old man, bald, mustache, round eyewear, glasses, black suit, formal clothes, pocket watch chain, holding paper"
+    },
+    {
+      "name": "coachman",
+      "seed": 3501,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, old man, burly, muscular, grey hair, buzz cut, stubble, wrinkled skin, weathered face, military hat, peaked cap, dark jacket, padded jacket, belt, boots"
+    },
+    {
+      "name": "steward",
+      "seed": 3601,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, old man, thin, neat hair, short mustache, chinese clothes, changshan, long robe, dark robe, vest"
+    },
+    {
+      "name": "jiang",
+      "seed": 3701,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, child, tall, thin, short hair, black hair, thick eyebrows, old jacket, ill-fitting clothes, wrists exposed, patched clothes, trousers"
+    }
+  ]
+}

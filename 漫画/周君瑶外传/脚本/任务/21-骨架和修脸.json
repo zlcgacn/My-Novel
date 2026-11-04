@@ -1,0 +1,143 @@
+{
+  "out_dir": "../../图/画风对比/固定身材",
+  "defaults": {
+    "batch": 4
+  },
+  "jobs": [
+    {
+      "seed": 9001,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking at viewer, expressionless, simple background, white background",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "por_E"
+    },
+    {
+      "seed": 9001,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking at viewer, expressionless, simple background, white background",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "por_pose",
+      "pose": "../../图/骨架/验证/por.png"
+    },
+    {
+      "seed": 9001,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking at viewer, expressionless, simple background, white background",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "por_pose_face",
+      "pose": "../../图/骨架/验证/por.png",
+      "face_fix": true
+    },
+    {
+      "seed": 9101,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, sitting on bed, laughing, closed eyes, indoors, bedroom, wooden furniture, full body",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "bed_E"
+    },
+    {
+      "seed": 9101,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, sitting on bed, laughing, closed eyes, indoors, bedroom, wooden furniture, full body",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "bed_pose",
+      "pose": "../../图/骨架/验证/bed.png"
+    },
+    {
+      "seed": 9101,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, sitting on bed, laughing, closed eyes, indoors, bedroom, wooden furniture, full body",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "bed_pose_face",
+      "pose": "../../图/骨架/验证/bed.png",
+      "face_fix": true
+    },
+    {
+      "seed": 9901,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, sitting at desk, writing letter, holding fountain pen, desk lamp, night, indoors, from side",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "write_E"
+    },
+    {
+      "seed": 9901,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, sitting at desk, writing letter, holding fountain pen, desk lamp, night, indoors, from side",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "write_pose",
+      "pose": "../../图/骨架/验证/write.png"
+    },
+    {
+      "seed": 9901,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, sitting at desk, writing letter, holding fountain pen, desk lamp, night, indoors, from side",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "write_pose_face",
+      "pose": "../../图/骨架/验证/write.png",
+      "face_fix": true
+    },
+    {
+      "seed": 9201,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, kneeling, seiza, on ground, stone courtyard, overcast, from side, full body, head down",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "yard_E"
+    },
+    {
+      "seed": 9201,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, kneeling, seiza, on ground, stone courtyard, overcast, from side, full body, head down",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "yard_pose",
+      "pose": "../../图/骨架/验证/yard.png"
+    },
+    {
+      "seed": 9201,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, kneeling, seiza, on ground, stone courtyard, overcast, from side, full body, head down",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "yard_pose_face",
+      "pose": "../../图/骨架/验证/yard.png",
+      "face_fix": true
+    },
+    {
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking to the side, expressionless, indoors, classroom, wooden desks, window",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "win_E"
+    },
+    {
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking to the side, expressionless, indoors, classroom, wooden desks, window",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "win_pose",
+      "pose": "../../图/骨架/验证/win.png"
+    },
+    {
+      "seed": 9301,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), flat color, (no shading:1.2), flat lighting, matte, dark green dress, long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking to the side, expressionless, indoors, classroom, wooden desks, window",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "win_pose_face",
+      "pose": "../../图/骨架/验证/win.png",
+      "face_fix": true
+    }
+  ]
+}

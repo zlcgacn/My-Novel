@@ -1,0 +1,11 @@
+{
+  "out_dir": "../../图/骨架/稳定性",
+  "frames": [
+    {"name": "full_front", "figures": [{"who": "周君瑶", "pose": "stand_front", "x": 416, "y": 110, "head": 165}]},
+    {"name": "full_3q_left", "figures": [{"who": "周君瑶", "pose": "stand_3q_left", "x": 416, "y": 110, "head": 165}]},
+    {"name": "walk", "figures": [{"who": "周君瑶", "pose": "walk_3q", "x": 400, "y": 110, "head": 165}]},
+    {"name": "back", "figures": [{"who": "周君瑶", "pose": "back_stand", "x": 416, "y": 110, "head": 165}]},
+    {"name": "desk", "figures": [{"who": "周君瑶", "pose": "sit_desk_right", "x": 330, "y": 200, "head": 165}]},
+    {"name": "kneel", "figures": [{"who": "周君瑶", "pose": "kneel_right", "x": 360, "y": 380, "head": 150}]}
+  ]
+}

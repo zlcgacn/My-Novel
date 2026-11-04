@@ -1,0 +1,55 @@
+{
+  "out_dir": "../../图/设定/候选V1",
+  "defaults": {"batch": 4},
+  "jobs": [
+    {
+      "name": "chizuru_sheet",
+      "seed": 2201,
+      "width": 1216, "height": 832,
+      "negative_extra": "embroidery, leather bag",
+      "prompt": "character sheet, multiple views, front view, side view, back view, full body, standing, simple background, white background, 1girl, solo, child, petite, short stature, black hair, braided bun, single hair bun, hair pulled back, black eyes, straight eyebrows, expressionless, closed mouth, blue dress, dark blue dress, long dress, long sleeves, plain clothes, cloth bag, shoulder bag, brown footwear"
+    },
+    {
+      "name": "chizuru_portrait",
+      "seed": 2101,
+      "negative_extra": "embroidery",
+      "prompt": "portrait, upper body, looking at viewer, simple background, white background, 1girl, solo, child, petite, black hair, braided bun, single hair bun, hair pulled back, black eyes, straight eyebrows, expressionless, closed mouth, blue dress, dark blue dress, long sleeves, plain clothes"
+    },
+    {
+      "name": "goose", "seed": 3001,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, child, slim, long neck, black hair, slicked back hair, side part, narrow eyes, smirk, 1900s, vintage clothing, black jacket, white shirt, collared shirt, bowtie, shorts, kneehighs, shiny shoes, loafers"
+    },
+    {
+      "name": "roundface", "seed": 3111,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, child, chubby, fat, round face, buzz cut, black hair, small eyes, grin, 1900s, vintage clothing, black suit jacket, buttoned jacket, tight clothes, white shirt, collared shirt, shorts, kneehighs, loafers"
+    },
+    {
+      "name": "deskmate", "seed": 3201,
+      "prompt": "full body, standing, simple background, white background, 1girl, solo, child, black hair, twin braids, round eyes, 1900s, plaid dress, long dress, long sleeves, mary janes"
+    },
+    {
+      "name": "jiang", "seed": 3711,
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, child, tall, thin, short hair, black hair, thick eyebrows, shy, 1900s, vintage clothing, old grey wool jacket, stand collar, buttoned jacket, ill-fitting clothes, wrists exposed, patched clothes, trousers, old leather shoes"
+    },
+    {
+      "name": "teacher", "seed": 3311,
+      "negative_extra": "beard, torn clothes, ragged clothes, white hair",
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, adult, mature male, tall, thin, long face, clean-shaven, frown, short hair, black hair, messy hair, 1900s, black frock coat, long coat, shabby, old coat, white shirt, black necktie, trousers, holding chalk"
+    },
+    {
+      "name": "principal", "seed": 3401,
+      "negative_extra": "beard",
+      "prompt": "upper body, simple background, white background, 1boy, solo, old man, bald, mustache, round eyewear, glasses, 1900s, black suit, formal clothes, pocket watch chain, holding paper"
+    },
+    {
+      "name": "coachman", "seed": 3511,
+      "negative_extra": "beard, long beard, whip",
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, old man, burly, grey hair, buzz cut, stubble, wrinkled skin, weathered face, 1900s, peaked cap, old military cap, old military greatcoat, open coat, mandarin collar, belt, trousers, riding boots, hands on hips"
+    },
+    {
+      "name": "steward", "seed": 3611,
+      "negative_extra": "white hair, long beard, cape, ornate clothes, priest",
+      "prompt": "full body, standing, simple background, white background, 1boy, solo, middle-aged man, thin, short black hair, neat hair, short mustache, polite, hands together, chinese clothes, changshan, plain grey long gown, mandarin collar, black vest, cloth shoes"
+    }
+  ]
+}

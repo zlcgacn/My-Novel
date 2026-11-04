@@ -17,6 +17,9 @@ __pycache__/
 .vscode/
 .idea/
 
+# Comic images (too large for git)
+漫画/**/图/
+
 # Don't ignore .webnovel (we need to track state.json)
 # But ignore cache files
 .webnovel/context_cache.json

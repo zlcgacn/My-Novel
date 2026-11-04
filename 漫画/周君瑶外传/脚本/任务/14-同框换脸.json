@@ -1,0 +1,11 @@
+{
+  "out_dir": "../../图/设定/LoRA测试",
+  "jobs": [
+    {"name": "duo_fix_055", "image": "../../图/设定/LoRA测试/duo_base_s9501_1.png", "box": [690, 100, 990, 430],
+     "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), looking down, expressionless, high collar, white collar, red neck ribbon, dark green capelet, upper body",
+     "lora": "zhou_junyao.safetensors", "lora_strength": 0.8, "seed": 9601, "batch": 2, "denoise": 0.55},
+    {"name": "duo_fix_070", "image": "../../图/设定/LoRA测试/duo_base_s9501_1.png", "box": [690, 100, 990, 430],
+     "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), looking down, expressionless, high collar, white collar, red neck ribbon, dark green capelet, upper body",
+     "lora": "zhou_junyao.safetensors", "lora_strength": 0.8, "seed": 9601, "batch": 2, "denoise": 0.7}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "out_dir": "../../图/画风对比/固定身材",
+  "defaults": {
+    "batch": 4
+  },
+  "jobs": [
+    {
+      "seed": 9001,
+      "prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), long hair, straight hair, flat color, (no shading:1.2), flat lighting, matte, (dark green dress:1.3), long dress, long sleeves, white collar, high collar, black footwear, ankle boots, full body, standing, looking at viewer, expressionless, simple background, white background",
+      "negative_extra": "(reflection:1.2), reflective, reflected light, (rim lighting:1.2), backlighting, (specular highlights:1.3), hair highlights, shiny, sheen, glint, light reflection, light rays, sunbeam, light particles, dramatic lighting, cinematic lighting, volumetric lighting, (cast shadow:1.2), strong shadows, high contrast, chiaroscuro, gradient, soft shading, ambient occlusion, shiny footwear, patent leather, glossy footwear, light glow, glowing lamp, lamplight, warm lighting, blush, olive, olive green, khaki, light green dress, grey dress",
+      "lora": "zhou_junyao.safetensors",
+      "lora_strength": 0.8,
+      "name": "por_face4",
+      "pose": "../../图/骨架/验证/por.png",
+      "face_fix": true,
+      "face_denoise": 0.5,
+      "face_prompt": "zhoujunyao, 1girl, solo, child, (black hair:1.2), long hair, blunt bangs, face, (brown eyes:1.2), narrow eyes, half-closed eyes, tired eyes, small face, flat color, (no shading:1.2), matte"
+    }
+  ]
+}

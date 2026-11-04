@@ -1,0 +1,32 @@
+{
+  "out_dir": "../../图/画风对比",
+  "defaults": {"batch": 3, "cfg": 4.5, "seed": 5001,
+    "negative_extra": "shiny skin, shiny hair, glossy, oily skin, specular highlights, hair highlights, 3d, realistic, photorealistic, gradient, airbrush, blush, glowing, bloom, depth of field, lens flare, sparkle"},
+  "jobs": [
+    {
+      "name": "A_ink",
+      "head": "monochrome, greyscale, manga, comic, ink (medium), pen (medium), traditional media, lineart, hatching (texture), screentones, retro artstyle, ",
+      "prompt": "1girl, solo, child, black hair, long hair, straight hair, blunt bangs, narrow eyes, expressionless, dress, long sleeves, white collar, high collar, sitting, wooden desk, classroom, window, looking to the side, cowboy shot"
+    },
+    {
+      "name": "B_pencil",
+      "head": "monochrome, greyscale, graphite (medium), pencil, traditional media, sketch, hatching (texture), paper texture, ",
+      "prompt": "1girl, solo, child, black hair, long hair, straight hair, blunt bangs, narrow eyes, expressionless, dress, long sleeves, white collar, high collar, sitting, wooden desk, classroom, window, looking to the side, cowboy shot"
+    },
+    {
+      "name": "C_retro_cel",
+      "head": "retro artstyle, 1990s (style), anime coloring, cel shading, flat color, muted colors, ",
+      "prompt": "1girl, solo, child, black hair, long hair, straight hair, blunt bangs, narrow eyes, expressionless, green dress, long sleeves, white collar, high collar, sitting, wooden desk, classroom, window, looking to the side, cowboy shot"
+    },
+    {
+      "name": "D_watercolor",
+      "head": "watercolor (medium), traditional media, lineart, soft colors, muted colors, paper texture, ",
+      "prompt": "1girl, solo, child, black hair, long hair, straight hair, blunt bangs, narrow eyes, expressionless, green dress, long sleeves, white collar, high collar, sitting, wooden desk, classroom, window, looking to the side, cowboy shot"
+    },
+    {
+      "name": "E_flat",
+      "head": "flat color, thick outlines, limited palette, simple shading, illustration, retro artstyle, ",
+      "prompt": "1girl, solo, child, black hair, long hair, straight hair, blunt bangs, narrow eyes, expressionless, green dress, long sleeves, white collar, high collar, sitting, wooden desk, classroom, window, looking to the side, cowboy shot"
+    }
+  ]
+}

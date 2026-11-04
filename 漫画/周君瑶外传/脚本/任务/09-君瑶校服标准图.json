@@ -1,0 +1,17 @@
+{
+  "out_dir": "../../图/设定/校服标准",
+  "jobs": [
+    {
+      "name": "zhou_portrait_uni", "seed": 7001, "batch": 4, "denoise": 0.92,
+      "image": "../../图/设定/定稿/便服/V1_zhou_s1101_2.png",
+      "negative_extra": "green hair, dark green hair, aqua hair",
+      "prompt": "portrait, upper body, simple background, white background, 1girl, solo, child, (black hair:1.2), long hair, straight hair, 1900s, edwardian, dark green dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon"
+    },
+    {
+      "name": "zhou_sheet_uni", "seed": 7101, "batch": 4, "denoise": 0.92,
+      "image": "../../图/设定/定稿/便服/zhou_sheet_s1001_1.png",
+      "negative_extra": "green hair, dark green hair, aqua hair",
+      "prompt": "character sheet, multiple views, front view, side view, back view, full body, simple background, white background, 1girl, solo, child, (black hair:1.2), long hair, straight hair, 1900s, edwardian, dark green dress, long dress, long sleeves, high collar, white collar, gold trim, gold buttons, dark green capelet, capelet with gold trim, red neck ribbon, black footwear, ankle boots"
+    }
+  ]
+}
